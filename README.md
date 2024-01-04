@@ -71,8 +71,8 @@ In order to find a workaround, you have to setup a reverse proxy.
 
 The whole Apache2 setup (mysite.conf) would be like this
 ```
-    Alias "/tv" "/var/www/yoursite.com/public"
-    <Directory "/var/www/yoursite.com/public">  
+    Alias "/tv" "/path/to/your/site/public"
+    <Directory "/path/to/your/site/public">  
       DirectoryIndex index.php index.html
       Options FollowSymLinks
       AllowOverride All
@@ -88,15 +88,15 @@ The whole Apache2 setup (mysite.conf) would be like this
         SetHandler "proxy:unix:/run/php/php8.1-fpm.sock|fcgi://localhost/"
       </FilesMatch>        
     </Directory>
-    <Directory "/var/www/yoursite.com/epg"> 
+    <Directory "/path/to/your/site/epg"> 
       Order deny,allow
       Deny from all
     </Directory>
-    <Directory "/var/www/yoursite.com/log"> 
+    <Directory "/path/to/your/site/log"> 
       Order deny,allow
       Deny from all
     </Directory>
-    <Directory "/var/www/yoursite.com/tmp"> 
+    <Directory "/path/to/your/site/tmp"> 
       Order deny,allow
       Deny from all
     </Directory>
@@ -148,7 +148,7 @@ class TVConfig {
 	public $epg = [                
 		'enabled'	=> true,
     'notify'	=> false,                                
-    'dir'     => '/var/www/mysite.com/epg',
+    'dir'     => '/path/to/your/site/epg',
     'exec'		=> 'npm run grab --prefix=%s -- --channels=%s --output=%s --days=%s > /dev/null 2>&1',
     'lock'    => 60 ,   /* seconds */
     'expiry'        => 7 ,    /* days */		
