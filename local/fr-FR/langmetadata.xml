@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile>
+	<name>Français (fr-FR)</name>
+	<version>1.0.0</version>
+	<creationDate>2023-02</creationDate>
+	<author>Jaime Rubio</author>
+	<authorEmail>jaime@rubiogafsi.com</authorEmail>
+	<authorUrl>www.rubiogafsi.com</authorUrl>
+	<copyright>(C) 2023 Jaime Rubio</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<description><![CDATA[fr-FR language]]></description>
+	<metadata>
+		<name>Français</name>
+		<nativeName>Français</nativeName>
+		<tag>fr-FR</tag>
+		<rtl>0</rtl>
+		<locale>fr_FR.utf8, fr_CA.UTF-8, fr_FR, fra_FR, fr, french, french-fr, fr, fra, france, france</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params />
+</metafile>

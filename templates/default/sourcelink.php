@@ -1,0 +1,30 @@
+<?php 
+defined('_TVEXEC') or die; 
+
+use \RubioTV\Framework\Language\Text;
+
+?>
+<section class="container border-top mt-5">
+    <div class="row g-1 pt-3 pb-3 align-items-center fst-italic">
+        <div class="col-auto">
+            <label for="api" class="col-form-label"><?= Text::_('SOURCE');?>:</label>
+        </div>
+        <div class="w-50">
+            <input id="api" name="api" type="text" class="form-control" value="<?= $router->sourcelink ;?>" readonly />
+        </div>  
+        <div class="col-auto">
+            <button type="button" id="btn-copy" class="btn btn-secondary bi bi-copy" aria-label="<?= Text::_('COPY');?>"></button>
+        </div>           
+    </div>
+</section>
+
+<!-- Copy to Clipboard -->
+<script type="text/javascript">   
+jQuery(document).ready(function(){   
+    $('#btn-copy').on('click',function(e){
+        e.preventDefault();        
+        $('#api').select();
+        document.execCommand('copy');
+    });
+});
+</script>

@@ -1,0 +1,245 @@
+.tv-brand{
+    width:160px;
+    height: 42px;
+    text-wrap: nowrap;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-image: url('images/bg-brand.png') ;
+    font-size: 2.1rem;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px #262a33;
+}
+
+.tv-brand
+
+.tv-dark{
+    background-color: #262a33;
+    color: #fff;
+}
+
+.tv-dark > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.tv-dark > a:hover{
+    background-color: #262a33;
+    text-decoration: none;
+    color: #888;
+}
+
+.tv-navbar {
+    padding: .75rem 0;
+    background-color: #262a33;
+}
+
+.tv-navbar::after {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    display: block;
+    content: "";
+}
+
+@media (max-width: 992px) {
+    .tv-navbar .tv-navbar-toggle {
+        width:4.25rem
+    }
+}
+
+.tv-navbar .navbar-toggler {
+    padding: 0;
+    margin-right: -.5rem;
+    border: 0
+}
+
+.tv-navbar .navbar-toggler:first-child {
+    margin-left: -.5rem
+}
+
+.tv-navbar .navbar-toggler .bi {
+    width: 1.5rem;
+    height: 1.5rem
+}
+
+.tv-navbar .navbar-toggler:focus {
+    box-shadow: none
+}
+
+.tv-navbar .navbar-brand {
+    color: #fff;
+    transition: transform 0.2s ease-in-out
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tv-navbar .navbar-brand {
+        transition: none
+    }
+}
+
+.tv-navbar .navbar-brand:hover {
+    transform: rotate(-5deg) scale(1.1)
+}
+
+.tv-navbar .navbar-toggler,.tv-navbar .nav-link {
+    padding-right: .25rem;
+    padding-left: .25rem;
+    color: rgba(255,255,255,0.85)
+}
+
+.tv-navbar .navbar-toggler:hover,.tv-navbar .navbar-toggler:focus,.tv-navbar .nav-link:hover,.tv-navbar .nav-link:focus {
+    color: #fff
+}
+
+.tv-navbar .navbar-toggler.active,.tv-navbar .nav-link.active {
+    font-weight: 600;
+    color: #fff
+}
+
+.tv-navbar .navbar-nav-svg {
+    display: inline-block;
+    vertical-align: -.125rem
+}
+
+.tv-navbar .offcanvas {
+    border-left: 0
+}
+
+@media (min-width: 992px) {
+    .tv-layout {
+        display:grid;
+        grid-template-areas: "sidebar main";
+        grid-template-columns: 1fr 4fr;
+        gap: 1.5rem
+    }
+}
+
+
+@media (min-width: 992px) {
+    .tv-sidebar {
+        position:-webkit-sticky;
+        position: sticky;
+        top: 5rem;
+        display: block !important;
+        height: calc(100vh - 6rem);
+        padding-left: .25rem;
+        margin-left: -.25rem;
+        overflow-y: auto
+    }
+}
+
+.tv-sidebar {
+    grid-area: sidebar
+}
+
+.tv-main {
+    grid-area: main
+}
+
+.tv-breadcrumb{
+    grid-area:breadcrumb
+}
+
+.tv-guide{
+    grid-area:guide
+}
+
+@media (max-width: 768px) {
+    .tv-main {
+        /*max-width:510px;*/
+        margin-inline:auto
+    }
+}
+
+.tv-content {
+    grid-area: content;
+    min-width: 1px
+}
+
+.tv-content>h2:not(:first-child) {
+    margin-top: 3rem
+}
+
+.tv-content>h3 {
+    margin-top: 2rem
+}
+
+.tv-content>ul li,.tv-content>ol li {
+    margin-bottom: .25rem
+}
+
+.tv-content>ul li>p~ul,.tv-content>ol li>p~ul {
+    margin-top: -.5rem;
+    margin-bottom: 1rem
+}
+
+.tv-content>.table,
+.tv-content>.table-responsive .table {
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+    font-size: .875rem
+}
+
+@media (max-width: 992px) {
+    .tv-content>.table.table-bordered,
+    .tv-content>.table-responsive .table.table-bordered {
+        border:0
+    }
+}
+
+.tv-channels-grid .card {
+    cursor: pointer;
+}
+
+.tv-folder-grid .btn {
+    text-align: left!important;
+}
+
+@media (max-width: 992px) {
+    .tv-links-nav {
+        font-size:.875rem
+    }
+}
+
+@media (max-width: 992px) {
+    .tv-links-nav {
+        -moz-column-count:1;
+        column-count: 1;
+        -moz-column-gap: 1.5rem;
+        column-gap: 1.5rem
+    }
+
+    .tv-links-nav .tv-links-group {
+        -moz-column-break-inside: avoid;
+        break-inside: avoid
+    }
+
+    .tv-links-nav .tv-links-span-all {
+        -moz-column-span: all;
+        column-span: all
+    }
+}
+
+.tv-links-link {
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: 1.125rem;
+    color: var(--bs-body-color);
+    text-decoration: none
+}
+
+.tv-links-link.active {
+    font-weight: 600
+}
+
+main .card, .channel-row td  {
+    cursor: pointer;
+}
+
+.toast-body a {
+    position: relative;
+    font-weight: bolder;
+    color: #fff;
+    padding-top: 2rem;
+    bottom: 0
+}
