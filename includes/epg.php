@@ -164,7 +164,8 @@ class EPG{
                         //Calculate the progress
                         $duration   = $item->end->getTimeStamp() - $item->start->getTimestamp();
                         $lapse      = $now->getTimeStamp() - $item->start->getTimestamp();
-                        $item->progress = sprintf("%d" , 100 * ($lapse/$duration));
+                        $item->progress = $duration>0 ? sprintf("%d" , 100 * ($lapse/$duration)) : 0;
+
                         if($lapse < 60)
                             $item->viewed = sprintf("%ds." , $lapse);
                         elseif($lapse < 3600)
@@ -260,10 +261,10 @@ class EPG{
         // Target file
         $merged = TV_EPG . DIRECTORY_SEPARATOR . $folder . '.' . $source . '.xmltv';        
         
-        // Check whether the file might be obsolete (renewed every 5 sec max.)
+        // Check whether the file might be obsolete (renewed every 5 min max.)
         if(file_exists($merged))
         {
-            if(filectime($merged) > $now->getTimestamp() - 5){
+            if(filectime($merged) > $now->getTimestamp() - 300){
                 $this->url = $merged;
                 return true;
             }
@@ -285,13 +286,23 @@ class EPG{
                 return false;
         }  
 
-        // Collect remote guide from DTV, whatever the folder is
-        $context    = stream_context_create(array('http' => array('header' => 'Accept: application/xml')));
-        $content    = file_get_contents($config->dtv['host'] . $config->dtv['xmltv'] , false, $context);
-        if($content)
-            $dtv_xmltv  = simplexml_load_string($content);
-        else
-            $dtv_xmltv  = null;        
+        //Get the DTV Guide whatever the folder is
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $config->dtv['host'] . $config->dtv['channels']);  
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET"); 
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);        
+        curl_setopt($ch, CURLOPT_FAILONERROR, true);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+        curl_exec($ch); 
+
+        if(!curl_errno($ch))
+        {         
+            $content    = file_get_contents($config->dtv['host'] . $config->dtv['xmltv']);
+            $xml_dtv    = simplexml_load_string($content);           
+        } else {
+            $xml_dtv    = null;
+        }
+        curl_close($ch); 
 
         // Collect the list of channels in the given source
         $data = Helpers::getChannelsFromFile($url , $folder, $source);     
@@ -310,12 +321,49 @@ class EPG{
                 }
             // DTV
             } else {
-                if($dtv_xmltv !== null)
-                {
-                    $xml = $dtv_xmltv;                
-                    $channels[$item->id] = $xml->xpath('//tv/channel[@id="' . $item->id . '"]');
-                    $programs[$item->id] = $xml->xpath('//tv/programme[@channel="' . $item->id . '"]');                 
+                if($xml_dtv !== null)
+                {                            
+                    $channels[$item->id] = $xml_dtv->xpath('//tv/channel[@id="' . $item->id . '"]');
+                    $programs[$item->id] = $xml_dtv->xpath('//tv/programme[@channel="' . $item->id . '"]');                                     
                 }
+            }
+
+            // Standard Channel node: check the subnodes
+            if(isset($channels[$item->id] ))
+            {
+                $fields    = ['display-name','icon','url'];
+                foreach($channels[$item->id] as $c)
+                {
+                    $nodes = $c->children();                             
+
+                    // Ensure the integrity of the channels, because DTV might not provide a standard output                    
+                    foreach($fields as $f)
+                    {                
+                        if(!isset($count[$f]))
+                            $count[$f] = 0;
+                        if(!isset($nodes[$f]) && !empty($item->$f))
+                            $c->addChild($f,$item->$f);                        
+                    }  
+                }     
+            }
+
+            // Standard Program node: check the attributes
+            if(isset($programs[$item->id] ))
+            {            
+                $fields    = ['start','stop','channel'];
+                foreach($programs[$item->id] as $p)
+                {
+                    $attr = $p->attributes();                              
+                    
+                    // Ensure the integrity of the programs, because DTV might not provide a standard output                    
+                    foreach($fields as $f)
+                    {                
+                        if(!isset($count[$f]))
+                            $count[$f] = 0;                        
+                        if(!isset($attr[$f]) && !empty($item->$f))
+                            $p->addAttribute($f, $item->$f);;                        
+                    }                            
+                }             
             }
         }
 
@@ -325,6 +373,8 @@ class EPG{
         // Start the content
         $content    = '<?xml version="1.0" encoding="UTF-8" ?>' . PHP_EOL;
         $content   .= '<tv date="' . $now->format('Ymd'). '">' . PHP_EOL;       
+
+        
 
         foreach($channels as $id => $c)
         {
@@ -400,7 +450,7 @@ class EPG{
     }
 
     /**
-     * Cro to collect the EPG
+     * Cron to collect the EPG
      * NOTE: You'd need to edit the /etc/sudoers file to allow the apache user (www-data) to execute a script
      * 
      * 1. edit file : /etc/sudoers
