@@ -27,6 +27,7 @@
  | Author: Jaime Rubio <jaime@rubiogafsi.com>                              |
  +-------------------------------------------------------------------------+
 */
+
 defined('_TVEXEC') or die;
 ?>
 <header class="navbar navbar-expand-lg navbar-dark tv-navbar sticky-top">  
@@ -39,7 +40,7 @@ defined('_TVEXEC') or die;
     <a class="navbar-brand tv-brand text-center text-truncate" href="<?= $factory->getTaskURL();?>">
       <div class="h3 fw-bold"><?= $config->sitename; ?></div>
     </a>   
-    <?php if($task == 'view'):?>
+    <?php if($factory->getTask() === 'view'):?>
     <div class="tv-navbar-toggler">      
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar" aria-label="Toggle Channels">
         <div class="h1 align-top top p-0">...</div>
