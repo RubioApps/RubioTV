@@ -154,8 +154,11 @@ class Factory
                     case 'int':
                          static::$params[$k]['value'] = (int) $array['default'];
                         break;
+                    case 'string':
+                        static::$params[$k]['value'] = $array['default'];
+                        break;
                     default:                    
-                         static::$params[$k]['value'] = strtolower($array['default']);
+                         static::$params[$k]['value'] = null;
                         break;                        
                 }
             }
