@@ -380,9 +380,8 @@ class Router
         if(!$this->epg->MergeXMLTV( $this->folder , $this->source))
             return false;        
         
-        $data =  $this->epg->getPlayingNow();        
+        $this->list =  $this->epg->getPlayingNow();        
 
-        $this->_buildPagination($data);        
         $this->pagetitle= Text::_('GUIDES');
         $this->sourcelink = $this->config->live_site . '/guides/' . $this->folder . '.' . $this->source . '.xmltv';
 
