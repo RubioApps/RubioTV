@@ -14,9 +14,8 @@ This will not work for previous versions of PHP
 
 RubioTV uses a shell execution command to launch an external NodeJS application.
 To do so, RubioTV needs the sudoers file to be modified to add a single execution of a temporary file (named .unlock) which contains a simple bash scripts.
-Usually, this file is created on-the-fly and removed just after it is used.
+Usually, this file is created on-the-fly and removed just after it is used. The code is designed to make this file to be removed asap. 
 
-The code is designed to make this file to be removed asap. 
-If you find any issue with this kind of interactions or other, please report a bug asap.
+If you find any issue with this kind of interactions or other, please [Report a bug](https://github.com/RubioApps/RubioTV/blob/main/.github/ISSUE_TEMPLATE/bug_report.md)
 
 Thank you.
