@@ -65,7 +65,10 @@ class EPG{
     {
         $config         = Factory::getConfig();
         $this->tvg_id   = $tvg_id;        
-                          
+
+        if(!$this->url)
+            return null;
+	    
         // Get remote content
         $xml = simplexml_load_file($this->url , "SimpleXMLElement", LIBXML_NOERROR |  LIBXML_ERR_NONE);
         if ($xml !== false)
