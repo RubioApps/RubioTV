@@ -107,60 +107,19 @@ The whole Apache2 setup (mysite.conf) would be like this
 ```
 ## Configuration
 
-RubioTV can be fully configured by overriding the file configuration.php.
+RubioTV can be fully configured by overriding the file [configuration.php](https://github.com/RubioApps/RubioTV/blob/main/configuration.php).
 Please notice that, in addition to the basic features, you can enable two additional services:
 
-1. DTV: you would need an accessible service in your LAN. The default configuration points to a, android box that runs a TVHeadend instance
-2. EPG: you would need to installed from iptv-org. Please follow the instruction on that page.
+__DTV__: you would need an accessible service in your LAN. The default configuration points to a, android box that runs a TVHeadend instance
+__EPG__: you would need to installed from iptv-org. Please follow the instruction on that page.
 
 You can disable both services if you want a basic IPTV browser.
 
-```
-<?php
-namespace RubioTV\Framework;
-
-defined('_TVEXEC') or die;
-
-class TVConfig {
-  public $sitename = 'RubioTV';
-  public $live_site = 'https://mysite.com/tv';
-	public $log_path = '/path/to/your/site/log';
-	public $tmp_path = '/path/to/your/site//tmp';        
-  public $menu = ['dtv','categories','languages','countries','custom','guides'];
-	public $list_limit = 30;
-  public $theme = 'default';
-  public $dtv = [
-    'type'        => 'tvheadend',                
-    'host'        => 'https://mysite.com/coreelec',
-    'channels'    => '/playlist/channels',
-    'stream'      => '/stream/channel',
-    'xmltv'       => '/xmltv/channels',
-    'cache'       => '/imagecache',
-    'filename'    => 'coreelec'
-  ];
-  public $use_cache = true;
-  public $notify_cache = false;
-  public $links = [
-    'mysite2.com' => 'https://mysite2.com/',
-    'mysite3.com' => 'https://mysite3.com/',
-    'mysite4.com' => 'https://mysite4.com/'
-  ];
-	public $epg = [                
-		'enabled'	=> true,
-    'notify'	=> false,                                
-    'dir'     => '/path/to/your/site/epg',
-    'exec'		=> 'npm run grab --prefix=%s -- --channels=%s --output=%s --days=%s > /dev/null 2>&1',
-    'lock'    => 60 ,   /* seconds */
-    'expiry'        => 7 ,    /* days */		
-    'secret_key'    => 'change-me', /* change this */
-   ];
-}
-```
 If you have decided to install the NodeJS application EPG from IPTV-org, **you have to setup your PHP to be able to execute shell commands**.
 To do so, you have add the Apache user (usually www-data) to the sudoers
 
 ```
-$ sudo nano /etc/sudoers
+sudo nano /etc/sudoers
 ```
 Add the line (replace the /var/www/mysite.com/ by the exising path at your server)
 ```
@@ -173,7 +132,7 @@ This file is used as an anti-flood mechanism to avoid to over-charge the server 
 When the EPG service is active, you might decide to setup a cron job to execute a period request of the guides.
 If you decided to do so, you hav to edit the crontab for the Apache user (usually www-dataà
 ```
-$ sudo crontab -e -u www-data
+sudo crontab -e -u www-data
 ```
 
 Add the line
