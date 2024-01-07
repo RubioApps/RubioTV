@@ -57,8 +57,7 @@ class EPG{
     /**
      * getGuide
      * 
-     * @param string $tvg_id Official channel ID
-     * 
+     * @param string $tvg_id Official channel ID      
      * @return mixed It returns null when there is no EPG available, 
      * and an two-dimensions array, where the first item is an array with the timed EPG and a second the element playing right now
      */
@@ -225,8 +224,7 @@ class EPG{
      * getSiteFromXMLTV
      * 
      * @param string $filename  The full path to the XMLTV faile
-     * 
-     * @return bool It returns the site name where the EPG is available, or false if there is no EPG available.
+     * @return bool Returns the site name where the EPG is available, or false if there is no EPG available.
      */
     public function getSiteFromXMLTV($filename)
     {            
@@ -458,7 +456,12 @@ class EPG{
         return true;
     }
     
-
+    /**
+     * _requestXMLTV
+     * 
+     * @param string $fileid Internal Channel ID
+     * @param object $xmltv Standard object that contains the properties of the EPG based on the API
+     */
     protected function _requestXMLTV($fileid , $xmltv)
     {            
         //Add this channel to the pending list    
@@ -715,6 +718,13 @@ class EPG{
         return false;
     }    
 
+    /**
+     * Unlock removes the .lock file
+     * 
+     * @param string $key   Unique ID for the .lock, based on the CronID
+     * @return bool     Returns true if suceeded, false if not
+     * 
+     */
     public function Unlock($key)
     {
         // Check the key is correct
@@ -734,6 +744,10 @@ class EPG{
         return true;
     }
 
+    /**
+     * Lock creates the .lock file
+     * 
+     */    
     public function Lock()
     {
         $_SESSION['cron_id'] = $this->_generateCronId();
@@ -745,17 +759,34 @@ class EPG{
 
         touch($lock);
     }    
+
+    /**
+     * getCronId gets a unique random ID stored on the session
+     * 
+     */
     public function getCronId()
     {
         $_SESSION['cron_id'] = $this->_generateCronId();
         return $this->_Encrypt($_SESSION['cron_id']);        
     }    
 
+    /**
+     * Generate a random string used for a unique use to unlock the cron
+     * 
+     * @param int $length Length of the id
+     * @return string Returns a unique id
+     */
     protected function _generateCronId($length = 32)
     {
         return substr(bin2hex(openssl_random_pseudo_bytes(ceil($length / 2))), 0, $length);
     }
 
+    /**
+     * _Encrypt a string using the secret key defined in the configuration
+     * 
+     * @param string $string String to encrypt
+     * @return mixed An encoded 64 string
+     */
     protected function _Encrypt($string)
     {              
         $encrypt_method = 'AES-256-CBC';                
@@ -772,6 +803,12 @@ class EPG{
         return base64_encode($output);       
     }
 
+    /**
+     * _Decrypt a string using openssl using the secret key provided in the configuration   
+     * 
+     * @param mixed $string String to decrypt   
+     * @return mixed decrypted string
+     */
     protected function _Decrypt($string)
     {              
         $encrypt_method = 'AES-256-CBC';                
