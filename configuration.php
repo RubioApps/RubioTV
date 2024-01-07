@@ -59,8 +59,9 @@ class TVConfig {
                 'notify'	=> false,                                
                 'dir'           => '/path/to/your/site/epg',
 		'exec'		=> 'npm run grab --prefix=%s -- --channels=%s --output=%s --days=%s > /dev/null 2>&1',
-                'lock'          => 60 ,   /* seconds */
-                'expiry'        => 7 ,    /* days */		
+                'lock'          => 60 , /* seconds */
+                'expiry'        => 7 ,  /* days */		
+                'fix_time'      => 6 ,  /* hours */
                 'secret_key'    => 'change-me-with-a-long-random-key', /* change this */
 	        ];
 }

@@ -35,11 +35,13 @@ use RubioTV\Framework\Factory;
 use RubioTV\Framework\IPTV; 
 use RubioTV\Framework\Helpers; 
 
-class EPG{    
 
-    protected $params;
+define ('CRON_BATCH_LIMIT', 5);
+
+class EPG{        
     protected $url;      
     protected $tvg_id;
+    protected $params;
     
     public function __construct($url = null)
     {        
@@ -52,13 +54,19 @@ class EPG{
     public function __destruct() {
     }   
 
+    /**
+     * getGuide
+     * 
+     * @param string $tvg_id Official channel ID
+     * 
+     * @return mixed It returns null when there is no EPG available, 
+     * and an two-dimensions array, where the first item is an array with the timed EPG and a second the element playing right now
+     */
     public function getGuide( $tvg_id )
     {
-        $this->tvg_id = $tvg_id;
-
-        $now    = new \DateTime();
-        $tz     = new \DateTimeZone(date_default_timezone_get());
-
+        $config         = Factory::getConfig();
+        $this->tvg_id   = $tvg_id;        
+                          
         // Get remote content
         $xml = simplexml_load_file($this->url , "SimpleXMLElement", LIBXML_NOERROR |  LIBXML_ERR_NONE);
         if ($xml !== false)
@@ -68,27 +76,43 @@ class EPG{
                 $ret        = [];
                 $current    = null;
                 foreach($list as $p)
-                {
-                    $attr = $p->attributes();                        
-                    $item           = new \stdClass();                      
-                    $item->start    = (new \DateTime($attr['start']))->setTimezone($tz);
-                    $item->end      = (new \DateTime($attr['stop']))->setTimezone($tz);                               
+                {                   
+                    // Initicalize the object 
+                    $item           = new \stdClass();                                                                 
                     $item->title    = '';
                     $item->subtitle = '';
                     $item->desc     = '';
                     $item->category = '';
                     $item->playnow  = false;
+                    
+                    // Extract the subnodes
                     foreach($p->children() as $k => $v){                        
                         $prop = preg_replace('/[^a-z]+/','',$k);
                         $item->$prop = sprintf("%s",$v);
-                    }
+                    } 
 
-                    if($item->start <= $now && $item->end >= $now ){
+                    // Prepare the timezone
+                    $fix    = new \DateInterval(sprintf("PT%dH",$config->epg['fix_time'])); 
+                    $ival   = new \DateInterval('PT3H');         
+                    $tz     = new \DateTimeZone(date_default_timezone_get());   
+                    $now    = new \DateTime();  
+
+                    // Extract the timeslot
+                    $attr       = $p->attributes();                                      
+                    $item->start= (new \DateTime( $attr['start'] ))->setTimezone($tz)->sub($fix);
+                    $item->end  = (new \DateTime( $attr['stop'] ))->setTimezone($tz)->sub($fix);                                                        
+                                
+
+                    if($item->start <= $now && $now <= $item->end ){                      
                         $item->playnow = true;
                         $current = $item;
                     }
 
-                    $ret[] = $item;                                          
+                    //Only add for items after now - 3 hours                    
+                    if($item->start >= $now->sub($ival))
+                        $ret[] = $item;                                          
+
+                    unset($tz ,$fix , $now, $ival , $item);
                 }
                 return array($ret , $current);
             }
@@ -107,7 +131,7 @@ class EPG{
             return false;
 
         $ret    = false;
-        $now    = new \DateTime();
+        $config = Factory::getConfig();
     
         // Get remote content
         $xml = simplexml_load_file($this->url , "SimpleXMLElement", LIBXML_NOERROR |  LIBXML_ERR_NONE);
@@ -147,15 +171,21 @@ class EPG{
                     $list = $xml->xpath('//tv/programme[@channel="' . $c->id . '"]');                             
 
                     foreach($list as $p)
-                    {                
-                        $attr = $p->attributes();  
+                    {       
+                        // Prepare the timezone
+                        $fix    = new \DateInterval(sprintf("PT%dH",$config->epg['fix_time'])); 
+                        $ival   = new \DateInterval('PT3H');         
+                        $tz     = new \DateTimeZone(date_default_timezone_get());   
+                        $now    = new \DateTime();
+
+                        $attr   = $p->attributes();  
 
                         $item           = new \stdClass();     
                         $item->id       = $c->id;
                         $item->name     = $c->displayname;
                         $item->icon     = $c->icon;
-                        $item->start    = new \DateTime($attr['start']);
-                        $item->end      = new \DateTime($attr['stop']);                                
+                        $item->start    = (new \DateTime( $attr['start'] ))->setTimezone($tz)->sub($fix);
+                        $item->end      = (new \DateTime( $attr['stop'] ))->setTimezone($tz)->sub($fix);                                
                         $item->title    = '';
                         $item->subtitle = '';
                         $item->desc     = '';
@@ -180,7 +210,9 @@ class EPG{
                                 $item->$prop = $v->__toString();
                             }                                   
                             $ret[] = $item;               
-                        }                        
+                        }  
+
+                        unset($tz ,$fix , $now, $ival , $item);                   
                     }
                 }
                 return $ret;
@@ -189,6 +221,13 @@ class EPG{
         return false;
     }   
 
+    /**
+     * getSiteFromXMLTV
+     * 
+     * @param string $filename  The full path to the XMLTV faile
+     * 
+     * @return bool It returns the site name where the EPG is available, or false if there is no EPG available.
+     */
     public function getSiteFromXMLTV($filename)
     {            
         $config = Factory::getConfig(); 
@@ -219,7 +258,16 @@ class EPG{
         }     
         return false;      
     }
-       
+
+    /**
+     * getXMLTV
+     * 
+     * @param string $fileid Internal channel id of the program (md5 hash of the tvg_id)
+     * @param string $tvg_id official id from the channel, as published in the EPG
+     * 
+     * @return mixed Returns false is the function did not find a convenient guide or the creation failed. 
+     * Returns true if the file was not found but the request was put in the queue. In other cases, it returns the name of the EPG file
+     */
     public function getXMLTV( $fileid   , $tvg_id)
     {            
         $config = Factory::getConfig(); 
@@ -241,7 +289,7 @@ class EPG{
             if(!file_exists(TV_EPG_SAVED. DIRECTORY_SEPARATOR . $fileid . '.xml'))
             {                                
                 //Add this channel to the pending list    
-                if(self::_requestXMLTV($fileid , $xmltv) === false)
+                if($this->_requestXMLTV($fileid , $xmltv) === false)
                     throw new \Exception('Malformed file of missing XMLTV');
                 return true;
             } else {
@@ -432,7 +480,7 @@ class EPG{
         $xml    = simplexml_load_file($pending);
         $root   = $xml->xpath('//channels');                
 
-        if($root)
+        if($root && $xmltv->channel)
         {
             $query  = $xml->xpath('//channels/channel[@xmltv_id="' . $xmltv->channel . '"]');
             if(!$query)
@@ -458,9 +506,14 @@ class EPG{
      * 3. add a cron to run the task every 5 minutes (recommended)
      *      type        : cron -u www-data -e
      *      add a line  : "* /5 * * * * /usr/bin/php /var/www/mysite/public/cron.php       
+     * 
+     * @param mixed $id Internal channel ID (md5 hash of the tvg_id)
+     * @param bool  $force This forces the cron to run, overriding the anti-flood mechanism
+     * 
+     * @return bool Return false if it fails an true if it succeeds
      */
     public function Cron( $id = null)
-    {
+    {        
         if(!isset($this->params['enabled']))
             return false;
         
@@ -473,7 +526,81 @@ class EPG{
         $timestamp  = intval(microtime(1));            
         $lock       = TV_EPG . DIRECTORY_SEPARATOR . '.lock';
 
-	    // Check whether the files are obsolete
+        // Run batch for custom channels
+        if ($id === null)
+        {
+            if ($dir = opendir(TV_IPTV . DIRECTORY_SEPARATOR . 'custom'))
+            {
+                $config     = Factory::getConfig();     
+                $guides     = IPTV::getGuides();
+                $postponed  = [];
+                $count  = 0;
+        
+		        while (($f = readdir($dir)) !== false)
+		        {        
+			        if ($f != '.' && $f != '..')
+			        {
+                        $filename   = TV_IPTV . DIRECTORY_SEPARATOR . 'custom' . DIRECTORY_SEPARATOR . $f;
+				        $info = pathinfo($filename);
+                        if($info['extension'] === 'm3u')
+                        {
+                            $url    = $config->live_site . '/iptv/custom/' . $info['basename'];
+                            $list   = Helpers::getChannelsFromFile($url , 'custom', $info['filename']);                                                    
+                            foreach($list as $item)                           
+                            {                    
+                                foreach($guides as $g)
+                                {
+                                    if($g->channel === $item->tvg_id)
+                                    {      
+                                        // Only do if there is no saved guide
+                                        if($item->id && !file_exists(TV_EPG_SAVED . DIRECTORY_SEPARATOR . $item->id . '.xml'))
+                                        {        
+                                            // If the guide is queued, postpone it
+                                            if(file_exists(TV_EPG_QUEUE . DIRECTORY_SEPARATOR . $item->id . '.xml'))
+                                            {
+                                                $postponed[] = $item;
+                                            } else {                                                                
+                                                // Request a guide
+                                                $this->_requestXMLTV($item->id , $g);
+                                                // Launch the cron
+                                                $this->Cron($item->id);    
+                                                // Increase the count only if succeeded
+                                                if(file_exists(TV_EPG_SAVED . DIRECTORY_SEPARATOR . $item->id . '.xml'))
+                                                    $count++;
+                                            }
+                                        }   
+                                        break;
+                                    }
+                                }    
+                                // Exit if the limit is reached
+                                if($count > CRON_BATCH_LIMIT)
+                                    break;                                                                                                                                         
+                            }
+                        }
+                    }
+                }  
+            }
+            closedir($dir); 
+
+            //Treat the postponed cronjobs if there is still any remaining place in this batch
+            if(count($postponed) && $count <= CRON_BATCH_LIMIT)
+            {
+                foreach($postponed as $item)
+                {                  
+                    // Launch the cron
+                    $this->Cron($item->id);    
+                    // Increase the count only if succeeded
+                    if(file_exists(TV_EPG_SAVED . DIRECTORY_SEPARATOR . $item->id . '.xml'))
+                        $count++;
+                    // Exit if the limit is reached
+                    if($count > CRON_BATCH_LIMIT)
+                        break;                      
+                }
+            }
+            return true;          
+        }
+
+	    // Check whether the files are now expired
 	    if ($dir = opendir(TV_EPG_SAVED))
 	    {				
 		    while (($f = readdir($dir)) !== false)
@@ -491,7 +618,8 @@ class EPG{
             closedir($dir);
 	    }
 
-	    if ($dir = opendir(TV_EPG_QUEUE))
+        // Let('s browse the queue)
+	    if ($id && $dir = opendir(TV_EPG_QUEUE))
 	    {		
 		    // Check if the enqueued file has been already processed
 		    while (($f = readdir($dir)) !== false)
@@ -505,10 +633,10 @@ class EPG{
 					    continue;
 				    }
 				
-				    // If the file was not processed during the last cron, then rip it off				                    
+				    // If the file was not processed during the last cron , then rip it off				                    
 				    if(file_exists($lock))
 				    {			
-					    if(filectime(TV_EPG_QUEUE . DIRECTORY_SEPARATOR . $f) <= filectime($lock))
+					    if(filectime(TV_EPG_QUEUE . DIRECTORY_SEPARATOR . $f) <= filectime($lock) - 300)
 					    {					
 						    unlink(TV_EPG_QUEUE . DIRECTORY_SEPARATOR . $f);
 						    continue;
@@ -521,11 +649,11 @@ class EPG{
             // Check lock validity
 		    if(file_exists($lock))
 		    {			
-			    $valid = ( filectime($lock) < $timestamp - (int) $this->params['lock']) ;					
+			    $valid = ( filectime($lock) < $timestamp - (int) $this->params['lock']);					
 		    } else {
     			$valid = true;
 		    }		
-
+          
 		    if($valid)
 		    {
     			// Remove the lock
@@ -545,25 +673,14 @@ class EPG{
                 $script  = '#!/bin/bash' . PHP_EOL;
                 $script	.= 'cd ' . $this->params['dir'] . PHP_EOL;	
 
-                // If there is a unique id, process only that while
-                if($id){
-
-                    $channels	= $relative . TV_EPG_QUEUE . DIRECTORY_SEPARATOR . $id . '.xml';
-                    $output		= $relative . TV_EPG_SAVED . DIRECTORY_SEPARATOR . $id . '.xml';
-	
-			        $script .=  sprintf($this->params['exec'] ,  $this->params['dir'], $channels , $output, $expiry) . PHP_EOL;
-
-                // When there is no id, process all the files in the queue
-                } else {
-
-                    $channels	= $relative . TV_EPG_QUEUE . DIRECTORY_SEPARATOR . '$FILE';
-                    $output		= $relative . TV_EPG_SAVED . DIRECTORY_SEPARATOR . '$FILE';	
-	
-			        $script .= 'for FILE in ' . TV_EPG_QUEUE . DIRECTORY_SEPARATOR . '*.xml; do ' . PHP_EOL;	
-			        $script .=  sprintf($this->params['exec'] ,  $this->params['dir'], $channels , $output, $expiry) . PHP_EOL;
-			        $script .= 'done' . PHP_EOL;                 
-                }      
                 
+                $channels	= $relative . TV_EPG_QUEUE . DIRECTORY_SEPARATOR . $id . '.xml';
+                $output		= $relative . TV_EPG_SAVED . DIRECTORY_SEPARATOR . $id . '.xml';	
+			    
+                $script .=  sprintf($this->params['exec'] ,  $this->params['dir'], $channels , $output, $expiry) . 
+                    '  --maxConnections 10  > /dev/null 2>&1' . 
+                    PHP_EOL;
+                                 
 			    // Save the bash script
 			    $bash = TV_EPG . DIRECTORY_SEPARATOR . '.unlock';
 
