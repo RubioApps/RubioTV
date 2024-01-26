@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -29,15 +29,18 @@
 */
 
 defined('_TVEXEC') or die;
+
+use RubioTV\Framework\Language\Text;
+
 ?>
-<header class="navbar navbar-expand-lg navbar-dark tv-navbar sticky-top">  
+<header class="navbar navbar-expand-lg navbar-dark bg-dark tv-navbar sticky-top">  
   <nav class="container-lg flex-wrap flex-lg-nowrap">  
     <div class="d-flex">  
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>    
-    <a class="navbar-brand tv-brand text-center text-truncate" href="<?= $factory->getTaskURL();?>">
+    <a class="navbar-brand tv-brand text-center text-truncate" href="<?= $factory->Link();?>">
       <div class="h3 fw-bold"><?= $config->sitename; ?></div>
     </a>   
     <?php if($factory->getTask() === 'view'):?>
@@ -50,18 +53,23 @@ defined('_TVEXEC') or die;
     <div class="collapse navbar-collapse" id="mainmenu">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
         <?php 
-        foreach($router->getMenu() as $f)
+        foreach($page->menu as $f)
         {
           $task   = $factory->getParam('task');  
           $folder = $factory->getParam('folder');   
           $active = ($task === $f->id) || ($task !== 'guides' && $folder === $f->id);      
         ?> 
         <li class="nav-item">
-          <a class="nav-link<?= ($active  ? ' active':'');?>" href="<?= $factory->getTaskURL($f->id);?>">
+          <a class="nav-link<?= ($active  ? ' active':'');?>" href="<?= $factory->Link($f->id);?>">
             <?= $f->name; ?>
           </a>
         </li>  
-        <?php } ?>            
+        <?php } ?>    
+        <?php if($factory->isLogged() && !$factory->autoLogged()):?> 
+          <li class="nav-item">
+            <a class="nav-link" href="<?= $factory->Link('login.off'); ?>"><?= Text::_('LOGOUT'); ?></a>
+          </li>                   
+        <?php endif;?>
       </ul>
     </div>    
   </nav>

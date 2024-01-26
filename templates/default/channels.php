@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -30,6 +30,7 @@
 
 defined('_TVEXEC') or die;
 
+use \RubioTV\Framework\SEF;
 use \RubioTV\Framework\Language\Text;
 ?>
 
@@ -43,10 +44,10 @@ use \RubioTV\Framework\Language\Text;
                 <a href="<?= $config->live_site;?>"><?= Text::_('HOME');?></a>
             </li>    
             <li class="breadcrumb-item">
-                <a href="<?= $factory->getTaskURL($router->folder);?>"><?= Text::_(strtoupper($router->folder));?></a>
+                <a href="<?= $factory->Link($page->folder);?>"><?= Text::_(ucfirst($page->folder));?></a>
             </li>
             <li class="breadcrumb-item" aria-current="page">
-                <?= Text::_(ucfirst($router->source));?>
+                <?= Text::_('GROUPS')[strtoupper($page->source)] ?? SEF::decode($page->source_alias);?>
             </li> 
         </ol>
     </nav>
@@ -56,10 +57,10 @@ use \RubioTV\Framework\Language\Text;
 <section class="tv-toolbar ps-lg-2 clearfix"> 
     <div id="toolbar" class="btn-group float-end me-3" role="group" aria-label="Toolbar">
         <button id="btn-guide" class="btn btn-warning bi bi-clock" type="button" aria-label="<?= Text::_('GUIDES'); ?>"></button>        
-        <?php if($router->folder !== 'dtv' && $router->folder !== 'custom'):?>
+        <?php if($page->folder !== 'dtv' && $page->folder !== 'custom'):?>
         <button id="btn-sync" class="btn btn-primary bi bi-arrow-repeat" type="button" aria-label="<?= Text::_('RESYNC'); ?>"></button>
         <?php else:?>
-            <?php if($router->folder === 'custom'):?>
+            <?php if($page->folder === 'custom'):?>
             <button id="btn-custom-edit" class="btn btn-primary bi bi-pencil" type="button" aria-label="<?= Text::_('EDIT'); ?>"></button>
             <?php endif; ?>
         <?php endif; ?>
@@ -67,19 +68,21 @@ use \RubioTV\Framework\Language\Text;
 </section>
 
 
-<?php if(is_array($router->model) && count($router->model)): ?>
+<?php if(is_array($page->data) && count($page->data)): ?>
 <!-- Channels -->
 <main role="main" class="justify-content-center p-3">
     <div class="tv-channels-grid row row-cols-4 row-cols-md-6 row-cols-lg-8 g-2 g-lg-3 mt-1">
-        <?php foreach ($router->model as $item):?>   
+        <?php foreach ($page->data as $item):?>   
         <div class="col d-flex align-items-stretch">
-            <div class="card p-3 border bg-light justify-content-center w-100" data-link="<?= $item->link;?>">
+            <div class="card p-3 border bg-light justify-content-center mx-auto w-100">
+                <a class="text-center" href="<?= $item->link;?>">
                 <img src="<?= $item->image;?>" class="card-img-top mx-auto spinner-border m-5" data-remote="<?= $item->remote;?>" alt="<?= htmlspecialchars($item->name);?>" />
-                <div class="card-body p-0 text-center">
+                <div class="card-body p-0 text-center">                 
                     <h5 class="card-title text-truncate">
                         <div class="card-text"><?= $item->name;?></div>
                     </h5>
                 </div>
+                </a>
             </div>             
         </div>
         <?php endforeach; ?>   
@@ -87,10 +90,10 @@ use \RubioTV\Framework\Language\Text;
 </main>
 <!-- Pagination -->
 <section class="container mt-3">
-    <?= $router->pagination->getPagesLinks(); ?> 
+    <?= $page->pagination->getPagesLinks(); ?> 
 </section>    
 
-<?php require_once('sourcelink.php');?>
+<?php require_once('link.php');?>
 
 <!-- JS -->
 <script type="text/javascript">   
@@ -136,16 +139,11 @@ jQuery(document).ready(function(){
         } else {
             img.removeClass('spinner-border m-5');            
         }
-    });
-
-    $('.card').on('click' , function(e){
-        window.location.href = $(this).attr('data-link');
-    });        
+    }); 
     
     $('#btn-sync').on('click',function(e){
         e.preventDefault();
-        var url = '<?= $factory->getTaskURL('channels.sync', $router->folder, 
-            $router->source . (!empty($router->sourcename) ? ':' . $router->sourcename : '')) . '&format=json';?>';
+        var url = '<?= $factory->Link('channels.sync',null,null,null,'format=json');?>';
         $.getJSON( url , function(data){  
             var wrapper = $('#tv-toast');
             var toast   = wrapper.find('.toast').first().clone();
@@ -165,12 +163,12 @@ jQuery(document).ready(function(){
 
     $('#btn-custom-edit').on('click',function(e){
         e.preventDefault();
-        document.location.href = '<?= $factory->getTaskURL( 'custom.edit', $router->folder, $router->source);?>';
+        document.location.href = '<?= $factory->Link( 'custom.edit', $page->folder, $page->source);?>';
     });    
 
     $('#btn-guide').on('click',function(e){
         e.preventDefault();
-        document.location.href = '<?= $factory->getTaskURL( 'guides', $router->folder, $router->source);?>';
+        document.location.href = '<?= $factory->Link( 'guides', $page->folder, $page->source);?>';
     });   
 
 });                 

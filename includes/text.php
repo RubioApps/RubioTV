@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -40,7 +40,7 @@ class Text
     protected static $strings = array();
 
     
-    public static function _($string, $interpretBackSlashes = false)
+    public static function _($string, $jsSafe = false , $interpretBackSlashes = false)
     {
         if (!static::$lang){                                         
             static::$lang = Factory::getLanguage();
@@ -50,7 +50,7 @@ class Text
             return $string;
         }
 
-        return static::$lang->_($string, $interpretBackSlashes);
+        return static::$lang->_($string, $jsSafe , $interpretBackSlashes);
     }
 
     /**

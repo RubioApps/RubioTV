@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -27,25 +27,34 @@
  | Author: Jaime Rubio <jaime@rubiogafsi.com>                              |
  +-------------------------------------------------------------------------+
 */
+
 defined('_TVEXEC') or die;
 
+use RubioTV\Framework\SEF;
 use RubioTV\Framework\Language\Text;
 
-function pagination_list_render($list)
+function pagination_list_render($list , $onlyarrows = false)
 {
 	// Initialize variables
 	$html = '<ul class="pagination justify-content-center">';
 
-	if ($list['start']['active']==1)   $html .= $list['start']['data'];
+	if(!$onlyarrows)
+		if ($list['start']['active']==1)   $html .= $list['start']['data'];
+
 	if ($list['previous']['active']==1) $html .= $list['previous']['data'];
 
-	foreach ($list['pages'] as $page) {
-		$html .= $page['data'];
+	if(!$onlyarrows)
+	{
+		foreach ($list['pages'] as $page) 
+			$html .= $page['data'];
 	}
-	if ($list['next']['active']==1) $html .= $list['next']['data'];
-	if ($list['end']['active']==1)  $html .= $list['end']['data'];
 
-        $html .= '</ul>';
+	if ($list['next']['active']==1) $html .= $list['next']['data'];
+
+	if(!$onlyarrows)
+		if ($list['end']['active']==1)  $html .= $list['end']['data'];
+
+    $html .= '</ul>';
 	return $html;
 }
 
@@ -60,11 +69,13 @@ function pagination_item_active(&$item)
     if ($item->text == Text::_('START')) { $cls = ' first';}
     if ($item->text == Text::_('END'))   { $cls = ' last';}
     
-    return '<li class="page-item' . $cls . '"><a class="page-link" href="' . $item->link . '">' . $item->text . '</a></li>';
+    return '<li class="page-item' . $cls . '"><a class="page-link" href="' . SEF::_($item->link) . '">' . $item->text . '</a></li>';
 }
 
 function pagination_item_inactive( &$item )
 {
-	$cls = (int)$item->text > 0 ? 'active': '';
-	return '<li class="page-item ' . $cls . '"><a class="page-link" href="#">' . $item->text . '</a></li>';
+    if ($item->text == Text::_('PREV')) { $item->text = '&laquo;';}
+    if ($item->text == Text::_('NEXT')) { $item->text = '&raquo;';}
+
+	return '<li class="page-item disabled"><a class="page-link" href="#">' . $item->text . '</a></li>';
 }

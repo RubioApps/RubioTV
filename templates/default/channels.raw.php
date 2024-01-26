@@ -1,8 +1,9 @@
+
 <?php 
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -27,32 +28,40 @@
  | Author: Jaime Rubio <jaime@rubiogafsi.com>                              |
  +-------------------------------------------------------------------------+
 */
+
 defined('_TVEXEC') or die; 
 
-use \RubioTV\Framework\Language\Text;
-
 ?>
-<section class="container border-top mt-5">
-    <div class="row g-1 pt-3 pb-3 align-items-center fst-italic">
-        <div class="col-auto">
-            <label for="api" class="col-form-label"><?= Text::_('SOURCE');?>:</label>
-        </div>
-        <div class="w-50">
-            <input id="api" name="api" type="text" class="form-control" value="<?= $router->sourcelink ;?>" readonly />
-        </div>  
-        <div class="col-auto">
-            <button type="button" id="btn-copy" class="btn btn-secondary bi bi-copy" aria-label="<?= Text::_('COPY');?>"></button>
-        </div>           
-    </div>
+
+<div class="d-none d-lg-block">
+    <?php require_once('search.php');?>
+</div>
+
+<ul class="tv-links-nav list-unstyled mb-0 mt-2 pb-3 pb-lg-2 pe-lg-2">
+    <?php foreach($page->data as $k):?>
+    <li class="tv-links mt-1">
+        <a class="btn btn-light border d-grid" href="<?= $k->link;?>">
+            <div class="text-truncate">
+                <img class="me-2" width="32" src="<?= $k->image;?>" alt="<?= htmlspecialchars($k->name);?>" />
+                <span><?= htmlspecialchars($k->name);?></span>
+            </div>
+        </a>
+    </li>
+    <?php endforeach;?>   
+</ul>
+<section>
+    <?= $page->pagination->getPagesLinks(true); ?>     
 </section>
 
-<!-- Copy to Clipboard -->
-<script type="text/javascript">   
-jQuery(document).ready(function(){   
-    $('#btn-copy').on('click',function(e){
-        e.preventDefault();        
-        $('#api').select();
-        document.execCommand('copy');
+<script type="text/javascript"> 
+jQuery(document).ready(function($){         
+
+    //Pagination on the sidebar has to be modified to target to the div
+    $('#channels-list a.page-link').on('click', function(event){
+        event.preventDefault();
+        var url = $(this).attr('href');
+        $.get(url , function(data){
+            $("#channels-list").html(data);                
+        });
     });
 });
-</script>

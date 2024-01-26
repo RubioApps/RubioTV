@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -33,7 +33,8 @@ defined('_TVEXEC') or die;
 
 use RubioTV\Framework\Factory; 
 use RubioTV\Framework\IPTV; 
-use RubioTV\Framework\Helpers; 
+use RubioTV\Framework\SEF; 
+use RubioTV\Framework\M3U; 
 
 
 define ('CRON_BATCH_LIMIT', 5);
@@ -57,7 +58,8 @@ class EPG{
     /**
      * getGuide
      * 
-     * @param string $tvg_id Official channel ID      
+     * @param string $tvg_id Official channel ID
+     * 
      * @return mixed It returns null when there is no EPG available, 
      * and an two-dimensions array, where the first item is an array with the timed EPG and a second the element playing right now
      */
@@ -65,15 +67,18 @@ class EPG{
     {
         $config         = Factory::getConfig();
         $this->tvg_id   = $tvg_id;        
-
+                         
         if(!$this->url)
             return null;
-	    
+
         // Get remote content
-        $xml = simplexml_load_file($this->url , "SimpleXMLElement", LIBXML_NOERROR |  LIBXML_ERR_NONE);
+        $context  = stream_context_create(array('http' => array('header' => 'Accept: application/xml')));                
+        $xml = file_get_contents($this->url, false, $context);
+        
         if ($xml !== false)
         {
-            if($list = $xml->xpath('programme[@channel="' . $this->tvg_id . '"]'))
+            $xml = simplexml_load_string($xml);
+            if($list = $xml->xpath('/tv/programme[@channel="' . $this->tvg_id . '"]'))
             {              
                 $ret        = [];
                 $current    = null;
@@ -102,17 +107,17 @@ class EPG{
                     // Extract the timeslot
                     $attr       = $p->attributes();                                      
                     $item->start= (new \DateTime( $attr['start'] ))->setTimezone($tz)->sub($fix);
-                    $item->end  = (new \DateTime( $attr['stop'] ))->setTimezone($tz)->sub($fix);                                                        
-                                
+                    $item->end  = (new \DateTime( $attr['stop'] ))->setTimezone($tz)->sub($fix);                                                                            
 
-                    if($item->start <= $now && $now <= $item->end ){                      
+                    if($item->start <= $now && $now <= $item->end && $current === null){                      
                         $item->playnow = true;
                         $current = $item;
-                    }
+                    }                    
 
                     //Only add for items after now - 3 hours                    
-                    if($item->start >= $now->sub($ival))
-                        $ret[] = $item;                                          
+                    $pid    = md5($attr['start'] .$attr['channel']  );
+                    if($item->start >= $now->sub($ival) && !isset($ret[$pid]))
+                        $ret[$pid ] = $item;                                          
 
                     unset($tz ,$fix , $now, $ival , $item);
                 }
@@ -136,12 +141,14 @@ class EPG{
         $config = Factory::getConfig();
     
         // Get remote content
-        $xml = simplexml_load_file($this->url , "SimpleXMLElement", LIBXML_NOERROR |  LIBXML_ERR_NONE);
-
+        $context  = stream_context_create(array('http' => array('header' => 'Accept: application/xml')));                
+        $xml = file_get_contents($this->url, false, $context);
+        
         if ($xml !== false)
         {
+            $xml = simplexml_load_string($xml);
             //Get the channels
-            if($list = $xml->xpath('//tv/channel'))
+            if($list = $xml->xpath('/tv/channel'))
             {  
                 $channels = [];
                 foreach($list as $c)
@@ -170,7 +177,7 @@ class EPG{
                 $ret = [];   
                 foreach($channels as $c)
                 {                 
-                    $list = $xml->xpath('//tv/programme[@channel="' . $c->id . '"]');                             
+                    $list = $xml->xpath('/tv/programme[@channel="' . $c->id . '"]');                             
 
                     foreach($list as $p)
                     {       
@@ -210,8 +217,10 @@ class EPG{
                             foreach($p->children() as $k => $v){                        
                                 $prop = preg_replace('/[^a-z]+/','',$k);
                                 $item->$prop = $v->__toString();
-                            }                                   
-                            $ret[] = $item;               
+                            }   
+
+                            if(!isset($ret[$item->id]))                               
+                                $ret[$item->id] = $item;               
                         }  
 
                         unset($tz ,$fix , $now, $ival , $item);                   
@@ -226,20 +235,22 @@ class EPG{
     /**
      * getSiteFromXMLTV
      * 
-     * @param string $filename  The full path to the XMLTV faile
-     * @return bool Returns the site name where the EPG is available, or false if there is no EPG available.
+     * @param string $filename  The full path to the XMLTV file
+     * 
+     * @return bool It returns the site name where the EPG is available, or false if there is no EPG available.
      */
     public function getSiteFromXMLTV($filename)
     {            
         $config = Factory::getConfig(); 
         
-        // Check if the file exists. Otherwis, create it
+        // Check if the file exists. Otherwise, create it
         if(!file_exists($filename))
         {
             return false;
         } 
 
         // Load the file of requests, and query the root and the channel
+        
         $xml    = simplexml_load_file($filename);
         $root   = $xml->xpath('//channels');                
 
@@ -278,13 +289,13 @@ class EPG{
 
         foreach($guides as $g)
         {
-            if($g->channel == $this->tvg_id)
+            if($g->channel === $this->tvg_id)
             {
                 $xmltv = $g;
                 break;
             }
         }
-
+       
         if(!empty($xmltv))
         {         
             if(!file_exists(TV_EPG_SAVED. DIRECTORY_SEPARATOR . $fileid . '.xml'))
@@ -293,8 +304,8 @@ class EPG{
                 if($this->_requestXMLTV($fileid , $xmltv) === false)
                     throw new \Exception('Malformed file of missing XMLTV');
                 return true;
-            } else {
-                return $config->live_site . '/guides/saved/' . $fileid . '.xml';
+            } else {                
+                return $config->live_site . '/epg/saved/' . $fileid . '.xml';
             }
         }
         return false;
@@ -323,7 +334,7 @@ class EPG{
             case 'countries':
             case 'categories':                
             case 'languages':                
-                $url = IPTV::getSource($folder , $source);
+                $url = SEF::find($folder , $source);
                 break;  
             case 'custom':
                 $url = $config->live_site . '/custom/' . $source . '.m3u';
@@ -352,9 +363,10 @@ class EPG{
             $xml_dtv    = null;
         }
         curl_close($ch); 
-
+        
         // Collect the list of channels in the given source
-        $data = Helpers::getChannelsFromFile($url , $folder, $source);     
+        $filem3u = new M3U($folder , $source , $url);
+        $data = $filem3u->load(); 
 
         // For each channel found, we store the guide
         foreach($data as $item)
@@ -459,12 +471,7 @@ class EPG{
         return true;
     }
     
-    /**
-     * _requestXMLTV
-     * 
-     * @param string $fileid Internal Channel ID
-     * @param object $xmltv Standard object that contains the properties of the EPG based on the API
-     */
+
     protected function _requestXMLTV($fileid , $xmltv)
     {            
         //Add this channel to the pending list    
@@ -508,7 +515,7 @@ class EPG{
      * NOTE: You'd need to edit the /etc/sudoers file to allow the apache user (www-data) to execute a script
      * 
      * 1. edit file : /etc/sudoers
-     * 2. add a line: www-data ALL=NOPASSWD: /var/www/mysite/public/guides/saved/.unlock
+     * 2. add a line: www-data ALL=NOPASSWD: /var/www/mysite/public/epg/saved/.unlock
      * 3. add a cron to run the task every 5 minutes (recommended)
      *      type        : cron -u www-data -e
      *      add a line  : "* /5 * * * * /usr/bin/php /var/www/mysite/public/cron.php       
@@ -551,7 +558,9 @@ class EPG{
                         if($info['extension'] === 'm3u')
                         {
                             $url    = $config->live_site . '/iptv/custom/' . $info['basename'];
-                            $list   = Helpers::getChannelsFromFile($url , 'custom', $info['filename']);                                                    
+                            $m3u    = new M3U('custom' , $info['filename'] , $url);
+                            $list   = $m3u->load();                                              
+
                             foreach($list as $item)                           
                             {                    
                                 foreach($guides as $g)
@@ -674,6 +683,7 @@ class EPG{
 			    }
 
 			    $expiry 	= (int) $this->params['expiry'];
+                $username   = exec('whoami');
 
 			    // Create the content of the bash script
                 $script  = '#!/bin/bash' . PHP_EOL;
@@ -684,8 +694,12 @@ class EPG{
                 $output		= $relative . TV_EPG_SAVED . DIRECTORY_SEPARATOR . $id . '.xml';	
 			    
                 $script .=  sprintf($this->params['exec'] ,  $this->params['dir'], $channels , $output, $expiry) . 
-                    '  --maxConnections 10  > /dev/null 2>&1' . 
-                    PHP_EOL;
+                    ' --delay=1000 --timeout=3000 --maxConnections=10 > /dev/null 2>&1' . PHP_EOL;
+                $script .= 'if [ -e ' . $id . '.xml ] ' . PHP_EOL;
+                $script .= 'then ' . PHP_EOL;
+                $script .= 'chmod 0755 ' . TV_EPG_SAVED . DIRECTORY_SEPARATOR . $id . '.xml' . PHP_EOL;                    
+                $script .= 'chown ' . $username . ':' . $username . ' ' . TV_EPG_SAVED . DIRECTORY_SEPARATOR . $id . '.xml' . PHP_EOL;
+                $script .= 'fi' . PHP_EOL;
                                  
 			    // Save the bash script
 			    $bash = TV_EPG . DIRECTORY_SEPARATOR . '.unlock';
@@ -704,7 +718,8 @@ class EPG{
                 chmod($bash, 0755);
 
 			    // Execute the bash                
-                exec('sudo ' . $bash);
+                exec('sudo ' . $bash, $output);
+                //error_log(print_r($output,true));
 
 			    // Remove the script for security reasons
 			    if(file_exists($bash))
@@ -714,20 +729,12 @@ class EPG{
                 $this->Lock();
 
                 // Return result
-
                 return true;
 		    }
 	    }
         return false;
     }    
 
-    /**
-     * Unlock removes the .lock file
-     * 
-     * @param string $key   Unique ID for the .lock, based on the CronID
-     * @return bool     Returns true if suceeded, false if not
-     * 
-     */
     public function Unlock($key)
     {
         // Check the key is correct
@@ -747,10 +754,6 @@ class EPG{
         return true;
     }
 
-    /**
-     * Lock creates the .lock file
-     * 
-     */    
     public function Lock()
     {
         $_SESSION['cron_id'] = $this->_generateCronId();
@@ -762,34 +765,17 @@ class EPG{
 
         touch($lock);
     }    
-
-    /**
-     * getCronId gets a unique random ID stored on the session
-     * 
-     */
     public function getCronId()
     {
         $_SESSION['cron_id'] = $this->_generateCronId();
         return $this->_Encrypt($_SESSION['cron_id']);        
     }    
 
-    /**
-     * Generate a random string used for a unique use to unlock the cron
-     * 
-     * @param int $length Length of the id
-     * @return string Returns a unique id
-     */
     protected function _generateCronId($length = 32)
     {
         return substr(bin2hex(openssl_random_pseudo_bytes(ceil($length / 2))), 0, $length);
     }
 
-    /**
-     * _Encrypt a string using the secret key defined in the configuration
-     * 
-     * @param string $string String to encrypt
-     * @return mixed An encoded 64 string
-     */
     protected function _Encrypt($string)
     {              
         $encrypt_method = 'AES-256-CBC';                
@@ -806,12 +792,6 @@ class EPG{
         return base64_encode($output);       
     }
 
-    /**
-     * _Decrypt a string using openssl using the secret key provided in the configuration   
-     * 
-     * @param mixed $string String to decrypt   
-     * @return mixed decrypted string
-     */
     protected function _Decrypt($string)
     {              
         $encrypt_method = 'AES-256-CBC';                

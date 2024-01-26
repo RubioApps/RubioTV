@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -43,7 +43,7 @@ class Pagination
     public $pagesStop;
     public $pagesCurrent;
     public $pagesTotal;
-    public $hideEmptyLimitstart = false;
+    public $hideEmptyLimitstart = true;
 
     protected $viewall = false;
     protected $additionalUrlParams = array();
@@ -233,7 +233,7 @@ class Pagination
      *
      * @since   1.5
      */
-    public function getPagesLinks()
+    public function getPagesLinks( $onlyarrows = false)
     {
         // Build the page navigation list.
         $data = $this->_buildDataObject();
@@ -261,7 +261,7 @@ class Pagination
             $list['previous']['active'] = true;
             $list['previous']['data']   = $this->_item_active($data->previous);
         } else {
-            $list['previous']['active'] = false;
+            $list['previous']['active'] = $onlyarrows;
             $list['previous']['data']   = $this->_item_inactive($data->previous);
         }
 
@@ -282,7 +282,7 @@ class Pagination
             $list['next']['active'] = true;
             $list['next']['data']   = $this->_item_active($data->next);
         } else {
-            $list['next']['active'] = false;
+            $list['next']['active'] = $onlyarrows;
             $list['next']['data']   = $this->_item_inactive($data->next);
         }
 
@@ -295,7 +295,7 @@ class Pagination
         }
 
         if ($this->total > $this->limit) {
-            return $this->_list_render($list);
+            return $this->_list_render($list , $onlyarrows);
         } else {
             return '';
         }
@@ -303,7 +303,7 @@ class Pagination
 
     protected function _list_footer($list)
     {
-        $html = "<div class=\"list-footer\">\n";
+        $html = "<div class=\"footer\">\n";
 
         $html .= "\n<div class=\"limit\">" . Text::_('DISPLAY_NUM') . $list['limitfield'] . "</div>";
         $html .= $list['pageslinks'];
@@ -315,7 +315,7 @@ class Pagination
         return $html;
     }
 
-    protected function _list_render($list)
+    protected function _list_render($list , $onlyarrows = false)
     {   
 
         $chromePath = TV_THEMES . DIRECTORY_SEPARATOR . $this->config->theme . DIRECTORY_SEPARATOR . 'pagination.php';
@@ -323,25 +323,29 @@ class Pagination
         if (is_file($chromePath)) {
             include_once $chromePath;
             if (\function_exists('pagination_list_render')) {
-                return pagination_list_render($list);
+                return pagination_list_render($list , $onlyarrows );
             }
         }
         
         // Initialize variables
-	$html = null;
+	    $html = null;
 
-	// Reverse output rendering for right-to-left display
-	$html .= '&lt;&lt; ';
-	$html .= $list['start']['data'];
-	$html .= ' &lt; ';
-	$html .= $list['previous']['data'];
-	foreach( $list['pages'] as $page ) {
-            $html .= ' '.$page['data'];
-	}
-	$html .= ' '. $list['next']['data'];
-	$html .= ' &gt;';
-	$html .= ' '. $list['end']['data'];
-	$html .= ' &gt;&gt;';
+	    // Reverse output rendering for right-to-left display
+	    $html .= '&lt;&lt; ';
+        
+	    $html .= $list['start']['data'];
+        if (!$onlyarrows)
+        {
+            $html .= ' &lt; ';
+	        $html .= $list['previous']['data'];
+	        foreach( $list['pages'] as $page ) {
+                $html .= ' '.$page['data'];
+	        }
+	        $html .= ' '. $list['next']['data'];
+            $html .= ' &gt;';
+        }	    
+	    $html .= ' '. $list['end']['data'];
+	    $html .= ' &gt;&gt;';
 
 	return $html;
     }
@@ -375,22 +379,24 @@ class Pagination
 
     protected function _buildDataObject()
     {
-        $data = new \stdClass();
+        $data   = new \stdClass();
+        $config = Factory::getconfig();
 
         // Build the additional URL parameters string.
-        $params = '';
+        $root   = $config->live_site . '/' ;        
+        $params = ''; 
 
         if (!empty($this->additionalUrlParams)) {
             foreach ($this->additionalUrlParams as $key => $value) {
                 $params .= ($params !='' ? '&' : '?') . $key . '=' . $value;
             }
-        } 
+        }     
         
         $data->all = new PaginationObject(Text::_('VIEW_ALL'));
 
         if (!$this->viewall) {
             $data->all->base = '0';
-            $data->all->link = $params . '&offset=';
+            $data->all->link = $root . $params . '&offset=';
         }
 
         // Set the start and previous data objects.
@@ -401,9 +407,9 @@ class Pagination
             $page = ($this->pagesCurrent - 2) * $this->limit;
 
             if ($this->hideEmptyLimitstart) {
-                $data->start->link =  $params . '&offset=';
+                $data->start->link =  $root . $params . '&offset=';
             } else {
-                $data->start->link =  $params . '&offset=0';
+                $data->start->link =  $root . $params . '&offset=0';
             }
 
             $data->start->base    = '0';
@@ -412,7 +418,7 @@ class Pagination
             if ($page === 0 && $this->hideEmptyLimitstart) {
                 $data->previous->link = $data->start->link;
             } else {
-                $data->previous->link = $params . '&offset=' . $page;
+                $data->previous->link = $root . $params . '&offset=' . $page;
             }
         }
 
@@ -425,9 +431,9 @@ class Pagination
             $end  = ($this->pagesTotal - 1) * $this->limit;
 
             $data->next->base = $next;
-            $data->next->link =  $params . '&offset=' . $next;
+            $data->next->link =  $root . $params . '&offset=' . $next;
             $data->end->base  = $end;
-            $data->end->link  =  $params . '&offset=' . $end;
+            $data->end->link  =  $root . $params . '&offset=' . $end;
         }
 
         $data->pages = array();
@@ -444,7 +450,7 @@ class Pagination
                 if ($offset === 0 && $this->hideEmptyLimitstart) {
                     $data->pages[$i]->link = $data->start->link;
                 } else {
-                    $data->pages[$i]->link =  $params . '&offset=' . $offset;
+                    $data->pages[$i]->link =  $root . $params . '&offset=' . $offset;
                 }
             } else {
                 $data->pages[$i]->active = true;

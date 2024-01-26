@@ -2,7 +2,9 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
+ |                                                                         |
+ | Copyright (C) The Roundcube Dev Team                                    |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -27,6 +29,7 @@
  | Author: Jaime Rubio <jaime@rubiogafsi.com>                              |
  +-------------------------------------------------------------------------+
 */
+
 defined('_TVEXEC') or die;
 ?>
 <footer class="container-md p-1 mt-5 mx-auto w-100 bg-light">
@@ -37,7 +40,7 @@ defined('_TVEXEC') or die;
             <li class="nav-item">
                 <a class="nav-link" href="<?= $v; ?>" target="_blank"><?= htmlspecialchars($k); ?></a>
             </li>            
-            <?php endforeach; ?>
+            <?php endforeach; ?>             
         </ul>
     </nav>
     </div>

@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -35,15 +35,20 @@ $parts = explode(DIRECTORY_SEPARATOR, TV_BASE);
 // Defines.
 define('TV_ROOT', implode(DIRECTORY_SEPARATOR, $parts));
 define('TV_SITE', TV_ROOT);
-define('TV_INCLUDES', TV_ROOT . DIRECTORY_SEPARATOR . 'includes');
-define('TV_STATIC', TV_ROOT . DIRECTORY_SEPARATOR . 'static');
 define('TV_CONFIGURATION', TV_ROOT);
+define('TV_INCLUDES', TV_ROOT . DIRECTORY_SEPARATOR . 'includes');
+define('TV_MODELS', TV_ROOT . DIRECTORY_SEPARATOR . 'models');
+define('TV_STATIC', TV_ROOT . DIRECTORY_SEPARATOR . 'static');
 define('TV_THEMES', TV_BASE . DIRECTORY_SEPARATOR . 'templates');
 define('TV_IPTV', TV_BASE . DIRECTORY_SEPARATOR . 'iptv');
-define('TV_EPG', TV_BASE . DIRECTORY_SEPARATOR . 'guides');
+define('TV_EPG', TV_BASE . DIRECTORY_SEPARATOR . 'epg');
 define('TV_EPG_QUEUE', TV_EPG . DIRECTORY_SEPARATOR . 'queue');
 define('TV_EPG_SAVED', TV_EPG . DIRECTORY_SEPARATOR . 'saved');
 define('TV_CACHE', TV_BASE . DIRECTORY_SEPARATOR . 'cache');
+define('TV_SEF', TV_BASE . DIRECTORY_SEPARATOR . 'sef');
+
+define('ERR_NONE', 0);
+define('ERR_INVALID_TOKEN', 500);
 
 define('ERR_INVALID_TASK', 1);
 define('ERR_INVALID_FOLDEE', 2);
@@ -55,4 +60,11 @@ define('ERR_IMPORT_EMPTY_FIELD', 101);
 define('ERR_IMPORT_INVALID_URL', 102);
 define('ERR_IMPORT_INVALID_FILE', 103);
 define('ERR_IMPORT_ANY', 104);
+
+define('ERR_INVALID_LISTNAME', 105);
+define('ERR_MISSING_LISTNAME', 106);
+define('ERR_MAX_LISTS_REACHED', 107);
+
+
+define('IV_KEY', '8w)kz^r71Z^V]*X');
 

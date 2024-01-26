@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -31,11 +31,14 @@ namespace RubioTV\Framework;
 
 defined('_TVEXEC') or die;
 
+use RubioTV\Framework\Factory;
+
 class IPTV{        
 
     protected static $root = 'https://iptv-org.github.io/iptv';    
     protected static $api = 'https://iptv-org.github.io/api';
     protected static $url;
+
 
     /**
      * getAPI
@@ -71,6 +74,13 @@ class IPTV{
         $content=file_get_contents(static::$url);
         return json_decode($content);                
     }        
+
+    public static function getStreams()
+    {
+        static::$url = static::$api . '/streams.json';
+        $content=file_get_contents(static::$url);
+        return json_decode($content);     
+    }
         
     /**
      * getCountries
@@ -105,7 +115,7 @@ class IPTV{
     {
         static::$url =  static::$api . '/languages.json';
         $content=file_get_contents(static::$url);
-        return json_decode($content);                
+        return json_decode($content);  
     }  
 
     public static function getGuides()

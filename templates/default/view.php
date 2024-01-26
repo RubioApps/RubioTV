@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | Copyright (C) The Roundcube Dev Team                                    |
  |                                                                         |
@@ -29,13 +29,11 @@
  | Author: Jaime Rubio <jaime@rubiogafsi.com>                              |
  +-------------------------------------------------------------------------+
 */
+
 defined('_TVEXEC') or die;
 
-use RubioTV\Framework\Helpers;
+use RubioTV\Framework\SEF;
 use RubioTV\Framework\Language\Text;
-
-$item       = $router->model;
-$sourcelink = $router->sourcelink;
 
 ?>
 <div class="tv-layout justify-content-center p-3">
@@ -47,18 +45,7 @@ $sourcelink = $router->sourcelink;
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#sidebar"></button>
         </div>
         <div class="offcanvas-body p-0">
-            <nav class="tv-links tv-folder-grid p-1">
-                <ul class="tv-links-nav list-unstyled mb-0 pb-3 pb-lg-2 pe-lg-2">
-                    <?php foreach($router->getChannels(true) as $k):?>
-                    <li class="tv-links w-100 mt-1">
-                        <a class="btn btn-light border d-grid" href="<?= $k->link;?>">
-                            <div class="text-truncate">
-                                <img class="me-2" width="32" src="<?= $k->image;?>" alt="<?= htmlspecialchars($k->name);?>" /><?= $k->name;?>
-                            </div>
-                        </a>
-                    </li>
-                    <?php endforeach;?>   
-                </ul>
+            <nav id="channels-list" class="tv-links tv-folder-grid p-1 w-100">        
             </nav>
         </div>
     </div>
@@ -87,30 +74,31 @@ $sourcelink = $router->sourcelink;
                     <a href="<?= $config->live_site;?>"><?= Text::_('HOME');?></a>
                 </li>    
                 <li class="breadcrumb-item">
-                    <a href="<?= $factory->getTaskURL($item->folder);?>">
-                        <?= Text::_(strtoupper($item->folder));?>
+                    <a href="<?= $factory->Link($page->folder);?>">
+                        <?= Text::_(strtoupper($page->folder));?>
                     </a>
                 </li>
                 <li class="breadcrumb-item" aria-current="page">
-                    <a href="<?= $factory->getTaskURL('channels', $item->folder , $item->source);?>">
-                        <?= Text::_(ucfirst($item->source));?></a>
+                    <a href="<?= $factory->Link('channels', $page->folder , $page->source . ':' . $page->source_alias );?>">
+                        <?= Text::_('GROUPS')[strtoupper($page->source)] ?? ucfirst($page->source_alias);?>
+                    </a>
                 </li>
-                <li class="breadcrumb-item" aria-current="page"><?= $item->name;?></li>    
+                <li class="breadcrumb-item" aria-current="page"><?= $page->data->name;?></li>    
             </ol>
         </nav>
     </div>
     <!-- Toolbar --> 
     <div class="tv-toolbar ps-lg-2 clearfix mb-1"> 
         <!-- DTV -->
-        <?php if(strstr($item->url , $config->dtv['host']) !== false) :?>
+        <?php if(strstr($page->data->url , $config->dtv['host']) !== false) :?>
         <div id="toolbar" class="btn-group float-end me-3" role="group" aria-label="DTV Toolbar">                                                                                                       
-            <button class="btn btn-secondary bi bi-share" id="btn-share" type="button" aria-label="<?= Text::_('SHARE'); ?>"></button>                
-            <button class="btn btn-success bi bi-bookmark-plus" id="btn-add-fav" type="button" aria-label="<?= Text::_('FAV_ADD'); ?>"></button>
-            <button class="btn btn-danger bi bi-bookmark-dash" id="btn-rem-fav" type="button"  aria-label="<?= Text::_('FAV_REMOVE'); ?>"></button>               
+            <button class="btn btn-secondary bi bi-share" id="btn-share" type="button" aria-label="<?= Text::_('SHARE'); ?>"></button>                            
+            <button class="btn btn-success bi bi-bookmark-plus d-none" id="btn-add-fav" type="button" aria-label="<?= Text::_('FAV_ADD'); ?>"></button>
+            <button class="btn btn-danger bi bi-bookmark-dash d-none" id="btn-rem-fav" type="button"  aria-label="<?= Text::_('FAV_REMOVE'); ?>"></button>               
             <button class="btn btn-primary bi bi-fullscreen" id="btn-fullscreen" type="button" aria-label="<?= Text::_('FULLSCREEN'); ?>"></button>
         </div>
         <!-- Playlist -->
-        <?php elseif($item->folder === 'custom' && $item->source === 'playlist'):?>
+        <?php elseif($page->data->folder === 'custom' && $page->data->source === 'playlist'):?>
         <div id="toolbar" class="btn-group float-end me-3" role="group" aria-label="Playlist Toolbar">  
             <button class="btn btn-secondary bi bi-share" id="btn-share" type="button" aria-label="<?= Text::_('SHARE'); ?>"></button>                
             <button class="btn btn-danger bi bi-bookmark-dash" id="btn-rem-fav" type="button"  aria-label="<?= Text::_('FAV_REMOVE'); ?>"></button>
@@ -121,34 +109,35 @@ $sourcelink = $router->sourcelink;
         <?php else:?>
         <div id="toolbar" class="btn-group float-end me-3" role="group" aria-label="Imported Toolbar">              
             <button class="btn btn-secondary bi bi-share" id="btn-share" type="button" aria-label="<?= Text::_('SHARE'); ?>"></button>                
-            <button class="btn btn-success bi bi-bookmark-plus" id="btn-add-fav" type="button" aria-label="<?= Text::_('FAV_ADD'); ?>"></button>
-            <button class="btn btn-danger bi bi-bookmark-dash" id="btn-rem-fav" type="button"  aria-label="<?= Text::_('FAV_REMOVE'); ?>"></button>            
-            <button class="btn btn-warning bi bi-clock" data-bs-toggle="modal" href="#wait" id="btn-epg" id="btn-epg" type="button" aria-label="<?= Text::_('GUIDES'); ?>"></button>
+            <button class="btn btn-success bi bi-bookmark-plus d-none" id="btn-add-fav" type="button" aria-label="<?= Text::_('FAV_ADD'); ?>"></button>
+            <button class="btn btn-danger bi bi-bookmark-dash d-none" id="btn-rem-fav" type="button"  aria-label="<?= Text::_('FAV_REMOVE'); ?>"></button>            
+            <button class="btn btn-warning bi bi-clock" data-bs-toggle="modal" href="#wait" id="btn-epg" type="button" aria-label="<?= Text::_('GUIDES'); ?>"></button>
             <button class="btn btn-primary bi bi-fullscreen" id="btn-fullscreen" type="button" aria-label="<?= Text::_('FULLSCREEN'); ?>"></button>
         </div>
         <?php endif; ?>                                             
     </div>
     <div class="tv-content">      
         <!-- Info -->
-        <h1><?= $item->name;?></h1>
-        <?php if($item->playing): ?>
-        <p class="h3"><?= $item->playing->title;?></p>
+        <h1><?= $page->data->name;?></h1>
+        <?php if($page->data->playing): ?>
+        <p class="h3"><?= $page->data->playing->title;?></p>
         <?php endif;?>         
         <!-- VideoJS -->
         <div class="ratio ratio-16x9 bg-dark">
             <video id="my-video" controls="" aspectRatio="16:9" class="embed-responsive-item video-js" data-setup="{}">
-                <source src="<?= $item->url;?>" type="<?= $item->mime; ?>" />          
+                <source src="<?= $page->data->url;?>" type="<?= $page->data->mime; ?>" />          
             </video>            
-        </div>               
+        </div>         
+        <script type="text/javascript" src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
         <!-- Description -->         
-        <?php if($item->playing): ?>
-            <p class="h4"><?= $item->playing->subtitle;?></p>
-            <p><?= $item->playing->desc;?></p>
+        <?php if($page->data->playing): ?>
+            <p class="h4"><?= $page->data->playing->subtitle;?></p>
+            <p><?= $page->data->playing->desc;?></p>
         <?php endif;?>          
     </div>
     <div class="tv-guide ps-lg-2"> 
         <!-- Guide TV -->
-        <?php if($item->guide): ?>
+        <?php if($page->data->guide): ?>
         <table class="table table-striped table-responsive">
             <thead>
                 <tr>
@@ -158,7 +147,7 @@ $sourcelink = $router->sourcelink;
                 </tr>
             </thead>      
             <tbody>
-                <?php foreach($item->guide as $k):?>               
+                <?php foreach($page->data->guide as $k):?>               
                 <tr>
                     <td class="<?php echo ($k->playnow ? 'text-white bg-primary' : '');?>"><?= $k->start->format('H:i');?></td>
                     <td class="<?php echo ($k->playnow ? 'text-white bg-primary' : '');?>"><?= $k->end->format('H:i');?></td>
@@ -176,45 +165,40 @@ $sourcelink = $router->sourcelink;
         <?php endif;?>       
     </div>
 
-    <?php 
-    $router->sourcelink = $sourcelink;
-    require_once('sourcelink.php'); 
-    ?>
+    <?php require_once('link.php'); ?>
 
 </main> 
-</div>
 
 <script type="text/javascript"> 
-jQuery(document).ready(function(){  
+jQuery(document).ready(function($){         
 
-    // Load video-js asynchronously
+    <?php if($page->saved):?>
+        $('#btn-rem-fav').removeClass('d-none');    
+    <?php else: ?>
+        $('#btn-add-fav').removeClass('d-none');    
+    <?php endif; ?>        
+    // Load channels list asynchronously
     $.ajax({
         async: false,
-        url: 'https://vjs.zencdn.net/8.6.1/video.min.js',
-        dataType: "script"
-    });    
+        url: '<?= $factory->Link('channels' , $page->folder , $page->source . ':' . $page->source_alias , null , 'format=raw','limit=13');?>',
+        success: function(raw) {
+            $("#channels-list").html(raw); 
+        }        
+    });
     
     $('#btn-fullscreen').on('click',function(e){
         var player = videojs('my-video');            
         player.requestFullscreen();
     });
 
-    <?php if(Helpers::searchChannel('custom','playlist',$item->id)): ?>
-    $('#btn-add-fav').hide();         
-    $('#btn-rem-fav').show(); 
-    <?php else: ?>
-    $('#btn-rem-fav').hide();        
-    $('#btn-add-fav').show();        
-    <?php endif; ?>
-
     //Add to the playlist
     $('#btn-add-fav').on('click', function(e){
         e.preventDefault();
         $.ajax({
-            url: '<?= $factory->getTaskURL('playlist.add' , $item->folder, $item->source, $item->id) . '&format=ajax';?>',
+            url: '<?= $factory->Link('playlist.add', $page->folder , $page->source , $page->data->id,'format=ajax');?>',
                 success: function(result){
-                    $('#btn-add-fav').hide();
-                    $('#btn-rem-fav').show();                    
+                    $('#btn-add-fav').addClass('d-none');                         
+                    $('#btn-rem-fav').removeClass('d-none');                                                          
                 }       
         });
     });
@@ -223,14 +207,14 @@ jQuery(document).ready(function(){
     $('#btn-rem-fav').on('click', function(e){
         e.preventDefault();
         $.ajax({
-            url: '<?= $factory->getTaskURL('playlist.remove', $item->folder, $item->source, $item->id) . '&format=ajax';?>',
+            url: '<?= $factory->Link('playlist.remove', $page->folder , $page->source , $page->data->id,'format=ajax');?>',
                 success: function(result){                    
-                    <?php if($item->folder !== 'custom'): ?>                    
-                    $('#btn-rem-fav').hide();                         
-                    $('#btn-add-fav').show();                                       
+                    <?php if($page->folder !== 'custom'): ?>                    
+                    $('#btn-rem-fav').addClass('d-none');                         
+                    $('#btn-add-fav').removeClass('d-none');                                       
                     <?php else: ?>
-                    $('#channels>li[data-id="<?= $item->id; ?>"]').hide();
-                    window.location.href = '<?= $factory->getTaskURL('custom');?>';
+                    $('#channels>li[data-id="<?= $page->data->id; ?>"]').addClass('d-none');  
+                    window.location.href = '<?= $factory->Link('custom','playlist');?>';
                     <?php endif; ?>                        
                 }
         });        
@@ -244,11 +228,11 @@ jQuery(document).ready(function(){
         $(this).attr('disabled','disabled');
 
         var wrapper = $('#wait .modal-content');            
-        var title   = wrapper.find('.modal-header:first').text();
-        var content = wrapper.find('.modal-body:first').text();
+        var title   = wrapper.find('.modal-header:first');
+        var content = wrapper.find('.modal-body:first');
 
-        var data = {'key': '<?= $item->epg_key;?>'};        
-        var posting = $.post('<?= $factory->getTaskURL('view.cron') . '&id=' . $item->id . '&format=json';?>', data);
+        var data = {'key': '<?= $page->data->epg_key ?? '';?>'};        
+        var posting = $.post('<?= $factory->Link('view.cron', $page->folder , $page->source , $page->data->id,'format=json');?>', data);
         posting.done(function(result){   
 
             // Replace modal dialog content
@@ -288,6 +272,7 @@ jQuery(document).ready(function(){
 
     });    
     
-});      
+});  
+
 </script>  
 

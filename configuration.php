@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -31,11 +31,17 @@ namespace RubioTV\Framework;
 
 defined('_TVEXEC') or die;
 
-class TVConfig {
+class TVConfig {        
         public $sitename = 'RubioTV';
         public $live_site = 'https:/yoursite.com/tv';
 	public $log_path = '/path/to/your/site/log';
-	public $tmp_path = '/path/to/your/site/tmp';        
+	public $tmp_path = '/path/to/your/site/tmp';   
+        public $password = 'change-me-with-the-md5-hash-of-your-password';  //md5 hash of the plain password
+        public $key      = 'change-me-with-a-random-key';                   //random key used for the encryption of the sessions (anti-flood)
+        public $use_sef = true;
+        public $use_autolog = true;
+        public $use_cache = true;
+        public $notify_cache = false;        
         public $menu = ['dtv','categories','languages','countries','custom','guides'];
 	public $list_limit = 30;
         public $theme = 'default';
@@ -48,13 +54,12 @@ class TVConfig {
                 'cache'         => '/imagecache',
                 'filename'      => 'coreelec'
                 ];
-        public $use_cache = true;
-        public $notify_cache = false;
         public $links = [
                 'MySite1'      => 'https://yoursite1.com/',
 		'MySite2'      => 'https://yoursite2.com/',
+
                 ];
-	public $epg = [                
+	public $epg = [
 		'enabled'	=> true,
                 'notify'	=> false,                                
                 'dir'           => '/path/to/your/site/epg',

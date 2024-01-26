@@ -28,24 +28,32 @@
  +-------------------------------------------------------------------------+
 */
 
-defined('_TVEXEC') or die;
+defined('_TVEXEC') or die; 
 
 use \RubioTV\Framework\Language\Text;
 
 ?>
-<main role="main" class="justify-content-center">
-    <div class="row p-0 mt-0">
-        <div class="col mx-auto text-center">
-            <h3><?= Text::_('PAGE_NOT_FOUND');?></h3>
+<section class="container border-top mt-5">
+    <div class="row g-1 pt-3 pb-3 align-items-center fst-italic">
+        <div class="col-auto">
+            <label for="api" class="col-form-label"><?= Text::_('SOURCE');?>:</label>
         </div>
-    <div class="row"> 
-        <div class="col mx-auto text-center">  
-            <img class="w-25" src="<?= $factory->getAssets() . '/images/404.jpg';?>" alt="<?= Text::_('PAGE_NOT_FOUND');?>" />            
-        </div>
+        <div class="w-50">
+            <input id="api" name="api" type="text" class="form-control" value="<?= $page->link ;?>" readonly />
+        </div>  
+        <div class="col-auto">
+            <button type="button" id="btn-copy" class="btn btn-secondary bi bi-copy" aria-label="<?= Text::_('COPY');?>"></button>
+        </div>           
     </div>
-</main>
+</section>
+
+<!-- Copy to Clipboard -->
 <script type="text/javascript">   
-jQuery(document).ready(function(){       
-    document.title = '<?= Text::_('PAGE_NOT_FOUND') . ' - ' . $config->sitename;?>';
+jQuery(document).ready(function(){   
+    $('#btn-copy').on('click',function(e){
+        e.preventDefault();        
+        $('#api').select();
+        document.execCommand('copy');
+    });
 });
 </script>

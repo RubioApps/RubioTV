@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -32,15 +32,66 @@ defined('_TVEXEC') or die;
 
 use \RubioTV\Framework\Language\Text;
 ?>
-
+<!-- Breadcrumb -->
+<div class="tv-breadcrumb">
+    <nav class="rounded border bg-light m-3" aria-label="breadcrumb">
+        <ol class="breadcrumb p-2 m-0">
+            <li class="breadcrumb-item">
+                <a href="<?= $config->live_site;?>"><?= Text::_('HOME');?></a>
+            </li>    
+            <li class="breadcrumb-item" aria-current="page">
+                <?= Text::_('CUSTOM')?>
+            </li> 
+        </ol>
+    </nav>
+</div>
+<!-- Toolbar -->
+<section class="tv-toolbar ps-lg-2 clearfix"> 
+    <div id="toolbar" class="btn-group float-end me-3" role="group" aria-label="Toolbar">
+        <button class="btn btn-primary bi bi-plus" data-bs-toggle="modal" href="#new-modal" id="btn-custom-new" type="button" aria-label="<?= Text::_('NEW'); ?>"></button>
+    </div>
+</section>
 <main role="main" class="justify-content-center p-3">
-    <div class="row row-cols-3 row-cols-md-5 row-cols-lg-6 g-2 g-lg-3 mt-1"> 
-        <?php foreach ($router->model as $item):?>   
-        <div class="col">
-            <div class="card p-3 border bg-light text-center" data-link="<?= $item->link;?>">
-                <img src="<?= $item->image;?>" class="card-img-top" title="<?= htmlspecialchars($item->name);?>" alt="<?= htmlspecialchars($item->name);?>">
-                <div class="card-body p-0">
-                    <h6 class="card-title text-truncate"><?= $item->name;?></h6>
+    <!-- Form New List -->
+    <div class="modal modal-md fade" data-bs-backdrop="static" id="new-modal" tabindex="-1" aria-labelledby="new-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">                
+                <div class="modal-header fw-bolder"><?= Text::_('NEW_LIST');?></div>
+                <div class="modal-body">
+                    <form id="new-form" action="<?= $factory->Link('custom.new');?>" method="post">
+                    <div class="form-group justify-content-center pb-3">
+                        <input type="text" name="listname" class="form-control" id="new-listname" aria-describedby="name-help" placeholder="<?= Text::_('NEW_LIST_TIP');?>">
+                        <small id="name-help" class="form-text text-muted"><?= Text::_('NEW_LIST_DESC');?></small>                                            
+                    </div>
+                    <div class="form-group text-center mx-auto">
+                        <button type="submit" class="btn btn-success" id="new-form-submit"><?= Text::_('SUBMIT');?></button>
+                        <button type="button" class="btn btn-danger" id="new-form-close"><?= Text::_('CANCEL');?></button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>        
+    </div>     
+    <div class="tv-channels-grid row row-cols-3 row-cols-sm-4 row-cols-md-6 g-2 g-lg-3 mt-1"> 
+        <?php foreach ($page->data as $item):?>   
+        <div class="col">                
+            <div class="card border text-center bg-light">                                     
+                <div class="card-header p-1 d-flex">  
+                    <div class="col-8">
+                        <h5 class="card-title text-truncate mt-1"><?= $item->label;?></h5>
+                    </div>
+                    <div class="col-4 me-0">  
+                        <?php if($item->type === 'system'):?>
+                        <button type="button" class="btn btn-secondary bi bi-lock disabled"></button> 
+                        <?php else: ?>
+                        <button type="button" data-id="<?= $item->name;?>" class="btn-rem-list btn btn-danger bi bi-trash3"></button>                                 
+                        <?php endif;?>                    
+                    </div>    
+                </div>                                    
+                <div class="card-body p-0"> 
+                    <a href="<?= $item->link;?>">                
+                        <img src="<?= $item->image;?>" class="card-img-top" alt="<?= htmlspecialchars($item->name);?>">                                                   
+                    </a>                      
                 </div>
             </div>             
         </div>
@@ -48,9 +99,21 @@ use \RubioTV\Framework\Language\Text;
     </div>
 </main>
 <section class="container g-3 mt-5 pt-3 border-top">
-    <h3><?= Text::_('IMPORT');?></h3>
+    <h3><?= Text::_('IMPORT');?></h3>   
     <p><?= Text::_('IMPORT_DESC');?></p>
-    <div class="accordion" id="import-utils">
+    <div class="pb-3">
+        <select id="fld-target" class="form-select" aria-label="<?= Text::_('TARGET');?>">
+            <option selected><?= Text::_('IMPORT_SELECT_TARGET');?>...</option>
+            <?php 
+            foreach($page->data as $f) {
+                if($f->name !== 'playlist') {?>
+                <option value="<?= $f->name;?>"><?= $f->label;?></option>
+                <?php }
+            }
+            ?>
+        </select>        
+    </div>     
+    <div class="accordion" id="import-utils">    
     <div class="accordion-item">
         <h5 class="accordion-header" id="heading-fields">         
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#import-fields" aria-expanded="false" aria-controls="import-fields">
@@ -59,7 +122,7 @@ use \RubioTV\Framework\Language\Text;
         </h5>
         <div id="import-fields" class="accordion-collapse collapse" aria-labelledby="heading-fields" data-bs-parent="#import-utils">
             <div class="accordion-body">
-                <form action="<?= $factory->getTaskURL('custom.add');?>" method="post">                
+                <form action="<?= $factory->Link('custom.add');?>" method="post">                
                     <label for="fld-name" class="m-2 form-label"><?= Text::_('NAME');?></label>
                     <input id="fld-name" name="name" class="form-control" type="text" placeholder="<?= Text::_('ENTER_NAME');?>" aria-label="<?= Text::_('ENTER_NAME');?>" />
                     <label for="fld-url" class="m-2 mt-4 form-label"><?= Text::_('URL');?></label>                    
@@ -70,7 +133,7 @@ use \RubioTV\Framework\Language\Text;
                     <label for="fld-logo" class="m-2 mt-4 form-label"><?= Text::_('LOGO');?></label>
                     <span class="form-text">(<?= Text::_('OPTIONAL');?>)</span>                    
                     <input id="fld-logo" name="logo" class="form-control" type="text" placeholder="<?= Text::_('ENTER_LOGO');?>" aria-label="<?= Text::_('ENTER_LOGO');?>" />
-                    <input type="submit" class="mt-3 mb-1 form-control btn btn-primary" />
+                    <input type="submit" class="mt-3 mb-1 form-control btn btn-primary" />                    
                 </form>  
             </div>
         </div>
@@ -83,7 +146,7 @@ use \RubioTV\Framework\Language\Text;
         </h5>
         <div id="import-text" class="accordion-collapse collapse" aria-labelledby="heading-text" data-bs-parent="#import-utils">
             <div class="accordion-body">
-                <form action="<?= $factory->getTaskURL('custom.brut');?>" method="post">
+                <form action="<?= $factory->Link('custom.brut');?>" method="post">                    
                     <label for="fld-text" class="m-2 form-label"><?= Text::_('ENTER_TEXT');?></label>
                     <textarea id="fld-text" name="brut" class="form-control" rows="3"></textarea>
                     <input type="submit" class="mt-3 mb-1 form-control btn btn-primary" />
@@ -99,7 +162,7 @@ use \RubioTV\Framework\Language\Text;
         </h5>
         <div id="import-file" class="accordion-collapse collapse" aria-labelledby="heading-file" data-bs-parent="#import-utils">
             <div class="accordion-body">
-                <form action="<?= $factory->getTaskURL('custom.upload');?>" method="post" enctype="multipart/form-data">
+                <form action="<?= $factory->Link('custom.upload');?>" method="post" enctype="multipart/form-data">
                     <input id="fld-file" name="file" class="m-2 form-control" type="file" />
                     <input type="submit" class="mt-3 mb-1 form-control btn btn-primary" />
                 </form>                  
@@ -108,13 +171,97 @@ use \RubioTV\Framework\Language\Text;
     </div>
     </div>
 </section>
+<?= $factory->getToken();?>
 
-<!-- Click on box -->
+<!-- JS -->
 <script type="text/javascript">   
 jQuery(document).ready(function(){   
-    $('.card').on('click' , function(e){
-            window.location.href = $(this).attr('data-link');
+
+    $('.accordion input[type=submit]').on('click',function(e){
+        e.preventDefault();         
+        var option = $('#fld-target option[value]:selected');
+        if( option.text() == '')
+        {
+            raise('<?= Text::_('IMPORT_SELECT_TARGET');?>',true);
+            return false;
+        }
+
+        var select  = $('#fld-target');        
+        var target  = $('<input type="hidden" name="target">').val(select.val());
+        var token   = $('input#token');
+        var form    = $(this).parents('form').eq(0);        
+        form.append(token);        
+        form.append(target);        
+        form.trigger('submit');
+        return true;
     });
 
+    $('#btn-custom-new').on('click',function(e){
+        e.preventDefault();     
+        $('#new-modal').modal('show');
+        $(this).attr('disabled','disabled');     
+    });  
+    
+    $('#new-form-close').on('click',function(e){
+        e.preventDefault(); 
+        $('#new-modal').modal('hide');
+        $('#btn-custom-new').removeAttr('disabled','disabled');
+    });
+
+    $('#new-form-submit').on('click',function(e){
+        e.preventDefault(); 
+        var listname = $('#new-listname').val();
+        if(listname.length < 2 || listname.length > 12){
+            raise('<?= Text::_('NEW_LIST_INVALID');?>',true);
+            $('#new-listname').focus();
+            return false;
+            }
+        
+        var token   = $('input#token');
+        var form    = $('form#new-form');        
+        form.append(token);              
+        form.trigger('submit'); 
+        return true;                                   
+    });
+
+    $('.btn-rem-list').on('click',function(e){
+        e.preventDefault(); 
+
+        var card    = $(this).parents('.card').eq(0);
+        var id      = $(this).attr('data-id');
+        var token   = $('input#token').attr('name');
+        var sid     = $('input#token').val();
+
+        data = { 'id' : id , [token] : sid};
+        var posting = $.post('<?= $factory->Link('custom.erase');?>',data);
+        posting.done(function(result){
+            if(result.error){
+                raise('<?= Text::_('ERROR_ERASE_LIST');?>',true);
+            } else {
+                raise('<?= Text::_('SUCCESS_ERASE_LIST');?>', false);                
+                var option  = $('#fld-target option[value=' + id + ']');  
+                card.remove();                
+                option.remove();
+
+            }
+
+            $.get('<?= $factory->Link('custom.token');?>').done(function(result){
+                token.attr('name',result.token);
+                token.val(result.sid);
+            });                
+        });
+    });
+
+    function raise( text , error )
+    {
+        var wrapper = $('#tv-toast');
+        var toast   = wrapper.find('.toast:first').clone();
+        toast.find('.toast-body').html(text);
+        toast.addClass(error ? 'bg-danger' : 'bg-success');
+        toast.appendTo('body');
+        const tbs = bootstrap.Toast.getOrCreateInstance(toast.get(0));
+        tbs.show();        
+    }
+
 });                 
-</script>  
+</script> 

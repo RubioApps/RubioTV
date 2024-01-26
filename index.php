@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -27,11 +27,12 @@
  | Author: Jaime Rubio <jaime@rubiogafsi.com>                              |
  +-------------------------------------------------------------------------+
 */
+
 define('_TVEXEC', 1);
 
 ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
-error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED );
+//error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED );
 
 ob_start();
 
@@ -52,13 +53,31 @@ require_once TV_BASE . '/includes/defines.php';
 // Load Factory
 require_once TV_INCLUDES . '/factory.php';
 $factory    = new RubioTV\Framework\Factory();
+$task       = $factory->getTask();
+
 // Get configuration and locale
 $config     = $factory->getConfig();
-// Get language
+
+// Get the language
 $language   = $factory->getLanguage();
-// Get router
+
+// Get the router
 $router     = $factory->getRouter();
-// Dispatch the page
+
+// Check login
+if($factory->getTask() !== 'login')
+{
+    if(!$factory->isLogged())
+    {
+        header('Location:' . $factory->Link('login')); 
+        die();        
+    }
+} 
+
+// Get the page
+$page = $factory->getPage();
+
+// Dispatch
 require_once $router->dispatch();
 
 ob_end_flush();

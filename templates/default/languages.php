@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -27,18 +27,19 @@
  | Author: Jaime Rubio <jaime@rubiogafsi.com>                              |
  +-------------------------------------------------------------------------+
 */
+
 defined('_TVEXEC') or die; ?>
 
-<?php if(is_array($router->model) && count($router->model)): ?>
+<?php if(is_array($page->data) && count($page->data)): ?>
 
 <?php require_once('search.php');?>
 
 <!-- List of Languages -->
 <main role="main" class="p-3 tv-folder-grid">
     <div class="row row-cols-3 row-cols-md-5 row-cols-lg-6 g-2 g-lg-3 mt-1"> 
-    <?php foreach ($router->model as $item):?>
+    <?php foreach ($page->data as $item):?>
         <div class="col ps-1 pe-1">               
-            <a class="btn btn-light border d-grid" href="<?= $factory->getTaskURL('channels', 'languages', strtolower($item->code . ':' . $item->name));?>">
+            <a class="btn btn-light border d-grid" href="<?= $item->link;?>">
                 <h6 class="text-truncate m-1" title="<?= $item->name;?>"><?= $item->name;?></h6>
             </a>
         </div>
@@ -47,10 +48,10 @@ defined('_TVEXEC') or die; ?>
 </main>
 <!-- Pagination -->
 <section class="container mt-3">
-    <?= $router->pagination->getPagesLinks(); ?> 
+    <?= $page->pagination->getPagesLinks(); ?> 
 </section>
 
-<?php require_once('sourcelink.php');?>
+<?php require_once('link.php');?>
 
 <?php else:?>
     <?php require_once('404.php');?>

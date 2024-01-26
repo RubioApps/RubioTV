@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -52,13 +52,13 @@ use RubioTV\Framework\Language\Text;
     <nav class="rounded border bg-light m-3" aria-label="breadcrumb">
         <ol class="breadcrumb p-2 m-0">
             <li class="breadcrumb-item">
-                <a href="<?= $config->live_site;?>"><?= Text::_('HOME');?></a>
+                <a href="<?= $factory::Link();?>"><?= Text::_('HOME');?></a>
             </li>    
             <li class="breadcrumb-item">
-                <a href="<?= $factory->getTaskURL($router->folder);?>"><?= Text::_(strtoupper($router->folder));?></a>
+                <a href="<?= $factory->Link($page->folder);?>"><?= Text::_(strtoupper($page->folder));?></a>
             </li>
             <li class="breadcrumb-item">
-                <a href="<?= $factory->getTaskURL('channels',$router->folder , $router->source);?>"><?= Text::_(ucfirst($router->source));?></a>
+                <a href="<?= $factory->Link('channels',$page->folder , $page->source . ':' . $page->source_alias);?>"><?= Text::_(ucfirst($page->source));?></a>
             </li>            
             <li class="breadcrumb-item" aria-current="page">
                 <?= Text::_('GUIDES');?>
@@ -69,19 +69,16 @@ use RubioTV\Framework\Language\Text;
 <!-- Toolbar -->
 <section class="tv-toolbar ps-lg-2 clearfix"> 
     <div id="toolbar" class="btn-group float-end me-3" role="group" aria-label="Toolbar">
-        <a class="btn btn-primary bi bi-tv" href="<?= $factory->getTaskURL('guides');?>">
+        <a class="btn btn-primary bi bi-tv" href="<?= $factory->Link('guides');?>">
             <?= Text::_('DTV'); ?>
         </a>
-        <a class="btn btn-success bi bi-bookmark" href="<?= $factory->getTaskURL('guides', 'custom', 'playlist');?>">
+        <a class="btn btn-success bi bi-bookmark" href="<?= $factory->Link('guides', 'custom', 'playlist');?>">
             <?= Text::_('PLAYLIST'); ?>
-        </a>
-        <a class="btn btn-warning bi bi-cloud" href="<?= $factory->getTaskURL('guides', 'custom', 'imported');?>">
-            <?= Text::_('IMPORTED'); ?>
-        </a>        
+        </a>       
     </div>
 </section>
 
-<?php if(is_array($router->model) && count($router->model)): ?>
+<?php if(is_array($page->data) && count($page->data)): ?>
 <main role="main" class="justify-content-center m-3">
     <table id="guide-table" class="table table-striped table-responsive">
         <thead>
@@ -94,8 +91,8 @@ use RubioTV\Framework\Language\Text;
             </tr>
         </thead>
         <tbody>
-        <?php foreach ($router->model as $item):?>            
-            <tr class="channel-row" data-link="<?= $factory->getTaskURL('view', $router->folder , $router->source , $item->id);?>">
+        <?php foreach ($page->data as $item):?>            
+            <tr class="channel-row" data-link="<?= $item->link;?>">
                 <td><img src="<?= $item->icon;?>" width="32" /></td>
                 <td class="h5 text-truncate channel-name" style="max-width: 80px;"><?= $item->name;?></td>
                 <td class="text-truncate" style="max-width: 220px;"><?= $item->title;?></td>
@@ -120,7 +117,7 @@ use RubioTV\Framework\Language\Text;
     </table>     
 </main>
 
-<?php require_once('sourcelink.php'); ?>
+<?php require_once('link.php'); ?>
 
 <script type="text/javascript">   
 jQuery(document).ready(function(){   

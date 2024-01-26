@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -80,7 +80,6 @@ class Language
                 }
             }
         }         
-
         
         if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
             $browserLangs = explode(',', $_SERVER['HTTP_ACCEPT_LANGUAGE']);
@@ -263,9 +262,11 @@ class Language
             // Javascript filter
             $string = addslashes($string);
         } elseif ($interpretBackSlashes) {
-            if (strpos($string, '\\') !== false) {
-                // Interpret \n and \t characters
-                $string = str_replace(array('\\\\', '\t', '\n'), array("\\", "\t", "\n"), $string);
+            if(!is_array($string)){
+                if (strpos($string, '\\') !== false) {
+                    // Interpret \n and \t characters
+                    $string = str_replace(array('\\\\', '\t', '\n'), array("\\", "\t", "\n"), $string);
+                }
             }
         }
 
@@ -718,6 +719,7 @@ class Language
         $this->strings = $strings;               
 
         $this->paths[$fileName] = $result;
+
 
         return $result;
     }

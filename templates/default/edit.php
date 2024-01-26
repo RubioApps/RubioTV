@@ -2,7 +2,9 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
+ |                                                                         |
+ | Copyright (C) The Roundcube Dev Team                                    |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -27,6 +29,7 @@
  | Author: Jaime Rubio <jaime@rubiogafsi.com>                              |
  +-------------------------------------------------------------------------+
 */
+
 defined('_TVEXEC') or die;
  
 use \RubioTV\Framework\Language\Text;
@@ -39,13 +42,13 @@ use \RubioTV\Framework\Language\Text;
     <nav class="rounded border bg-light m-3" aria-label="breadcrumb">
         <ol class="breadcrumb p-2 m-0">
             <li class="breadcrumb-item">
-                <a href="<?= $config->live_site;?>"><?= Text::_('HOME');?></a>
+                <a href="<?= $factory->Link();?>"><?= Text::_('HOME');?></a>
             </li>    
             <li class="breadcrumb-item">
-                <a href="<?= $factory->getTaskURL($router->folder);?>"><?= Text::_(strtoupper($router->folder));?></a>
+                <a href="<?= $factory->Link($factory->getTask() , $page->folder);?>"><?= Text::_(ucfirst($page->folder));?></a>
             </li>
             <li class="breadcrumb-item" aria-current="page">
-                <?= Text::_(ucfirst($router->source));?>
+                <?= Text::_(ucfirst($page->alias));?>
             </li> 
         </ol>
     </nav>
@@ -61,17 +64,17 @@ use \RubioTV\Framework\Language\Text;
     </div>
 </section>
   
-<?php if(is_array($router->model) && count($router->model)): ?>
+<?php if(is_array($page->data) && count($page->data)): ?>
 <!-- List of channels -->
 <main role="main" class="justify-content-center">
     <ul id="list-items" class="list-group">
         <?php 
         $i=0;
-        foreach ($router->model as $item) {
+        foreach ($page->data as $item) {
         ?>             
-            <li class="list-group-item">
-                <input type="checkbox" class="form-check-input me-1" id="cb-<?= $i;?>" name="id" value="<?= base64_encode($item->id . chr(0) . ($item->url));?>" />
-                <label class="form-check-label bg-light" for="cb-<?= $i;?>">
+            <li class="list-group-item" style="cursor:" data-id="<?= $item->id;?>">
+                <input type="checkbox" class="form-check-input me-1" id="cb-<?= $i;?>" name="id" value="<?= $item->id;?>" />
+                <label class="form-check-label" for="cb-<?= $i;?>">
                     <img src="<?= $item->image;?>" class="img-thumb" width="32" data-remote="<?= $item->remote;?>" />
                     <?= $item->name;?>
                 </label>
@@ -80,16 +83,39 @@ use \RubioTV\Framework\Language\Text;
             $i++;
         }
         ?>   
-    </ul>
+    </ul> 
+    <?= $factory->getToken();?>           
 </main>
 <!-- Pagination -->
 <section class="container mt-3">
-    <?= $router->pagination->getPagesLinks(); ?> 
+    <?= $page->pagination->getPagesLinks(); ?> 
 </section>   
 
 <!-- Click on boxes -->
 <script type="text/javascript">   
-jQuery(document).ready(function(){   
+jQuery(document).ready(function()
+{        
+    $('#list-items').sortable({
+        cursor: 'move',
+        update: function() {
+
+            const ids = $('#list-items').sortable('toArray', {attribute: 'data-id'});
+            const url ='<?= $factory->Link('custom.sort', $page->folder, $page->source);?>';
+
+            var token   = $('input#token');
+            var name = token.attr('name');
+            var data = { 'ids' : ids , [name] : token.val()};
+            var posting = $.post(url , data);
+
+            posting.done(function(result){
+                $.get('<?= $factory->Link('custom.token');?>').done(function(result){
+                    token.attr('name',result.token);
+                    token.val(result.sid);
+                });
+            });
+        }        
+    });
+    $('#list-items').attr('style','cursor: drag');
 
     $('#btn-check-all').on('click',function(e){
         e.preventDefault();
@@ -100,20 +126,21 @@ jQuery(document).ready(function(){
 
     $('#btn-view').on('click',function(e){
         e.preventDefault();
-        document.location.href = '<?= $factory->getTaskURL('channels', $router->folder, $router->source);?>';
+        document.location.href = '<?= $factory->Link('channels', $page->folder, $page->source);?>';
     });    
 
     $('#btn-remove').on('click',function(e){
         e.preventDefault();
-        var url = '<?= $factory->getTaskURL('custom.edit', $router->folder, $router->source);?>';
-        var data = { 'ids' : [] , 'remove': true};
+        var url = '<?= $factory->Link('custom.remove', $page->folder, $page->source);?>';
+        var token   = $('input#token');
+        var name = token.attr('name');
+        var data = { 'ids' : [] , [name] : token.val()};
         $('#list-items input[type=checkbox]:checked').each(function(i){
             data['ids'].push($(this).val());
         });
         var posting = $.post(url,data);
 
         posting.done(function(data){
-            console.log(data);
             if(!data.error){   
 
                 $('#list-items input[type=checkbox]:checked').each(function(i){            

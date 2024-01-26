@@ -2,7 +2,9 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.0.0                                                           |
+ | Version 1.3.0                                                           |
+ |                                                                         |
+ | Copyright (C) The Roundcube Dev Team                                    |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -27,8 +29,9 @@
  | Author: Jaime Rubio <jaime@rubiogafsi.com>                              |
  +-------------------------------------------------------------------------+
 */
+
 defined('_TVEXEC') or die;
 
-header('Location: ' . $factory->getTaskURL('channels', 'dtv', $config->dtv['filename']));   
+header('Location: ' . $factory->Link('channels', 'dtv', $config->dtv['filename']));   
 
 

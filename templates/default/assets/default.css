@@ -10,8 +10,6 @@
     text-shadow: 1px 1px 2px #262a33;
 }
 
-.tv-brand
-
 .tv-dark{
     background-color: #262a33;
     color: #fff;
@@ -114,7 +112,6 @@
     }
 }
 
-
 @media (min-width: 992px) {
     .tv-sidebar {
         position:-webkit-sticky;
@@ -189,6 +186,11 @@
 
 .tv-channels-grid .card {
     cursor: pointer;
+}
+
+.tv-channels-grid a {
+    text-decoration: none;
+    color: #262a33;
 }
 
 .tv-folder-grid .btn {
