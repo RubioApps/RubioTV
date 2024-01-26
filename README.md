@@ -26,7 +26,7 @@ The most efficient and secured structure to run this web app is
 
 ```
 yoursite.com 
-└───epg
+└───iptv-org-epg
 └───tmp
 └───log
 └───public
@@ -40,10 +40,12 @@ yoursite.com
     └───includes
     └───iptv
     └───local
+    └───models
+    └───sef
     └───static
     └───templates
 ```
-### /epg 
+### /iptv-org-epg 
 
 It the NodeJS application installed from [EPG](https://github.com/iptv-org/epg).
 If this is not installed, the guide service will not worlk for IPTV sources, and this option has to be disabled in the configuration file.
