@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.3.0                                                           |
+ | Version 1.5.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -36,14 +36,14 @@ class TVConfig {
         public $live_site = 'https:/yoursite.com/tv';
 	public $log_path = '/path/to/your/site/log';
 	public $tmp_path = '/path/to/your/site/tmp';   
-        public $password = 'change-me-with-the-md5-hash-of-your-password';  //md5 hash of the plain password
-        public $key      = 'change-me-with-a-random-key';                   //random key used for the encryption of the sessions (anti-flood)
-        public $use_sef = true;
-        public $use_autolog = true;
-        public $use_cache = true;
-        public $notify_cache = false;        
-        public $menu = ['dtv','categories','languages','countries','custom','guides'];
-	public $list_limit = 30;
+        public $debug           = false;
+        public $password = 'change-me-with-the-md5-hash-of-your-password';  //md5 hash of the plain password        
+        public $use_sef         = true;
+        public $use_cache       = true;
+        public $use_autolog     = true;
+        public $key      = 'change-me-with-a-random-key';                   //random key used for the encryption of the sessions (anti-flood)       
+        public $menu            = ['dtv', 'categories', 'languages', 'countries', 'custom', 'guides', 'radio'];
+	public $list_limit = 36;
         public $theme = 'default';
         public $dtv = [
                 'type'          => 'tvheadend',                
@@ -57,16 +57,16 @@ class TVConfig {
         public $links = [
                 'MySite1'      => 'https://yoursite1.com/',
 		'MySite2'      => 'https://yoursite2.com/',
-
-                ];
-	public $epg = [
-		'enabled'	=> true,
-                'notify'	=> false,                                
+                ];               
+        public $epg = [
+                'enabled'       => true,
+                'debug'         => true,
+                'notify'        => false,
                 'dir'           => '/path/to/your/site/epg',
-		'exec'		=> 'npm run grab --prefix=%s -- --channels=%s --output=%s --days=%s',
-                'lock'          => 60 , /* seconds */
-                'expiry'        => 7 ,  /* days */		
-                'fix_time'      => 6 ,  /* hours */
+                'exec'          => 'npm run grab --prefix=%s -- --channels=%s --output=%s --days=%s',
+                'lock'          => 300, /* seconds */
+                'expiry'        => 15,  /* days */
+                'offset'        => 0,  /* hours */
                 'secret_key'    => 'change-me-with-a-long-random-key', /* change this */
-	        ];
+                ];                
 }
