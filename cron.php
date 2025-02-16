@@ -27,20 +27,30 @@
  | Author: Jaime Rubio <jaime@rubiogafsi.com>                              |
  +-------------------------------------------------------------------------+
 */
+if(php_sapi_name() !== 'cli'){
+    throw new \Exception('Cron not accessible');
+    die();
+}
+
 define('_TVEXEC', 1);
-
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
-
 define('TV_BASE', dirname(__FILE__));
-require_once TV_BASE . '/includes/defines.php';
+require_once TV_BASE . DIRECTORY_SEPARATOR . 'includes' . DIRECTORY_SEPARATOR . 'defines.php';
 
 // Load Factory
-require_once TV_INCLUDES . '/factory.php';
+require_once TV_INCLUDES . DIRECTORY_SEPARATOR . 'factory.php';
 $factory    = new RubioTV\Framework\Factory();
+
+// Initialize
+$factory->initialize();
+
 // Load EPG
 $epg		= new RubioTV\Framework\EPG();
-// Trigger the cron
-$epg->Cron();
 
+// Trigger the cron
+$key = $epg->getCronId();
+$epg->Unlock($key);
+$epg->Cron();
+$epg->Lock();
+
+// Finalize
+$factory->finalize();

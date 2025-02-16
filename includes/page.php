@@ -36,21 +36,33 @@ use RubioTV\Framework\Language\Text;
 
 class Page 
 {            
+    public $id;
     public $title;    
     public $folder;
     public $source;
     public $source_alias;
     public $alias;
+    public $link;
+    public $menu;
+    public $base;
     public $data;   
+    public $params;                       
     public $pagination;    
-    public $saved;                  
+    public $saved;    
+    protected static $layout;  
     protected static $metatags;
     protected static $file;
     protected static $js;    
     
-    public function __construct()
+    public function __construct($params = null)
     {        
-        static::$js     = [];             
+        static::$js     = [];
+        if(!empty($params))
+            $this->params = $params;
+        else 
+            $this->params = []; 
+
+        static::$layout = $this->params['layout'] ?? null;           
     }
 
     public function __destruct(){
@@ -63,7 +75,12 @@ class Page
         {                                              
             if(!static::$file)
             {            
-                $filename= ( Factory::getTheme() . DIRECTORY_SEPARATOR . Factory::getTask() . '.php');         
+                $template = Factory::getTask();
+                if(file_exists(Factory::getTheme() . DIRECTORY_SEPARATOR . $template . '.' . static::$layout . '.php')){
+                    $template .= '.' . static::$layout;            
+                }
+
+                $filename= ( Factory::getTheme() . DIRECTORY_SEPARATOR . $template . '.php');       
                 if(file_exists($filename))
                 {                
                     static::$file = $filename;
@@ -86,6 +103,10 @@ class Page
     public static function setFile( $pagename )
     {
         static::$file = $pagename;
+    }    
+
+    public static function whichFile(){
+        return static::$file;
     }    
 
     public static function sendError( $title , $content)
@@ -191,7 +212,7 @@ class Page
     public static function addMeta( $name, $value , $separator = ',')
     {
         if(empty(static::$metatags))
-            static::$metatags = array();
+            static::$metatags = [];
         
         $key = strtolower($name);   
         if(!empty(static::$metatags[$key])) 
@@ -203,7 +224,7 @@ class Page
     public static function getMeta( $name )
     {
         if(empty(static::$metatags))
-            static::$metatags = array();
+            static::$metatags = [];
         
         return static::$metatags[strtolower($name)] ?? '';
     }     

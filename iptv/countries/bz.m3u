@@ -1,0 +1,33 @@
+#EXTM3U
+#EXTINF:-1 id="1a613f8b755810941afff41a8ccab14c" tvg-id="24HorasInternacional.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" group-title="News", 24 Horas Internacional
+https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8
+#EXTINF:-1 id="0460b7f14cf17cc04c4967e50550d630" tvg-id="AXNCentralAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/512px-AXN_logo_%282015%29.svg.png" group-title="Movies", AXN
+https://streamer1.nexgen.bz/AXN/index.m3u8
+#EXTINF:-1 id="5d47f5ed82392a1ba5a959b55bef9422" tvg-id="BBCNewsNorthAmerica.uk" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="News", BBC News
+https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
+#EXTINF:-1 id="6d0a158a956d6c7ed54f6fd4391a6765" tvg-id="CAtv.pr" tvg-logo="https://caribbeanadvantage.com/images/CAtv-logo-512.png" group-title="General", Caribbean Advantage TV
+https://video2.getstreamhosting.com:19360/8216/8216.m3u8
+#EXTINF:-1 id="2ff3a90a2cf6d8c3fba3eaf0d6d2c638" tvg-id="CCTV4America.cn" tvg-logo="https://i.imgur.com/gBbLyqh.png" group-title="General", CCTV-4 America
+https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+#EXTINF:-1 id="7caee946d9f0edd3d1afb53b8f66df53" tvg-id="Channel7.bz" tvg-logo="https://i.imgur.com/bazepkM.png" group-title="News", Channel 7 Belize
+https://kalends.anl.bz/localchannels/channel7.stream/playlist.m3u8
+#EXTINF:-1 id="1fb401430a7cf3ef8080797b43000c25" tvg-id="streamer1.nexgen.bz" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", FX
+https://streamer1.nexgen.bz/FX/index.m3u8
+#EXTINF:-1 id="54b0a0fccc917fdd5be17b4eaa1f218f" tvg-id="GaliciaTVAmerica.es" tvg-logo="https://i.imgur.com/YBaxWQC.png" group-title="General", Galicia TV América
+https://america-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="1998b736155c086bb5acc5b8a6ba30b7" tvg-id="streamer1.nexgen.bz" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", History
+https://streamer1.nexgen.bz/HISTORY/index.m3u8
+#EXTINF:-1 id="795b0023487eadc087b03bf3d70d6206" tvg-id="KremTV.bz" tvg-logo="https://i.imgur.com/NrYX2Zd.png" group-title="General", Krem TV
+https://kalends.anl.bz/localchannels/kremtel.stream/playlist.m3u8
+#EXTINF:-1 id="a95db0887646806b22ade36dd6efb3a9" tvg-id="streamer1.nexgen.bz" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", Lifetime
+https://streamer1.nexgen.bz/LIFETIME/index.m3u8
+#EXTINF:-1 id="f2010a15dcf9fb46f160fc6bf0368af9" tvg-id="LoveFMTV.bz" tvg-logo="https://i.imgur.com/nT3Wxr6.png" group-title="News", Love Television
+https://kalends.anl.bz/localchannels/lovetel.stream/playlist.m3u8
+#EXTINF:-1 id="76d77c5fff85ae58f5b19f6422118da4" tvg-id="NickelodeonPanregional.us" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids", Nickelodeon Panregional
+http://45.181.122.13:8000/play/019
+#EXTINF:-1 id="b25ddf36ff23d84fd98b5a08d9a0a3c0" tvg-id="RaiItaliaAmerica.it" tvg-logo="https://i.imgur.com/1nN4rEP.png" group-title="Undefined", Rai Italia America
+http://210.210.155.69/s/s63/S4/mnf.m3u8
+#EXTINF:-1 id="eda5692d5a3a7c2fe82dfd11638f8126" tvg-id="TVDaja.do" tvg-logo="https://dajatv.com/wp-content/uploads/2021/09/logo_daja_2.png" group-title="Undefined", TV Daja
+https://rdn.essastream.com:3388/live/dajatvlive.m3u8
+#EXTINF:-1 id="cff5f6289cb2036774cf5db04df4c4c7" tvg-id="TVEStarHD.es" tvg-logo="https://i.imgur.com/zsCZHMh.png" group-title="Series", TVE Star HD
+https://rtvelivestream.akamaized.net/rtvesec/int/star_main.m3u8

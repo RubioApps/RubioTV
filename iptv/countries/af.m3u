@@ -1,0 +1,79 @@
+#EXTM3U
+#EXTINF:-1 id="de28f4dbb30461727118eb786b0ee9e6" tvg-id="ABNAfghanistan.us" tvg-logo="https://i.imgur.com/LI30mAt.png" group-title="Religious", ABN Afghanistan
+https://rtmp2.abnvideos.com/hls/abnafghanistan.m3u8
+#EXTINF:-1 id="a59bd74e4d2cb768da0a7cfa8b964209" tvg-id="AfghanNobelMovies.ca" tvg-logo="https://i.ibb.co/zfdbVSm/logo-1.png" group-title="Movies", Afghan Nobel Movies
+https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/playlist.m3u8
+#EXTINF:-1 id="0eb1f2602a33aff642a06ebebd56deb1" tvg-id="AfghanNobelTV.ca" tvg-logo="https://i.ibb.co/0Mb1ZQC/IMG-20230628-133738.jpg" group-title="General", Afghan Nobel TV
+https://live.relentlessinnovations.net:1936/afghannobeltv/afghannobeltv/playlist.m3u8
+#EXTINF:-1 id="d6fa51af9770f8a918e4cd70646bec15" tvg-id="AfghanistanInternational.uk" tvg-logo="https://i.imgur.com/r8MmFRX.png" group-title="News", Afghanistan International
+https://hls.afintl.com/hls/stream.m3u8
+#EXTINF:-1 id="baaa0c177f412f8fa15060f3f23304d7" tvg-id="AMC.af" tvg-logo="https://i.imgur.com/yj8RNnG.png" group-title="Music", AMC
+https://amchls.wns.live/hls/stream.m3u8
+#EXTINF:-1 id="87ad305c8be638586613946b9f4cb308" tvg-id="ATNInternational.af" tvg-logo="https://i.imgur.com/HIPeUDL.png" group-title="General", ATN International
+https://d10rltuy0iweup.cloudfront.net/ATNINT/myStream/playlist.m3u8
+#EXTINF:-1 id="08ec8dc6315830daa6704796299c2d92" tvg-id="ATNNational.af" tvg-logo="https://i.imgur.com/HIPeUDL.png" group-title="General", ATN National
+https://d10rltuy0iweup.cloudfront.net/ATNNAT/myStream/playlist.m3u8
+#EXTINF:-1 id="9af95279647c0b1f4b43338c41e7908d" tvg-id="ATNNews.af" tvg-logo="https://i.imgur.com/QenemOL.png" group-title="News", ATN News
+https://d10rltuy0iweup.cloudfront.net/ATNNEWS/myStream/playlist.m3u8
+#EXTINF:-1 id="19ddd3eda01d0354cb183514cf76089a" tvg-id="ATNUS.af" tvg-logo="https://i.imgur.com/HIPeUDL.png" group-title="Undefined", ATN US
+https://d2g7v53450s2i2.cloudfront.net/ATNUS/myStream/playlist.m3u8
+#EXTINF:-1 id="1f49876ff60099767a013ea80df25a51" tvg-id="BaharTV.af" tvg-logo="https://bahartv-af.com/wp-content/uploads/2017/01/IMG_1864-2.png" group-title="General", Bahar TV
+https://59d39900ebfb8.streamlock.net/bahartv/bahartv/playlist.m3u8
+#EXTINF:-1 id="63141cce8e28f77ee328e37f62564c1d" tvg-id="BarbudMusic.af" tvg-logo="https://i.imgur.com/jbbxu0g.png" group-title="Music", Barbud Music
+https://raw.githubusercontent.com/taodicakhia/IPTV_Exception/master/channels/af/tolomusic.m3u8
+#EXTINF:-1 id="e9850f36d9f5c9753e767044c20b7ba1" tvg-id="BBCNewsAsiaPacific.uk" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="News", BBC News Asia Pacific
+https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
+#EXTINF:-1 id="839d960566b318936845d77e6e64266e" tvg-id="BBCNewsSouthAsia.uk" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="News", BBC World News South Asia
+http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/Stream(01)/index.m3u8
+#EXTINF:-1 id="d733ed050da93c8a69003d015f8eb440" tvg-id="BloombergTVAsia.hk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business", Bloomberg TV Asia
+https://bloomberg.com/media-manifest/streams/asia.m3u8
+#EXTINF:-1 id="0a612a049072994b2eada3f1d28ab1b4" tvg-id="BloombergTVAsiaLiveEvent.hk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business", Bloomberg TV Asia Live Event
+https://bloomberg.com/media-manifest/streams/asia-event.m3u8
+#EXTINF:-1 id="32fcaeea4243e33422280e3120497632" tvg-id="DunyaNawTV.af" tvg-logo="https://i.ibb.co/nQkLgyn/dunya-naw-tv.png" group-title="General", Dunya Naw TV
+https://dunyanhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 id="ee3261676a4f5dfac6d0452601b8b1ae" tvg-id="EslahTV.af" tvg-logo="https://i.imgur.com/To7VnsA.png" group-title="Religious", Eslah TV
+https://eslahtvhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 id="3c67bbf91ab40800e17172cc3f48579d" tvg-id="EWTNAfricaAsia.us" tvg-logo="https://i.imgur.com/F8ZM25a.png" group-title="Religious", EWTN Africa Asia
+https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
+#EXTINF:-1 id="a5224df1c3e72b6c5a510edd7b8080da" tvg-id="EWTNAsiaPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png" group-title="Religious", EWTN Asia-Pacific
+https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
+#EXTINF:-1 id="2823c739edf620f407d43a28729e5284" tvg-id="FazaTV.af" tvg-logo="https://i.imgur.com/GpxjzNm.png" group-title="General", Faza TV
+https://raw.githubusercontent.com/LaneSh4d0w/IPTV_Exception/master/channels/af/fazatv.m3u8
+#EXTINF:-1 id="7cef008ff44dcb21e5a224432bb2c05d" tvg-id="HewadTV.af" tvg-logo="https://i.imgur.com/cK2eWUZ.png" group-title="Undefined", Hewad TV
+http://51.210.199.58/hls/stream.m3u8
+#EXTINF:-1 id="2876d4d2bfa779188134b0a47e228cb7" tvg-id="live.relentlessinnovations.net" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", Iman TV
+https://live.relentlessinnovations.net:1936/imantv/imantv/playlist.m3u8
+#EXTINF:-1 id="b951e43796372a24a2974f11b6e509f6" tvg-id="KayhanTV.af" tvg-logo="https://i.imgur.com/2MDjU7x.png" group-title="Music", Kayhan TV
+https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8
+#EXTINF:-1 id="a8d9e429eb4e12968800d62a4f639df7" tvg-id="MaahTV.my" tvg-logo="https://i.imgur.com/FkyueH6.png" group-title="Travel", Maah TV
+https://hls.maahtv.live/hls/stream.m3u8
+#EXTINF:-1 id="f97b70c92f589c37d831885e00440728" tvg-id="NoorTV.af" tvg-logo="https://i.imgur.com/GKp7m0V.png" group-title="General", Noor TV
+https://www.hewadwal.com:19360/noortv_abr/noortv_abr.m3u8
+#EXTINF:-1 id="0c0a0cd7dd07a254f9f296e4d2524d4d" tvg-id="RTA.af" tvg-logo="https://i.imgur.com/pJU2KPh.png" group-title="General", RTA
+https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA1)/index.m3u8
+#EXTINF:-1 id="01e918558672992d9c7c2e87e4d0c7a1" tvg-id="RTAEducation.af" tvg-logo="https://rta.af/artmedia/2022/12/rta-logo-final-300x185.png" group-title="Undefined", RTA Education
+https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA4)/index.m3u8
+#EXTINF:-1 id="9087901ca8ce81dc3efc7b050abce085" tvg-id="RTANews.af" tvg-logo="https://rta.af/artmedia/2022/12/rta-logo-final-300x185.png" group-title="Undefined", RTA News
+https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA2)/index.m3u8
+#EXTINF:-1 id="e736cae6e32f5516cfb89c9365ccc9e8" tvg-id="RTASport.af" tvg-logo="https://i.imgur.com/lEXrwos.jpg" group-title="Sports", RTA Sport
+https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/index.m3u8
+#EXTINF:-1 id="7bcea04fdf19c0ef9e024737c6bf2462" tvg-id="SadaEHaqTV.us" tvg-logo="https://i.imgur.com/J1pB59S.jpg" group-title="Religious", Sada-E-Haq TV
+https://live.relentlessinnovations.net:1936/sadaehaq/sadaehaq/playlist.m3u8
+#EXTINF:-1 id="57d851976540841db2873b767983d88c" tvg-id="SharqRadioTV.af" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Sharq_TV_Logo_2020.jpg/440px-Sharq_TV_Logo_2020.jpg" group-title="General", Sharq Radio TV
+https://59nyqa5elwap-hls-live.5centscdn.com/Sharq/eec89088ee408b80387155272b113256.sdp/playlist.m3u8
+#EXTINF:-1 id="d7bf1729493c3fdff6ad0e3d84409f16" tvg-id="SohailTV.ca" tvg-logo="https://i.ibb.co/dtzjKfT/Sohail-TV.png" group-title="General", Sohail TV
+https://iptv.sohailtv.com/sohail/playlist/index.m3u8
+#EXTINF:-1 id="1672537a058abda82d5366cb99123c62" tvg-id="TamadonTV.af" tvg-logo="https://i.imgur.com/edGyj5H.png" group-title="Undefined", Tamadon TV
+https://hls.tamadon.live/hls/stream.m3u8
+#EXTINF:-1 id="a94c9d62e728e0c06a39fadc1270c973" tvg-id="TOLOnews.af" tvg-logo="https://i.imgur.com/oxaHaTq.png" group-title="News", Tolo News
+https://raw.githubusercontent.com/taodicakhia/IPTV_Exception/master/channels/af/tolonews.m3u8
+#EXTINF:-1 id="1c840b9f0613e27ed011a62fa6bff4e3" tvg-id="TV5MondePacific.fr" tvg-logo="https://i.imgur.com/mfZOYZI.png" group-title="Undefined", TV5Monde Pacifique
+https://ott.tv5monde.com/Content/HLS/Live/channel(pacifique)/variant.m3u8
+#EXTINF:-1 id="c4a7057ba91265859c3174c9bc769fe4" tvg-id="TVEInternacionalEuropeAsia.es" tvg-logo="https://i.imgur.com/ow1HArj.png" group-title="Undefined", TVE Internacional Europe-Asia
+https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8
+#EXTINF:-1 id="a7fe553e1483aa88b2dbcadc378b68bb" tvg-id="WataneMaaTV.ca" tvg-logo="https://i.ibb.co/1rDrKJG/Watan-E-Maa-Tv-Logo-300-Dpi.png" group-title="General", Watan-e-Maa TV
+https://5caf24a595d94.streamlock.net:1937/8132/8132/playlist.m3u8
+#EXTINF:-1 id="737f519107c8ead93689a0d669dcc758" tvg-id="ZarokTV.iq" tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="Animation;Education;Family;Kids;Music", Zarok TV Sorani
+https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:-1 id="67d533a1dfe4d45a42c8937faf46cfdf" tvg-id="RTRPlanetaAsia.ru" tvg-logo="https://i.imgur.com/DTtK0z7.png" group-title="General", РТР Планета Азия
+https://player.smotrim.ru/iframe/stream/live_id/63254

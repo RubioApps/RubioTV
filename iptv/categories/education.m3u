@@ -1,0 +1,335 @@
+#EXTM3U
+#EXTINF:-1 id="0a4dfafae6b35f675d842c9c47b27fdd" tvg-id="2STV.sn" tvg-logo="https://i.imgur.com/WByVBZf.png" group-title="Education", 2S TV
+https://ythls.armelin.one/channel/UCeLEGbj240J6JhpP7ba8GwA.m3u8
+#EXTINF:-1 id="7553d58541bb4eae4b376089e444f966" tvg-id="A2iNaija.sn" tvg-logo="https://i.imgur.com/yq7ghPE.jpg" group-title="Education", A2i Naija
+https://stream.sen-gt.com/A2iNaija/myStream/playlist.m3u8
+#EXTINF:-1 id="408f981fb2f4be4f0090f9c364bd7cd3" tvg-id="ABCMESydney.au" tvg-logo="https://i.imgur.com/6NyFLAm.png" group-title="Education;Kids", ABC Me
+https://c.mjh.nz/abc-me.m3u8
+#EXTINF:-1 id="64b8841f2edf5e6eccb262b37c34eac0" tvg-id="AgroTV.tr" tvg-logo="https://i.imgur.com/ls9NLa4.png" group-title="Education;Outdoor", Agro TV
+https://yayin30.haber100.com/live/agrotv/playlist.m3u8
+#EXTINF:-1 id="fdd818d6de35f4dfb72803ff5b757682" tvg-id="AlAlamiya2.sd" tvg-logo="https://i.imgur.com/5FrE3Nv.png" group-title="Education", Al Alamiya 2
+http://82.212.74.98:8000/live/7815.m3u8
+#EXTINF:-1 id="7c3258b0597df8ceae82cb701f4f7e14" tvg-id="AlBinaaTV.id" tvg-logo="https://i.imgur.com/MTR4GuF.png" group-title="Education", Al Binaa TV
+https://ythls.armelin.one/channel/UCdq-DJ5MS7qjd1aXPFg71Yg.m3u8
+#EXTINF:-1 id="fecdd432931db49ad86c677917dd2c1e" tvg-id="AlQudsOpenUniversity.ps" tvg-logo="https://i.imgur.com/AHzY3Wn.png" group-title="Education", Al Quds Open University
+https://streaming2.qou.edu/hls/stream.m3u8
+#EXTINF:-1 id="8f352672d3d4fa62f27b593d332d8fdf" tvg-id="AlHiwarTV.uk" tvg-logo="https://i.imgur.com/UjOxwdd.png" group-title="Education", Alhiwar TV
+https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
+#EXTINF:-1 id="a90c5c9fe9d9d25bb309ceef660dbe42" tvg-id="ALTV.th" tvg-logo="https://i.imgur.com/MCbCSWv.png" group-title="Education", ALTV
+https://thaipbs-ujxrch.cdn.byteark.com/live/playlist_1080p/index.m3u8
+#EXTINF:-1 id="b244b2494f1278c778649b20142f05f4" tvg-id="AngerManagementChannel.us" tvg-logo="https://i.imgur.com/VXZgrNy.png" group-title="Education", Anger Management Channel
+https://apollo.production-public.tubi.io/live/ac-anger-management2.m3u8
+#EXTINF:-1 id="0443f4906d1f933b4282f6f40f417fdf" tvg-id="ArchitecturalDigest.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Architectural_Digest_logo.svg/512px-Architectural_Digest_logo.svg.png" group-title="Education", Architectural Digest
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxarchitecturaldigest/CDN/playlist.m3u8
+#EXTINF:-1 id="da0247a3933df53059b1f997ff7246c5" tvg-id="ARDalpha.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/512px-ARD_alpha.svg.png" group-title="Education", ARD-alpha
+http://livestreams.br.de/i/bralpha_germany@119899/master.m3u8
+#EXTINF:-1 id="78b36b9b7de69ed932d83ae3ccf9f241" tvg-id="KETSDT1.us" tvg-logo="https://i.imgur.com/dNBZLtD.png" group-title="Education", Arkansas PBS
+https://ketsdt.lls.pbs.org/out/v1/03c094dbd7874a4a8c3fe9fb10081bdb/index.m3u8
+#EXTINF:-1 id="000a0b5e07ae475342b871dc1d9c1b16" tvg-id="AsharqDiscovery.sa" tvg-logo="https://i.imgur.com/Czxi7yk.png" group-title="Documentary;Education", Asharq Discovery
+https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
+#EXTINF:-1 id="23c5125eb83c04fd30f734a03e969024" tvg-id="AstroTV.de" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/04/Astro_TV_%282021%29.svg/revision/latest/scale-to-width-down/512" group-title="Education;Lifestyle", AstroTV
+https://ythls.armelin.one/channel/UCwS3E2NaN3uorr9wf2_i6Cg.m3u8
+#EXTINF:-1 id="1e6b38ba4e9dbbf0452b5fc5c3177ad6" tvg-id="CVCEducation.us" tvg-logo="https://i.imgur.com/tUgEAUJ.png" group-title="Education", Bolton Community Voice Channel
+https://s3-us-west-2.amazonaws.com/bolton.castus-vod/live/ch2/video.m3u8
+#EXTINF:-1 id="0e0970e257f1087dcf9ffcf97fb88317" tvg-id="BRTVScienceEducationChannel.cn" tvg-logo="https://i.imgur.com/q0qvOUe.png" group-title="Education;Science", BRTV Science & Education Channel
+http://49.113.179.174:4022/udp/238.125.3.121:5140
+#EXTINF:-1 id="07e2bf59dd6cb19ac738e5f0e5ace06b" tvg-id="BUTV10.us" tvg-logo="https://i.imgur.com/Iv1Fe67.png" group-title="Education", BUTV10
+http://butv10-livestream.bu.edu/live/live.m3u8
+#EXTINF:-1 id="37398f46e10c7cc461a72b7ebb34d19c" tvg-id="ILCECanal15SummaSaberes.mx" tvg-logo="https://i.imgur.com/r7czgOc.png" group-title="Education", Canal 15 ILCE Summa Sabres
+https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
+#EXTINF:-1 id="da14be0d3cf5c8654f070a8b21f7d185" tvg-id="Canal15.ni" tvg-logo="https://i.imgur.com/DGBMuEs.png" group-title="Education", Canal 15 Nicaragüense
+https://cootv.cootel.com.ni:8095/Canal15_CooTel/playlist.m3u8
+#EXTINF:-1 id="77f380b043c95b711ba50b2b5c2c7d9b" tvg-id="XHSPRTDT1.mx" tvg-logo="https://i.imgur.com/AWLWu91.png" group-title="Culture;Education", Canal Catorce
+https://s5.mexside.net:1936/canal14/canal14/playlist.m3u8
+#EXTINF:-1 id="4b951df200013060a5a0d7008352aacb" tvg-id="CanalEducacao.br" tvg-logo="https://i.imgur.com/OOB7nrS.png" group-title="Education", Canal Educação
+https://canaleducacao-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 id="40d5b41b7f61e22b208256d93e4e3e9b" tvg-id="CanalFDR.br" tvg-logo="https://i.imgur.com/7SE4CkE.png" group-title="Education;General", Canal FDR
+https://stmv1.transmissaodigital.com/ronald6259/ronald6259/playlist.m3u8
+#EXTINF:-1 id="c604d33310462a908503225b97a7f0de" tvg-id="CanalSaude.br" tvg-logo="https://i.imgur.com/ht4tUOc.png" group-title="Education;Lifestyle", Canal Saúde
+https://arkyvbre1g.zoeweb.tv/fiocruz/fiocruz.stream/playlist.m3u8
+#EXTINF:-1 id="e0d5771c6766c710c01c2aae77983a93" tvg-id="CFTUDT.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/Savoir_tv_logo.png" group-title="Education", Canal Savoir
+https://hls.savoir.media/live/stream.m3u8
+#EXTINF:-1 id="3fe45d389f2fd6b5d595820f78c112e8" tvg-id="CCTV7.cn" tvg-logo="https://i.imgur.com/CKcPMQC.png" group-title="Education", CCTV7
+http://bl.dchwtq.asia:10000/rtp/239.69.1.103:10256
+#EXTINF:-1 id="16ff709191ef6ceffc6817f8ce7ca602" tvg-id="CCTV10.cn" tvg-logo="https://i.imgur.com/sSSO7UD.png" group-title="Education", CCTV10
+http://bl.dchwtq.asia:10000/rtp/239.69.1.105:10268
+#EXTINF:-1 id="19b27b3a79c764d98cda2d5449624476" tvg-id="CCTV17.cn" tvg-logo="https://i.imgur.com/jSQURxS.png" group-title="Education;Outdoor", CCTV17
+http://bl.dchwtq.asia:10000/rtp/239.69.1.152:10548
+#EXTINF:-1 id="5e14636be339b4f03040a48303b3d62c" tvg-id="CCTVWorldGeography.cn" tvg-logo="https://i.imgur.com/V2ncOXi.png" group-title="Education", CCTV 世界地理
+http://117.161.133.51:81/gitv_live/G_SHIJIEDL-CQ/G_SHIJIEDL-CQ.m3u8?p=GITV
+#EXTINF:-1 id="bcd5b8450477f7d54ac4e219bcbcbd7f" tvg-id="CETV1.cn" tvg-logo="https://i.imgur.com/6sOHLq8.png" group-title="Education", CETV1
+http://117.161.133.51:81/gitv_live/G_CETV-1/G_CETV-1.m3u8?p=GITV
+#EXTINF:-1 id="2ba3bd20d5861537e9a6eaf379907b79" tvg-id="CETV2.cn" tvg-logo="https://i.imgur.com/ZD8XPmw.png" group-title="Education", CETV2
+http://117.161.133.51:81/gitv_live/G_CETV-2/G_CETV-2.m3u8?p=GITV
+#EXTINF:-1 id="3e3aeef436bcb539890fbfada27e2d2a" tvg-id="ChannelLaw.cn" tvg-logo="https://i.imgur.com/QcO5Gxl.png" group-title="Education", Channel Law
+http://49.113.179.174:4022/udp/238.125.2.201:5140
+#EXTINF:-1 id="5c95b7766016557ed2fc1768afc0d66e" tvg-id="CharruaTelevision.uy" tvg-logo="https://i.imgur.com/KWAuNXn.png" group-title="Education", Charrúa Televisión
+https://stmv.video.gmpro.top/tvcharrua/tvcharrua/playlist.m3u8
+#EXTINF:-1 id="d45e720246411b9bbf489950ea6ce346" tvg-id="CiftciTV.tr" tvg-logo="https://i.imgur.com/CLzP4vL.png" group-title="Culture;Education", Çiftçi TV
+http://stream.taksimbilisim.com:1935/ciftcitv/smil:ciftcitv.smil/playlist.m3u8
+#EXTINF:-1 id="8f3c47378688bcce3c8f9b58ffe139ee" tvg-id="ClassicArtsShowcase.us" tvg-logo="https://i.imgur.com/M6FFkc3.png" group-title="Culture;Education", Classic Arts Showcase
+https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
+#EXTINF:-1 id="181e8950a5f48bdd015c1c48b10fb56b" tvg-id="CloudflareTV.us" tvg-logo="https://blog-cloudflare-com-assets.storage.googleapis.com/2020/06/twitter-1-1.png" group-title="Education", Cloudflare TV
+https://cloudflare.tv/hls/live.m3u8
+#EXTINF:-1 id="2b443af85bf9dbf18e09df24d4b84988" tvg-id="CCPSEducationChannel.us" tvg-logo="https://i.imgur.com/62S7dI8.png" group-title="Education", Collier County Public Schools CCPS Education Channel
+https://watch.collierschools.com/EducationChannel/educhannel.stream/playlist.m3u8
+#EXTINF:-1 id="f10b8fda46b32714c95d1d6cbccae7b3" tvg-id="Colombeia.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/38/Logo_Colombeia.png" group-title="Education", Colombeia
+https://cloud.odysee.live/content/ba3d31fdf59976d63976e5a2173df36b442104ba/master.m3u8
+#EXTINF:-1 id="d315b3f87824ee972c1081407d0e356e" tvg-id="CreaTVChannel28.us" tvg-logo="https://i.imgur.com/rvQdzL1.png" group-title="Education", CreaTV Classrooms Channel 28
+https://reflect-creatv.cablecast.tv/live-14/live/live.m3u8
+#EXTINF:-1 id="cd63a7e46a0a18877007f3c2c55ed6d2" tvg-id="DabangaTV.sd" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dabanga_sudan.png" group-title="Education;News", Dabanga TV
+https://cdn-cf.dabangasudan.org/hls/stream.m3u8
+#EXTINF:-1 id="a7f4f5e3fc7fe6e0bde780ef2002b1d9" tvg-id="DKN.us" tvg-logo="https://i.imgur.com/DIau0GB.png" group-title="Education", DC.gov DKN
+https://video.oct.dc.gov/out/u/DKN.m3u8
+#EXTINF:-1 id="ed276d4c0c560ccc4fa69511c58bff15" tvg-id="DDKisan.in" tvg-logo="https://i.imgur.com/x56WJEa.png" group-title="Education;Outdoor", DD Kisan
+https://ythls.armelin.one/channel/UCnDfmcUyhgJp6xC1LmBLfUg.m3u8
+#EXTINF:-1 id="e138912580101fab58adab0eddf75f43" tvg-id="DepEdTV.ph" tvg-logo="https://i.imgur.com/3BiY6mI.png" group-title="Education", DepEd TV
+https://d3cbe0gidjd4k2.cloudfront.net/channel_7/channel7/playlist.m3u8
+#EXTINF:-1 id="0aaeeb20d05e7121d741167d7adc5184" tvg-id="DerryTV23.us" tvg-logo="https://i.imgur.com/MRR6UL3.png" group-title="Education;General", DerryTV 23
+https://livestream.telvue.com/derrynh2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 id="bfadc349da7d866b6d5963dafa19fca4" tvg-id="DLTV1.th" tvg-logo="https://i.imgur.com/nLzdGeX.png" group-title="Education", DLTV 1
+https://cdn-live.dltv.ac.th/dltv01.m3u8
+#EXTINF:-1 id="941255873834e4db51d87c0adbe814a6" tvg-id="DLTV2.th" tvg-logo="https://i.imgur.com/lDBSTfE.png" group-title="Education", DLTV 2
+https://cdn-live.dltv.ac.th/dltv02.m3u8
+#EXTINF:-1 id="f5c212f6d57bfc36c99951985ea8277f" tvg-id="DLTV3.th" tvg-logo="https://i.imgur.com/wmrxerm.png" group-title="Education", DLTV 3
+https://cdn-live.dltv.ac.th/dltv03.m3u8
+#EXTINF:-1 id="35be56f030988d1a1728d4207e9d54d6" tvg-id="DLTV4.th" tvg-logo="https://i.imgur.com/WkpoQhU.png" group-title="Education", DLTV 4
+https://cdn-live.dltv.ac.th/dltv04.m3u8
+#EXTINF:-1 id="aced8fc34bacc5ecaec42f879f220b72" tvg-id="DLTV5.th" tvg-logo="https://i.imgur.com/J1E89jX.png" group-title="Education", DLTV 5
+https://cdn-live.dltv.ac.th/dltv05.m3u8
+#EXTINF:-1 id="ab22aa9efcac627b74b4db9e9185a615" tvg-id="DLTV6.th" tvg-logo="https://i.imgur.com/qeIHWC0.png" group-title="Education", DLTV 6
+https://cdn-live.dltv.ac.th/dltv06.m3u8
+#EXTINF:-1 id="7fc8b60e475b3e89268ec6ab1733d416" tvg-id="DLTV7.th" tvg-logo="https://i.imgur.com/OjYwMe3.png" group-title="Education", DLTV 7
+https://cdn-live.dltv.ac.th/dltv07.m3u8
+#EXTINF:-1 id="7fd02f54ac03b8c6f4cc759bc3aa1db8" tvg-id="DLTV8.th" tvg-logo="https://i.imgur.com/xIwn5Ha.png" group-title="Education", DLTV 8
+https://cdn-live.dltv.ac.th/dltv08.m3u8
+#EXTINF:-1 id="20e15057185deea71a86c99c5fb84bc3" tvg-id="DLTV9.th" tvg-logo="https://i.imgur.com/yPeSAry.png" group-title="Education", DLTV 9
+https://cdn-live.dltv.ac.th/dltv09.m3u8
+#EXTINF:-1 id="05f0f6709aa392f32e53d3924ad12b2e" tvg-id="DLTV10.th" tvg-logo="https://i.imgur.com/TgN81Zr.png" group-title="Education", DLTV 10
+https://cdn-live.dltv.ac.th/dltv10.m3u8
+#EXTINF:-1 id="70bc3c1c37bf4eb11f83da1d110d55b5" tvg-id="DLTV11.th" tvg-logo="https://i.imgur.com/hFk2b5s.png" group-title="Education", DLTV 11
+https://cdn-live.dltv.ac.th/dltv11.m3u8
+#EXTINF:-1 id="7ed00c4fd051fcdf579c6cd41e23f115" tvg-id="DLTV12.th" tvg-logo="https://i.imgur.com/ITt6lY7.png" group-title="Education", DLTV 12
+https://cdn-live.dltv.ac.th/dltv12.m3u8
+#EXTINF:-1 id="40a1f9028d52fd6caa28f8d8d65f765c" tvg-id="DLTV13.th" tvg-logo="https://i.imgur.com/asB5w3v.png" group-title="Education", DLTV 13
+https://cdn-live.dltv.ac.th/dltv13.m3u8
+#EXTINF:-1 id="76acea569d1cb3d78271e9f1eb141070" tvg-id="DLTV14.th" tvg-logo="https://i.imgur.com/HOjZRNS.png" group-title="Education", DLTV 14
+https://cdn-live.dltv.ac.th/dltv14.m3u8
+#EXTINF:-1 id="8360961d0634af1435f9b69bfd1096bf" tvg-id="DLTV15.th" tvg-logo="https://i.imgur.com/onJi2b6.png" group-title="Education", DLTV 15
+https://cdn-live.dltv.ac.th/dltv15.m3u8
+#EXTINF:-1 id="ce1865e047debb2fbac0e299ecd3564f" tvg-id="DRTSTV.sn" tvg-logo="https://i.ibb.co/nzjmJVP/unnamed-2.jpg" group-title="Education", DRTS TV
+https://ythls.armelin.one/channel/UC-6dz560kcpeLmxceZzn44A.m3u8
+#EXTINF:-1 id="99f125d75b8fc6703105db4daa6669d0" tvg-id="EaDTVCONGO.cg" tvg-logo="https://i.imgur.com/7iGMXCs.png" group-title="Education", EàDTV CONGO
+https://ythls.armelin.one/channel/UCdBQfm4truef3mDSYHDS0ig.m3u8
+#EXTINF:-1 id="0bbcb063f30494a129946ba38ff51530" tvg-id="earthTV.de" tvg-logo="https://i.imgur.com/xIc5vKl.png" group-title="Education;Outdoor;Relax", earthTV
+https://ythls.armelin.one/channel/UCRuyAVeVd7oUwh0LWmxxBBQ.m3u8
+#EXTINF:-1 id="faeb0dc4836f1812d8df870ce4dbb7fe" tvg-id="EarthxTV.us" tvg-logo="https://i.imgur.com/ZWWqiCb.png" group-title="Education", EarthxTV
+https://ov.ottera.tv/live/master.m3u8?channel=earth_et
+#EXTINF:-1 id="2220fc1b5faa00673608ca1a16fc7df6" tvg-id="EBS1TV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/512px-EBS_1TV_Logo.svg.png" group-title="Education", EBS 1
+https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 id="383a08515629c4958d6ce29b0fd578d9" tvg-id="EBS2TV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/EBS_2TV_Logo.svg/512px-EBS_2TV_Logo.svg.png" group-title="Education", EBS 2
+https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 id="8ab88758e465b7456639fd4435ca41c2" tvg-id="EBSEnglish.kr" tvg-logo="https://i.imgur.com/5wLJzb0.png" group-title="Education", EBS E
+https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 id="1fecac5ff7911e95cdcb020a08f9a0c3" tvg-id="EBSPlus1.kr" tvg-logo="https://i.imgur.com/aCeuhon.png" group-title="Education", EBS+ 1
+https://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 id="fb64c5c7e49d962e6a7c3a95a0b78634" tvg-id="EBSPlus2.kr" tvg-logo="https://i.imgur.com/pllIMGi.png" group-title="Education", EBS+ 2
+https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 id="8ecc6f1f8ab475837c2e745cf0b1c7fb" tvg-id="EcologyEnvironmentTV.cn" tvg-logo="https://i.imgur.com/se7H6Yv.png" group-title="Education;Science", Ecology & Environment TV
+http://49.113.179.174:4022/udp/238.125.2.175:5140
+#EXTINF:-1 id="0bf4c0b4daae9539342587dcea7960fe" tvg-id="Educanal.py" tvg-logo="https://i.imgur.com/857OkFf.png" group-title="Education", Educanal
+https://59ce1298bfb98.streamlock.net/educanal/educanal/playlist.m3u8
+#EXTINF:-1 id="8e8c0db10b01d22c20a8768593f6e981" tvg-id="EducaTV.ec" tvg-logo="https://i.imgur.com/lY9Bx2u.png" group-title="Education", EducaTV
+https://vid2.ecuamedia.net/educatv/live/playlist.m3u8
+#EXTINF:-1 id="45bc6e7350a6294acd1e6a645e77227d" tvg-id="Eduvision.co" tvg-logo="https://i.imgur.com/ppBdqel.png" group-title="Education", Eduvision
+https://stmv3.voxtvhd.com.br/conex2/conex2/playlist.m3u8
+#EXTINF:-1 id="b36ca505f4cff3866baef22b63f0f949" tvg-id="FacultyTV.gh" tvg-logo="https://i.imgur.com/gAQVPTV.png" group-title="Education", Faculty TV
+https://stream-server9-jupiter.muxlive.com/hls/facultytv/index.m3u8
+#EXTINF:-1 id="0c6addc62aceed13aea9538f9c9bfea0" tvg-id="FairTVEducationChannel.us" tvg-logo="https://i.imgur.com/kpgu1F1.png" group-title="Education", Fairfield FairTV Education Channel
+https://streams.helnix.com/autoHLS/900735315c2bc38b/900735315c2bc38b.m3u8
+#EXTINF:-1 id="6c09f39475943db39e6c1bb8050f8f5f" tvg-id="CMAC2.us" tvg-logo="https://i.imgur.com/O0sYOED.png" group-title="Education", Fresno CMAC 2 Education Channel
+https://reflect-vod-cmac.cablecast.tv/live-12/live/live.m3u8
+#EXTINF:-1 id="a0ec658061545982b4ebc7aa9709df09" tvg-id="HKTV.us" tvg-logo="https://i.imgur.com/AYzdlMz.png" group-title="Education", Haddam Killingworth High School TV
+https://reflect-hktv.cablecast.tv/live-3/live/live.m3u8
+#EXTINF:-1 id="cc278f4375d8c89d275a31e3ea201bb9" tvg-id="IntiTV.ec" tvg-logo="https://i.imgur.com/2WirGqb.png" group-title="Education", Inti TV
+https://5e2f36bc1c433.streamlock.net/inti/inti-network.stream/.m3u8
+#EXTINF:-1 id="d3a3c19ef4a64963d2642ba07267c9ed" tvg-id="iSTUFF.de" tvg-logo="https://i.imgur.com/1V3UXVb.jpg" group-title="Education", iSTUFF
+https://relay2.cdn.fem-net.de/hls/loop/istuff_live/istuff_live-720p.m3u8
+#EXTINF:-1 id="26f2efb3186aaf16d28814f0d3ccd61c" tvg-id="ISTV.br" tvg-logo="https://i.imgur.com/RUKVrOH.png" group-title="Education", ISTV
+https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8
+#EXTINF:-1 id="a7db4b7b52e6508579851fd3966acde5" tvg-id="JaliscoTV.mx" tvg-logo="https://i.imgur.com/N4meE8I.png" group-title="Culture;Education", Jalisco TV
+https://5fa5de1a545ae.streamlock.net/sisjalisciense/sisjalisciense/playlist.m3u8
+#EXTINF:-1 id="c72d42eaf06634e29d27f183c9a85f18" tvg-id="JoyLearning.gh" tvg-logo="https://i.imgur.com/9ikT4uq.png" group-title="Education", Joy Learning
+https://ythls.armelin.one/channel/UCZVRKO43AAGpAJs1isPEg-g.m3u8
+#EXTINF:-1 id="9d5dc2e2580b9a19806103d41946bfa1" tvg-id="KanEducational.il" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/512px-KanHinuchit.svg.png" group-title="Education", Kan Kids
+https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8
+#EXTINF:-1 id="88d0f04670f3629691c8b5d2508eea1f" tvg-id="KBEV.us" tvg-logo="https://i.imgur.com/YFVrphZ.png" group-title="Education", KBEV Spectrum Channel 6
+https://s3-us-west-2.amazonaws.com/beverly-hills-high-school.castus-vod/live/ch1/video.m3u8
+#EXTINF:-1 id="74c0967640c4e21755ae96fd6c2c76ba" tvg-id="KCAT.us" tvg-logo="https://i.imgur.com/ZAypRkk.png" group-title="Education", KCAT Public Media TV
+https://reflect-kcat-live.cablecast.tv/live-2/live/live.m3u8
+#EXTINF:-1 id="053369871442d782e7297f142d642da0" tvg-id="KCPTDT1.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/33/PBS_logo.svg/512px-PBS_logo.svg.png" group-title="Education", KCPT-DT1
+https://cvtv.cvalley.net/hls/KCPTPBS/KCPTPBS.m3u8
+#EXTINF:-1 id="1a96a6da5c11a25831bd3950a916863e" tvg-id="KGTFDT1.us" tvg-logo="https://i.imgur.com/gsMvCd5.png" group-title="Education", KGTF-DT1
+https://ythls.armelin.one/channel/UCaVp5oNNuIZVU7qqhSX0LGQ.m3u8
+#EXTINF:-1 id="df3d3a8419fa619581acf17634225deb" tvg-id="KiteVicters.in" tvg-logo="https://i.imgur.com/kj4OEsb.png" group-title="Education", KITE Victers
+https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8
+#EXTINF:-1 id="2dbdb8f65ab50becadb7e0d315afdd22" tvg-id="KMOSDT1.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/33/PBS_logo.svg/512px-PBS_logo.svg.png" group-title="Education", KMOS-DT1
+https://cvtv.cvalley.net/hls/KMOSPBS/KMOSPBS.m3u8
+#EXTINF:-1 id="5af0f9131c0e4b2c5ec051b8227bbfad" tvg-id="KnowledgeNetwork.ca" tvg-logo="https://i.imgur.com/VfofmZZ.png" group-title="Education;Kids", Knowledge
+http://knstream1.azureedge.net/knlive/knlive_high.m3u8
+#EXTINF:-1 id="a5907a23f72fdc5a57956cedd43d1708" tvg-id="KTOODT3.us" tvg-logo="https://i.imgur.com/ppn5oJy.png" group-title="Education", KTOO 360TV 3
+https://cdn3.wowza.com/5/ODB6NmF5K3l4T1h5/persis/2147483647_360tv_247/playlist.m3u8
+#EXTINF:-1 id="3eca64a521b07362e3a1c7b25142dd72" tvg-id="LEspritSorcierTV.fr" tvg-logo="https://i.imgur.com/zyh8yub.png" group-title="Documentary;Education", L'Esprit Sorcier TV
+https://194270.global.ssl.fastly.net/63b43410861d94a9eee067fb/live_947330308dd911edb85c8181cb9b11a8/index.m3u8
+#EXTINF:-1 id="d67e2f208044362fdd2d1574573398a5" tvg-id="LeominsterTVEducational.us" tvg-logo="https://i.imgur.com/Cy94oLl.png" group-title="Education", Leominster TV Educational
+http://edu.leominster.tv/Edu/smil:Edu.smil/playlist.m3u8
+#EXTINF:-1 id="354a6620b0f2a89d6b14e183e2299100" tvg-id="LiceumTV.hu" tvg-logo="https://i.imgur.com/Hf122ZD.png" group-title="Culture;Education", Liceum TV
+http://193.225.32.62:8890/live.m3u8
+#EXTINF:-1 id="1db283ad199cccda2d034a48edb36b9b" tvg-id="LNKTVEducation.us" tvg-logo="https://i.imgur.com/1snCTXp.png" group-title="Education", LNKTV Education
+http://80tv.lincoln.ne.gov/live/live.m3u8
+#EXTINF:-1 id="c1d13cee7d2fdfeb33a11312b890a2ec" tvg-id="LA36.us" tvg-logo="https://i.imgur.com/JxTzUEq.png" group-title="Education", Los Angeles Local Television Channel 36
+https://reflect-channel36-la.cablecast.tv/live-3/live/live.m3u8
+#EXTINF:-1 id="3f1f1c18d5b33b9ec158c112d84ce080" tvg-id="MSTV.us" tvg-logo="https://i.imgur.com/x0lJqSp.png" group-title="Education", Manatee Schools Television MSTV
+https://reflect-mcsb-vod.cablecast.tv/live-16/live/live.m3u8
+#EXTINF:-1 id="20fd55b62fb62c0b9fcdb6c5f2c9d90a" tvg-id="MarinTVEducationalChannel.us" tvg-logo="https://i.imgur.com/HsBBu8g.png" group-title="Education", Marin TV Educational Channel
+https://dacastmmd.mmdlive.lldns.net/dacastmmd/bc1fcf000e4e48a6a490d2af1f6added/playlist.m3u8
+#EXTINF:-1 id="b81d788b1bb8591e36c7880fb15cf823" tvg-id="MCN6ArtsChannel.us" tvg-logo="https://i.imgur.com/j6IiysJ.png" group-title="Culture;Education", MCN6 Arts Channel
+https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_COMEDY.smil/Playlist.m3u8
+#EXTINF:-1 id="0660724fb95ec71df508a2d244210de9" tvg-id="MidpenMediaCenterChannel28.us" tvg-logo="https://i.imgur.com/RPJiolQ.png" group-title="Education", Midpen Media Center Youth Education and Sports Channel 28
+https://5c2974786200d.streamlock.net/live-chan28/ngrp:ch28_all/playlist.m3u8
+#EXTINF:-1 id="943de0759d3b60344632f2844e0f49d8" tvg-id="MINEDUIPTV1.pe" tvg-logo="https://i.imgur.com/kSMo53C.png" group-title="Education", MINEDU IPTV 1
+http://iptv.perueduca.pe:1935/canal1/canal11/playlist.m3u8
+#EXTINF:-1 id="497ed174a19d031cd34e85d8c2781c0e" tvg-id="MINEDUIPTV2.pe" tvg-logo="https://i.imgur.com/mbJ1FCQ.png" group-title="Education", MINEDU IPTV 2
+http://iptv.perueduca.pe:1935/canal2/canal22/playlist.m3u8
+#EXTINF:-1 id="4e8794a8cb3d63e4e02702d1631fcdbb" tvg-id="MCPSSTV.us" tvg-logo="https://i.imgur.com/qo5sk1g.png" group-title="Education", Mobile County Public Schools TV Network
+https://5b200f5268ceb.streamlock.net/MCPSS/MCPSS247.smil/playlist.m3u8
+#EXTINF:-1 id="d2c7803cd0bccb424f4b7b7b4d0c889e" tvg-id="MosObrTV.ru" tvg-logo="https://i.imgur.com/t6PmOD5.png" group-title="Education", MOSOBR.TV
+http://retj.educom.ru/mosobrtv/tv1/index.m3u8
+#EXTINF:-1 id="6405d863384de32bbd4b39a21d8ea7e7" tvg-id="MultizonasTV.cr" tvg-logo="https://i.imgur.com/PD9TCu0.png" group-title="Education", Multizonas TV
+https://cloudvideo.servers10.com:8081/8068/index.m3u8
+#EXTINF:-1 id="83a52f7c0ecf874926a204a34889febe" tvg-id="NapaValleyChannel27.us" tvg-logo="https://i.imgur.com/6GtlOSi.png" group-title="Education", Napa Valley TV Education Access Channel 27
+https://cdn3.wowza.com/5/WDIrTW5sM1JEY1NN/napatv/G0360_003/playlist.m3u8
+#EXTINF:-1 id="49c652ff35a538b6a3dd71b59d64731a" tvg-id="NashuaETV.us" tvg-logo="https://i.imgur.com/iv9Vfcb.png" group-title="Education", Nashua ETV Channel 22 Nashua NH
+https://livestream.telvue.com/nashuanh2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 id="1abef7ba1192c945fe3ed853db2cecba" tvg-id="NCMEducationalKidsChannel.us" tvg-logo="https://i.imgur.com/3YPvfPn.png" group-title="Education;Kids", NCM Educational & Kids Channel
+https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/nevco/G0644_005/playlist.m3u8
+#EXTINF:-1 id="a6eac3f9aad9f5fc36c6644fa70f66f7" tvg-id="NHKEducationalTV.jp" tvg-logo="https://i.imgur.com/WxtftlO.png" group-title="Education", NHK E
+https://vnpt.nekocdn.xyz/d074504f-ca7a-467e-a67c-a91e69461775.m3u8
+#EXTINF:-1 id="c70da7771301a25c477681a25a74dd37" tvg-id="NihonGakkoTV.py" tvg-logo="https://i.imgur.com/ly0F9dD.jpg" group-title="Education", Nihon Gakko TV
+https://59ce1298bfb98.streamlock.net/ngtv/ngtv/playlist.m3u8
+#EXTINF:-1 id="c4041f7e67db46a68bc84166449c92bc" tvg-id="NTV.cl" tvg-logo="https://i.imgur.com/NnkSyta.png" group-title="Culture;Education", NTV
+https://marine2.miplay.cl/ntv/playlist.m3u8
+#EXTINF:-1 id="1905635011d049a4370ce735f1ae598a" tvg-id="KOCTChannel19.us" tvg-logo="https://i.imgur.com/6C71KwP.png" group-title="Education", Oceanside Community Television
+https://securestream6.champds.com/hlssstc/KOCTCALIVE2/KOCTCALIVE2.m3u8
+#EXTINF:-1 id="76dd6dec18f50836578d7552689b049c" tvg-id="XEIPNTDT.mx" tvg-logo="https://i.imgur.com/K0351vF.png" group-title="Education", Once México
+https://vivo.canaloncelive.tv/alivepkgr3/ngrp:cepro_all/playlist.m3u8
+#EXTINF:-1 id="12f3c7332876101201b87452c03d7e1e" tvg-id="VisionTV.us" tvg-logo="https://i.imgur.com/XnxPIqn.png" group-title="Education", Orange County Vision TV
+https://otv3.ocfl.net/VisionTV/smil:VisionTV.smil/playlist.m3u8
+#EXTINF:-1 id="bebc3a10568512dfc65ff504ea79d95f" tvg-id="PaighanTV.pk" tvg-logo="https://i.imgur.com/zokC3gO.png" group-title="Education;Religious", Paigham TV
+https://ythls.armelin.one/channel/UCi-vOBG7Jgk_nKAG1Zd0R5g.m3u8
+#EXTINF:-1 id="ab8bd7958b01ee3d2b7e0a2d7fc9f7d5" tvg-id="ParyawaranTV.np" tvg-logo="https://i.imgur.com/H10qamt.png" group-title="Education;Outdoor", Paryawaran TV
+https://webtv-stream.nettv.com.np/broadcaster/Paryawaran.stream/playlist.m3u8
+#EXTINF:-1 id="be23bad0f515b432d74a0faead0dd31c" tvg-id="KHETDT1.us" tvg-logo="https://i.imgur.com/O5uOeQh.png" group-title="Education", PBS Honolulu HI
+https://khetdt.lls.pbs.org/out/v1/7ec7903413294b72bb64f83963d8ea9b/index.m3u8
+#EXTINF:-1 id="650d5f39aa028ce5dddab1bba2045796" tvg-id="WKMJDT1.us" tvg-logo="https://i.imgur.com/U9HFzJk.png" group-title="Education", PBS KET Louisville KY
+https://2-fss-1.streamhoster.com/pl_134/amlst:200914-1282960/playlist.m3u8
+#EXTINF:-1 id="6874e0e37340368f1c20452244f889c5" tvg-id="PBSKidsAlaska.us" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids", PBS Kids Alaska
+https://livestream.pbskids.org/out/v1/2963202df0c142c69b5254a546473308/akst.m3u8
+#EXTINF:-1 id="d0a8521b13aea948a04d9b4d150c591d" tvg-id="PBSKidsEasternCentral.us" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids", PBS Kids Eastern/Central
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
+#EXTINF:-1 id="1104f6a8312508e891ef7731282cba3a" tvg-id="PBSKidsMountain.us" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids", PBS Kids Mountain
+https://livestream.pbskids.org/out/v1/00a3b9014fa54c40bee6ca68a104a8a4/mst.m3u8
+#EXTINF:-1 id="0b138c27887bfee0f6985c1ed59a49ba" tvg-id="PBSKidsPacific.us" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids", PBS Kids Pacific
+https://livestream.pbskids.org/out/v1/c707b9310f2848de849b336f9914adbc/pst.m3u8
+#EXTINF:-1 id="70bb117f28feedeacc8e6454c0e33e12" tvg-id="KUONDT1.us" tvg-logo="https://i.imgur.com/sfwIILW.png" group-title="Education", PBS Lincoln NE
+https://kuondt.lls.pbs.org/out/v1/91d8b5ffc5c1453c8a621508a07749a6/index.m3u8
+#EXTINF:-1 id="f55bd9ae0c8703b7bdd68708cf0cecf5" tvg-id="PBSEast.us" tvg-logo="https://i.imgur.com/vQ7F7zg.png" group-title="Education", PBS National East
+https://pbs.lls.cdn.pbs.org/est/index.m3u8
+#EXTINF:-1 id="1f42d4f321914091ff01664936ed7465" tvg-id="PBSWest.us" tvg-logo="https://d1qbemlbhjecig.cloudfront.net/prod/filer_public/pbs-digital-studios-bento-live-pbs/icons/1fcc0dd46e_PBS_favicon.png" group-title="Education", PBS National West
+https://pbs.lls.cdn.pbs.org/pst/index.m3u8
+#EXTINF:-1 id="6d7f35f5726938f78cb7d56a2e604a75" tvg-id="PlatziTV.es" tvg-logo="https://i.imgur.com/vEzeqHP.png" group-title="Education", Platzi TV
+https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
+#EXTINF:-1 id="193e4ca6aa18e1aa679c034166eb2ab2" tvg-id="PlutoTVMisterios.br" tvg-logo="https://i.imgur.com/gwxX1Y3.png" group-title="Education", Pluto TV Misterios
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde2f53449c50009b2b4dc/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 id="42ce6ae4e9dc639edaeadb3b9466b569" tvg-id="PlutoTVNatureza.br" tvg-logo="https://i.imgur.com/RuyQQ6M.png" group-title="Education", Pluto TV Natureza
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1213ba0ecebc00070e170f/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 id="6a8eea2327df78f9f1947d3e79bd4acf" tvg-id="PlutoTVVidaReal.br" tvg-logo="https://i.imgur.com/dRbBbxP.png" group-title="Education", Pluto TV Vida Real
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f32d4d9ec194100070c7449/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 id="979dc6c9b2939b660267ca2b283d0d7b" tvg-id="PSDTV.us" tvg-logo="https://i.imgur.com/djT0Q8q.png" group-title="Education", Poudre School District TV
+https://reflect-broadcast-psdschools.cablecast.tv/live-6/live/live.m3u8
+#EXTINF:-1 id="e89fd04fba7bea894dbef323583fce77" tvg-id="RedApple21.us" tvg-logo="https://i.imgur.com/ICcQUCH.png" group-title="Education", Red Apple 21
+https://cs.ebmcdn.net/eastbay-live-hs-1/fcps/mp4:fcps/playlist.m3u8
+#EXTINF:-1 id="695ce4c6521d3dee1e6afcfef8e8d956" tvg-id="RedeMinas.br" tvg-logo="https://i.imgur.com/MtQWAHv.png" group-title="Education", Rede Minas
+https://v4-slbps-sambavideos.akamaized.net/live/3282,8114,ec4b5a296d97fa99bf990662f5b4f8e1;base64np;Mc8VDxqNjXKCAf8!/amlst:Mc_tFgfGiHOdQXPB/chunklist_.m3u8
+#EXTINF:-1 id="13a2d9a8e6b2ffc04a97dae80a205c12" tvg-id="SantaCeciliaTV.br" tvg-logo="https://i.imgur.com/KxYsq1d.png" group-title="Education", Santa Cecilia TV
+http://flash1.crossdigital.com.br/2063/2063/playlist.m3u8
+#EXTINF:-1 id="d36ff8265aebf8f73a728eb6e857a340" tvg-id="SMCTVChannel24.us" tvg-logo="https://i.imgur.com/4Autljp.png" group-title="Education", Santa Maria Community Television Education Channel
+https://livestream.telvue.com/santamariactv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 id="d824c311bd0258e77886417b23b54264" tvg-id="XHUNESTDT.mx" tvg-logo="https://i.imgur.com/LbZkdca.png" group-title="Education", Señal España
+https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8
+#EXTINF:-1 id="2238549e7a4729673b2e02bc1b601da5" tvg-id="XHPBZCTDT2.mx" tvg-logo="https://i.imgur.com/dbJKErB.png" group-title="Education", SET Televisión Canal 26.2
+http://189.240.210.28:1935/live/setpuebla/playlist.m3u8
+#EXTINF:-1 id="d9f8f4e6c8a660630ae58856700a8f77" tvg-id="ShandongEducationTV.cn" tvg-logo="https://i.imgur.com/yb10kF0.png" group-title="Education", Shandong Education TV
+http://49.113.179.174:4022/udp/238.125.0.156:5140
+#EXTINF:-1 id="2b8e70715443ba323f51b1cabfe1106e" tvg-id="SQOOLTV.fr" tvg-logo="https://i.imgur.com/iujcGiI.png" group-title="Education", SQOOL TV
+https://ythls.armelin.one/channel/UCaEqMbRYYOmI3WrALMhxuIg.m3u8
+#EXTINF:-1 id="ae6bcf9fafcfbe22e3852c3a95e04b83" tvg-id="CIVMDT.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/T%C3%A9l%C3%A9-Qu%C3%A9bec_logo.svg/512px-T%C3%A9l%C3%A9-Qu%C3%A9bec_logo.svg.png" group-title="Education", Télé-Québec
+https://bcovlive-a.akamaihd.net/575d86160eb143458d51f7ab187a4e68/us-east-1/6101674910001/playlist.m3u8
+#EXTINF:-1 id="90f0a4bea81afa4210fab27f37a2b589" tvg-id="Telepace3.it" tvg-logo="https://i.imgur.com/hE4i2ft.png" group-title="Education;Religious", Telepace 3
+https://live.mariatvcdn.com/teleradiopace3/d2274c22e9ee09eb2eda01ed0496f8f5.sdp/index.m3u8
+#EXTINF:-1 id="d9c1cafb18c32615defc309050d6a91a" tvg-id="TheSoutheasternChannel.us" tvg-logo="https://i.imgur.com/E5dmC1U.png" group-title="Education", The Southeastern Channel
+http://147.174.13.196/live/live.m3u8
+#EXTINF:-1 id="58ab7a8292b3c772e8049d2a51ee8c61" tvg-id="CityofTracyChannel26.us" tvg-logo="https://i.imgur.com/ZhPmjkc.png" group-title="Education;Legislative", Tracy Education and Governmental Access Channel
+https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/tracy-ca/G0950_002/playlist.m3u8
+#EXTINF:-1 id="81ee57c828ca3f3faa9925cf244205ca" tvg-id="TUTV.us" tvg-logo="https://i.imgur.com/At0BPeA.png" group-title="Education", TUTV
+https://livestream.telvue.com/templeuni1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 id="d7661e190aeb3bcfd213ec874e4768fa" tvg-id="TVMackenzie.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/TV_Mackenzie_logo.svg/512px-TV_Mackenzie_logo.svg.png" group-title="Education", TV Mackenzie
+https://player.internetaovivo.com:8443/live_tvmackenzieabr/tvmackenzieabr/playlist.m3u8
+#EXTINF:-1 id="f19d6494022412d53b36f90c934c3b3b" tvg-id="TVMaya.gt" tvg-logo="https://i.imgur.com/BGFa4OO.png" group-title="Education", TV Maya
+https://5ca9af4645e15.streamlock.net/mayas/videomayas/playlist.m3u8
+#EXTINF:-1 id="bbe840f8ea14bba90d8ea1e4caca1d15" tvg-id="XHMNLTDT.mx" tvg-logo="https://i.imgur.com/9qL4LJF.png" group-title="Education", TV Nuevo León Canal 28
+https://s5.mexside.net:1936/canal28/canal28/playlist.m3u8
+#EXTINF:-1 id="1d870f32fd4910d3f1c2a8267d0ea3c5" tvg-id="TVUFG.br" tvg-logo="https://i.imgur.com/Yp3dbJo.png" group-title="Education", TV UFG
+http://flash.softhost.com.br:1935/ufg/tvufgweb/playlist.m3u8
+#EXTINF:-1 id="7a503203263906011b50491f5774c595" tvg-id="TVUJAT.mx" tvg-logo="https://i.imgur.com/4demWOi.png" group-title="Education", TV UJAT
+https://5e50264bd6766.streamlock.net/ujat/videoujat/playlist.m3u8
+#EXTINF:-1 id="586494f99bbb93f3132a389e13df9a9a" tvg-id="TVBEJoinville.br" tvg-logo="https://i.imgur.com/zUpWcUN.png" group-title="Culture;Education", TVBE Joinville
+https://5c483b9d1019c.streamlock.net/8022/8022/playlist.m3u8
+#EXTINF:-1 id="71e85608a525f6d4cb0cc06f67b740d6" tvg-id="TVERS.br" tvg-logo="https://i.imgur.com/MQ6lJpS.png" group-title="Culture;Education", TVE RS
+https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
+#EXTINF:-1 id="7fbd6d7be1cc12abaab1d73c302dab7d" tvg-id="TVK2.kh" tvg-logo="https://i.imgur.com/L36ptO2.png" group-title="Education", TVK 2
+https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8
+#EXTINF:-1 id="eea13c90812b4c87274812333a4b6feb" tvg-id="TVUniversidad.ar" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education", TVU Universidad Nacional de La Plata
+https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
+#EXTINF:-1 id="25e2f01ccc6b9a44148c42356f31c9fe" tvg-id="UChileTV.cl" tvg-logo="https://i.ibb.co/dGpwrLX/UChile-TV-logo-2020.png" group-title="Culture;Education", UChile TV
+https://unlimited1-cl-isp.dps.live/uchiletv/uchiletv.smil/playlist.m3u8
+#EXTINF:-1 id="780e19ffb138a9b491146c0338b2febe" tvg-id="UCSGTV.ec" tvg-logo="https://i.imgur.com/ligysaM.jpg" group-title="Education", UCSG TV
+https://ythls.armelin.one/channel/UCH5499PHqkqKPsGEUJl5lZg.m3u8
+#EXTINF:-1 id="dc54824cabe61f123f3f356c34200f4b" tvg-id="UCTV.us" tvg-logo="https://i.imgur.com/ehMz9T5.png" group-title="Education", UCTV University of California
+https://59e8e1c60a2b2.streamlock.net/509/509.stream/playlist.m3u8
+#EXTINF:-1 id="3cfde5af2fb91a338c8ebbca750149c7" tvg-id="UEBITVOnline.ec" tvg-logo="https://i.imgur.com/Tf0BF2q.jpg" group-title="Education", UEBI TV Online
+https://cloud2.streaminglivehd.com:1936/uebi/uebi/playlist.m3u8
+#EXTINF:-1 id="b7afae9d45c2aed451e8917469335ec8" tvg-id="UNIANDESTV.ec" tvg-logo="https://i.imgur.com/1rluyB7.png" group-title="Education", UNIANDES TV
+https://video.compuwebecuador.com:3323/live/uniandeslive.m3u8
+#EXTINF:-1 id="f2c98376e1b0d367b2d5585fbe055a96" tvg-id="UnisulTV.br" tvg-logo="https://i.imgur.com/N0TvAFz.png" group-title="Culture;Education", UNISUL TV
+https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
+#EXTINF:-1 id="640f5b6f5a9f1dd345dda1037491ebed" tvg-id="UniTVPortoAlegre.br" tvg-logo="https://i.imgur.com/GmA5uuk.png" group-title="Education", UniTV Porto Alegre
+http://unitvaovivo.ufrgs.br:8080/live.ogg
+#EXTINF:-1 id="668be71dd1e0c32174235c8b300b0b8d" tvg-id="Vive.ve" tvg-logo="https://i.imgur.com/VEYhkDq.png" group-title="Education", Vive
+https://cloud.odysee.live/content/fed20cff907550b0c7d83991fb3630e2a9f90454/master.m3u8
+#EXTINF:-1 id="27cf789f93042aa793e392cb1c95bbd8" tvg-id="VyasChannel.in" tvg-logo="https://i.ibb.co/WVyjqrX/in-vyas-channel-5512.jpg" group-title="Education", Vyas NIC
+https://playhls.media.nic.in/hls/live/vyas/vyas.m3u8
+#EXTINF:-1 id="c8f4e4b60570d0dc8cbcd552ccf3ec85" tvg-id="WikiTV.kh" tvg-logo="https://i.imgur.com/rnV0Ui1.png" group-title="Education", WIKI TV
+https://stream.wikitv.asia/live/ngrp:myStream_all/playlist.m3u8
+#EXTINF:-1 id="f4890fe0ec370d867762e935793e36ed" tvg-id="WomanTV.tr" tvg-logo="https://i.imgur.com/f2zGoV3.png" group-title="Culture;Education;Lifestyle", Woman TV
+https://embedlp.becdn.net/womantv.m3u8
+#EXTINF:-1 id="3f6bf2715ec726ebd3a17dc9686e6ecc" tvg-id="WorldChannel.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/PBSworld.png" group-title="Education", World Channel
+https://world.lls.pbs.org/index.m3u8
+#EXTINF:-1 id="2bfef0c830d03ff3d53e209ead4c1b55" tvg-id="WPSTV.us" tvg-logo="https://i.imgur.com/zwzmwse.jpg" group-title="Education", WPS TV
+https://2-fss-2.streamhoster.com/pl_120/amlst:203530-1426406/playlist.m3u8
+#EXTINF:-1 id="b39cdf9d75992128ae03a2e932ee4c72" tvg-id="YTN2.kr" tvg-logo="https://i.imgur.com/g6Nhwmb.png" group-title="Education", YTN2
+https://ythls.armelin.one/channel/UCDww6ExpwQS0TzmREIOo40Q.m3u8
+#EXTINF:-1 id="737f519107c8ead93689a0d669dcc758" tvg-id="ZarokTV.iq" tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="Animation;Education;Family;Kids;Music", Zarok TV Sorani
+https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:-1 id="9ebb1c2ffdcab0eb2380ae8ab7f15828" tvg-id="ChuzhouScienceEducationChannel.cn" tvg-logo="https://i.imgur.com/9JfZJRv.png" group-title="Education;Science", 滁州科教
+http://183.167.193.45:1935/live/cztvkj/playlist.m3u8

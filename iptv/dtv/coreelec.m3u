@@ -1,0 +1,65 @@
+#EXTM3U
+#EXTINF:-1 id="5117ab5504ea8f07f878def2401340c7" tvg-id="5117ab5504ea8f07f878def2401340c7" tvg-logo="https://famillerubio.com/coreelec/imagecache/129.png" group-title="TNT", TF1
+https://famillerubio.com/coreelec/stream/channel/5117ab5504ea8f07f878def2401340c7
+#EXTINF:-1 id="171dad8e61c9e03557e9f1e45d7e324d" tvg-id="171dad8e61c9e03557e9f1e45d7e324d" tvg-logo="https://famillerubio.com/coreelec/imagecache/130.png" group-title="TNT", France 2
+https://famillerubio.com/coreelec/stream/channel/171dad8e61c9e03557e9f1e45d7e324d
+#EXTINF:-1 id="82de7ec61c6c3c3c298fcc41b0bd7e6e" tvg-id="82de7ec61c6c3c3c298fcc41b0bd7e6e" tvg-logo="https://famillerubio.com/coreelec/imagecache/131.png" group-title="TNT", F3 Paris Ile-de-France
+https://famillerubio.com/coreelec/stream/channel/82de7ec61c6c3c3c298fcc41b0bd7e6e
+#EXTINF:-1 id="56481574ef65a25ac89ad67963de9f4f" tvg-id="56481574ef65a25ac89ad67963de9f4f" tvg-logo="https://famillerubio.com/coreelec/imagecache/132.png" group-title="TNT", CANAL+
+https://famillerubio.com/coreelec/stream/channel/56481574ef65a25ac89ad67963de9f4f
+#EXTINF:-1 id="c619d4b7142dbee98fe6ca2e25de9cf0" tvg-id="c619d4b7142dbee98fe6ca2e25de9cf0" tvg-logo="https://famillerubio.com/coreelec/imagecache/133.png" group-title="TNT", France 5
+https://famillerubio.com/coreelec/stream/channel/c619d4b7142dbee98fe6ca2e25de9cf0
+#EXTINF:-1 id="24d849a1c2f82a448922ff56712caf70" tvg-id="24d849a1c2f82a448922ff56712caf70" tvg-logo="https://famillerubio.com/coreelec/imagecache/134.png" group-title="TNT", M6
+https://famillerubio.com/coreelec/stream/channel/24d849a1c2f82a448922ff56712caf70
+#EXTINF:-1 id="a067f8f6914804b7aca6e3b510bc37c4" tvg-id="a067f8f6914804b7aca6e3b510bc37c4" tvg-logo="https://famillerubio.com/coreelec/imagecache/135.png" group-title="TNT", Arte
+https://famillerubio.com/coreelec/stream/channel/a067f8f6914804b7aca6e3b510bc37c4
+#EXTINF:-1 id="d0583903cc52075d21cc74ef743e32da" tvg-id="d0583903cc52075d21cc74ef743e32da" tvg-logo="https://famillerubio.com/coreelec/imagecache/136.png" group-title="TNT", C8
+https://famillerubio.com/coreelec/stream/channel/d0583903cc52075d21cc74ef743e32da
+#EXTINF:-1 id="928b01f105cbb8eda80ab46966b1c4b3" tvg-id="928b01f105cbb8eda80ab46966b1c4b3" tvg-logo="https://famillerubio.com/coreelec/imagecache/137.png" group-title="TNT", W9
+https://famillerubio.com/coreelec/stream/channel/928b01f105cbb8eda80ab46966b1c4b3
+#EXTINF:-1 id="38266bfd98451dfbd2682d1fe455b529" tvg-id="38266bfd98451dfbd2682d1fe455b529" tvg-logo="https://famillerubio.com/coreelec/imagecache/138.png" group-title="TNT", TMC
+https://famillerubio.com/coreelec/stream/channel/38266bfd98451dfbd2682d1fe455b529
+#EXTINF:-1 id="be9a3222c7aa0418a06a0be8c7a88fd3" tvg-id="be9a3222c7aa0418a06a0be8c7a88fd3" tvg-logo="https://famillerubio.com/coreelec/imagecache/139.png" group-title="TNT", TFX
+https://famillerubio.com/coreelec/stream/channel/be9a3222c7aa0418a06a0be8c7a88fd3
+#EXTINF:-1 id="d6446ee5cb1b568505291fde5e0521aa" tvg-id="d6446ee5cb1b568505291fde5e0521aa" tvg-logo="https://famillerubio.com/coreelec/imagecache/140.png" group-title="TNT", NRJ12
+https://famillerubio.com/coreelec/stream/channel/d6446ee5cb1b568505291fde5e0521aa
+#EXTINF:-1 id="3eebcfe364c56d82510bb51f3210e695" tvg-id="3eebcfe364c56d82510bb51f3210e695" tvg-logo="https://famillerubio.com/coreelec/imagecache/141.png" group-title="TNT", LCP
+https://famillerubio.com/coreelec/stream/channel/3eebcfe364c56d82510bb51f3210e695
+#EXTINF:-1 id="cd2d79257227d0e5856996d6a8fc0f9f" tvg-id="cd2d79257227d0e5856996d6a8fc0f9f" tvg-logo="https://famillerubio.com/coreelec/imagecache/142.png" group-title="TNT", France 4
+https://famillerubio.com/coreelec/stream/channel/cd2d79257227d0e5856996d6a8fc0f9f
+#EXTINF:-1 id="ddb71edafc28a6e0de11df36f1da3613" tvg-id="ddb71edafc28a6e0de11df36f1da3613" tvg-logo="https://famillerubio.com/coreelec/imagecache/143.png" group-title="TNT", BFM TV
+https://famillerubio.com/coreelec/stream/channel/ddb71edafc28a6e0de11df36f1da3613
+#EXTINF:-1 id="d1412298425b1bc30cc0bc155be55fa2" tvg-id="d1412298425b1bc30cc0bc155be55fa2" tvg-logo="https://famillerubio.com/coreelec/imagecache/144.png" group-title="TNT", CNEWS
+https://famillerubio.com/coreelec/stream/channel/d1412298425b1bc30cc0bc155be55fa2
+#EXTINF:-1 id="bab7c6770386fd0cd21c08ea37b0269c" tvg-id="bab7c6770386fd0cd21c08ea37b0269c" tvg-logo="https://famillerubio.com/coreelec/imagecache/145.png" group-title="TNT", CSTAR
+https://famillerubio.com/coreelec/stream/channel/bab7c6770386fd0cd21c08ea37b0269c
+#EXTINF:-1 id="2045d8a50ee711691a18b7b66ef8e917" tvg-id="2045d8a50ee711691a18b7b66ef8e917" tvg-logo="https://famillerubio.com/coreelec/imagecache/146.png" group-title="TNT", Gulli
+https://famillerubio.com/coreelec/stream/channel/2045d8a50ee711691a18b7b66ef8e917
+#EXTINF:-1 id="40699069fda1b60e91daa50cbad96474" tvg-id="40699069fda1b60e91daa50cbad96474" tvg-logo="https://famillerubio.com/coreelec/imagecache/147.png" group-title="TNT", TF1 Séries Films
+https://famillerubio.com/coreelec/stream/channel/40699069fda1b60e91daa50cbad96474
+#EXTINF:-1 id="369c3d10ecbf4226c1e17d72628e639d" tvg-id="369c3d10ecbf4226c1e17d72628e639d" tvg-logo="https://famillerubio.com/coreelec/imagecache/148.png" group-title="TNT", L'Equipe
+https://famillerubio.com/coreelec/stream/channel/369c3d10ecbf4226c1e17d72628e639d
+#EXTINF:-1 id="ee4f7d9b06c41419331f2c9de4ced964" tvg-id="ee4f7d9b06c41419331f2c9de4ced964" tvg-logo="https://famillerubio.com/coreelec/imagecache/149.png" group-title="TNT", 6ter
+https://famillerubio.com/coreelec/stream/channel/ee4f7d9b06c41419331f2c9de4ced964
+#EXTINF:-1 id="fb28f4e8d8e8a9563e42cbb0a2efb136" tvg-id="fb28f4e8d8e8a9563e42cbb0a2efb136" tvg-logo="https://famillerubio.com/coreelec/imagecache/150.png" group-title="TNT", RMC STORY
+https://famillerubio.com/coreelec/stream/channel/fb28f4e8d8e8a9563e42cbb0a2efb136
+#EXTINF:-1 id="59c14d27c81b8a7a78d584709bdf7df0" tvg-id="59c14d27c81b8a7a78d584709bdf7df0" tvg-logo="https://famillerubio.com/coreelec/imagecache/151.png" group-title="TNT", RMC Découverte
+https://famillerubio.com/coreelec/stream/channel/59c14d27c81b8a7a78d584709bdf7df0
+#EXTINF:-1 id="e9f9548abb51f9bad661697b4cb63d9f" tvg-id="e9f9548abb51f9bad661697b4cb63d9f" tvg-logo="https://famillerubio.com/coreelec/imagecache/152.png" group-title="TNT", Chérie 25
+https://famillerubio.com/coreelec/stream/channel/e9f9548abb51f9bad661697b4cb63d9f
+#EXTINF:-1 id="f930735c6c4581b294386f7626c73f6b" tvg-id="f930735c6c4581b294386f7626c73f6b" tvg-logo="https://famillerubio.com/coreelec/imagecache/153.png" group-title="TNT", LCI
+https://famillerubio.com/coreelec/stream/channel/f930735c6c4581b294386f7626c73f6b
+#EXTINF:-1 id="8079c5f5c011fdcca1d355d0fb73fab9" tvg-id="8079c5f5c011fdcca1d355d0fb73fab9" tvg-logo="https://famillerubio.com/coreelec/imagecache/154.png" group-title="TNT", franceinfo:
+https://famillerubio.com/coreelec/stream/channel/8079c5f5c011fdcca1d355d0fb73fab9
+#EXTINF:-1 id="dbf8473461c8df7544380f0d74515ffe" tvg-id="dbf8473461c8df7544380f0d74515ffe" tvg-logo="https://famillerubio.com/coreelec/imagecache/155.png" group-title="TNT", BFM PARIS ILE-DE-FRANCE
+https://famillerubio.com/coreelec/stream/channel/dbf8473461c8df7544380f0d74515ffe
+#EXTINF:-1 id="2f0d5fa07ae3f09c0b8aa7d0e3e426b9" tvg-id="2f0d5fa07ae3f09c0b8aa7d0e3e426b9" tvg-logo="https://famillerubio.com/coreelec/imagecache/156.png" group-title="TNT", PARIS PREMIERE
+https://famillerubio.com/coreelec/stream/channel/2f0d5fa07ae3f09c0b8aa7d0e3e426b9
+#EXTINF:-1 id="9d3ec9667936c856ba3b85c54deac19b" tvg-id="9d3ec9667936c856ba3b85c54deac19b" tvg-logo="https://famillerubio.com/coreelec/imagecache/157.png" group-title="TNT", CANAL+ SPORT
+https://famillerubio.com/coreelec/stream/channel/9d3ec9667936c856ba3b85c54deac19b
+#EXTINF:-1 id="ef0ded62e5a49a3fca756d6f1b4caed3" tvg-id="ef0ded62e5a49a3fca756d6f1b4caed3" tvg-logo="https://famillerubio.com/coreelec/imagecache/158.png" group-title="TNT", CANAL+ CINEMA
+https://famillerubio.com/coreelec/stream/channel/ef0ded62e5a49a3fca756d6f1b4caed3
+#EXTINF:-1 id="2f33f890f5cf1cde4c8258de721838e8" tvg-id="2f33f890f5cf1cde4c8258de721838e8" tvg-logo="https://famillerubio.com/coreelec/imagecache/159.png" group-title="TNT", PLANETE+
+https://famillerubio.com/coreelec/stream/channel/2f33f890f5cf1cde4c8258de721838e8
+#EXTINF:-1 id="0557e56f74c8fe12f53eba8c48520bb5" tvg-id="0557e56f74c8fe12f53eba8c48520bb5" tvg-logo="https://famillerubio.com/coreelec/imagecache/160.png" group-title="TNT", Arte.Tv
+https://famillerubio.com/coreelec/stream/channel/0557e56f74c8fe12f53eba8c48520bb5

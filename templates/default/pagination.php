@@ -63,11 +63,13 @@ function pagination_item_active(&$item)
 
     $cls = '';
 
-    if ($item->text == Text::_('PREV')) { $item->text = '&laquo;'; $cls = '';}
-    if ($item->text == Text::_('NEXT')) { $item->text = '&raquo;'; $cls = '';}
+    if ($item->text == Text::_('PREV')) { $item->text = '&laquo;'; $cls = ' d-sm-block';}
+    if ($item->text == Text::_('NEXT')) { $item->text = '&raquo;'; $cls = ' d-sm-block';}
     
-    if ($item->text == Text::_('START')) { $cls = ' first';}
-    if ($item->text == Text::_('END'))   { $cls = ' last';}
+    if ($item->text == Text::_('START')) { $cls = '';}
+    if ($item->text == Text::_('END'))   { $cls = '';}
+
+	if($cls=='') $cls = ' d-none d-md-block';
     
     return '<li class="page-item' . $cls . '"><a class="page-link" href="' . SEF::_($item->link) . '">' . $item->text . '</a></li>';
 }
@@ -77,5 +79,5 @@ function pagination_item_inactive( &$item )
     if ($item->text == Text::_('PREV')) { $item->text = '&laquo;';}
     if ($item->text == Text::_('NEXT')) { $item->text = '&raquo;';}
 
-	return '<li class="page-item disabled"><a class="page-link" href="#">' . $item->text . '</a></li>';
+	return '<li class="page-item disabled page-link">' . $item->text . '</li>';
 }

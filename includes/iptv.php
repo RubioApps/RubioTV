@@ -118,12 +118,29 @@ class IPTV{
         return json_decode($content);  
     }  
 
+    /**
+     * getGuides
+     * Provides an associative array of available guides
+     * This function uses the iptv-org API
+     */
     public static function getGuides()
     {
         static::$url =  static::$api . '/guides.json';
         $content=file_get_contents(static::$url);
         return json_decode($content);            
     }
+
+    /**
+     * getIso
+     * Provides an associative array of available ISO-639 table
+     * This function uses a static file
+     */
+    public static function getISO()
+    {
+        static::$url =  TV_STATIC . DIRECTORY_SEPARATOR . 'iso-639.json';
+        $content=file_get_contents(static::$url);
+        return json_decode($content);                
+    }    
         
 }
 

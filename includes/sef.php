@@ -40,6 +40,10 @@ class SEF{
     protected static $id = '';  
     protected static $data = [];
 
+    /**
+     * Transform an URL into a SEF path, by taking the basic parameters task/folder/source/id and building a friendly trail in the query
+     * /?task=a&folder=b&source=c&id=d becomes /a/b/c/d/
+     */
     public static function _($uri)
     {
         $config = Factory::getConfig();
@@ -57,7 +61,8 @@ class SEF{
         $pathway = [];
         foreach($array as $key => $value)
         {
-            if(in_array($key , $fields) && strlen($value) > 0)
+            //If the parameter in the query matches to a basic one
+            if(in_array($key , $fields) && strlen($value))
             {                                           
                 // If there is an alias in the current segment value
                 if(strstr( $value , ':') !== false)
@@ -79,12 +84,13 @@ class SEF{
                 $trail[$key]    =  $alias;    
 
             } else {
-                if($value)
+                $code = $key;
+                if(strlen($value))
                     $query[$key] = $key .'='. $value;             
             }
 
             // Remove the task from the pathway
-            if($key !== 'task') 
+            if($key !== 'task' && in_array($key,$fields)) 
                 $pathway[] = $code;
 
             $pathway = array_unique($pathway);
@@ -95,7 +101,7 @@ class SEF{
         {
             $task = array_shift($trail);            
             $trail[] = $task;
-        }        
+        }   
 
         $ret  = $config->live_site;
         if(count($trail))
@@ -107,35 +113,51 @@ class SEF{
         return $ret;
     }
 
-
-    public static function parseURI(&$params)
-    {                     
+    /**
+    *  Takes the current URI and detect the chunks from the trail
+    *  Each chunck matches a basic parameter task/folder/source/id
+    *  An URI like /dothis/thisfolder/thissource/thisitem 
+    *  becomes ?task=dothis&folder=fromthis&source=thissource&id=thisitem
+    */
+    public static function parseURI()
+    {                    
         $config = Factory::getConfig();
+        $params = Factory::getParams();
 
-        // Get the current URI
-        $proto  = (empty($_SERVER['HTTPS']) ? 'http' : 'https');
-        $host   = $_SERVER['HTTP_HOST'] ?? $config->live_site;
-        $uri    = $_SERVER['REQUEST_URI'] ?? null;
-        $link   = $proto . '://' . $host . $uri;        
+        if(!$config->use_sef) return; 
+
+        // Get the URI and remove the final slash
+        $url    = $_SERVER['SCRIPT_URL'] ?? null;
+        if(substr($url,-1) == '/') $url = substr($url,0,strlen($url)-1);        
+
+        // If no script or not index.php, return
+        $script = $_SERVER['SCRIPT_NAME'] ?? null;
+        if (!$script || !preg_match('/\/index.php$/', $script)) return;           
+
+        // Get the query
+        $query = Request::get();
 
         // Get the trail
-        $trail = explode('/',parse_url($link,PHP_URL_PATH));           
+        $trail = explode('/',$url);                         
 
         // Detect if the web-app runs in a subfolder
         $start = count(explode('/',parse_url($config->live_site,PHP_URL_PATH)));
 
         // Slice the trail by the starting point
-        $trail = array_slice($trail , $start);        
-
+        $trail = array_slice($trail , $start);                  
+                
+        // At root level 
+        if(!count($trail)) return;
+             
         //Cosmetic: put the last trail as the first
-        if(count($trail)>0)
+        if($trail[0] != '')
         {            
-            $task = $trail[count($trail) - 1];
-            $trail = array_slice($trail, 0 , count($trail) - 1);
+            $task   = $trail[count($trail) - 1];             
+            $trail  = array_slice($trail, 0 , count($trail) - 1);
             array_unshift($trail , $task);
         } else {
-            $task = 'home';
-        }        
+            return;
+        }            
 
         // Default trails
         $props = ['task','folder','source','id'];
@@ -143,8 +165,9 @@ class SEF{
         // Hold the cumulative pathway
         $pathway = [];
 
-        for( $i = 0 ; $config->use_sef && $i < count($trail) && $task !== 'home'; $i++ )
+        for( $i = 0 ; $i < count($trail) && $task !== 'home'; $i++ )
         {
+
             if($i > count($props))
                 break;
 
@@ -156,18 +179,19 @@ class SEF{
 
             // For other trails than the task, store it in the pathway
             if($key !== 'task')
-                $pathway[] = $value;                                     
+                $pathway[] = $value; 
+                          
+            // If the parameter is not yet set, create it            
+            if(empty($query[$key]))
+                Request::setVar($key , $value , 'GET');                 
+        }                   
 
-            // If the parameter is not yet set, create it
-            if(empty($params[$key]['value']))
-                Factory::setParam($key , null , 'string');  
-
-            // Store the value
-            static::$$key = $value; 
-            $params[$key]['value'] = $value;     
-        }       
-        // Save the task in the factory.
-        Factory::setTask($task);                                
+        // Save the task in the factory
+        Factory::setTask($task);   
+        
+        // Save the query in the params
+        Factory::savePrefs();    
+            
     }
 
     public static function get()
@@ -222,6 +246,8 @@ class SEF{
         if(strstr($pathway , ':') !== false)
             return false;
    
+        if(substr($pathway,0,1) == '.') return false;
+
         $filepath   = TV_SEF . DIRECTORY_SEPARATOR . $pathway . '.xml';   
 
         if(!isset(self::$data[$pathway]))

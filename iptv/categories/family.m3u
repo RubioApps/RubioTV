@@ -1,0 +1,97 @@
+#EXTM3U
+#EXTINF:-1 id="c54f3a129e20b11ce1011390089f6e78" tvg-id="1KZNTV.za" tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/188/6544bebaae.jpg" group-title="Entertainment;Family;General", 1KZN TV
+https://cdn.freevisiontv.co.za/sttv/smil:1kzn.stream.smil/playlist.m3u8
+#EXTINF:-1 id="2c07751f7f1eb57dae0ae2188bde1cbb" tvg-id="AMGTV.us" tvg-logo="https://i.imgur.com/m5Anun9.png" group-title="Family", AMG TV
+https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
+#EXTINF:-1 id="94fe3ca5ac131ad4ebef0d570ff2b263" tvg-id="CanalIPe.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Identidad_Peruana_ipe_2020.png/1200px-Identidad_Peruana_ipe_2020.png" group-title="Family", Canal IPe
+https://cdnhd.iblups.com/hls/3f2cb1658d114f2693eff18d83199e67.m3u8
+#EXTINF:-1 id="6317d076a2236845051aa85dc19413ae" tvg-id="ChurchofUgandaFamilyTelevision.ug" tvg-logo="https://pbs.twimg.com/profile_images/1455134164353757187/RYfGkxkO_400x400.jpg" group-title="Family;Religious", COU Family Television
+https://media.streambrothers.com:19360/8028/8028.m3u8
+#EXTINF:-1 id="e08b24e05c52206ef637dd97380f5d0b" tvg-id="CWBTV.br" tvg-logo="https://i.imgur.com/S0ISpmU.png" group-title="Family;General", CWB TV
+https://59d39900ebfb8.streamlock.net/cwbtv/cwbtv/playlist.m3u8
+#EXTINF:-1 id="6f5de1afbbc8fa0385ff086eb704c98b" tvg-id="DoveChannel.us" tvg-logo="https://i.imgur.com/FVWqYQG.png" group-title="Family", Dove Channel
+https://amg01201-cinedigmenterta-dove-cineverse-1fck5.amagi.tv/playlist/amg01201-cinedigmenterta-dove-cineverse/playlist.m3u8
+#EXTINF:-1 id="c9a8799e42dab61a672a8f9bc4817d44" tvg-id="EstrellaGames.us" tvg-logo="https://i.imgur.com/Z52nEnH.png" group-title="Entertainment;Family", Estrella Games
+https://estrella-games-oando.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="a0f4c007b0082e2bf5a7a27b2fb2d1bd" tvg-id="FamiliChannel.co" tvg-logo="https://i.imgur.com/fPuWct8.png" group-title="Family", Famili Channel
+https://cp.panelchs.com:1936/8012/8012/playlist.m3u8
+#EXTINF:-1 id="eb3ea26b1aff4efc15b2fef0e1ad94c2" tvg-id="FamilyTime.us" tvg-logo="https://i.imgur.com/TCKJT2x.png" group-title="Family", Family Time
+https://amg09501-questar-amg09501c3-stirr-us-3096.playouts.now.amagi.tv/amg09501/AMG09501C3/segmented_playlist/0/35-89-3096.m3u8
+#EXTINF:-1 id="cbd0241232ae083dc4c16aa4f27825d2" tvg-id="FilmRiseFamily.us" tvg-logo="https://i.imgur.com/8j2npVc.png" group-title="Family", FilmRise Family
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefamily/CDN/playlist.m3u8
+#EXTINF:-1 id="d4974d4711e3b9efdc9bdfd305d69043" tvg-id="GreatCommissionTV.ph" tvg-logo="https://i.imgur.com/8cvikOo.png" group-title="Family", Great Commission TV
+http://45.32.115.103/live/livestream/index.m3u8
+#EXTINF:-1 id="e162dd668094d27b9fd59e986b43b26e" tvg-id="HallmarkChannelEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Hallmark_Channel.svg/512px-Hallmark_Channel.svg.png" group-title="Family", Hallmark Channel East
+http://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
+#EXTINF:-1 id="ed4e7ee4bd5a8008719f30aa12ca330c" tvg-id="JOJFamily.sk" tvg-logo="https://i.imgur.com/k1COMHi.png" group-title="Family", JOJ Family
+https://live.cdn.joj.sk/live/andromeda/family-720.m3u8
+#EXTINF:-1 id="26c89c574cf7936730d24c90b715cc92" tvg-id="MBC5.ae" tvg-logo="https://i.imgur.com/fRWaDyF.png" group-title="Family", MBC 5
+https://shls-mbc5-prod-dub.shahid.net/out/v1/2720564b6a4641658fdfb6884b160da2/index.m3u8
+#EXTINF:-1 id="83071773e11285c3f6cc63c8886b2109" tvg-id="MyFamily.id" tvg-logo="https://i.imgur.com/IaCmCt9.png" group-title="Family", My Family Channel
+http://210.210.155.37/uq2663/h/h194/index.m3u8
+#EXTINF:-1 id="52008fadb3848114a59dab5721d15c49" tvg-id="NambikkaiTV.in" tvg-logo="https://i.imgur.com/xnjkUOs.png" group-title="Family", Nambikkai TV
+https://live.wmncdn.net/nambikkaitv/live.stream/index.m3u8
+#EXTINF:-1 id="d518ba48fde0081b3d004f658aa370fc" tvg-id="PositivTV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/82/Positiv_TV_Network_Logo.png" group-title="Family", Positiv
+https://tbn-jw.cdn.vustreams.com/live/positivtv/live.isml/playlist.m3u8
+#EXTINF:-1 id="0ed87da9011bd869244c3b403de4830a" tvg-id="Pro100TV.ru" tvg-logo="https://i.imgur.com/YfQEflM.png" group-title="Animation;Classic;Entertainment;Family;Movies", Pro100TV
+https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
+#EXTINF:-1 id="bc1292d232a6326815e2def4c48018c9" tvg-id="RakutenTVFamilyMovies.es" tvg-logo="https://i.imgur.com/NJYEYE3.png" group-title="Family;Movies", Rakuten Family
+https://rakuten-family-2-es.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="bf799fabe2e0c6240a18be7cd15eb514" tvg-id="RakutenTVFamilyMovies.fr" tvg-logo="https://i.imgur.com/NJYEYE3.png" group-title="Family;Movies", Rakuten Family
+https://rakuten-family-16-be.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="65fef3c2aa735a416d6a11ec17607047" tvg-id="RakutenTVFamilyMovies.it" tvg-logo="https://i.imgur.com/NJYEYE3.png" group-title="Family;Movies", Rakuten Family
+https://rakuten-family-6-it.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="163273b946d916c9eab12b0786625191" tvg-id="RakutenTVFamilyMovies.uk" tvg-logo="https://i.imgur.com/NJYEYE3.png" group-title="Family;Movies", Rakuten Family UK
+https://rakuten-family-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="6f5165ee2208918ed3ec226737b143b4" tvg-id="RakutenTVFamilyMovies.at" tvg-logo="https://i.imgur.com/NJYEYE3.png" group-title="Family;Movies", Rakuten TV Family Movies Austria
+https://9fa8baba055e4a52b0a8d1ae7d78bed8.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-at_RakutenFamily-1/playlist.m3u8
+#EXTINF:-1 id="49f4353eb662a4274e95d6384b53af19" tvg-id="RakutenTVFamilyMovies.ch" tvg-logo="https://i.imgur.com/NJYEYE3.png" group-title="Family;Movies", Rakuten TV Family Switzerland
+https://a24daf1125344b9cab66eed2fcff8821.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-ch_RakutenFamily-1/playlist.m3u8
+#EXTINF:-1 id="648264571c95c47c22d95227d03e4b99" tvg-id="RakutenTVFamilyMovies.fi" tvg-logo="https://i.imgur.com/NJYEYE3.png" group-title="Family;Movies", Rakuten TV Perhe
+https://rakuten-family-12-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="f2513f0dd9e2f5ed8a64c6a5a41354ad" tvg-id="RealFamilies.us" tvg-logo="https://i.imgur.com/uoWrh7e.png" group-title="Family", Real Families
+https://lds-realfamilies-plex.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="70c2fc3e59d05ef2699cf02902ff2712" tvg-id="RealFamilies.au" tvg-logo="https://i.imgur.com/fV9UC2U.png" group-title="Family", Real Families
+https://lds-realfamilies-samsunguau.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="c9db933bff0333a787d7d6a4f914cabd" tvg-id="RiC.de" tvg-logo="https://i.imgur.com/4wMZ8Em.png" group-title="Family;Kids", RiC
+https://ythls.armelin.one/channel/UCobxrBytMqM7pWZslb_UEHA.m3u8
+#EXTINF:-1 id="835434a5ea0efca01319e471d946425a" tvg-id="SowetoTV.za" tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/188/654228e5b5.jpg" group-title="Entertainment;Family", Soweto TV
+https://cdn.freevisiontv.co.za/sttv/smil:soweto.stream.smil/playlist.m3u8
+#EXTINF:-1 id="8c233520aad34e213a59e01e55cb375c" tvg-id="SuperscreenTV.ng" tvg-logo="https://i.imgur.com/uTNmSWE.png" group-title="Culture;Family", Superscreen TV
+https://video1.getstreamhosting.com:1936/8398/8398/playlist.m3u8
+#EXTINF:-1 id="0cac55cc5d4eb72c85599fa04d9537cd" tvg-id="TalangaTVCanal39.hn" tvg-logo="https://i.imgur.com/5GiUzHC.jpg" group-title="Family", Talanga TV Canal 39
+https://stream.oursnetworktv.com/latin/Tv39Talanga/playlist.m3u8
+#EXTINF:-1 id="8bd3155ffbe2880d8e4cf70677852f94" tvg-id="TelaViva.br" tvg-logo="https://i.imgur.com/vcNo9Vj.png" group-title="Family;Movies;Series", Tela Viva
+https://srv4.zcast.com.br/telavivatv/telavivatv/playlist.m3u8
+#EXTINF:-1 id="0ddcc3bc65de701d6bdb171b0fe1317b" tvg-id="Telenovisa43.do" tvg-logo="https://i.imgur.com/iHvf3bR.png" group-title="Family;General", Telenovisa 43
+https://rdn.essastream.com:3230/live/telenovisa43live.m3u8
+#EXTINF:-1 id="83cbb41e63b8e6969a4c2e844213a78a" tvg-id="ThePetCollective.es" tvg-logo="https://i.imgur.com/F4hEPMK.png" group-title="Family", The Pet Collective
+https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="602c92ff30383ed44296bd5790134af2" tvg-id="ThePetCollective.fr" tvg-logo="https://i.imgur.com/bcspFAU.png" group-title="Family", The Pet Collective
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f8ecd336d64c9000754cdf1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e052a60-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6ad13452-4038-4ee5-9d1d-60ffd7bdf4ed
+#EXTINF:-1 id="4c3b55b3698d941a1a47751aed992457" tvg-id="ThePetCollective.in" tvg-logo="https://i.imgur.com/w7RdSIk.png" group-title="Family", The Pet Collective
+https://the-pet-collective-international-in.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="a4e024fbc4e833c9489d26bd28fa6fd1" tvg-id="ThePetCollective.it" tvg-logo="https://i.imgur.com/MU21Zva.png" group-title="Family", The Pet Collective
+https://the-pet-collective-international-it.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="8f92fe95239b89b772ff8764852bac29" tvg-id="ThePetCollective.us" tvg-logo="https://i.imgur.com/yH7n2dF.png" group-title="Family", The Pet Collective
+https://the-pet-collective-international-ca.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="9b99927271cea27881ecba703a657d6f" tvg-id="ThePetCollective.se" tvg-logo="https://i.imgur.com/Mk28uUy.png" group-title="Family", The Pet Collective Sweden
+https://the-pet-collective-international-se.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="714fe71f76c9eebcf77e1b4dfff9eb6e" tvg-id="TshwaneTV.za" tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/188/654a3ec660.png" group-title="Entertainment;Family;General", Tshwane TV
+https://cdn.freevisiontv.co.za/sttv/smil:tshwane.stream.smil/playlist.m3u8
+#EXTINF:-1 id="cac0bd5cca8d1037692f2da384214635" tvg-id="TVFamilia.ve" tvg-logo="https://i.imgur.com/A3bU5e7.png" group-title="Family", TV Familia
+https://cloudusa.streamingconnect.com/tvfamiliatvbox/tvfamiliaweb.m3u8
+#EXTINF:-1 id="c1fa02b753cdf9f0488a9d2c5ade3243" tvg-id="TVFamille.mq" tvg-logo="https://tvfamille.org/website/images/logo/tv_famille_logo_2019_square_75px.png" group-title="Family;Religious", TV Famille
+https://streamer1.streamhost.org/salive/GMItvfh/playlist.m3u8
+#EXTINF:-1 id="4d5481d0c8f4acf94b493836a361372a" tvg-id="TVSFamilyChannel.us" tvg-logo="https://i.imgur.com/Y3EV3DL.png" group-title="Family", TVS Family Channel
+https://bozztv.com/gusa/gusa-TVSFamilyChannel/index.m3u8
+#EXTINF:-1 id="4621d2522879f519e25450f4ef909526" tvg-id="XtremaFamily.ar" tvg-logo="https://i.imgur.com/PohVKAP.png" group-title="Family;Movies", Xtrema Cine Family
+https://stmv1.cnarlatam.com/cinefamiliy/cinefamiliy/playlist.m3u8
+#EXTINF:-1 id="737f519107c8ead93689a0d669dcc758" tvg-id="ZarokTV.iq" tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="Animation;Education;Family;Kids;Music", Zarok TV Sorani
+https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:-1 id="f2c7b54f87662cd4f73ae6acc9349660" tvg-id="STS.ru" tvg-logo="https://i.imgur.com/ilUzAeb.png" group-title="Family", СТС
+http://s18209.cdn.ngenix.net/hls/CH_R02_STS/playlist.m3u8
+#EXTINF:-1 id="481f0126e64e824331f24ca82c1adbf5" tvg-id="STSLove.ru" tvg-logo="https://i.imgur.com/YBVZoDd.png" group-title="Family", СТС Love
+http://31.148.48.15/STS_Love/index.m3u8
+#EXTINF:-1 id="a9ba2f35fb3203ca160a607d712b6d2b" tvg-id="SichuanTVWomenandChildrenChannel.cn" tvg-logo="https://i.imgur.com/1lGO0vY.png" group-title="Family", 四川妇女儿童
+http://scgctvshow.sctv.com/hdlive/sctv7/index.m3u8

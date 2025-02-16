@@ -1,0 +1,11 @@
+#EXTM3U
+#EXTINF:-1 id="dcac23ce1993039ab7183a01d58cd68e" tvg-id="fast-channels.atresmedia.com" tvg-logo="https://graph.facebook.com/atresplayer/picture?width=200&height=200" group-title="Eventuales", Atresplayer Clásicos
+https://fast-channels.atresmedia.com/648ef12c2bfab0e4507e0d61/648ef12c2bfab0e4507e0d61.m3u8
+#EXTINF:-1 id="57feed1bbb47a8cfb2627ba16235e64a" tvg-id="fast-channels.atresmedia.com" tvg-logo="https://graph.facebook.com/atresplayer/picture?width=200&height=200" group-title="Eventuales", Atresplayer Comedia
+https://fast-channels.atresmedia.com/648ef23d2bfab0e4557e0d61/648ef23d2bfab0e4557e0d61.m3u8
+#EXTINF:-1 id="ad550413d9dbef6dfe6be1b93bcdf5be" tvg-id="fast-channels.atresmedia.com" tvg-logo="https://graph.facebook.com/atresplayer/picture?width=200&height=200" group-title="Eventuales", Atresplayer Multicine
+https://fast-channels.atresmedia.com/648ef18c1756b0e41daf83cc/648ef18c1756b0e41daf83cc.m3u8
+#EXTINF:-1 id="f8c93093b1d02aad8372f8ed7956937f" tvg-id="cdnlive.codev8.net" tvg-logo="https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200" group-title="Andalucía", Canal Sur 2 Accesible
+https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
+#EXTINF:-1 id="4db5c77396e35a43ac91a2bb88b22501" tvg-id="4db5c77396e35a43ac91a2bb88b22501" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Imported", La 1
+https://rtvelivestream.akamaizet.net/rtvesec/la1/la1_main_dvr.m3u8

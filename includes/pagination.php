@@ -43,10 +43,9 @@ class Pagination
     public $pagesStop;
     public $pagesCurrent;
     public $pagesTotal;
-    public $hideEmptyLimitstart = true;
 
     protected $viewall = false;
-    protected $additionalUrlParams = array();
+    protected $additionalUrlParams = [];
     protected $data;
 
     public function __construct($total, $offset, $limit)
@@ -238,7 +237,7 @@ class Pagination
         // Build the page navigation list.
         $data = $this->_buildDataObject();
 
-        $list           = array();
+        $list           = [];
 
         // Build the select list
         if ($data->all->base !== null) {
@@ -266,7 +265,7 @@ class Pagination
         }
 
         // Make sure it exists
-        $list['pages'] = array();
+        $list['pages'] = [];
 
         foreach ($data->pages as $i => $page) {
             if ($page->base !== null) {
@@ -381,10 +380,14 @@ class Pagination
     {
         $data   = new \stdClass();
         $config = Factory::getconfig();
+        $task   = Factory::getTask();
+        $folder = Request::getVar('folder','','GET');
+        $source = Request::getVar('source','','GET');
+        $id     = Request::getVar('id','','GET');
 
         // Build the additional URL parameters string.
-        $root   = $config->live_site . '/' ;        
-        $params = ''; 
+        $root   = $config->live_site . '/';   
+        $params = '';   
 
         if (!empty($this->additionalUrlParams)) {
             foreach ($this->additionalUrlParams as $key => $value) {
@@ -396,8 +399,8 @@ class Pagination
 
         if (!$this->viewall) {
             $data->all->base = '0';
-            $data->all->link = $root . $params . '&offset=';
-        }
+            $data->all->link = $root . $params;
+        }   
 
         // Set the start and previous data objects.
         $data->start    = new PaginationObject(Text::_('START'));
@@ -405,21 +408,10 @@ class Pagination
 
         if ($this->pagesCurrent > 1) {
             $page = ($this->pagesCurrent - 2) * $this->limit;
-
-            if ($this->hideEmptyLimitstart) {
-                $data->start->link =  $root . $params . '&offset=';
-            } else {
-                $data->start->link =  $root . $params . '&offset=0';
-            }
-
+            $data->start->link =  $root . $params . '&offset=0';            
             $data->start->base    = '0';
             $data->previous->base = $page;
-
-            if ($page === 0 && $this->hideEmptyLimitstart) {
-                $data->previous->link = $data->start->link;
-            } else {
-                $data->previous->link = $root . $params . '&offset=' . $page;
-            }
+            $data->previous->link = $root . $params . '&offset=' . $page;            
         }
 
         // Set the next and end data objects.
@@ -436,7 +428,7 @@ class Pagination
             $data->end->link  =  $root . $params . '&offset=' . $end;
         }
 
-        $data->pages = array();
+        $data->pages = [];
         $stop        = $this->pagesStop;
 
         for ($i = $this->pagesStart; $i <= $stop; $i++) {
@@ -446,12 +438,7 @@ class Pagination
 
             if ($i != $this->pagesCurrent || $this->viewall) {
                 $data->pages[$i]->base = $offset;
-
-                if ($offset === 0 && $this->hideEmptyLimitstart) {
-                    $data->pages[$i]->link = $data->start->link;
-                } else {
-                    $data->pages[$i]->link =  $root . $params . '&offset=' . $offset;
-                }
+                $data->pages[$i]->link =  $root . $params . '&offset=' . $offset;                
             } else {
                 $data->pages[$i]->active = true;
             }

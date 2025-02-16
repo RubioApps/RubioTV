@@ -1,0 +1,157 @@
+#EXTM3U
+#EXTINF:-1 id="e3c8a5fef381ffbca94121c7586d8973" tvg-id="2GB.au" tvg-logo="https://i.ibb.co/jwM8DFG/2GB-1.png" group-title="News", 2GB Sydney
+https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8
+#EXTINF:-1 id="08bfb1f8ab73458b634395f5e7f6830e" tvg-id="3AW.au" tvg-logo="https://i.imgur.com/Z4MdB0S.png" group-title="News", 3AW Melbourne
+https://3awlive.akamaized.net/hls/live/2032295/3AW/index.m3u8
+#EXTINF:-1 id="d2e5dee8d6cbc4c51656fc31dd11aefd" tvg-id="6PR.au" tvg-logo="https://i.imgur.com/Q9iCxg1.png" group-title="News", 6PR Perth
+https://6prlive.akamaized.net/hls/live/2033806/6PR/index.m3u8
+#EXTINF:-1 id="4010e372123befc7a774fc0a237685d1" tvg-id="9GemSydney.au" tvg-logo="https://i.imgur.com/cwLzqaw.png" group-title="Entertainment", 9Gem
+https://9now-livestreams.akamaized.net/hls/live/2008311/gem-syd/master.m3u8
+#EXTINF:-1 id="10e68f38aee1e623606eb18491e423ff" tvg-id="9GoSydney.au" tvg-logo="https://i.imgur.com/RLijQI8.png" group-title="Entertainment;Kids", 9Go!
+https://9now-livestreams.akamaized.net/hls/live/2008312/go-syd/master.m3u8
+#EXTINF:-1 id="57736651a695040a5a5726967acfb654" tvg-id="9LifeSydney.au" tvg-logo="https://i.imgur.com/HlJOrGI.png" group-title="Lifestyle", 9Life
+https://9now-livestreams.akamaized.net/hls/live/2008313/life-syd/master.m3u8
+#EXTINF:-1 id="615be9895e558ff7825ff53977af60b7" tvg-id="9RushSydney.au" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c2/Logo_of_9RUSH.png" group-title="Series", 9Rush
+https://9now-livestreams.akamaized.net/hls/live/2010626/rush-syd/master.m3u8
+#EXTINF:-1 id="9ab64c90a4567e77c619c4d84240ff91" tvg-id="10BoldSydney.au" tvg-logo="https://i.imgur.com/2xglh33.png" group-title="Lifestyle;Relax", 10 Bold
+https://i.mjh.nz/10bold-nsw.m3u8
+#EXTINF:-1 id="8287813b7ae3c2f65add9ea41b00174b" tvg-id="10BoldAdelaide.au" tvg-logo="https://i.imgur.com/2xglh33.png" group-title="Lifestyle;Relax", 10 Bold Adelaide
+https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8
+#EXTINF:-1 id="147db58de39ef2c72c4fba1fd58125d5" tvg-id="10PeachSydney.au" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/10_Peach_logo_2018.svg/512px-10_Peach_logo_2018.svg.png" group-title="General", 10 Peach
+https://i.mjh.nz/10peach-nsw.m3u8
+#EXTINF:-1 id="408f981fb2f4be4f0090f9c364bd7cd3" tvg-id="ABCMESydney.au" tvg-logo="https://i.imgur.com/6NyFLAm.png" group-title="Education;Kids", ABC Me
+https://c.mjh.nz/abc-me.m3u8
+#EXTINF:-1 id="25b22492a39ece1ea03f788ea66428eb" tvg-id="ABCNewsSydney.au" tvg-logo="https://i.imgur.com/BrW7gk8.png" group-title="News", ABC News Australia
+https://ythls.armelin.one/channel/UCVgO39Bk5sMo66-6o6Spn6Q.m3u8
+#EXTINF:-1 id="b218ca5623274e24f76ec9526fcc2395" tvg-id="ABCTVSA.au" tvg-logo="https://i.imgur.com/Ekjb7w8.png" group-title="General", ABC TV Adelaide
+https://c.mjh.nz/abc-sa.m3u8
+#EXTINF:-1 id="e0d84f9698bc941e0efcf5158d045baf" tvg-id="ABCTVQLD.au" tvg-logo="https://i.imgur.com/Ekjb7w8.png" group-title="General", ABC TV Brisbane
+https://c.mjh.nz/abc-qld.m3u8
+#EXTINF:-1 id="0030df1a92396dab1c11701baf15e451" tvg-id="ABCTVACT.au" tvg-logo="https://i.imgur.com/Puq8t7f.png" group-title="General", ABC TV Canberra
+https://c.mjh.nz/abc-act.m3u8
+#EXTINF:-1 id="65dce7040408f33a2cd7b348c77ca966" tvg-id="ABCTVNT.au" tvg-logo="https://i.imgur.com/Ekjb7w8.png" group-title="General", ABC TV Darwin
+https://c.mjh.nz/abc-nt.m3u8
+#EXTINF:-1 id="f789a173cd8841fe5efd41e20a7b2ab0" tvg-id="ABCTVTAS.au" tvg-logo="https://i.imgur.com/Ekjb7w8.png" group-title="General", ABC TV Hobart
+https://c.mjh.nz/abc-tas.m3u8
+#EXTINF:-1 id="7979130e1a1d29116a36d6444b360678" tvg-id="ABCTVVIC.au" tvg-logo="https://i.imgur.com/Ekjb7w8.png" group-title="General", ABC TV Melbourne
+https://c.mjh.nz/abc-vic.m3u8
+#EXTINF:-1 id="0439d7f2d065a2c3324e4ca5d6069643" tvg-id="ABCTVWA.au" tvg-logo="https://i.imgur.com/Ekjb7w8.png" group-title="General", ABC TV Perth
+https://c.mjh.nz/abc-wa.m3u8
+#EXTINF:-1 id="803f259cba1b6bd575375fb7ae1ecf49" tvg-id="ABCTVPlusSydney.au" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/ABC_TV_Plus_logo_2021.svg/512px-ABC_TV_Plus_logo_2021.svg.png" group-title="Entertainment", ABC TV Plus
+https://c.mjh.nz/abc-tv-plus.m3u8
+#EXTINF:-1 id="4e8af7748b6663992ef1cb362e09e9c4" tvg-id="ABCTVNSW.au" tvg-logo="https://i.imgur.com/Ekjb7w8.png" group-title="General", ABC TV Sydney
+https://c.mjh.nz/abc-nsw.m3u8
+#EXTINF:-1 id="d1f8e18df9246bf3529c2d2d5bc086e3" tvg-id="ADHTV.au" tvg-logo="https://i.ibb.co/zmccMZG/Channels4-profile.jpg" group-title="News", ADH TV
+https://ythls.armelin.one/channel/UCtzTaKI8AkiSjyzm1_JbMUg.m3u8
+#EXTINF:-1 id="cf1960832c8368b50912ced4b8e292cc" tvg-id="AngelTVAustralia.in" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Religious", Angel TV Australia
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelaustralia_all/playlist.m3u8
+#EXTINF:-1 id="cc0e6df44187c4d3fd5a5a0881e47b8c" tvg-id="AUSTamilTV.au" tvg-logo="https://i.imgur.com/7xcDrJw.png" group-title="General", AUS Tamil TV
+https://bk7l2pn7dx53-hls-live.5centscdn.com/austamil/fe01ce2a7fbac8fafaed7c982a04e229.sdp/playlist.m3u8
+#EXTINF:-1 id="3e79c4c60c2b6bdd26097dbafb331561" tvg-id="AusbizTV.au" tvg-logo="https://i.imgur.com/8vGGdB0.png" group-title="Business", Ausbiz TV
+https://ausbiztv-ausbiz-1-nz.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="e9850f36d9f5c9753e767044c20b7ba1" tvg-id="BBCNewsAsiaPacific.uk" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="News", BBC News Asia Pacific
+https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
+#EXTINF:-1 id="d733ed050da93c8a69003d015f8eb440" tvg-id="BloombergTVAsia.hk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business", Bloomberg TV Asia
+https://bloomberg.com/media-manifest/streams/asia.m3u8
+#EXTINF:-1 id="0a612a049072994b2eada3f1d28ab1b4" tvg-id="BloombergTVAsiaLiveEvent.hk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business", Bloomberg TV Asia Live Event
+https://bloomberg.com/media-manifest/streams/asia-event.m3u8
+#EXTINF:-1 id="bae9d29e6ef4a2f86229248a38ae6a20" tvg-id="BloombergTVAustralia.au" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business", Bloomberg TV Australia
+https://bloomberg.com/media-manifest/streams/aus.m3u8
+#EXTINF:-1 id="27c7815a30bbcb576c2b409be97b7f57" tvg-id="C31Melbourne.au" tvg-logo="https://i.imgur.com/Ge1EutY.png" group-title="General", C31 Melbourne
+https://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8
+#EXTINF:-1 id="ae4e153beddc6b96088032f5d28728fd" tvg-id="Channel7Sydney.au" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Seven_Network_logo.svg/512px-Seven_Network_logo.svg.png" group-title="General", Channel 7
+https://npc.cdn.7livecloud.io/hls/live/SYD1/master.m3u8
+#EXTINF:-1 id="88da43ce5a070521930023c4a78a0547" tvg-id="Channel9Adelaide.au" tvg-logo="https://i.imgur.com/3TtrobL.png" group-title="General", Channel 9 Adelaide
+https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/adl/ch9/hls/r1/index.m3u8
+#EXTINF:-1 id="ae2a01340fb1e43fbdc2149a7452c541" tvg-id="Channel9Brisbane.au" tvg-logo="https://i.imgur.com/3TtrobL.png" group-title="General", Channel 9 Brisbane
+https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/bne/ch9/hls/r1/index.m3u8
+#EXTINF:-1 id="1756b4a2fc7bbc29067c7664e5648b87" tvg-id="Channel9Melbourne.au" tvg-logo="https://i.imgur.com/3TtrobL.png" group-title="General", Channel 9 Melbourne
+https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/mel/ch9/hls/r1/index.m3u8
+#EXTINF:-1 id="47cbdcfb4fe6d71d527ccd44830fd59b" tvg-id="Channel9Perth.au" tvg-logo="https://i.imgur.com/3TtrobL.png" group-title="General", Channel 9 Perth
+https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/per/ch9/hls/r1/index.m3u8
+#EXTINF:-1 id="b67d8d9c37fe1d10a5c9cb24ba96ae78" tvg-id="Channel9Sydney.au" tvg-logo="https://i.imgur.com/3TtrobL.png" group-title="General", Channel 9 Sydney
+https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/syd/ch9/hls/r1/index.m3u8
+#EXTINF:-1 id="7620c3f524d89fa821efe7074680e0f7" tvg-id="10Sydney.au" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/06/Network_10_2018.svg/revision/latest/scale-to-width-down/512" group-title="News", Channel 10
+https://i.mjh.nz/10-nsw.m3u8
+#EXTINF:-1 id="09d228272836aaa861208ded64edb425" tvg-id="Channel44.au" tvg-logo="https://i.imgur.com/P2wUGh9.png" group-title="General", Channel 44
+https://d1k6kax80wecy5.cloudfront.net/WFqZJc/index.m3u8
+#EXTINF:-1 id="a5224df1c3e72b6c5a510edd7b8080da" tvg-id="EWTNAsiaPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png" group-title="Religious", EWTN Asia-Pacific
+https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
+#EXTINF:-1 id="be7d1ba5319851f3f1c95a6f522eee11" tvg-id="ExpoChannel.au" tvg-logo="https://i.imgur.com/2KzCShW.png" group-title="Shop", Expo Channel
+https://tvsnhlslivetest.akamaized.net/hls/live/2034711/EXPO-MSL4/master.m3u8
+#EXTINF:-1 id="daf81934690d5b03d33bcf26ef9f0798" tvg-id="FolkKlubTV.au" tvg-logo="https://i.imgur.com/Seq7Od7.png" group-title="Music", Folk Klub
+http://tv1.intv.mk:1935/live2/folkklub/index.m3u8
+#EXTINF:-1 id="692750b525c40ac59cd6a85f2e4f6f21" tvg-id="GuidanceTVAustralia.au" tvg-logo="https://i.ibb.co/xHhLpvT/unnamed.jpg" group-title="Religious", Guidance TV Australia
+https://ythls.armelin.one/channel/UC81VkX0QeICZw7o2jMwGThg.m3u8
+#EXTINF:-1 id="04147a6654bc46e1665e37ee4d335871" tvg-id="HopeChannelAustralia.au" tvg-logo="https://i.imgur.com/8Zs7rDm.png" group-title="Religious", Hope Channel Australia
+https://videodelivery.net/9fb3596948ddf463fde0ec4b85625b24/manifest/video.m3u8
+#EXTINF:-1 id="74cc0dfc857f258890b756c8cb8f8f07" tvg-id="HorseCountryTV.uk" tvg-logo="https://i.imgur.com/1x6zYZr.png" group-title="Outdoor", Horse and Country Free
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00810-horsecountrytvl-hncfreenz-samsungnz/playlist.m3u8
+#EXTINF:-1 id="c95675dfe7ef963c13e9e987eabc57f2" tvg-id="IndoOzTV.au" tvg-logo="https://i.imgur.com/4LECwDh.png" group-title="Entertainment", Indo Oz TV
+https://stream.e2is.in/hls/indoztv.m3u8
+#EXTINF:-1 id="87ec964d5526439e6a5552edfc01cdd7" tvg-id="INTVAustralia.au" tvg-logo="https://i.imgur.com/1nJl0Pv.png" group-title="Music", INTV Australia
+http://tv1.intv.mk:1935/live/intv/index.m3u8
+#EXTINF:-1 id="bad61cedbf6e3deb376fbdd9a8169fc0" tvg-id="inwild-samsungau.amagi.tv" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", InWild
+https://inwild-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="b6489653045736f52f8fdc679d2aabc1" tvg-id="JonmoBhumiTV.au" tvg-logo="https://i.imgur.com/2snahLk.png" group-title="General", JonmoBhumi TV
+https://us170.jagobd.com:447/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/jonmobhumitv.stream/playlist.m3u8
+#EXTINF:-1 id="fd94ce176afd1ea44188bc24f07c830c" tvg-id="JuiceTV.nz" tvg-logo="https://i.imgur.com/WaaaW0w.png" group-title="Music", Juice TV
+https://juicex.nz/hls/mystream.m3u8
+#EXTINF:-1 id="246e027b357914ad7dcff23265aa9661" tvg-id="KordiaTV.nz" tvg-logo="https://i.imgur.com/BQ0qWzX.png" group-title="Undefined", Kordia TV
+https://ptvlive.kordia.net.nz/out/v1/3fc2254c865a457c8d7fbbce227a2aae/index.m3u8
+#EXTINF:-1 id="cd748d4aee454fbae66e71fb797f4270" tvg-id="M4TVMalayalam.au" tvg-logo="https://i.imgur.com/dTR6H2A.png" group-title="Entertainment", M4TV Malayalam
+https://app.m4stream.live/mfourmalayalamhls/live.m3u8
+#EXTINF:-1 id="88bdb4dd2d480d6585ce1b7d64ebc5c4" tvg-id="MISTelevizija.au" tvg-logo="https://i.imgur.com/qvrNVFg.png" group-title="Culture", MIS Televizija
+https://5afd52b55ff79.streamlock.net/MISTV/myStream/playlist.m3u8
+#EXTINF:-1 id="cb9a9d62ceedaa23f143f1d434d5893b" tvg-id="nrpus.bozztv.com" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", Race Central TV
+https://nrpus.bozztv.com/36bay2/gusa-racecentral/index.m3u8
+#EXTINF:-1 id="2a2307d9da75ec89aa7607581d7dc49c" tvg-id="Racingcom.au" tvg-logo="https://i.imgur.com/Q55HX1O.png" group-title="Sports", Racing.com
+https://racingvic-i.akamaized.net/hls/live/598695/racingvic/index1500.m3u8
+#EXTINF:-1 id="70c2fc3e59d05ef2699cf02902ff2712" tvg-id="RealFamilies.au" tvg-logo="https://i.imgur.com/fV9UC2U.png" group-title="Family", Real Families
+https://lds-realfamilies-samsunguau.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="655d90da6faa519b4776a8ab81cabf7f" tvg-id="RealLife.au" tvg-logo="https://i.imgur.com/kopXiwA.png" group-title="Undefined", Real Life
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-reallifenz-samsungnz/playlist.m3u8
+#EXTINF:-1 id="972484cdc5243406da9a453d37d63f28" tvg-id="Rialto.nz" tvg-logo="https://i.imgur.com/wGw0sGu.png" group-title="Undefined", Rialto
+https://rialto-rialto-samsungaustralia.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="5c65c47622a9765894cf23773d5b115b" tvg-id="SkyNewsExtra1.au" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News", Sky News Extra 1
+https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
+#EXTINF:-1 id="814353767294c366f79fa47aed00709a" tvg-id="SkyNewsExtra2.au" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News", Sky News Extra 2
+https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8
+#EXTINF:-1 id="5f84f526e9cc769b26fe437b098bbf93" tvg-id="SkyNewsExtra3.au" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News", Sky News Extra 3
+https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
+#EXTINF:-1 id="9cce445bceff3045899456cb721275c7" tvg-id="SkyRacing1.au" tvg-logo="https://i.imgur.com/Hf0EiaW.png" group-title="Sports", Sky Racing 1
+https://skylivetab-new.akamaized.net/hls/live/2038780/sky1/index.m3u8
+#EXTINF:-1 id="c6f0c15106f3978b6acc6ebcb18907af" tvg-id="SkyRacing2.au" tvg-logo="https://i.imgur.com/TxQvFnQ.png" group-title="Sports", Sky Racing 2
+https://skylivetab-new.akamaized.net/hls/live/2038781/sky2/index.m3u8
+#EXTINF:-1 id="70c75d4d2da7a941a110d8dd5fbe50b7" tvg-id="SkyThoroughbredCentral.au" tvg-logo="https://i.imgur.com/1SxIsnw.png" group-title="Sports", Sky Thoroughbred Central
+https://skylivetab-new.akamaized.net/hls/live/2038782/stcsd/index.m3u8
+#EXTINF:-1 id="ca855dc947a73382cdc715969e6f8fd4" tvg-id="SwamijiTVAustralian.at" tvg-logo="https://i.imgur.com/nrLcuzs.png" group-title="Outdoor", Swamiji TV Australian
+https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamAU.smil/playlist.m3u8
+#EXTINF:-1 id="be16c8a7c4ed24b698fba4866346aade" tvg-id="Tastemade.au" tvg-logo="https://i.imgur.com/rR7CLzZ.png" group-title="Cooking", Tastemade Australia
+https://tmint-aus-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="7b959e324cb90a14183767c0a6b14027" tvg-id="TBNInspire.us" tvg-logo="https://i.imgur.com/GSM0Pkr.png" group-title="Religious", TBN Inspire
+https://tbn-jw.cdn.vustreams.com/live/inspire/live.isml/.m3u8
+#EXTINF:-1 id="1eea30c7330c5c022e4e2ae3ef513eb2" tvg-id="TheFilipinoChannelGuam.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/512px-The_Filipino_Channel_2011_logo.svg.png" group-title="Undefined", The Filipino Channel Guam
+https://tfcguam-abscbn-ono.amagi.tv/index.m3u8
+#EXTINF:-1 id="a11afe0458dbf6ff541eacafd403de6f" tvg-id="tickerNews.au" tvg-logo="https://i.imgur.com/z7M0QxV.png" group-title="News", Ticker News
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01486-tickernews-tickernewsweb-ono/playlist.m3u8
+#EXTINF:-1 id="d178175aa41c16101dce671e60f13a52" tvg-id="ToonGoggles.us" tvg-logo="https://i.imgur.com/JMnxswq.png" group-title="Kids", Toon Goggles en Espanol
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=771
+#EXTINF:-1 id="456e0222d542d04d60e26075b17a5827" tvg-id="nrpus.bozztv.com" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", Travel & Food TV
+https://nrpus.bozztv.com/36bay2/gusa-moviemagictv/index.m3u8
+#EXTINF:-1 id="1c840b9f0613e27ed011a62fa6bff4e3" tvg-id="TV5MondePacific.fr" tvg-logo="https://i.imgur.com/mfZOYZI.png" group-title="Undefined", TV5Monde Pacifique
+https://ott.tv5monde.com/Content/HLS/Live/channel(pacifique)/variant.m3u8
+#EXTINF:-1 id="c5aacfb7fd4ade901ead424f81b6ac52" tvg-id="TVEInternacionalAsiaOceania.es" tvg-logo="https://i.imgur.com/dwzOBZ1.png" group-title="Undefined", TVE Internacional Asia-Oceania
+https://rtvelivestream.akamaized.net/rtvesec/int/tvei_asia_main.m3u8
+#EXTINF:-1 id="71551d9d9a86b89249cc10e593341552" tvg-id="TVSN.au" tvg-logo="https://i.imgur.com/lmoAFm3.png" group-title="Shop", TVSN
+https://tvsnhlslivetest.akamaized.net/hls/live/2034711/TVSN-MSL4/master.m3u8
+#EXTINF:-1 id="f60513d7182f8fc8dc7336bd7f405bd8" tvg-id="TVSNBeauty.au" tvg-logo="https://i.imgur.com/lmoAFm3.png" group-title="Shop", TVSN Beauty
+https://live-tvsn.simplestreamcdn.com/live12/tvsnbeauty/bitrate1.isml/.m3u8
+#EXTINF:-1 id="4084952d3b44d9d66072a43929ee9bb9" tvg-id="tvsnshowsvod.akamaized.net" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", TVSN Catchup TV
+https://tvsnshowsvod.akamaized.net/CatchUpTV/TVSN-AU/2411171630/TVSN_2411171630.m3u8
+#EXTINF:-1 id="dfb4bae633d75904ee71a2cd200a6033" tvg-id="TVSNJewellery.au" tvg-logo="https://i.imgur.com/lmoAFm3.png" group-title="Shop", TVSN Jewellery
+https://live-tvsn.simplestreamcdn.com/live13/tvsnjewellery/bitrate1.isml/.m3u8
+#EXTINF:-1 id="f2c17e09f68fc666a375906923886397" tvg-id="TVSNStyle.au" tvg-logo="https://i.imgur.com/lmoAFm3.png" group-title="Shop", TVSN Style
+https://tvsnhlslivetest.akamaized.net/hls/live/2034711/TVSN-MSL4/master.m3u8
+#EXTINF:-1 id="67d533a1dfe4d45a42c8937faf46cfdf" tvg-id="RTRPlanetaAsia.ru" tvg-logo="https://i.imgur.com/DTtK0z7.png" group-title="General", РТР Планета Азия
+https://player.smotrim.ru/iframe/stream/live_id/63254

@@ -1,0 +1,131 @@
+#EXTM3U
+#EXTINF:-1 id="31729e54debc5997b856afd8260a529f" tvg-id="3ABNKids.us" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="Animation;Kids;Religious", 3ABN Kids
+https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
+#EXTINF:-1 id="8ba21a34cb469eca75bea6aed4289083" tvg-id="ADNTVPlus.fr" tvg-logo="https://i.imgur.com/HQZQyWt.png" group-title="Animation", ADN TV+
+https://samsunguk-adn-samsung-fre-qfrlc.amagi.tv/playlist/samsunguk-adn-samsung-fre/playlist.m3u8
+#EXTINF:-1 id="cc7b0a8a144500676cbdc10805fbde54" tvg-id="AdultSwimAquaTeenHungerForce.us" tvg-logo="https://i.imgur.com/cvnniFH.png" group-title="Animation", Adult Swim Aqua Teen Hunger Force
+https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream_de.m3u8
+#EXTINF:-1 id="d9ca960ef6383a4b21035a2c128f211e" tvg-id="AdultSwimPrimal.us" tvg-logo="https://i.imgur.com/fRysIrL.png" group-title="Animation", Adult Swim Primal
+https://adultswim-vodlive.cdn.turner.com/live/primal/stream_de.m3u8
+#EXTINF:-1 id="93053bc0a5067229bfceadf819f1bc90" tvg-id="AdultSwimRickandMorty.us" tvg-logo="https://i.imgur.com/uPV5CT1.png" group-title="Animation", Adult Swim Rick and Morty
+https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream_de.m3u8
+#EXTINF:-1 id="e52813efb3d669a13203e6286f52d619" tvg-id="AdultSwimRobotChicken.us" tvg-logo="https://i.imgur.com/E6EJ14j.png" group-title="Animation", Adult Swim Robot Chicken
+https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream_de.m3u8
+#EXTINF:-1 id="9a653ab1fc9e89663a0c6556eac8fcdd" tvg-id="AdultSwimSamuraiJack.us" tvg-logo="https://i.imgur.com/UOZ4VTH.png" group-title="Animation", Adult Swim Samurai Jack
+https://adultswim-vodlive.cdn.turner.com/live/samurai-jack/stream_de.m3u8
+#EXTINF:-1 id="474fcfc1d13aead153edf69433a29f39" tvg-id="AdultSwimTheVentureBros.us" tvg-logo="https://i.imgur.com/ZwNmt8Y.png" group-title="Animation", Adult Swim The Venture Bros.
+https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream_de.m3u8
+#EXTINF:-1 id="ca52071f4c4eb854475c45523c97f1fb" tvg-id="AlanBeckerTV.us" tvg-logo="https://yt3.googleusercontent.com/ytc/AOPolaSk8jLwTPTZ9tnSWr0coUk1-VJLYQCi2muftdUyHw=s100-c-k-c0x00ffffff-no-rj" group-title="Animation", Alan Becker TV
+https://ythls.armelin.one/channel/UCbKWv2x9t6u8yZoB3KcPtnw.m3u8
+#EXTINF:-1 id="e88b2461b978253996c3feb1c41ea0e2" tvg-id="AnimeAllDay.us" tvg-logo="https://i.imgur.com/bYZtd0G.png" group-title="Animation", Anime All Day
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26a781-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6903cfae-183e-4d3b-a482-b7acf38ce356
+#EXTINF:-1 id="1d6013ab36c68c7feb77cb22f1415107" tvg-id="AnimeTV.br" tvg-logo="https://i.imgur.com/CFSSTID.png" group-title="Animation", Anime TV
+https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
+#EXTINF:-1 id="f8eefafdb15d3e2e09c1339f9dd194c2" tvg-id="AnimeZoneTV.do" tvg-logo="https://i.imgur.com/AHaXlCh.png" group-title="Animation", Anime Zone TV
+http://animezonetv.net/hls/stream.m3u8
+#EXTINF:-1 id="4a9c709485cf2c9af1451003c025ac5a" tvg-id="ANIMESTATION.ar" tvg-logo="https://web.archive.org/web/20240509182044if_/https://pbs.twimg.com/profile_images/1744338643957780480/24Kv02RD_400x400.jpg" group-title="Animation", ANIMESTATION
+https://ssh101-fl.bozztv.com/ssh101/livestreamingtv/index.m3u8
+#EXTINF:-1 id="cab754a3709296a9b0d770becd93b241" tvg-id="KMBYLD5.us" tvg-logo="https://i.imgur.com/px0CSti.png" group-title="Animation", Blues TV
+https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8
+#EXTINF:-1 id="32dde3402c69dd2dbc465c796b511c7d" tvg-id="Cartoonito.it" tvg-logo="https://i.imgur.com/6vYWCD0.png" group-title="Animation;Kids", Cartoonito Italy
+https://live2.msf.cdn.mediaset.net/content/hls_h0_clr_vos/live/channel(la)/index.m3u8
+#EXTINF:-1 id="23baec73ab333bb5b2297b4e8382c5d5" tvg-id="Cocoro.us" tvg-logo="https://i.imgur.com/Z4hIjPn.jpg" group-title="Animation;Kids", Cocoro
+https://4ea7abcc97144832b81dc50c6e8d6330.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Roku_Cocoro/playlist.m3u8
+#EXTINF:-1 id="b9816f424086f4ad1c7fd182e9c6cba2" tvg-id="CONtvAnime.us" tvg-logo="https://i.imgur.com/49LrRwJ.png" group-title="Animation", CONtv Anime
+https://contvanime-roku-ingest.cinedigm.com/master.m3u8
+#EXTINF:-1 id="779c71c063ef50b7c0d7128b7509e937" tvg-id="DisneyChannelLatinAmerica.ar" tvg-logo="https://pbs.twimg.com/profile_images/1740338476736815104/vJGKgOJe_400x400.jpg" group-title="Animation;Kids", Disney Channel Latin America
+http://168.181.122.234:8000/play/a038/index.m3u8
+#EXTINF:-1 id="08ed65fa1420cb630af1adaa1b8e4416" tvg-id="DisneyJuniorLatinAmerica.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Disney_Jr._2024.svg/512px-Disney_Jr._2024.svg.png" group-title="Animation;Kids", Disney Junior Latin America
+http://168.181.122.234:8000/play/a037/index.m3u8
+#EXTINF:-1 id="dea9d37fab1fe51ffffd08bf58fee17d" tvg-id="DreikoTV.pa" tvg-logo="https://i.imgur.com/k8U0e0b.png" group-title="Animation", DreikoTv
+https://cloudvideo.servers10.com:8081/8138/index.m3u8
+#EXTINF:-1 id="873f19ea6e0997612717daa43140ce92" tvg-id="EnerGeek.cl" tvg-logo="https://cdn.energeek.cl/logos/Marca-512.png" group-title="Animation", EnerGeek
+https://streaming-cl.sh1ny.space/memfs/e8a8e789-170b-4de4-a33b-90a9a475ce65.m3u8
+#EXTINF:-1 id="11bb3e6b219f152d74d0f2b3a5f9dbc2" tvg-id="eSportsMaxTV.ve" tvg-logo="https://i.imgur.com/OprRgQN.png" group-title="Animation", eSports Max
+http://vcpar.myplaytv.com/esportsmax/live/playlist.m3u8
+#EXTINF:-1 id="eb2468d18211863524d09714a6015a9a" tvg-id="FanpopTV.cl" tvg-logo="https://cdn.energeek.cl/logos/Fanpop-512.png" group-title="Animation", Fanpop TV
+https://streaming-cl.sh1ny.space/memfs/e16d2f72-70b5-4bf5-b9c5-107b6390a10f.m3u8
+#EXTINF:-1 id="a29ef0b131548e4b29914d8cf694db9e" tvg-id="GamingTV.fr" tvg-logo="https://i.imgur.com/Og6LBFc.png" group-title="Animation", Gaming TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f8eccd81062c300078a11df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e050353-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1020d719-457b-4030-b4a2-b5301461d381
+#EXTINF:-1 id="7516aaeea1f3e956cd2317ab35562fbc" tvg-id="Geekdot.br" tvg-logo="https://i.imgur.com/jML1u4O.png" group-title="Animation", Geekdot
+https://stream.ichibantv.com:3764/hybrid/play.m3u8
+#EXTINF:-1 id="997d5456b214d9067ba3e1f748361a1c" tvg-id="GikTVMX.mx" tvg-logo="https://i.imgur.com/Gwz78jZ.png" group-title="Animation;Culture;Entertainment", GikTVMx
+https://pistream.ddns.net/hls/stream.m3u8
+#EXTINF:-1 id="1137222b1f20235f4d7cffe3550cb9f4" tvg-id="JapanimTV.be" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/6b97e19f-4243-4d48-b794-ff8cf54d795f-profile_image-300x300.png" group-title="Animation;Kids", Japanim TV
+https://foxkidstv.be:3369/stream/play.m3u8
+#EXTINF:-1 id="70ef8c25c118124cbc6a638cf91c7a93" tvg-id="KuriakosKids.pt" tvg-logo="https://i.imgur.com/SRX6EPY.png" group-title="Animation;Kids;Religious", Kuriakos Kids
+https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
+#EXTINF:-1 id="c4a07c2ee549aff0e4547fe8c52197cf" tvg-id="LatinoKidsTV.uy" tvg-logo="https://i.imgur.com/VEk5aJ6.png" group-title="Animation", LatinoKids
+https://6362ca6f1fc28.streamlock.net/8062/8062/playlist.m3u8
+#EXTINF:-1 id="6fa5b2aed0610b18f71db38734c3b6e3" tvg-id="LeaderPhoenix.cm" tvg-logo="https://i.ibb.co/2ZP3JTV/Screenshot-20230807-140244.jpg" group-title="Animation", Leader Phoenix
+http://connectiktv.ddns.me:8080/live/63ab4eb0ac1a5/index.m3u8
+#EXTINF:-1 id="48fa443f0da73ea79105f55090c94e84" tvg-id="LocomotionTV.do" tvg-logo="https://i.imgur.com/1CftDPB.png" group-title="Animation", Locomotion TV
+http://51.222.85.85:81/hls/loco/index.m3u8
+#EXTINF:-1 id="38a6ae598feb1d9c228d9a919a870512" tvg-id="Lupinthe3rd.us" tvg-logo="https://i.imgur.com/Wopu3y9.png" group-title="Animation", Lupin the 3rd
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60f74ba51c82ac000776c669/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c29b4c3-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=929f711f-6565-41d9-84a9-9f2c83d020e5
+#EXTINF:-1 id="69924a33f52191424a69d13b88d12021" tvg-id="MagicKids.ar" tvg-logo="https://i.imgur.com/CMImqQY.png" group-title="Animation", Magic Kids
+https://magicstream.ddns.net/magicstream/stream.m3u8
+#EXTINF:-1 id="b19db3af9ce9cafea619eacbe8dee791" tvg-id="MAXAnime.ve" tvg-logo="https://i.imgur.com/Oj3hEBh.jpg" group-title="Animation", MAX Anime
+https://vcp14.myplaytv.com/maxanime/maxanime/playlist.m3u8
+#EXTINF:-1 id="8447e270367a9b4adafee770bb637be3" tvg-id="MCN6MusicChannel.us" tvg-logo="https://i.imgur.com/j6IiysJ.png" group-title="Animation;Kids;Music", MCN6 Music Channel
+https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8
+#EXTINF:-1 id="8513b35620189f8dcfbbbe70bacf92cd" tvg-id="MoviesforGamers.us" tvg-logo="https://i.imgur.com/aqjzEkb.png" group-title="Animation", Movies for Gamers
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6008ddf24ef92b00079d61cf/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a02e3-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=2f37e9d8-bdac-4d46-949d-ccfbf76dd6e0
+#EXTINF:-1 id="21d0708003b99c5cd29caea9e3df0a19" tvg-id="Multimania.lv" tvg-logo="https://i.imgur.com/J9Lwc0T.png" group-title="Animation;Kids", Multimania
+https://void.greenhosting.ru/Multimania_Mpeg4/index.m3u8
+#EXTINF:-1 id="ecaafd3bebfe1083ae6a9804bbe16716" tvg-id="Naruto.us" tvg-logo="https://i.imgur.com/M8X3Kvc.png" group-title="Animation", Naruto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5da0c85bd2c9c10009370984/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a29f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=bbd39836-427d-4099-82bb-28b34f88aa35
+#EXTINF:-1 id="770f45f185ad50f64ef2bfb48f4e2fb6" tvg-id="OnePiece.us" tvg-logo="https://i.imgur.com/XsvbAWR.png" group-title="Animation", One Piece
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f7790b3ed0c88000720b241/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a7816-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4b38ba42-6f97-4a17-b657-1277978d366c
+#EXTINF:-1 id="6da103b2b77cc52ec8327988e6168e50" tvg-id="PandamaxChannel.cl" tvg-logo="https://pandamax.cl/assets/img/pandalogo2.png" group-title="Animation", Pandamax Channel
+https://stream.wifiexpert.cl/telenorte/pandamaxch/playlist.m3u8
+#EXTINF:-1 id="a080f3c5ef478eb715650923f8221bc9" tvg-id="PersianaJunior.fr" tvg-logo="https://i.imgur.com/zeKHZYG.png" group-title="Animation", Persiana Junior
+https://junhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 id="5a8bd97e9cd1d30920eb67cb6a05e0a3" tvg-id="Pingviin.ee" tvg-logo="https://i.imgur.com/b6xupqO.png" group-title="Animation;Kids", Pingviin
+https://void.greenhosting.ru/PingviinEE_Mpeg4/index.m3u8
+#EXTINF:-1 id="2f0412bbfb1785497579e9af30d39a23" tvg-id="PlanetaTV90s.cl" tvg-logo="https://i.imgur.com/rtZTw3F.png" group-title="Animation;Entertainment;Movies;Series", PlanetaTV 90s
+https://mediacpstreamchile.com:1936/8102/8102/playlist.m3u8
+#EXTINF:-1 id="e2ccaabcf22c85dc7ef2fd0cfe51fd18" tvg-id="PlutoTVAnimeAccion.us" tvg-logo="https://i.imgur.com/S31utcQ.png" group-title="Animation", Pluto TV Animé Acción
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e6a4d875d7ccf0007cc2cf1/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 id="70d4f64201493f94893ba751b496facc" tvg-id="PlutoTVRetroToons.fr" tvg-logo="https://i.imgur.com/HbFzbSr.png" group-title="Animation;Kids", Pluto TV Retro Toons
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/611e6a9b4bb5790007a6f0f8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e0614c8-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=e3784c13-5aeb-4c18-bd31-9334376945c6
+#EXTINF:-1 id="3bb5ee6105e9f43f069fa6c5a9b9ac51" tvg-id="PokemonKidsTVEnglish.jp" tvg-logo="https://i.imgur.com/0nDftk7.jpg" group-title="Animation;Kids", Pokémon Kids TV English
+https://ythls.armelin.one/channel/UCgbfG5HoczHIkpzxLYH-8Ww.m3u8
+#EXTINF:-1 id="8d0dd075dde86323ac25dc37d18a1b98" tvg-id="PokemonKidsTVJapanese.jp" tvg-logo="https://i.imgur.com/SwheroL.jpg" group-title="Animation;Kids", Pokémon Kids TV Japanese
+https://ythls.armelin.one/channel/UCH0JJtRn2syic5xxavMKQ4Q.m3u8
+#EXTINF:-1 id="0ed87da9011bd869244c3b403de4830a" tvg-id="Pro100TV.ru" tvg-logo="https://i.imgur.com/YfQEflM.png" group-title="Animation;Classic;Entertainment;Family;Movies", Pro100TV
+https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
+#EXTINF:-1 id="8617bcc7687bc13d338ffb9e98eef229" tvg-id="RetroCrush.us" tvg-logo="https://i.imgur.com/M40b4YI.png" group-title="Animation;Classic", Retro Crush
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-retrocrush-lgus/playlist.m3u8
+#EXTINF:-1 id="6c24f71dbf74f830bab40a616faeaaa9" tvg-id="SouthPark.fr" tvg-logo="https://i.imgur.com/qA3KsTh.png" group-title="Animation", South Park
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/618e34ac4a270700077b1f32/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e0662e4-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=0d7bbd81-5b0c-45a3-b97c-c2ac8161fb85
+#EXTINF:-1 id="1cbe352a277e50b5106af0fa85782486" tvg-id="SpacetoonArabic.ae" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png" group-title="Animation;Kids", Spacetoon
+https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8
+#EXTINF:-1 id="b6d606d520ddc2e4c9efbfb55fa89bb1" tvg-id="SuperKaosTV.ar" tvg-logo="https://i.imgur.com/uOkAHVq.png" group-title="Animation;Kids", Super Kaos TV
+https://stmv1.cnarlatam.com/novakidstv/novakidstv/playlist.m3u8
+#EXTINF:-1 id="88065e4d01169e1ad4357e3463350dd3" tvg-id="Toonami.fr" tvg-logo="https://i.imgur.com/U7qh4yF.png" group-title="Animation", Toonami
+https://adultswim-vodlive.cdn.turner.com/live/toonami/stream_de.m3u8
+#EXTINF:-1 id="eeb8119722de7ec8d0b731b7d6986097" tvg-id="ToonamiAftermathEast.us" tvg-logo="https://i.imgur.com/aSjhZK7.png" group-title="Animation", Toonami Aftermath East
+http://api.toonamiaftermath.com:3000/est/playlist.m3u8
+#EXTINF:-1 id="45c2f005cb3c8b981e8b12dc50796b1f" tvg-id="XilamTV.fr" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_k6spR1AVLZ0ISqrFP-Z9JeBMHPpAc9T-pmFlG6_lSkNw=s160-c-k-c0x00ffffff-no-rj" group-title="Animation", XilamTV
+https://xilam-animation-1-fr.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="f23ef1bd82d78bff651352275fba6f6c" tvg-id="XtremaAnime.ar" tvg-logo="https://i.imgur.com/yor5owS.png" group-title="Animation", Xtrema Anime
+https://stmv1.cnarlatam.com/xtremaanime/xtremaanime/playlist.m3u8
+#EXTINF:-1 id="b70e5a9f18b45eb286dba85c8f1e1f82" tvg-id="XtremaCartoons.ar" tvg-logo="https://i.imgur.com/X2d8y4e.png" group-title="Animation;Kids", Xtrema Cartoons
+https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
+#EXTINF:-1 id="ad20df6d5efb75710831df86a6969c61" tvg-id="XtremaRetroCartoons.ar" tvg-logo="https://i.imgur.com/60ylWbQ.png" group-title="Animation", Xtrema Retro Cartoons
+https://stmv1.cnarlatam.com/retroinfantil/retroinfantil/playlist.m3u8
+#EXTINF:-1 id="c257ae026a3095a3a6f804678718e0b3" tvg-id="YuGiOh.us" tvg-logo="https://i.imgur.com/Tl6aW2u.png" group-title="Animation", Yu-Gi-Oh!
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f4ec10ed9636f00089b8c89/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2d3738-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=31531314-3e7f-4788-8c4f-f153a43ee0a0
+#EXTINF:-1 id="737f519107c8ead93689a0d669dcc758" tvg-id="ZarokTV.iq" tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="Animation;Education;Family;Kids;Music", Zarok TV Sorani
+https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:-1 id="6efddfd31aed83348e1d65cd48c6865e" tvg-id="Multimania.ru" tvg-logo="https://i.imgur.com/abh8ZBA.png" group-title="Animation;Kids", Мультимания ТВ
+http://sirius.greenhosting.ru/MultimaniaRu/video.m3u8
+#EXTINF:-1 id="b283b79a6071676957dc347dbcea8ad5" tvg-id="Pingviins.lv" tvg-logo="https://i.imgur.com/hfXoJIY.png" group-title="Animation;Kids", Пингвин
+https://sirius.greenhosting.ru/PingvinRu/video.m3u8
+#EXTINF:-1 id="0f20a4238b841a3a092c3d95fd19fa5e" tvg-id="Solnce.ru" tvg-logo="https://i.imgur.com/rec9akk.png" group-title="Animation;Kids", Солнце
+http://tv.mediacdn.ru/live/disney/playlist.m3u8
+#EXTINF:-1 id="786294d33a0c6a0e681194fa2fea2d46" tvg-id="YouManCartoonChannel.cn" tvg-logo="https://i.imgur.com/GZInf2W.png" group-title="Animation;Kids", 优漫卡通
+http://183.207.249.15/PLTV/4/224/3221225933/index.m3u8
+#EXTINF:-1 id="6aafd4346a88fb805a57b021cd5b1ea9" tvg-id="GoldenEagleCartoon.cn" tvg-logo="https://i.imgur.com/xfVHrKQ.png" group-title="Animation;Kids", 金鹰卡通
+http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8

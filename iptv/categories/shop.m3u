@@ -1,0 +1,191 @@
+#EXTM3U
+#EXTINF:-1 id="aa6575c1e59365d703ca111e1e60e918" tvg-id="123tv.de" tvg-logo="https://i.imgur.com/slSUDNX.png" group-title="Shop", 1-2-3 TV
+https://123tv-mx1.flex-cdn.net/index.m3u8
+#EXTINF:-1 id="657728d235054576df2af56452a1a62a" tvg-id="30ATheBeachShow.us" tvg-logo="https://i.imgur.com/0j5Aget.png" group-title="Shop", 30A The Beach Show
+https://30a-tv.com/beachy.m3u8
+#EXTINF:-1 id="3877abccf620dee4b03a545ba032f1ed" tvg-id="1001Noites.br" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Shop", 1001 Noites
+https://cdn.jmvstream.com/w/LVW-8155/ngrp:LVW8155_41E1ciuCvO_all/playlist.m3u8
+#EXTINF:-1 id="0b626d50962409536d28674ad346b85d" tvg-id="AmericasAuctionChannel.us" tvg-logo="https://i.imgur.com/YKhnHE6.png" group-title="Shop", AACTV America's Auction Channel
+https://ythls.armelin.one/channel/UCMeyWH1vyb1TT6Vimp4MqLA.m3u8
+#EXTINF:-1 id="033e0edcdb82a0041f4e92cbb023abac" tvg-id="BajoTechoTV.do" tvg-logo="https://i.imgur.com/I2wRq88.png" group-title="Shop", Bajo Techo TV
+https://rdn.essastream.com:3042/live/bajotechotvlive.m3u8
+#EXTINF:-1 id="29cc167db38307f7d1347a798eeed410" tvg-id="CasaItalia53.it" tvg-logo="https://i.imgur.com/X8BI1Md.png" group-title="Shop", Casa Italia 53
+https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
+#EXTINF:-1 id="a110fd8c5d8a08842e4aae13ff3365d6" tvg-id="TheShoppingChannel.il" tvg-logo="https://upload.wikimedia.org/wikipedia/he/b/b9/%D7%A1%D7%9E%D7%9C%D7%99%D7%9C_%D7%A2%D7%A8%D7%95%D7%A5_%D7%94%D7%A7%D7%A0%D7%99%D7%95%D7%AA.jpg" group-title="Shop", ch 21 ערוץ הקניות
+https://shoppingil-rewriter.vidnt.com/index.m3u8
+#EXTINF:-1 id="6d7b3f6f05f490942061c5cfe6b9ef6f" tvg-id="CitrussTV.ae" tvg-logo="https://i.imgur.com/NGnI0Gg.png" group-title="Shop", Citruss TV
+https://d7km4gkevcbok.cloudfront.net/live/watch_720p30.m3u8
+#EXTINF:-1 id="b6dee622aba04b852517154c9555006c" tvg-id="CJOnStyle.kr" tvg-logo="https://i.imgur.com/JiSfEBv.png" group-title="Shop", CJ OnStyle
+https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8
+#EXTINF:-1 id="daff95ed96add1dd4f187bdbfd449677" tvg-id="CJOnStylePlus.kr" tvg-logo="https://i.imgur.com/OYmOL20.png" group-title="Shop", CJ OnStyle Plus
+https://live-ch2.cjonstyle.net/cjosplus/live2/playlist.m3u8
+#EXTINF:-1 id="25972bd231a0f78c08710251f0ff8a10" tvg-id="Cruise1stTV.uk" tvg-logo="https://i.imgur.com/L1bysJS.png" group-title="Shop;Travel", Cruise1st TV
+https://ythls.armelin.one/channel/UC9r76Tzp5HxeQG7SqZwV3OA.m3u8
+#EXTINF:-1 id="ec202be9c23e7338abe4500c80a3217f" tvg-id="CutleryCornerNetwork.us" tvg-logo="https://i.imgur.com/GvX3MyE.png" group-title="Shop", Cutlery Corner Network CCN
+https://ythls.armelin.one/channel/UCj3dt20MAZcvDN8GKeT2FBg.m3u8
+#EXTINF:-1 id="6d3b9f3e6f7dac16e46e3a3b5d953e71" tvg-id="DonnaShopping.it" tvg-logo="https://i.imgur.com/PmFmapr.png" group-title="Shop", Donna Shopping
+https://5926fc9c7c5b2.streamlock.net/9354/9354/playlist.m3u8
+#EXTINF:-1 id="be7d1ba5319851f3f1c95a6f522eee11" tvg-id="ExpoChannel.au" tvg-logo="https://i.imgur.com/2KzCShW.png" group-title="Shop", Expo Channel
+https://tvsnhlslivetest.akamaized.net/hls/live/2034711/EXPO-MSL4/master.m3u8
+#EXTINF:-1 id="cb1e0b12d97bc2379cd43fc2d6a5a076" tvg-id="FashionFinds.us" tvg-logo="https://i.imgur.com/GvDRZgq.png" group-title="Lifestyle;Shop", Fashion Finds
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8
+#EXTINF:-1 id="072525d134a36c5fc2dc09af8c47ea5a" tvg-id="GemShoppingNetwork.us" tvg-logo="https://i.imgur.com/WlHEpAu.png" group-title="Shop", Gem Shopping Network
+https://amg01460-gemshoppingnetw-gem-ono-x662c.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="de28006ebc84153073ebf87e008e0ddd" tvg-id="GemsTV.uk" tvg-logo="https://i.imgur.com/WgaJufI.png" group-title="Shop", Gems TV
+http://57d6b85685bb8.streamlock.net:1935/abrgemporiaukgfx/livestream_360p/index.m3u8
+#EXTINF:-1 id="7ce311706b7d3fa77d8704c6474ddde5" tvg-id="GM24.it" tvg-logo="https://i.imgur.com/PoXd0su.png" group-title="Shop", GM24
+https://streaming.softwarecreation.it/GM24/GM24/playlist.m3u8
+#EXTINF:-1 id="fe6e613290a153d354855c381f5b2c78" tvg-id="GongyoungHomeShopping.kr" tvg-logo="https://i.imgur.com/YL3rpd7.png" group-title="Shop", Gongyoung Shopping
+https://etv.publichs.com/live5.stream/playlist.m3u8
+#EXTINF:-1 id="038b1de045f1e66637df404a6f833a02" tvg-id="GSMyShop.kr" tvg-logo="https://i.imgur.com/ETPQwui.png" group-title="Shop", GS My Shop
+https://gstv-myshop.gsshop.com/myshop_hd/myshop_hd.stream/playlist.m3u8
+#EXTINF:-1 id="85a2d52b641c659e1011dd12570d061d" tvg-id="GSShop.kr" tvg-logo="https://i.imgur.com/F7QDbEy.png" group-title="Shop", GS Shop
+https://gstv-gsshop.gsshop.com/gsshop_hd/gsshop_hd.stream/playlist.m3u8
+#EXTINF:-1 id="7f34bb515208ae609088774888674dfa" tvg-id="GSTV.jp" tvg-logo="https://i.imgur.com/ECnVG5I.png" group-title="Shop", GSTV
+https://japaneast.av.mk.io/mediakindcdn-mediakind/b8278d70-0a5f-400c-9b16-c7acf7004355/index.qfm/manifest(format=m3u8-cmaf)
+#EXTINF:-1 id="052771fb0a7ccb9cb3200df269848e7d" tvg-id="Handystar.de" tvg-logo="https://i.imgur.com/oMIygVf.png" group-title="Shop", Handystar
+https://sparhandytv.cdn.ses-ps.com/live/channel01/hls/index.m3u8
+#EXTINF:-1 id="55d4db30d1d584f819ca3816b49a23a6" tvg-id="HighTV.gr" tvg-logo="https://i.imgur.com/8gHuwt7.png" group-title="Shop", High TV
+http://live.streams.ovh:1935/hightv/hightv/playlist.m3u8
+#EXTINF:-1 id="16b36df788b23042ef85dbd24c5e9ab2" tvg-id="HomeShopping.kr" tvg-logo="https://i.imgur.com/IcexRXG.png" group-title="Shop", Home & Shopping
+https://s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8
+#EXTINF:-1 id="f83b11c5fcabec1d2c74ae10e8a4e02c" tvg-id="HSEExtra.de" tvg-logo="https://i.imgur.com/nvMpbip.png" group-title="Shop", HSE24 Extra
+https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/playlist.m3u8
+#EXTINF:-1 id="38e755bc247dafba3dd6cf2a4972cc66" tvg-id="HSETrend.de" tvg-logo="https://i.imgur.com/qwh2urX.png" group-title="Shop", HSE24 Trend
+https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/playlist.m3u8
+#EXTINF:-1 id="04177fb2c7a9ca61219bf13178e52597" tvg-id="HSE.de" tvg-logo="https://i.imgur.com/IecRNCk.png" group-title="Shop", HSE
+https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8
+#EXTINF:-1 id="d39bad922f3e2aa1f815c8f8eaa31cf2" tvg-id="HSN.us" tvg-logo="https://i.imgur.com/rnZN7rD.png" group-title="Shop", HSN
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1us/master.m3u8
+#EXTINF:-1 id="49be3c9ad5c7a299df8bff896bcf3e0d" tvg-id="HSN2.us" tvg-logo="https://i.imgur.com/R6oC2A3.png" group-title="Shop", HSN2
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn2us/master.m3u8
+#EXTINF:-1 id="526624dce78ef687a22e7a8b4c93edea" tvg-id="HSNWest.us" tvg-logo="https://m.media-amazon.com/images/I/419RyCp4+WL.png" group-title="Shop", HSN West
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1uswest/master.m3u8
+#EXTINF:-1 id="bf6956705b270a3f4a6f4d33b4cf4123" tvg-id="HyundaiHomeShopping.kr" tvg-logo="https://i.imgur.com/NJpECmq.png" group-title="Shop", Hyundai Home Shopping
+https://livejj.hyundaihmall.com:8443/live/ngrp:hmall.stream_pc/playlist.m3u8
+#EXTINF:-1 id="0f277bbfee25c47dcf3193a39d2c97b1" tvg-id="HyundaiHomeShoppingPlusShop.kr" tvg-logo="https://i.imgur.com/DoNOuZE.png" group-title="Shop", Hyundai Home Shopping Plus
+https://dtvstreaming.hyundaihmall.com/newcjp3/_definst_/newcjpstream.smil/playlist.m3u8
+#EXTINF:-1 id="8fdafe4081b590e6d64d94b4b3d62994" tvg-id="iBerkah.id" tvg-logo="https://i.postimg.cc/CxK5DjjP/iberkah-logo.png" group-title="Shop", iBerkah
+https://play.accolamedia.id/accola/iberkah.stream/playlist.m3u8
+#EXTINF:-1 id="011f97f6715f7ae84648564412c39d2c" tvg-id="IdealWorldTV.uk" tvg-logo="https://i.imgur.com/su6GH7i.png" group-title="Shop", Ideal World TV
+https://ythls.armelin.one/channel/UCJbgGTpBWuC87VFIKTTO4RQ.m3u8
+#EXTINF:-1 id="1195901bca33118028da31e43c85b437" tvg-id="IntheKitchen.us" tvg-logo="https://i.imgur.com/HrRUd6r.png" group-title="Cooking;Shop", In the kitchen
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc4us/master.m3u8
+#EXTINF:-1 id="bb042770b5b368a02d4f2067eb03c6bc" tvg-id="JewelleryMaker.uk" tvg-logo="https://i.imgur.com/O7SdkBh.png" group-title="Shop", Jewelery Maker
+https://lo2-1.gemporia.com/abrjewellerymaker/smil:livestream.smil/playlist.m3u8
+#EXTINF:-1 id="6a4e75d9da41dd0ed0a3214e143eba03" tvg-id="JewelryTV.us" tvg-logo="https://i.imgur.com/mBcwks7.png" group-title="Shop", Jewelry Television
+https://content.jwplatform.com/live/broadcast/oe7UD7Ag.m3u8
+#EXTINF:-1 id="22b59c7cfb77f76600ef972d02fcfa8a" tvg-id="JewelryTV2.us" tvg-logo="https://www.lyngsat.com/logo/tv/jj/jewelry-tv-2-us.png" group-title="Shop", Jewelry TV 2
+https://content.jwplatform.com/live/broadcast/RW3cCwlw.m3u8
+#EXTINF:-1 id="713b649530ebd951eb89381e791c2471" tvg-id="KCKSLD12.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/50/Jewelry_television_logo.png" group-title="Shop", Jewelry TV
+https://cdn.igocast.com/channel12_hls/channel12_master.m3u8
+#EXTINF:-1 id="52a6e99f48cd33c7198292cee6a3b4c2" tvg-id="Juwelo.de" tvg-logo="https://i.imgur.com/vmX8Qin.png" group-title="Shop", Juwelo
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8
+#EXTINF:-1 id="967f6c67ad3f956c63f1cb30467e9b83" tvg-id="Juwelo.it" tvg-logo="https://i.imgur.com/T3r1khc.png" group-title="Shop", Juwelo Italia
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/7841/7841_264_live.m3u8
+#EXTINF:-1 id="a383209f3500d8f8cc7d0d378f9cc2b6" tvg-id="KaufBeiTV.de" tvg-logo="https://i.imgur.com/CVJWiM0.png" group-title="Shop", KaufBei TV
+https://api.alpaca.t62a.com/hls/9103/index.m3u8
+#EXTINF:-1 id="7c2d42bd6a05863f8ecf5522644edb02" tvg-id="KShopping.kr" tvg-logo="https://i.imgur.com/Tmb3xK8.png" group-title="Shop", KShopping
+https://fhs8036.bd-61.ktcdn.co.kr/klive/smil:klive.smil/playlist.m3u8
+#EXTINF:-1 id="1b3799351ce2f0f598415c9dddd7c6d5" tvg-id="LaoChampaTV2.la" tvg-logo="https://i.imgur.com/pbWHenM.png" group-title="Shop", Lao Champa TV 2
+https://livefta.malimarcdn.com/ftaedge00/laochampa2.stream/playlist.m3u8
+#EXTINF:-1 id="4370deffe2f305598e7dd313a07b1174" tvg-id="LaoChampaTV1.la" tvg-logo="https://i.imgur.com/1ZjYAEs.png" group-title="Shop", Lao Champa TV
+https://livefta.malimarcdn.com/ftaedge00/laochampa1.sdp/chunklist.m3u8
+#EXTINF:-1 id="b089a8d95af4f12d928cc6e25e919fb7" tvg-id="LaoSVTV.vn" tvg-logo="https://i.imgur.com/ZIXtazI.png" group-title="Shop", Lao SV TV
+https://livefta.malimarcdn.com/ftaedge00/laosvtv.stream/playlist.m3u8
+#EXTINF:-1 id="69c221308e5edb24099764a5ef71c1fe" tvg-id="LaoThaiTV.us" tvg-logo="https://i.imgur.com/q6cQzbv.png" group-title="Shop", Lao-Thai TV
+https://livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8
+#EXTINF:-1 id="ee5f8588907db79ca5287bc48d523a42" tvg-id="LaosPlanetTV.la" tvg-logo="https://i.imgur.com/u4ynifa.png" group-title="Shop", Laos Planet TV
+https://livefta.malimarcdn.com/ftaedge00/laosplanet.sdp/playlist.m3u8
+#EXTINF:-1 id="d0dbdfc56e9c14ad4d7afc37148fde69" tvg-id="LejelHomeShopping.id" tvg-logo="https://i.imgur.com/Yxq05Dg.png" group-title="Shop", Lejel Home Shopping
+https://ythls.armelin.one/channel/UC9q_4Ljmm0C15j25Bqx1ZOw.m3u8
+#EXTINF:-1 id="570fb30ba025ce509a9a6978f95b0075" tvg-id="Leomax24.ru" tvg-logo="https://i.imgur.com/qU9ohQu.png" group-title="Shop", Leomax 24
+https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
+#EXTINF:-1 id="2bf2374d9b94d01a19b437d232f1d37e" tvg-id="LotteHomeShopping.kr" tvg-logo="https://i.imgur.com/dJeNehc.png" group-title="Shop", Lotte Home Shopping
+https://pchlslivesw.lotteimall.com/live/livestream/lotteimalllive_mp4.m3u8
+#EXTINF:-1 id="cba7e00b4da184916efa2fe06edf6cff" tvg-id="LotteOneTV.kr" tvg-logo="https://i.imgur.com/bXe7tYE.png" group-title="Shop", Lotte OneTV
+https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8
+#EXTINF:-1 id="155021908e4fcb62746ab03a92c87add" tvg-id="LSTV.la" tvg-logo="https://i.imgur.com/fs3dQ6J.png" group-title="Shop", LS TV
+https://livefta.malimarcdn.com/ftaedge00/laostv.sdp/playlist.m3u8
+#EXTINF:-1 id="4be177590a4c944df4155359fdbfa227" tvg-id="MediaShopTV.li" tvg-logo="https://i.imgur.com/RuZcVey.png" group-title="Shop", Mediashop TV
+https://mediashop.akamaized.net/hls/live/2032402/Meine_Einkaufswelt/1.m3u8
+#EXTINF:-1 id="5d6359746196b71b0871821204f4dcc2" tvg-id="NaDooCommerce.id" tvg-logo="https://i.imgur.com/bggnWvq.jpeg" group-title="Shop", NaDoo Commerce
+https://op-krgroup1-swiftservehd-1.dens.tv/h/h126/live.m3u8
+#EXTINF:-1 id="9b4f53f4d313505f65ddb028d155df9a" tvg-id="NATTV.th" tvg-logo="https://i.imgur.com/a7tNaD5.png" group-title="Shop", NAT TV
+https://livefta.malimarcdn.com/ftaedge00/nat.sdp/playlist.m3u8
+#EXTINF:-1 id="ad432b5f68178d86d7fde6aed99a8adc" tvg-id="NSHomeShopping.kr" tvg-logo="https://i.imgur.com/Q9xsDQo.png" group-title="Shop", NS Home Shopping
+https://livestream.nsmall.com/IPHONE/nsmallMobile.m3u8
+#EXTINF:-1 id="9702ef3879566ee40f70816ab66d653c" tvg-id="NSShopPlus.kr" tvg-logo="https://i.imgur.com/7KmXNci.png" group-title="Shop", NS Shop Plus
+https://shoppstream.nsmall.com/IPHONE/mobile.m3u8
+#EXTINF:-1 id="349308a71f021c55019e202f087ca47d" tvg-id="PearlDiffusion.fr" tvg-logo="https://i.imgur.com/AyFhX65.jpg" group-title="Shop", Pearl Diffusion
+https://ythls.armelin.one/channel/UCvpCjGQASCazC-Vxcp9tgPA.m3u8
+#EXTINF:-1 id="fa56f1430efbb3b22cfe944fa0c1c8c4" tvg-id="PearlTV.de" tvg-logo="https://i.imgur.com/NFj1qjr.png" group-title="Shop", Pearl TV
+https://ythls.armelin.one/channel/UCp0urejlDaYz4G8xpTxdIvw.m3u8
+#EXTINF:-1 id="547cf4c90822a4be3d76717391d7c43f" tvg-id="QVC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/QVC_logo_2019.svg/512px-QVC_logo_2019.svg.png" group-title="Shop", QVC
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1us/master.m3u8
+#EXTINF:-1 id="9d75ab9a876c3bfb8142875dc776e11f" tvg-id="QVC2.us" tvg-logo="https://i.imgur.com/NxbDjfI.png" group-title="Shop", QVC 2
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2us/master.m3u8
+#EXTINF:-1 id="09df14cb1badc5c6c0103460b8df2393" tvg-id="QVC3.us" tvg-logo="https://i.imgur.com/edswdOO.png" group-title="Shop", QVC 3
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3us/master.m3u8
+#EXTINF:-1 id="4d12830a60a592c4d0d49da11f4e3c08" tvg-id="QVC.de" tvg-logo="https://i.imgur.com/EybRtsI.png" group-title="Shop", QVC Germany
+https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8
+#EXTINF:-1 id="2da6ee5ec79120ea258a96a1c7874143" tvg-id="QVC.it" tvg-logo="https://i.imgur.com/6TWUVrh.png" group-title="Shop", QVC Italia
+https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
+#EXTINF:-1 id="7b3b705cdec7237609493e181948218f" tvg-id="QVC.jp" tvg-logo="https://i.imgur.com/xWSzQ34.png" group-title="Shop", QVC Japan
+https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
+#EXTINF:-1 id="45dad9ffdd879c63ec5b42363f41ddb5" tvg-id="QVCStyle.de" tvg-logo="https://i.imgur.com/DwdkHGj.png" group-title="Shop", QVC Style Germany
+https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8
+#EXTINF:-1 id="fe22d022edc7538ff63e99acd7570c2e" tvg-id="QVC.uk" tvg-logo="https://i.imgur.com/6TWUVrh.png" group-title="Shop", QVC UK
+https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/master.m3u8
+#EXTINF:-1 id="319329443ad1db8b531ff2a93e6a4c50" tvg-id="QVCBeauty.uk" tvg-logo="https://i.imgur.com/ZBHtqk1.png" group-title="Shop", QVC UK Beauty
+https://qvcuk-live.akamaized.net/hls/live/2097112/qby/master.m3u8
+#EXTINF:-1 id="a444f117da6f675e6e3e0b3e12ef9743" tvg-id="QVCExtra.uk" tvg-logo="https://i.imgur.com/TIe5T9Z.png" group-title="Shop", QVC UK Extra
+https://qvcuk-live.akamaized.net/hls/live/2097112/qex/master.m3u8
+#EXTINF:-1 id="ec1d6c3a05d7b376da8c55cc2d3bd4d1" tvg-id="QVCStyle.uk" tvg-logo="https://i.imgur.com/6HZlLL3.png" group-title="Shop", QVC UK Style
+https://qvcuk-live.akamaized.net/hls/live/2097112/qst/master.m3u8
+#EXTINF:-1 id="73df01cfd5ffba6be150dbfe68caf4bc" tvg-id="ShinsegaeTVShopping.kr" tvg-logo="https://i.imgur.com/Hq3yjqA.png" group-title="Shop", Shinsegae Shopping TV
+https://liveout.catenoid.net/live-02-shinsegaetvshopping/shinsegaetvshopping_720p/playlist.m3u8
+#EXTINF:-1 id="3a999683e542c55e09e46202f762d1c2" tvg-id="ShopCh.th" tvg-logo="https://i.imgur.com/zl7QkPF.png" group-title="Shop", Shop Ch
+https://ythls.armelin.one/channel/UCKrzHQD9zTLLhBAR8w4zaxA.m3u8
+#EXTINF:-1 id="446165f86e365a4d080b1c8c705bf003" tvg-id="ShopChannel.jp" tvg-logo="https://www.shopch.jp/com/images/common/logo_2021.png" group-title="Shop", Shop Channel
+https://stream3.shopch.jp/HLS/master.m3u8
+#EXTINF:-1 id="998356d5536236e57e4a2216fcc3b601" tvg-id="ShopHQ.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/69/ShopHQ_2019_Logo.png" group-title="Shop", Shop HQ
+https://aos01-evine.secure.footprint.net/evine/cleanfeed/master.m3u8
+#EXTINF:-1 id="4cc8af6d53e786e6d3da7c1c80fe5813" tvg-id="ShopLC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Logo_of_Liquidation_Channel.svg/512px-Logo_of_Liquidation_Channel.svg.png" group-title="Shop", Shop LC
+https://cdn-shop-lc-01.akamaized.net/Content/DASH_DASH/Live/channel(ott)/master.mpd
+#EXTINF:-1 id="797a989db02aae95a20b7f47379bd2ea" tvg-id="ShoppingLive.ru" tvg-logo="https://i.imgur.com/EMmGnjV.png" group-title="Shop", Shopping Live
+http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
+#EXTINF:-1 id="0b54184fa885925675b17e2ee57be499" tvg-id="ShoppingNT.kr" tvg-logo="https://i.imgur.com/BgbJp5X.png" group-title="Shop", Shopping NT
+https://live.shoppingntmall.com/live/10011.m3u8
+#EXTINF:-1 id="da54e116fc3bddb311d6c1aeabb64814" tvg-id="TeaTVKhmer.vn" tvg-logo="https://i.imgur.com/u6SMbOQ.jpg" group-title="Shop", Tea TV 2
+https://livefta.malimarcdn.com/ftaedge00/teatv2.sdp/playlist.m3u8
+#EXTINF:-1 id="4a611a41126c003f923d3421f2549ff6" tvg-id="TeaTV.vn" tvg-logo="https://i.imgur.com/WorbnyD.jpg" group-title="Shop", Tea TV
+https://livefta.malimarcdn.com/ftaedge00/teatv.sdp/playlist.m3u8
+#EXTINF:-1 id="969b6e5b6c30afb71a6611b7945fbfb7" tvg-id="TJC.uk" tvg-logo="https://i.imgur.com/fk5rEje.png" group-title="Shop", TJC
+https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(TJCOTT)/index.m3u8
+#EXTINF:-1 id="c41dcccdaf914093d0e1fa6966bee0bf" tvg-id="TSC.ca" tvg-logo="https://i.imgur.com/9w9SSIC.png" group-title="Shop", Today's Shopping Choice
+https://tscamd.akamaized.net/hls/live/503340/TSCLive/master.m3u8
+#EXTINF:-1 id="8c6123e1955c7c9c4c85c2e2d5afb092" tvg-id="TommyTeleshopping.nl" tvg-logo="https://i.imgur.com/zxyYP7y.png" group-title="Shop", Tommy Teleshopping
+https://ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8
+#EXTINF:-1 id="988776b0075479b3c9b067945d469427" tvg-id="TVTudoBH.br" tvg-logo="https://i.imgur.com/5SKSkUQ.png" group-title="Shop", TV Tudo BH
+https://tv02.zas.media:1936/tvtudo/tvtudo/playlist.m3u8
+#EXTINF:-1 id="5a56956340368ed4efd110b27b7a8bf3" tvg-id="TVSConsumerDirect.us" tvg-logo="https://www.watchyour.tv/channels/logo/tvs-consumer-direct.jpg" group-title="Shop", TVSConsumerDirect
+https://rpn.bozztv.com/gusa/gusa-ConsumerDirect/index.m3u8
+#EXTINF:-1 id="71551d9d9a86b89249cc10e593341552" tvg-id="TVSN.au" tvg-logo="https://i.imgur.com/lmoAFm3.png" group-title="Shop", TVSN
+https://tvsnhlslivetest.akamaized.net/hls/live/2034711/TVSN-MSL4/master.m3u8
+#EXTINF:-1 id="3b00e33f47b1e4b16cb646da8b0beee8" tvg-id="UgoShopTV.cn" tvg-logo="https://www.tvchinese.net/uploads/tv/yougouwu.jpg" group-title="Shop", Ugo Shop TV
+http://49.113.179.174:4022/udp/238.125.4.184:5140
+#EXTINF:-1 id="534497a951abac220f069c0404d06af6" tvg-id="UniquelyThai.vn" tvg-logo="https://i.imgur.com/cTSDB8O.png" group-title="Shop", Uniquely Thai
+https://livefta.malimarcdn.com/ftaedge00/uniquely.sdp/playlist.m3u8
+#EXTINF:-1 id="cead9766a7a970dca6038a12e4e370b7" tvg-id="WShopping.kr" tvg-logo="https://i.imgur.com/hfXjVJd.png" group-title="Shop", W Shopping
+https://liveout.catenoid.net/live-05-wshopping/wshopping_1500k/playlist.m3u8
+#EXTINF:-1 id="b844b869a1fd4ca01a74fc9a4f66c2f8" tvg-id="Magnat.ru" tvg-logo="https://i.imgur.com/r485aZL.png" group-title="Shop", Магнат ТВ
+https://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8
+#EXTINF:-1 id="0da00f6e03ac1c6529e6ee281383574c" tvg-id="TUSO.ua" tvg-logo="https://i.imgur.com/kb4B9wN.png" group-title="Shop", Тюсо
+https://tuso.cdn-01.cosmonova.net.ua/hls/tuso_ua.m3u8
+#EXTINF:-1 id="ad14b36052a1e0176d24df3db22b8537" tvg-id="Yuvelirochka.ru" tvg-logo="https://i.imgur.com/IcWtXCZ.png" group-title="Shop", Ювелирочка ТВ
+https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
+#EXTINF:-1 id="309602ccb91c763bd8dd8438c24a2d3d" tvg-id="ETMall60.tw" tvg-logo="https://i.imgur.com/jkOgbLw.png" group-title="Shop", 東森購物60
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV18.m3u8
+#EXTINF:-1 id="389b6d99477901102ece5670a37b3633" tvg-id="BSTV.hk" tvg-logo="https://i.imgur.com/GVYSSgm.png" group-title="Shop", 耀才財經台
+http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8

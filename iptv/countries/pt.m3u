@@ -1,0 +1,137 @@
+#EXTM3U
+#EXTINF:-1 id="1a613f8b755810941afff41a8ccab14c" tvg-id="24HorasInternacional.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" group-title="News", 24 Horas Internacional
+https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8
+#EXTINF:-1 id="16c9b90af7d20d9ae26633d9ad4cd1de" tvg-id="ADBTV.pt" tvg-logo="https://i.ibb.co/HGfTJwt/ADBTV.jpg" group-title="Religious", ADB TV
+https://streamer-a03.videos.sapo.pt/live/sobrenaturaltv_3/playlist.m3u8
+#EXTINF:-1 id="dcba8ece0d7db29b415106e4956c6483" tvg-id="AngelTVPortuguese.in" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Religious", Angel TV Portuguese
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelportuguese_all/playlist.m3u8
+#EXTINF:-1 id="e9adab93c1c362204d4e22601206dc57" tvg-id="ARTV.pt" tvg-logo="https://i.imgur.com/y00t9hr.png" group-title="Legislative", ARTV Canal Parlamento
+https://playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8
+#EXTINF:-1 id="90c16f90b8c10ba66f56457b2a111057" tvg-id="BBCNewsEurope.uk" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="News", BBC World News
+http://ott-cdn.ucom.am/s24/index.m3u8
+#EXTINF:-1 id="4a08cfe19a64a141a3c0323012623801" tvg-id="BloombergTVEMEALiveEvent.uk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business", Bloomberg TV EMEA Live Event
+https://bloomberg.com/media-manifest/streams/eu-event.m3u8
+#EXTINF:-1 id="a6fe07536a802e9b1396497a390d4fb0" tvg-id="BloombergTVEurope.uk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business", Bloomberg TV Europe
+https://bloomberg.com/media-manifest/streams/eu.m3u8
+#EXTINF:-1 id="191db129ae4c92b73d1ad6a2600a9268" tvg-id="Canal11.pt" tvg-logo="https://i.imgur.com/mbQCGm5.png" group-title="Sports", Canal 11
+https://ythls.armelin.one/channel/UCMfEEaNYYX5w6nbvccTCHhg.m3u8
+#EXTINF:-1 id="efc09373692adae662e31be77587ecb2" tvg-id="CanaldeOracaoMana.pt" tvg-logo="https://i.imgur.com/Z05giHV.png" group-title="Religious", Canal de Oração Maná
+https://ythls.armelin.one/channel/UCI7xBRUwWJ6LKipBkjWzfVg.m3u8
+#EXTINF:-1 id="23987734d49ea223ac5ac70a0d4acf6c" tvg-id="CNBCEurope.uk" tvg-logo="https://i.imgur.com/B6sfpDa.png" group-title="Business", CNBC Europe/World
+https://amg01079-nbcuuk-amg01079c1-samsung-es-1261.playouts.now.amagi.tv/playlist/amg01079-nbcuukfast-cnbcpe-samsunges/playlist.m3u8
+#EXTINF:-1 id="61de858a327143892f0d1ee87906dadc" tvg-id="EbS.be" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Legislative", EbS Live
+https://eucom-live.freecaster.com/eucom/96098bf4-5a2a-466b-8d7f-e35300fa4f28/96098bf4-5a2a-466b-8d7f-e35300fa4f28.isml/master.m3u8
+#EXTINF:-1 id="9a623e70172ebcb869185805bef83b32" tvg-id="EbSPlus.be" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Legislative", EbS+ Live
+https://eucom-live.freecaster.com/eucom/96098c0b-0743-4afc-9562-db1673053f9d/96098c0b-0743-4afc-9562-db1673053f9d.isml/master.m3u8
+#EXTINF:-1 id="d0e412c82d8f55a980c3a287acfeecab" tvg-id="EWTNEurope.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png" group-title="Religious", EWTN Europe
+https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/live/playlist.m3u8
+#EXTINF:-1 id="123c722f04de9cb49ae6c46295cc0394" tvg-id="ExtremeSportsChannel.nl" tvg-logo="https://i.imgur.com/m7IC01U.png" group-title="Sports", Extreme Sports
+https://edge02.odtv.az/o4/extremesport/playlist.m3u8
+#EXTINF:-1 id="b5099b374505cbcb7e9a376f18a8a6d8" tvg-id="Famatv.pt" tvg-logo="https://i.ibb.co/tMmRp18/Fama-TV-cor-whitebg-hotizontal.jpg" group-title="Music", Famatv
+https://204280.global.ssl.fastly.net/64cd4f589272294ee667108d/live_2f24d2e05bfd11eeb524673aae68b8ac/rewind-3600.m3u8
+#EXTINF:-1 id="d02d44d35e55e460241d4676d3aa4d06" tvg-id="FashionTVEurope.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Lifestyle", Fashion TV
+https://fashiontv-fashiontv-5-nl.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="f8e79baab470e17a4ef170a1d895de0f" tvg-id="iesTV.pt" tvg-logo="https://i.imgur.com/zYj5pU5.png" group-title="Religious", iesTV
+https://joaocaiado.com:1443/ies_tv/ngrp:ies_tv_all/playlist.m3u8
+#EXTINF:-1 id="c9b9761a0d450d44dd412585eab0398f" tvg-id="KTO.fr" tvg-logo="https://i.imgur.com/EY6TsdV.png" group-title="Religious", KTO
+https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8
+#EXTINF:-1 id="ec25544d3a0f38b94f0577533abe954a" tvg-id="KuriakosCine.pt" tvg-logo="https://i.imgur.com/CZViCwB.jpg" group-title="Movies", Kuriakos Cine
+https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
+#EXTINF:-1 id="70ef8c25c118124cbc6a638cf91c7a93" tvg-id="KuriakosKids.pt" tvg-logo="https://i.imgur.com/SRX6EPY.png" group-title="Animation;Kids;Religious", Kuriakos Kids
+https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
+#EXTINF:-1 id="20d92d2d6482ffe0756173449020cd29" tvg-id="KuriakosMusic.pt" tvg-logo="https://i.imgur.com/Zl40NYi.jpg" group-title="Music", Kuriakos Music
+http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8
+#EXTINF:-1 id="a559549aad86b86039be5d2735d0d29a" tvg-id="KuriakosTV.pt" tvg-logo="https://i.imgur.com/xdAW0D5.png" group-title="Religious", Kuriakos TV
+https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8
+#EXTINF:-1 id="96853291a1cda8a15c474092eff31df4" tvg-id="ManaChurchOnline.pt" tvg-logo="https://i.imgur.com/FRDJSim.png" group-title="Religious", Maná Church Online
+https://w2.manasat.com/church-online/smil:church-online.smil/playlist.m3u8
+#EXTINF:-1 id="27bf552eba38a00548e9339eac2abb8f" tvg-id="ManaCirkevOnline.pt" tvg-logo="https://i.imgur.com/tYhXeRq.png" group-title="Religious", Maná Cirkev Online
+https://w2.manasat.com/cirkev-online/smil:cirkev-online.smil/playlist.m3u8
+#EXTINF:-1 id="ca552e7ec5eb51c804c27323309bea43" tvg-id="ManaEgliseOnline.pt" tvg-logo="https://i.imgur.com/xQYly8O.png" group-title="Religious", Maná Église Online
+https://w2.manasat.com/eglise-online/smil:eglise-online.smil/playlist.m3u8
+#EXTINF:-1 id="2c73b3676a9f3378c7e06f0a2226d234" tvg-id="ManaIglesiaOnline.pt" tvg-logo="https://i.imgur.com/0IUvfcJ.png" group-title="Religious", Maná Iglesia Online
+https://w2.manasat.com/iglesia-online/smil:iglesia-online.smil/playlist.m3u8
+#EXTINF:-1 id="ee3f4cdaedb9db87bf65ad13198e155a" tvg-id="ManaIgrejaOnline.pt" tvg-logo="https://i.imgur.com/0IUvfcJ.png" group-title="Religious", Maná Igreja Online
+https://w1.manasat.com/igrejaonline/smil:igrejaonline.smil/playlist.m3u8
+#EXTINF:-1 id="f4de88ac51ffb392bb9ad0cc9e76fd78" tvg-id="ManaTserkovOnlayn.pt" tvg-logo="https://i.imgur.com/PruXLqS.png" group-title="Religious", Maná Tserkov' Onlayn
+https://w2.manasat.com/tserkov-online/smil:tserkov-online.smil/playlist.m3u8
+#EXTINF:-1 id="74c88f3c967009030c1392659e3cdb4a" tvg-id="Nickelodeon.es" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids", Nickelodeon
+http://185.189.225.150:85/nickelodeon/index.m3u8
+#EXTINF:-1 id="8d46eb8bba1af862968dcdba517b7608" tvg-id="NovoTempoPortugal.pt" tvg-logo="https://i.imgur.com/5mSzvXt.png" group-title="Religious", Novo Tempo Portugal
+https://ythls.armelin.one/channel/UCm0_NzofPCXJ44djiyz_uBg.m3u8
+#EXTINF:-1 id="4aa08a9ddad21ef7fada170e338f0b5b" tvg-id="NPCRadioeTV.pt" tvg-logo="https://i.imgur.com/mw1lYWE.png" group-title="Music", NPC Rádio e TV
+https://stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/playlist.m3u8
+#EXTINF:-1 id="5bee90e60e979a9a0b6811cc395cd0a7" tvg-id="ONFM.pt" tvg-logo="https://onfmwordpressfiles.ams3.digitaloceanspaces.com/wp-content/uploads/2023/03/17130121/logo-on-fm.png" group-title="Music", ON FM
+https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
+#EXTINF:-1 id="cf29327df6866aa78f14be587dc11292" tvg-id="PeerTVAltoAdige.it" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-alto-adige.png" group-title="Outdoor;Travel", Peer TV Alto Adige
+https://iptv.peer.biz/live/peertv-it.m3u8
+#EXTINF:-1 id="756f8e6c19efb1201a907939a0cb00ab" tvg-id="PeerTVSouthTyrol.it" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-south-tyrol.png" group-title="Outdoor;Travel", Peer TV South Tyrol
+https://iptv.peer.biz/live/peertv-en.m3u8
+#EXTINF:-1 id="47fde034c41793c9ba489f16926198cd" tvg-id="PeerTVSudtirol.it" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-suedtirol.png" group-title="Outdoor;Travel", Peer TV Südtirol
+https://iptv.peer.biz/live/peertv.m3u8
+#EXTINF:-1 id="d64535eab9e87ec9182f1282dd16cf34" tvg-id="PortoCanal.pt" tvg-logo="https://i.imgur.com/DwziwMY.png" group-title="General", Porto Canal
+https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/playlist_dvr.m3u8
+#EXTINF:-1 id="1d52f14ab11e14e607dc5a5e9b4ac0ba" tvg-id="RadioSines.pt" tvg-logo="https://i.imgur.com/Oe6F1nL.png" group-title="General", Rádio Sines
+https://streamer-a01.videos.sapo.pt/live/radiosinesdireto/index.m3u8
+#EXTINF:-1 id="710f468ac72fb33a2b81088b606108e2" tvg-id="rakuten-documentaries-14-pt.samsung.wurl.tv" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", Rakuten Documentaries
+https://rakuten-documentaries-14-pt.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="a164863e0e9f85be6866e09f32c58834" tvg-id="rakuten-family-14-pt.samsung.wurl.tv" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", Rakuten Family
+https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="5ad7134b7a10d7291fc961301e134866" tvg-id="RecordTVEuropa.pt" tvg-logo="https://i.imgur.com/DvxfBTE.png" group-title="General", RecordTV Europa
+https://live-recordeuropa.visioncdn.com/live/recordeuropa/master.m3u8
+#EXTINF:-1 id="70c16ea0d73360edda3d3d2484327421" tvg-id="RFPtv.pt" tvg-logo="https://i.imgur.com/I60nQuR.png" group-title="Music", RFPtv
+https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
+#EXTINF:-1 id="c0c07265333d82a3f43dd8d6f34f724b" tvg-id="RTP1.pt" tvg-logo="https://i.imgur.com/w7GV86i.png" group-title="General", RTP 1
+https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 id="a2cd92c77be9f29c603f6440fde9d20a" tvg-id="RTP2.pt" tvg-logo="https://i.imgur.com/T6WUqdn.png" group-title="General", RTP 2
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+#EXTINF:-1 id="321befb585f569ccc510a0d736b3f748" tvg-id="RTP3.pt" tvg-logo="https://i.imgur.com/ohXJmiR.png" group-title="News", RTP 3
+https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
+#EXTINF:-1 id="84f3a510c5d973a6992d3903b15b2f91" tvg-id="RTPAcores.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RTP_A%C3%A7ores_%282016%29.svg/512px-RTP_A%C3%A7ores_%282016%29.svg.png" group-title="General", RTP Açores
+https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
+#EXTINF:-1 id="49363f360cec281694361034d0b4f9c5" tvg-id="RTPMadeira.pt" tvg-logo="https://i.imgur.com/nJNWTqA.png" group-title="General", RTP Madeira
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
+#EXTINF:-1 id="6e28e581209782218f04e892d1909037" tvg-id="RTPMemoria.pt" tvg-logo="https://i.imgur.com/jCpfdiJ.png" group-title="General", RTP Memória
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
+#EXTINF:-1 id="520964452a77a2f4e80127a40ab90a64" tvg-id="SIC.pt" tvg-logo="https://i.imgur.com/SPMqiDG.png" group-title="General", SIC
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+#EXTINF:-1 id="d00ce804543400aa3b8f15c8b7b7c30f" tvg-id="SICNoticias.pt" tvg-logo="https://i.imgur.com/Gi6Q26M.png" group-title="News", SIC Notícias
+https://sicnot.live.impresa.pt/sicnot.m3u8
+#EXTINF:-1 id="3ea28e24f1e0c606024ca1b0bc9c955b" tvg-id="SICNovelas.pt" tvg-logo="https://i.ibb.co/5hQrgqd/SICNovelas.png" group-title="Series", SIC Novelas
+https://fast.live.impresa.pt/out/v1/b5be42c4a68d4ee18461a7156bb8ecf2/sic-novelas.m3u8
+#EXTINF:-1 id="c983be52f47fb508bd27d7621eb744a1" tvg-id="TGRTEurope.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png" group-title="General", TGRT Europe
+https://canli.tgrteu.com/tgrteu.m3u8
+#EXTINF:-1 id="eafbe5eb5c1c58bba3625d23b48f9484" tvg-id="TV5MondeEurope.fr" tvg-logo="https://i.imgur.com/rPAbMSu.png" group-title="General", TV5Monde Europe
+https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8
+#EXTINF:-1 id="8b9a063b44da5bf23dd616e143b0b4a1" tvg-id="TVCancaoNova.pt" tvg-logo="https://i.imgur.com/rSmwbkj.png" group-title="Undefined", TV Canção Nova Portugal
+https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova/playlist.m3u8
+#EXTINF:-1 id="718a1f3c5dc0b3b00619cd5451759503" tvg-id="TVFatima.pt" tvg-logo="https://i.imgur.com/0Nz2GqC.png" group-title="Religious", TV Fátima
+https://streamer-b02.videos.sapo.pt/live/santuario/playlist.m3u8
+#EXTINF:-1 id="4e1bae67bdf02679aa1f4aa66374cc16" tvg-id="TVMana1.pt" tvg-logo="https://i.imgur.com/6jNqpTP.png" group-title="Religious", TV Maná 1
+https://w1.manasat.com/tvmana-1/smil:tvmana-1.smil/playlist.m3u8
+#EXTINF:-1 id="fb8c443b8d5d3153fc06d50854e8647a" tvg-id="TVMana2.pt" tvg-logo="https://i.imgur.com/VYNjVov.png" group-title="Religious", TV Maná 2
+https://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8
+#EXTINF:-1 id="00ca6474ad8a43f571101bc941432369" tvg-id="TVManaBrasil.pt" tvg-logo="https://i.imgur.com/AFb712e.png" group-title="Religious", TV Maná Brasil
+https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8
+#EXTINF:-1 id="25f6655b2873960b31821a439c78a699" tvg-id="TVManaEnglish.pt" tvg-logo="https://i.imgur.com/I66IkCw.png" group-title="Religious", TV Maná English
+https://w1.manasat.com/tvmana-english/smil:tvmana-english.smil/playlist.m3u8
+#EXTINF:-1 id="81778f4dde9ca71185c10c5053557b58" tvg-id="TVManaEspanhol.pt" tvg-logo="https://i.imgur.com/sUlrSwP.png" group-title="Religious", TV Maná Español
+https://w1.manasat.com/tvmana-espanol/smil:tvmana-espanol.smil/playlist.m3u8
+#EXTINF:-1 id="54ab5bb912cbe9845aa6915ed7912524" tvg-id="TVManaRusskiy.pt" tvg-logo="https://i.imgur.com/fACHqmY.png" group-title="Religious", TV Maná Russkiy
+https://w1.manasat.com/tvmana-leste/smil:tvmana-leste.smil/playlist.m3u8
+#EXTINF:-1 id="c4a7057ba91265859c3174c9bc769fe4" tvg-id="TVEInternacionalEuropeAsia.es" tvg-logo="https://i.imgur.com/ow1HArj.png" group-title="Undefined", TVE Internacional Europe-Asia
+https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8
+#EXTINF:-1 id="31ec3f97942ec58dbf257c185e477036" tvg-id="TVIReality.pt" tvg-logo="https://i.imgur.com/C9rxqA5.png" group-title="Entertainment", TVI Reality
+https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
+#EXTINF:-1 id="9179c9fd5ce5258c36599c03472cb1b3" tvg-id="VPlusTVI.pt" tvg-logo="https://i.imgur.com/rb9IKsS.png" group-title="General", V+ TVI
+https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8
+#EXTINF:-1 id="c949367b02b1dcd7977868ccb9465ac6" tvg-id="WayTV.pt" tvg-logo="https://i.ibb.co/gdpvKpS/cropped-Asset-1.png" group-title="Religious", Way TV
+http://213.13.26.11:1935/live/sobrenaturaltv/livestream.m3u8
+#EXTINF:-1 id="f4ea3e7abd5c92933048796a15f3e1af" tvg-id="WEBTVPaixaoFM.pt" tvg-logo="https://radiopaixaofm.live/admin/assets/img/logo.png" group-title="Entertainment", WEB TV Paixão FM
+https://stmv2.samcast.com.br/romeu6622/romeu6622/playlist.m3u8
+#EXTINF:-1 id="cfd4d96f6121ec7b582085fc0ebb8352" tvg-id="NTVMir.ru" tvg-logo="https://i.imgur.com/pUcV46F.png" group-title="Undefined", НТВ Мир
+http://stream02.vnet.am/HTB/mono.m3u8
+#EXTINF:-1 id="7b3e7659f1dd77042a07d21db7c99e1e" tvg-id="PeretzInternational.ru" tvg-logo="https://i.imgur.com/On6ggLe.png" group-title="Entertainment", Перец
+http://stream01.vnet.am/Perec/mono.m3u8
+#EXTINF:-1 id="7607307f6832b6ed917037086d76d095" tvg-id="RTRPlanetaEurope.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" group-title="General", РТР Планета Евро
+https://player.smotrim.ru/iframe/stream/live_id/4941

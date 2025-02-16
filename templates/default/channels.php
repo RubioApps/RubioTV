@@ -38,7 +38,7 @@ use \RubioTV\Framework\Language\Text;
 
 <!-- Breadcrumb -->
 <div class="tv-breadcrumb">
-    <nav class="rounded border bg-light m-3" aria-label="breadcrumb">
+    <nav class="rounded m-3" aria-label="breadcrumb">
         <ol class="breadcrumb p-2 m-0">
             <li class="breadcrumb-item">
                 <a href="<?= $config->live_site;?>"><?= Text::_('HOME');?></a>
@@ -71,12 +71,12 @@ use \RubioTV\Framework\Language\Text;
 <?php if(is_array($page->data) && count($page->data)): ?>
 <!-- Channels -->
 <main role="main" class="justify-content-center p-3">
-    <div class="tv-channels-grid row row-cols-4 row-cols-md-6 row-cols-lg-8 g-2 g-lg-3 mt-1">
+    <div class="tv-channels-grid row row-cols-2 row-cols-sm-4 row-cols-md-6 row-cols-lg-8 g-2 g-lg-3 mt-1">
         <?php foreach ($page->data as $item):?>   
         <div class="col d-flex align-items-stretch">
-            <div class="card p-3 border bg-light justify-content-center mx-auto w-100">
+            <div class="card p-3 border tv-bg-<?= $page->params['mode'];?> justify-content-center mx-auto w-100">
                 <a class="text-center" href="<?= $item->link;?>">
-                <img src="<?= $item->image;?>" class="card-img-top mx-auto spinner-border m-5" data-remote="<?= $item->remote;?>" alt="<?= htmlspecialchars($item->name);?>" />
+                <img src="<?= $item->image;?>" class="card-img-top mx-auto spinner-border" data-remote="<?= $item->remote;?>" alt="<?= htmlspecialchars($item->name);?>" />
                 <div class="card-body p-0 text-center">                 
                     <h5 class="card-title text-truncate">
                         <div class="card-text"><?= $item->name;?></div>
@@ -98,55 +98,13 @@ use \RubioTV\Framework\Language\Text;
 <!-- JS -->
 <script type="text/javascript">   
 jQuery(document).ready(function(){   
-
-    <?php if($config->notify_cache):?>
-    var notify = function( img , data){
-        img.attr('src', data.logo);                               
-        var wrapper = $('#tv-toast');
-        var toast   = wrapper.find('.toast').first().clone();
-        toast.find('.toast-body').html( data.message + '<br />' + data.id );
-        toast.addClass( data.error ? 'bg-danger' : 'bg-success');
-        toast.appendTo(wrapper);
-
-        if(bootstrap){
-            const tbs = bootstrap.Toast.getOrCreateInstance(toast.get(0));
-            tbs.show();
-        } else {
-            toast.show();
-            setTimeout(function() { 
-                toast.remove();
-            }, 5000);                                 
-        }
-    };
-    <?php else:?>
-
-    var notify = function( img , data ){
-        img.attr('src', data.logo);
-    }
-    <?php endif;?>
-
-    // Asynchronus image loading            
-    $('img[data-remote^=http]').each(function(){        
-        var img     = $(this);
-        var src     = $(this).attr('src');  
-        var url     = $(this).attr('data-remote');  
-        var title   =  $(this).attr('title');                           
-        if(url && url !== src ){                                      
-            $.getJSON(url , function(data){
-                notify( img , data);       
-                img.removeClass('spinner-border m-5');                         
-            });
-        } else {
-            img.removeClass('spinner-border m-5');            
-        }
-    }); 
     
     $('#btn-sync').on('click',function(e){
         e.preventDefault();
-        var url = '<?= $factory->Link('channels.sync',null,null,null,'format=json');?>';
+        const url = '<?= $factory->Link('channels.sync',null,null,null,'format=json');?>';
         $.getJSON( url , function(data){  
-            var wrapper = $('#tv-toast');
-            var toast   = wrapper.find('.toast').first().clone();
+            const wrapper = $('#tv-toast');
+            const toast   = wrapper.find('.toast').first().clone();
             toast.find('.toast-body').html( '<strong>' + data.title + '</strong><br />' + data.content);
             toast.addClass('bg-success');
             toast.appendTo($('body'));

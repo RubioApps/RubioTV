@@ -39,7 +39,7 @@ defined('_TVEXEC') or die; ?>
     <div class="row row-cols-3 row-cols-md-5 row-cols-lg-6 g-2 g-lg-3 mt-1"> 
     <?php foreach ($page->data as $item):?>
         <div class="col ps-1 pe-1">               
-            <a class="btn btn-light border d-grid" href="<?= $item->link;?>">
+            <a class="btn border d-grid" href="<?= $item->link;?>">
                 <h6 class="text-truncate m-1" title="<?= $item->name;?>"><?= $item->name;?></h6>
             </a>
         </div>

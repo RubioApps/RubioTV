@@ -1,0 +1,851 @@
+#EXTM3U
+#EXTINF:-1 id="4258941837c00e1d70f39ebbbc9b1b4b" radio="true" group-title="France" tvg-id="Radio Soleil" tvg-logo="https://graph.facebook.com/RadioSoleil/picture?width=200&height=200" group-title="Stations", Radio Soleil
+https://stunnel3.cyber-streaming.com:9104/listen.mp3?_=1
+#EXTINF:-1 id="f76da6a1946f1ac820d2064620c65276" radio="true" group-title="France" tvg-id="Radio Swiss Classic" tvg-logo="https://graph.facebook.com/RadioSwissClassic/picture?width=200&height=200" group-title="Stations", Radio Swiss Classic
+https://stream.srg-ssr.ch/m/rsc_de/mp3_128
+#EXTINF:-1 id="0a615a32a63c6bb76bfcb7f67733e483" radio="true" group-title="France" tvg-id="Radio Swiss Jazz" tvg-logo="https://graph.facebook.com/RadioSwissJazz/picture?width=200&height=200" group-title="Stations", Radio Swiss Jazz
+https://stream.srg-ssr.ch/m/rsj/mp3_128
+#EXTINF:-1 id="0e20fddf5e29d9fa668cdb5b550e972a" radio="true" group-title="France" tvg-id="RTS Espace 2" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", RTS Espace 2
+https://lsaplus.swisstxt.ch/audio/espace-2_96.stream/chunklist_DVR.m3u8
+#EXTINF:-1 id="83cd2a5553cd53db812444ed31e62f7c" radio="true" group-title="France" tvg-id="Radio Lovely" tvg-logo="https://graph.facebook.com/RadioLovely/picture?width=200&height=200" group-title="Stations", Radio Lovely
+https://lovely.ice.infomaniak.ch/lovely-128.mp3
+#EXTINF:-1 id="da625277c1c775d952cfbb7bcdca5c63" radio="true" group-title="France" tvg-id="Radio Courtoisie" tvg-logo="https://graph.facebook.com/RadioCourtoisie/picture?width=200&height=200" group-title="Stations", Radio Courtoisie
+https://ice.creacast.com/radio-courtoisie
+#EXTINF:-1 id="25ad3afd69243d95e6304c156f762f5b" radio="true" group-title="France" tvg-id="France Info" tvg-logo="https://graph.facebook.com/franceinfo/picture?width=200&height=200" group-title="Stations", France Info
+https://icecast.radiofrance.fr/franceinfo-midfi.mp3
+#EXTINF:-1 id="858653bb7c2dab14aeb022c6598e312f" radio="true" group-title="France" tvg-id="France Inter" tvg-logo="https://graph.facebook.com/franceinter/picture?width=200&height=200" group-title="Stations", France Inter
+https://stream.radiofrance.fr/franceinter/franceinter.m3u8?id=radiofrance
+#EXTINF:-1 id="d210f868e79e7c8c9c12cd7a05adc674" radio="true" group-title="France" tvg-id="RTL" tvg-logo="https://graph.facebook.com/RTL/picture?width=200&height=200" group-title="Stations", RTL
+https://live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/grouprtl/national/long/index.m3u8
+#EXTINF:-1 id="9204520593db62945519d220d5562976" radio="true" group-title="France" tvg-id="France Culture" tvg-logo="https://graph.facebook.com/FranceCulture/picture?width=200&height=200" group-title="Stations", France Culture
+https://stream.radiofrance.fr/franceculture/franceculture.m3u8?id=radiofrance
+#EXTINF:-1 id="d67964f827f9ab92f1842082b83afadd" radio="true" group-title="France" tvg-id="France Musique" tvg-logo="https://graph.facebook.com/FranceMusique/picture?width=200&height=200" group-title="Stations", France Musique
+https://icecast.radiofrance.fr/francemusique-midfi.mp3
+#EXTINF:-1 id="2a7c03d5b5d5943bc4647092feabbd1b" radio="true" group-title="France" tvg-id="Radio Espace" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Radio Espace
+https://radioespace.ice.infomaniak.ch/radioespace-high.mp3
+#EXTINF:-1 id="14355890db64daf782c21baf26d35910" radio="true" group-title="France" tvg-id="Sud Radio" tvg-logo="https://www.radio.fr/300/sudradio.png?version=869fb2ba93a48bfbc480f8bea97c48cc" group-title="Stations", Sud Radio
+https://start-sud.ice.infomaniak.ch/start-sud-high.mp3
+#EXTINF:-1 id="86e0fcef14617a3e58f78cd283fec810" radio="true" group-title="France" tvg-id="Voltage" tvg-logo="https://graph.facebook.com/Voltage/picture?width=200&height=200" group-title="Stations", Voltage
+https://start-voltage.ice.infomaniak.ch/start-voltage-high.mp3
+#EXTINF:-1 id="77dda74ebb11c53e859722b4e5596014" radio="true" group-title="France" tvg-id="Skyrock" tvg-logo="https://www.radio.fr/300/skyrock.png?version=92e25c218fa6fd6d957e1fd6fcfd4d50" group-title="Stations", Skyrock
+https://icecast.skyrock.net/s/parisidf_aac_64k
+#EXTINF:-1 id="c39cd28cade2f13474139e82d3847f07" radio="true" group-title="France" tvg-id="Urban Hit" tvg-logo="https://graph.facebook.com/UrbanHit/picture?width=200&height=200" group-title="Stations", Urban Hit
+https://onlyrai.ice.infomaniak.ch/onlyrai-high.mp3
+#EXTINF:-1 id="76c58463f0006fcb5aa490da986fec5e" radio="true" group-title="France" tvg-id="Radio TFM" tvg-logo="https://graph.facebook.com/RadioTFM/picture?width=200&height=200" group-title="Stations", Radio TFM
+https://radiotfm.ice.infomaniak.ch/radiotfm-128.mp3
+#EXTINF:-1 id="94f964c5ff5965705e7a13643957e68f" radio="true" group-title="France" tvg-id="Radio MTI" tvg-logo="https://graph.facebook.com/RadioMTI/picture?width=200&height=200" group-title="Stations", Radio MTI
+https://radiomti.ice.infomaniak.ch/radiomti.mp3
+#EXTINF:-1 id="28ecaa95088acf4e582c4c737ef3af32" radio="true" group-title="France" tvg-id="Radio ECN" tvg-logo="https://graph.facebook.com/RadioECN/picture?width=200&height=200" group-title="Stations", Radio ECN
+https://str30.creacast.com/ecn_hq.mp3
+#EXTINF:-1 id="671970cd265efdf9fb82d6c07ad39590" radio="true" group-title="France" tvg-id="Virage Radio" tvg-logo="https://graph.facebook.com/VirageRadio/picture?width=200&height=200" group-title="Stations", Virage Radio
+https://virageradio.ice.infomaniak.ch/virageradio-high.mp3
+#EXTINF:-1 id="4806ccce79b1bbd84bcc946da8809d18" radio="true" group-title="France" tvg-id="BlackBox" tvg-logo="https://graph.facebook.com/blackbox/picture?width=200&height=200" group-title="Stations", BlackBox
+https://start-blackbox.ice.infomaniak.ch/start-blackbox-high.mp3
+#EXTINF:-1 id="e778e01d15c3278d9906d82a7f3041df" radio="true" group-title="France" tvg-id="Accent 4" tvg-logo="https://graph.facebook.com/Accent/picture?width=200&height=200" group-title="Stations", Accent 4
+https://str0.creacast.com/accent4
+#EXTINF:-1 id="0c7c82531a6bff938396a553e6bdfad3" radio="true" group-title="France" tvg-id="Galaxie Radio" tvg-logo="https://graph.facebook.com/GalaxieRadio/picture?width=200&height=200" group-title="Stations", Galaxie Radio
+https://listen.radioking.com/radio/15684/stream/63517
+#EXTINF:-1 id="2ad6a094ad4192385a62e198a205c188" radio="true" group-title="France" tvg-id="Magnum la radio" tvg-logo="https://graph.facebook.com/Magnumlaradio/picture?width=200&height=200" group-title="Stations", Magnum la radio
+https://str0.creacast.com/magnum
+#EXTINF:-1 id="f04744ed1ced2c5a7bcb81fec135e1b4" radio="true" group-title="France" tvg-id="Radio Alfa" tvg-logo="https://graph.facebook.com/RadioAlfa/picture?width=200&height=200" group-title="Stations", Radio Alfa
+https://stream.rcs.revma.com/amrbkhqtkm0uv
+#EXTINF:-1 id="277c317516f5c62164137722d1a4d618" radio="true" group-title="France" tvg-id="Radio Bonheur" tvg-logo="https://graph.facebook.com/RadioBonheur/picture?width=200&height=200" group-title="Stations", Radio Bonheur
+https://radiobonheur.ice.infomaniak.ch/radiobonheur-128-1.mp3
+#EXTINF:-1 id="5d8502d6d2d15abc3ccc9a024e6ccfe2" radio="true" group-title="France" tvg-id="Radio Dudelange" tvg-logo="https://graph.facebook.com/RadioDudelange/picture?width=200&height=200" group-title="Stations", Radio Dudelange
+https://radiodudelange.ice.infomaniak.ch/radiodudelange-128.mp3
+#EXTINF:-1 id="eaa2c18614007e084faaefce16e1acbb" radio="true" group-title="France" tvg-id="Radio Saint-Louis" tvg-logo="https://graph.facebook.com/RadioSaintLouis/picture?width=200&height=200" group-title="Stations", Radio Saint-Louis
+https://91.121.29.104:8142/
+#EXTINF:-1 id="b93d9e997c2ec1d5caa1917203084d86" radio="true" group-title="France" tvg-id="Radio Imagine" tvg-logo="https://graph.facebook.com/RadioImagine/picture?width=200&height=200" group-title="Stations", Radio Imagine
+https://listen.radioking.com/radio/33815/stream/69986
+#EXTINF:-1 id="98d0e0022e4d3c99f94580165b0fb0a2" radio="true" group-title="France" tvg-id="RSL Radio" tvg-logo="https://graph.facebook.com/RSLRadio/picture?width=200&height=200" group-title="Stations", RSL Radio
+https://rslradio.ice.infomaniak.ch/rslradio-128.mp3
+#EXTINF:-1 id="8ec664b83e49caed87bd7f6585ffbc12" radio="true" group-title="France" tvg-id="iRadio" tvg-logo="https://graph.facebook.com/iRadio/picture?width=200&height=200" group-title="Stations", iRadio
+https://listen.radioking.com/radio/250102/stream/294397
+#EXTINF:-1 id="072f8d8da1075c0b8eabb63fee2924f8" radio="true" group-title="France" tvg-id="Active Radio" tvg-logo="https://graph.facebook.com/ActiveRadio/picture?width=200&height=200" group-title="Stations", Active Radio
+https://manager.streaming-ingenierie.fr:8028/stream.mp3
+#EXTINF:-1 id="097285b32927a33f06ab9bfe930d2052" radio="true" group-title="France" tvg-id="Allzic Africa" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Africa
+https://allzic49.ice.infomaniak.ch/allzic51.mp3
+#EXTINF:-1 id="b605b8a375f27e511cedb3ba6d50b3fa" radio="true" group-title="France" tvg-id="Allzic Classic Piano" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Classic Piano
+https://allzic47.ice.infomaniak.ch/allzic47.mp3
+#EXTINF:-1 id="8c01187f39132039597cf1ca97efb026" radio="true" group-title="France" tvg-id="Allzic humour" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic humour
+https://allzic25.ice.infomaniak.ch/allzic25.mp3
+#EXTINF:-1 id="52fbe9713906e0ef1df97553b58751da" radio="true" group-title="France" tvg-id="Allzic Radio - Lounge" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio - Lounge
+https://allzic21.ice.infomaniak.ch/allzic21.mp3
+#EXTINF:-1 id="c1428c02094f275f06bf6602b1a8190c" radio="true" group-title="France" tvg-id="Allzic Radio - Zen" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio - Zen
+https://allzic20.ice.infomaniak.ch/allzic20.mp3
+#EXTINF:-1 id="cc53667c0a15ade5575fc449e4668a7b" radio="true" group-title="France" tvg-id="Allzic Radio 0/4 ans" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio 0/4 ans
+https://allzic14.ice.infomaniak.ch/allzic14.mp3
+#EXTINF:-1 id="d39670bfe80b7627898ca08e69206f11" radio="true" group-title="France" tvg-id="Allzic Radio 50s" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio 50s
+https://allzic29.ice.infomaniak.ch/allzic29.mp3
+#EXTINF:-1 id="224a1af90299187cad5743f58b3a4be9" radio="true" group-title="France" tvg-id="Allzic Radio 7-12 ans" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio 7-12 ans
+https://allzic16.ice.infomaniak.ch/allzic16.mp3
+#EXTINF:-1 id="f0e689fd2c239e4cd2109cdada57f64e" radio="true" group-title="France" tvg-id="Allzic Radio Blues" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Blues
+https://allzic09.ice.infomaniak.ch/allzic09.mp3
+#EXTINF:-1 id="012bda595296752c5810c030d4e7d98f" radio="true" group-title="France" tvg-id="Allzic Radio Classic" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Classic
+https://allzic06.ice.infomaniak.ch/allzic06.mp3
+#EXTINF:-1 id="28c5a78088bda5b25eaa13c2d817802c" radio="true" group-title="France" tvg-id="Allzic Radio Comptines" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Comptines
+https://allzic05.ice.infomaniak.ch/allzic05.mp3
+#EXTINF:-1 id="61043bf208393ece287a41f333ccd6f7" radio="true" group-title="France" tvg-id="Allzic Radio Dance Floor" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Dance Floor
+https://allzic07.ice.infomaniak.ch/allzic07.mp3
+#EXTINF:-1 id="bc9197c85c5767ced777f0e3748e8a9f" radio="true" group-title="France" tvg-id="Allzic Radio Disco" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Disco
+https://allzic36.ice.infomaniak.ch/allzic36.mp3
+#EXTINF:-1 id="f8d1cd9a937458b3f1f2e12e20f926bb" radio="true" group-title="France" tvg-id="Allzic Radio Disney" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Disney
+https://allzic52.ice.infomaniak.ch/allzic52.mp3
+#EXTINF:-1 id="99971801b47a4c28f41b9a4a27ea6b43" radio="true" group-title="France" tvg-id="Allzic Radio Enfoirés" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Enfoirés
+https://allzic12.ice.infomaniak.ch/allzic12.mp3
+#EXTINF:-1 id="ba3842e7e3bee478b8ac8d17b6d2deba" radio="true" group-title="France" tvg-id="Allzic Radio Fitness" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Fitness
+https://allzic13.ice.infomaniak.ch/allzic13.mp3
+#EXTINF:-1 id="b3d621a1a8782b036ae18e92e9a5c54f" radio="true" group-title="France" tvg-id="Allzic Radio Funk" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Funk
+https://allzic08.ice.infomaniak.ch/allzic11.mp3
+#EXTINF:-1 id="b7627488add13ad7b4080afbe08989a7" radio="true" group-title="France" tvg-id="Allzic Radio Italia" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Italia
+https://allzic35.ice.infomaniak.ch/allzic35.mp3
+#EXTINF:-1 id="5f239143a5ec2a338baaad869fd8b06c" radio="true" group-title="France" tvg-id="Allzic Radio Latino" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Latino
+https://allzic39.ice.infomaniak.ch/allzic39.mp3
+#EXTINF:-1 id="19fe5aa46debef77cab2be64b7b099be" radio="true" group-title="France" tvg-id="Atomic radio" tvg-logo="https://graph.facebook.com/Atomicradio/picture?width=200&height=200" group-title="Stations", Atomic radio
+https://radios.topymedia.com:8032/
+#EXTINF:-1 id="b0a7def158388cbd719f519de24f7778" radio="true" group-title="France" tvg-id="Blackbox" tvg-logo="https://graph.facebook.com/Blackbox/picture?width=200&height=200" group-title="Stations", Blackbox
+https://start-blackbox.ice.infomaniak.ch/start-blackbox-high.mp3
+#EXTINF:-1 id="476c6c00ecd76543eadc1efa11752915" radio="true" group-title="France" tvg-id="BlackBox classic US" tvg-logo="https://graph.facebook.com/blackbox/picture?width=200&height=200" group-title="Stations", BlackBox classic US
+https://blackbox-classic-us.ice.infomaniak.ch/blackbox-classic-us.mp3
+#EXTINF:-1 id="d82065e6962387de07797a0893b58005" radio="true" group-title="France" tvg-id="BlackBox FR" tvg-logo="https://graph.facebook.com/blackbox/picture?width=200&height=200" group-title="Stations", BlackBox FR
+https://blackbox-fr.ice.infomaniak.ch/blackbox-fr.mp3
+#EXTINF:-1 id="b4751c536e6957ac53598548389b0795" radio="true" group-title="France" tvg-id="BlackBox Marseille" tvg-logo="https://graph.facebook.com/blackbox/picture?width=200&height=200" group-title="Stations", BlackBox Marseille
+https://blackbox-marseille.ice.infomaniak.ch/blackbox-marseille.mp3
+#EXTINF:-1 id="f0f02edbff7e94c5a8dee138af23d431" radio="true" group-title="France" tvg-id="BlackBox US" tvg-logo="https://graph.facebook.com/blackbox/picture?width=200&height=200" group-title="Stations", BlackBox US
+https://blackbox-us.ice.infomaniak.ch/blackbox-us.mp3
+#EXTINF:-1 id="bb691664a624a51da03a2f415bf5b461" radio="true" group-title="France" tvg-id="Delta FM" tvg-logo="https://graph.facebook.com/DeltaFM/picture?width=200&height=200" group-title="Stations", Delta FM
+https://deltafmboulogne.ice.infomaniak.ch/deltafmboulogne-high.mp3
+#EXTINF:-1 id="e810bbb6c2ba4a368a316fc0e8870533" radio="true" group-title="France" tvg-id="Direct FM" tvg-logo="https://graph.facebook.com/DirectFM/picture?width=200&height=200" group-title="Stations", Direct FM
+https://directfm.ice.infomaniak.ch/directfm-128.mp3
+#EXTINF:-1 id="e2db5b810c6e6d74aa9690cd0f6046b2" radio="true" group-title="France" tvg-id="Espace Club" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Espace Club
+https://espace100.ice.infomaniak.ch/espace100-high.aac
+#EXTINF:-1 id="ac27bc9e53f6b4dbb06c39e18e45e033" radio="true" group-title="France" tvg-id="Espace Dance 90" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Espace Dance 90
+https://espace-disco.ice.infomaniak.ch/espace-disco-high.mp3
+#EXTINF:-1 id="0eed0b70c19a324a5ae63402c4b9919f" radio="true" group-title="France" tvg-id="Espace Dancefloor" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Espace Dancefloor
+https://espace-dancefloor.ice.infomaniak.ch/espace-dancefloor-high.mp3
+#EXTINF:-1 id="2f1b8b39c6fe3b64127d302d691c9853" radio="true" group-title="France" tvg-id="Espace FM" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Espace FM
+https://listen.radioking.com/radio/16769/stream/49487
+#EXTINF:-1 id="0c15621a25f4a507affd1bf7aa24cde9" radio="true" group-title="France" tvg-id="Espace Hot 30" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Espace Hot 30
+https://espace-vintage.ice.infomaniak.ch/espace-vintage-high.mp3
+#EXTINF:-1 id="2e1754c4c7d24df55f2806c5bfc8b34c" radio="true" group-title="France" tvg-id="Generation Dance Radio" tvg-logo="https://graph.facebook.com/GenerationDanceRadio/picture?width=200&height=200" group-title="Stations", Generation Dance Radio
+https://generationdance.lu:8010/hd
+#EXTINF:-1 id="12a28ecbb3290ab744a45f325d5d2f55" radio="true" group-title="France" tvg-id="Generation Dance Radio" tvg-logo="https://graph.facebook.com/GenerationDanceRadio/picture?width=200&height=200" group-title="Stations", Generation Dance Radio
+https://generationdance.lu/radio/8030/mobile
+#EXTINF:-1 id="c3482df6f4aec980ed22b0b79aee2971" radio="true" group-title="France" tvg-id="Generations 2015" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations 2015
+https://generations-thema.ice.infomaniak.ch/generations-thema.mp3
+#EXTINF:-1 id="1acf6b4a10b5db1e2bda2982632b487e" radio="true" group-title="France" tvg-id="Generations Afrobeat" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Afrobeat
+https://generations-wr001.ice.infomaniak.ch/generations-wr001.mp3
+#EXTINF:-1 id="75f26e9156b7330e9b8993b66dc066a0" radio="true" group-title="France" tvg-id="Generations Booba" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Booba
+https://generations-booba.ice.infomaniak.ch/generations-booba.aac
+#EXTINF:-1 id="7483e737cc5e3715d8f486d7b38c6295" radio="true" group-title="France" tvg-id="Generations Dance Hall" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Dance Hall
+https://generations-dancehall.ice.infomaniak.ch/generations-dancehall.mp3
+#EXTINF:-1 id="feb0aa3bf832632983c89ac8aa673a52" radio="true" group-title="France" tvg-id="Generations En Mode Brand New" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations En Mode Brand New
+https://gene-wr10.ice.infomaniak.ch/gene-wr10.aac
+#EXTINF:-1 id="f3b463bb6c07b059691e703a05734393" radio="true" group-title="France" tvg-id="Generations Freestyle" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Freestyle
+https://gene-wr09.ice.infomaniak.ch/gene-wr09.aac
+#EXTINF:-1 id="4cfb1b90640c4c320de85a6e9889c4d1" radio="true" group-title="France" tvg-id="Generations Funk" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Funk
+https://gene-wr05.ice.infomaniak.ch/gene-wr05.aac
+#EXTINF:-1 id="36d757065dc86da7bc648e3d9ac16774" radio="true" group-title="France" tvg-id="Generations Girl" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Girl
+https://generations-girls.ice.infomaniak.ch/generations-girls.mp3
+#EXTINF:-1 id="e2ee1b7dd030cebd057e4acd908850fa" radio="true" group-title="France" tvg-id="Generations La Fouine" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations La Fouine
+https://generations-la-fouine.ice.infomaniak.ch/generations-la-fouine.mp3
+#EXTINF:-1 id="61c8650dc8f6a4effde1674a8fe218f9" radio="true" group-title="France" tvg-id="Generations NewJack" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations NewJack
+https://generations-njs.ice.infomaniak.ch/generations-njs.mp3
+#EXTINF:-1 id="0021a14e933726074a760f2e56b3fc65" radio="true" group-title="France" tvg-id="Generations R&&B" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations R&&B
+https://generationfm-slowjam.ice.infomaniak.ch/generationfm-slowjam-high.mp3
+#EXTINF:-1 id="338d567bc3b61041d3c6e7689d419344" radio="true" group-title="France" tvg-id="Generations R&&B Gold" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations R&&B Gold
+https://generations-rnb-gold.ice.infomaniak.ch/generations-rnb-gold.mp3
+#EXTINF:-1 id="a3fb94ab7b4215e34418c0ec365457af" radio="true" group-title="France" tvg-id="Generations Rap FR" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Rap FR
+https://generationfm-rap.ice.infomaniak.ch/generationfm-rap-high.aac
+#EXTINF:-1 id="b4a81bd978cbdd44e22721f6cd5050f4" radio="true" group-title="France" tvg-id="Generations Rap FR Gold" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Rap FR Gold
+https://gene-wr06.ice.infomaniak.ch/gene-wr06.mp3
+#EXTINF:-1 id="62b5fa53f6d2b4d8695dc0d2827c4354" radio="true" group-title="France" tvg-id="Generations Rap U.S" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Rap U.S
+https://generationfm-underground.ice.infomaniak.ch/generationfm-underground-high.aac
+#EXTINF:-1 id="61eadb02bc27d3d65b459ceb2ac98b38" radio="true" group-title="France" tvg-id="Generations Rap U.S Gold" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Rap U.S Gold
+https://gene-wr08.ice.infomaniak.ch/gene-wr08.mp3
+#EXTINF:-1 id="63ee05605385317808ae83fb3a7675af" radio="true" group-title="France" tvg-id="Generations Reggae" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Reggae
+https://generations-caraibes.ice.infomaniak.ch/generations-caraibes-high.mp3
+#EXTINF:-1 id="188134bbae8706d3da000a3fce2afbd0" radio="true" group-title="France" tvg-id="Generations Rohff" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Rohff
+https://generation-rohff.ice.infomaniak.ch/generation-rohff.mp3
+#EXTINF:-1 id="af8ea4d0a816f64114d57d32a410794b" radio="true" group-title="France" tvg-id="Generations SlowJam" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations SlowJam
+https://gene-wr11.ice.infomaniak.ch/gene-wr11.mp3
+#EXTINF:-1 id="0768d7a1a17990bff66c6eb0b1d970ae" radio="true" group-title="France" tvg-id="Generations Soul" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Soul
+https://gene-wr07.ice.infomaniak.ch/gene-wr07.aac
+#EXTINF:-1 id="d7171e1c62985bdaa3749fa450730a5e" radio="true" group-title="France" tvg-id="Generations Wati B" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Wati B
+https://generations-wati-b.ice.infomaniak.ch/generations-wati-b.aac
+#EXTINF:-1 id="3b2c2df3d9bcd8d77902029d2d1a6fae" radio="true" group-title="France" tvg-id="GENERIKIDS" tvg-logo="https://graph.facebook.com/GENERIKIDS/picture?width=200&height=200" group-title="Stations", GENERIKIDS
+https://listen.radionomy.com/generikids.m3u
+#EXTINF:-1 id="e84ae196fe9c88fcc5d0707d6b0b9262" radio="true" group-title="France" tvg-id="Kiss FM" tvg-logo="https://graph.facebook.com/kiss-fm/picture?width=200&height=200" group-title="Stations", Kiss FM
+https://kissfm.ice.infomaniak.ch/kissfm-128.mp3
+#EXTINF:-1 id="b80efe92334ce7b76d566c3a8c73bd7c" radio="true" group-title="France" tvg-id="Kiss FM" tvg-logo="https://graph.facebook.com/kiss-fm/picture?width=200&height=200" group-title="Stations", Kiss FM
+https://kissfm2.ice.infomaniak.ch/kissfm2-128.mp3
+#EXTINF:-1 id="b8c93d44ab1f2049d58530d51e8c7dd1" radio="true" group-title="France" tvg-id="Latina Salsa" tvg-logo="https://graph.facebook.com/LatinaSalsa/picture?width=200&height=200" group-title="Stations", Latina Salsa
+https://latinasalsa.ice.infomaniak.ch/latinasalsa.mp3
+#EXTINF:-1 id="b5d2ba24980b2b6d0e413dfd1ce6d868" radio="true" group-title="France" tvg-id="LFM Radio 95.5" tvg-logo="https://graph.facebook.com/LFMRadio/picture?width=200&height=200" group-title="Stations", LFM Radio 95.5
+https://str0.creacast.com/lfm
+#EXTINF:-1 id="e56b998b128060aeacd771f93a78f318" radio="true" group-title="France" tvg-id="Magic radio" tvg-logo="https://graph.facebook.com/Magicradio/picture?width=200&height=200" group-title="Stations", Magic radio
+https://magic-radio.net/mp3.m3u
+#EXTINF:-1 id="4612c7d097683eaf210ca18eee353dc6" radio="true" group-title="France" tvg-id="Magnum La Radio" tvg-logo="https://graph.facebook.com/MagnumLaRadio/picture?width=200&height=200" group-title="Stations", Magnum La Radio
+https://str0.creacast.com/magnum
+#EXTINF:-1 id="ad5b1260c0ac80468c5da7bdf9985ba9" radio="true" group-title="France" tvg-id="Maxi 80" tvg-logo="https://graph.facebook.com/Maxi/picture?width=200&height=200" group-title="Stations", Maxi 80
+https://audio1.maxi80.com/
+#EXTINF:-1 id="577f79a02dc9bd8ec2194b2e70fc1aa8" radio="true" group-title="France" tvg-id="MIXX FM" tvg-logo="https://graph.facebook.com/MIXXFM/picture?width=200&height=200" group-title="Stations", MIXX FM
+https://mixxfmfr.ice.infomaniak.ch/mixxfmfr-192.mp3
+#EXTINF:-1 id="c02cc1aacabc10cba26476b6c866c633" radio="true" group-title="France" tvg-id="moka tunes" tvg-logo="https://graph.facebook.com/mokatunes/picture?width=200&height=200" group-title="Stations", moka tunes
+https://admin.mokatunes.com/radio/8000/radio.mp3
+#EXTINF:-1 id="34defeaef0f4513307daf2693be732a1" radio="true" group-title="France" tvg-id="New Morning Radio" tvg-logo="https://graph.facebook.com/NewMorningRadio/picture?width=200&height=200" group-title="Stations", New Morning Radio
+https://www.newmorning.com/newmorningradio.m3u
+#EXTINF:-1 id="45250cb44015c94242f4b1f9eff18f7d" radio="true" group-title="France" tvg-id="One FM" tvg-logo="https://graph.facebook.com/OneFM/picture?width=200&height=200" group-title="Stations", One FM
+https://onefm.ice.infomaniak.ch/onefm-high.mp3
+#EXTINF:-1 id="09cd3f196622affa1e98801333a62301" radio="true" group-title="France" tvg-id="OUI FM - Classic Rock" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM - Classic Rock
+https://classicrock.stream.ouifm.fr/ouifm3.mp3
+#EXTINF:-1 id="09d43b419909962fba075f7884a6afad" radio="true" group-title="France" tvg-id="OUI FM ALTERNATIF" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM ALTERNATIF
+https://ouifm2.ice.infomaniak.ch/ouifm2.mp3
+#EXTINF:-1 id="238320fcf2a4b4dc923b73b7b0a68c25" radio="true" group-title="France" tvg-id="OUI FM BLUES'N'ROCK" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM BLUES'N'ROCK
+https://ouifmbluesnrock.ice.infomaniak.ch/ouifmbluesnrock-128.mp3
+#EXTINF:-1 id="5c15def8511e047fde901ea6694a7e11" radio="true" group-title="France" tvg-id="OUI FM CLASSIC ROCK" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM CLASSIC ROCK
+https://ouifm3.ice.infomaniak.ch/ouifm3.mp3
+#EXTINF:-1 id="70e2f17f5898779ce57015bdec8ebf94" radio="true" group-title="France" tvg-id="OUI FM GIRLS ROCK" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM GIRLS ROCK
+https://ouifmgirlsrock.ice.infomaniak.ch/ouifmgirlsrock.mp3
+#EXTINF:-1 id="47cfe7673714169e3f4d25ec02a7f053" radio="true" group-title="France" tvg-id="OUI FM LES SLOWS DU ROCK" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM LES SLOWS DU ROCK
+https://ouifmlesslowsdurock.ice.infomaniak.ch/ouifmslowrock.mp3
+#EXTINF:-1 id="537ecec8442d7e666d9adee60157169d" radio="true" group-title="France" tvg-id="OUI FM ROCK 2000" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM ROCK 2000
+https://ouifmrock2000s.ice.infomaniak.ch/ouifmrock2000.mp3
+#EXTINF:-1 id="2532579001c6036a31875afbdde0817e" radio="true" group-title="France" tvg-id="OUI FM ROCK 60's" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM ROCK 60's
+https://ouifmrock60s.ice.infomaniak.ch/ouifmsixties.mp3
+#EXTINF:-1 id="b12fb2a545779694f6113dcdfba00bcd" radio="true" group-title="France" tvg-id="OUI FM ROCK 70's" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM ROCK 70's
+https://ouifmrock70s.ice.infomaniak.ch/ouifmseventies.mp3
+#EXTINF:-1 id="b3d5dad7693c927da4717e9a4ec44a8c" radio="true" group-title="France" tvg-id="OUI FM ROCK 80's" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM ROCK 80's
+https://ouifmrock80s.ice.infomaniak.ch/ouifmeighties.mp3
+#EXTINF:-1 id="7092e129c65864b9400b7502b59c6602" radio="true" group-title="France" tvg-id="OUI FM ROCK 90's" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM ROCK 90's
+https://ouifmrock90s.ice.infomaniak.ch/ouifmnineties.mp3
+#EXTINF:-1 id="8e0fc30a32fe73e9022b87c41537da2a" radio="true" group-title="France" tvg-id="OUI FM ROCK INDÉ" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM ROCK INDÉ
+https://ouifm5.ice.infomaniak.ch/ouifm5.mp3
+#EXTINF:-1 id="64f41f34c5a7da3262b6f6d380d2694e" radio="true" group-title="France" tvg-id="OUI FM TOP OF THE WEEK" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM TOP OF THE WEEK
+https://ouifmtopoftheweek.ice.infomaniak.ch/ouifmtopweek.aac
+#EXTINF:-1 id="be8e5c65805ed160804b8d36adaad177" radio="true" group-title="France" tvg-id="Perrine FM" tvg-logo="https://graph.facebook.com/PerrineFM/picture?width=200&height=200" group-title="Stations", Perrine FM
+https://perrinefm.ice.infomaniak.ch/perrinefm-high.aac
+#EXTINF:-1 id="72d59a5ab9ea597e5ba7e73e12e2b8aa" radio="true" group-title="France" tvg-id="Phare FM Haguenau" tvg-logo="https://graph.facebook.com/phare-fm/picture?width=200&height=200" group-title="Stations", Phare FM Haguenau
+https://str0.creacast.com/pharefm_haguenau
+#EXTINF:-1 id="a891497b5f5934f5d73f533d9b9507c8" radio="true" group-title="France" tvg-id="Phare FM Hits" tvg-logo="https://graph.facebook.com/phare-fm/picture?width=200&height=200" group-title="Stations", Phare FM Hits
+https://str0.creacast.com/pharefm_ebene
+#EXTINF:-1 id="28b93b99d43f26506af6395f80171ec5" radio="true" group-title="France" tvg-id="Phare FM Louange" tvg-logo="https://graph.facebook.com/phare-fm/picture?width=200&height=200" group-title="Stations", Phare FM Louange
+https://str0.creacast.com/pharefm_louange
+#EXTINF:-1 id="533ae9b9c05add3b5f1d5ac415c41a0b" radio="true" group-title="France" tvg-id="Phare FM Worship" tvg-logo="https://graph.facebook.com/phare-fm/picture?width=200&height=200" group-title="Stations", Phare FM Worship
+https://str0.creacast.com/pharefm_worship
+#EXTINF:-1 id="8ca4ab6ecde57e944aeb7b6aeec35a76" radio="true" group-title="France" tvg-id="R.C.I" tvg-logo="https://graph.facebook.com/RCI/picture?width=200&height=200" group-title="Stations", R.C.I
+https://n10.rcs.revma.com/v4hf7bwspwzuv
+#EXTINF:-1 id="560a29c2183ea4ace500707dad9a1863" radio="true" group-title="France" tvg-id="Radio Agora" tvg-logo="https://graph.facebook.com/RadioAgora/picture?width=200&height=200" group-title="Stations", Radio Agora
+https://radioagora.ice.infomaniak.ch/radioagora-192.mp3
+#EXTINF:-1 id="fb42aa2356bef0185c784ad05118dd4b" radio="true" group-title="France" tvg-id="Radio Aléo 104.8" tvg-logo="https://graph.facebook.com/RadioAlo/picture?width=200&height=200" group-title="Stations", Radio Aléo 104.8
+https://vt-net.org:8056/
+#EXTINF:-1 id="9ce929cd726f3a2d2be3eb4d51689026" radio="true" group-title="France" tvg-id="Radio Arverne" tvg-logo="https://graph.facebook.com/RadioArverne/picture?width=200&height=200" group-title="Stations", Radio Arverne
+https://radioarverne.ice.infomaniak.ch/arverne.mp3
+#EXTINF:-1 id="e594e1e1b84b723fb894c759bc185fec" radio="true" group-title="France" tvg-id="Radio Aviva" tvg-logo="https://graph.facebook.com/RadioAviva/picture?width=200&height=200" group-title="Stations", Radio Aviva
+https://radio13.pro-fhi.net/listen-tpgmxyoe-stream.mp3
+#EXTINF:-1 id="cc6c1d4d5aaa01eedbf369980257f3c5" radio="true" group-title="France" tvg-id="RADIO MARIA FRANCE" tvg-logo="https://graph.facebook.com/RADIOMARIAFRANCE/picture?width=200&height=200" group-title="Stations", RADIO MARIA FRANCE
+https://dreamsiteradiocp2.com:8110/stream
+#EXTINF:-1 id="517725554df3324a4fc4fba2e055e2de" radio="true" group-title="France" tvg-id="Radio Meuh" tvg-logo="https://graph.facebook.com/RadioMeuh/picture?width=200&height=200" group-title="Stations", Radio Meuh
+https://radiomeuh.ice.infomaniak.ch/radiomeuh-128.mp3
+#EXTINF:-1 id="a0a2c2cd3d37763097196bdac116016e" radio="true" group-title="France" tvg-id="Radio Mille Pattes" tvg-logo="https://graph.facebook.com/RadioMillePattes/picture?width=200&height=200" group-title="Stations", Radio Mille Pattes
+https://millepattes.ice.infomaniak.ch/millepattes-high
+#EXTINF:-1 id="85056f313bfbc6a1f7b9d819e12bb45e" radio="true" group-title="France" tvg-id="Radio MODUL" tvg-logo="https://graph.facebook.com/RadioMODUL/picture?width=200&height=200" group-title="Stations", Radio MODUL
+https://radiomodul.fr/player/modul.aac.m3u
+#EXTINF:-1 id="f573dc0885f5e033fd7b34b7e5010478" radio="true" group-title="France" tvg-id="Radio Mulot" tvg-logo="https://graph.facebook.com/RadioMulot/picture?width=200&height=200" group-title="Stations", Radio Mulot
+https://fieldmice.free.fr/Line_In.m3u
+#EXTINF:-1 id="47ec7f7b27bb0b0ea5b59f3b1d411e6e" radio="true" group-title="France" tvg-id="Radio Music Sambre" tvg-logo="https://graph.facebook.com/RadioMusicSambre/picture?width=200&height=200" group-title="Stations", Radio Music Sambre
+https://radiomusicsambre.ice.infomaniak.ch/radiomusicsambre-128.mp3
+#EXTINF:-1 id="a74cbf89b449f00e4540ea7bcfa51a49" radio="true" group-title="France" tvg-id="Radio Orient" tvg-logo="https://graph.facebook.com/RadioOrient/picture?width=200&height=200" group-title="Stations", Radio Orient
+https://stream.rcs.revma.com/7hnrkawf4p8uv.mp3
+#EXTINF:-1 id="e03f4e4b9082ca9e831eb5386e283c53" radio="true" group-title="France" tvg-id="Radio Quartz" tvg-logo="https://graph.facebook.com/RadioQuartz/picture?width=200&height=200" group-title="Stations", Radio Quartz
+https://manager2.streaming-ingenierie.fr:8026/stream.mp3
+#EXTINF:-1 id="dc27d759575e0908f24d2039f0615b8f" radio="true" group-title="France" tvg-id="Radio Tanger Med" tvg-logo="https://graph.facebook.com/RadioTangerMed/picture?width=200&height=200" group-title="Stations", Radio Tanger Med
+https://radiotangermed-22.ice.infomaniak.ch/radiotangermed-22-128.mp3
+#EXTINF:-1 id="fc9e113e4ce2d1d55e0d8e19664c102c" radio="true" group-title="France" tvg-id="Radio Titine" tvg-logo="https://graph.facebook.com/RadioTitine/picture?width=200&height=200" group-title="Stations", Radio Titine
+https://listen.radioking.com/radio/435545/stream/489533
+#EXTINF:-1 id="7e352de7d395b9ab90df7e48fa7a9a8b" radio="true" group-title="France" tvg-id="Radio Top FM" tvg-logo="https://graph.facebook.com/RadioTopFM/picture?width=200&height=200" group-title="Stations", Radio Top FM
+https://str30.creacast.com/top_fm
+#EXTINF:-1 id="6790a4b56c961f6e7198a09ddd571978" radio="true" group-title="France" tvg-id="Radio Transat" tvg-logo="https://graph.facebook.com/RadioTransat/picture?width=200&height=200" group-title="Stations", Radio Transat
+https://stream.rcs.revma.com/dy09pqzctwzuv
+#EXTINF:-1 id="c9d66bd95f0d980f8fbbfeccd450eec3" radio="true" group-title="France" tvg-id="Radio Transparence" tvg-logo="https://graph.facebook.com/RadioTransparence/picture?width=200&height=200" group-title="Stations", Radio Transparence
+https://37.187.77.45:9000/stream
+#EXTINF:-1 id="99c121bba603f79fe0be2b9d6f447619" radio="true" group-title="France" tvg-id="Radio Uylenspiegel" tvg-logo="https://graph.facebook.com/RadioUylenspiegel/picture?width=200&height=200" group-title="Stations", Radio Uylenspiegel
+https://listen.radioking.com/radio/474857/stream/531260
+#EXTINF:-1 id="30b6f29e763c787b8d675203e6e77329" radio="true" group-title="France" tvg-id="RCM La Radio" tvg-logo="https://graph.facebook.com/RCMLaRadio/picture?width=200&height=200" group-title="Stations", RCM La Radio
+https://str0.creacast.com/rcm
+#EXTINF:-1 id="5cf0b7e1bc8f10b75f4e0aaf27040a88" radio="true" group-title="France" tvg-id="RFI Musique" tvg-logo="https://graph.facebook.com/RFIMusique/picture?width=200&height=200" group-title="Stations", RFI Musique
+https://live02.rfi.fr/rfimusiquemonde-64k.mp3
+#EXTINF:-1 id="0e0ce84214f19c925d3f425c48712e46" radio="true" group-title="France" tvg-id="Rire && Chansons" tvg-logo="https://graph.facebook.com/RireChansons/picture?width=200&height=200" group-title="Stations", Rire && Chansons
+https://185.52.127.163/fr/30401/mp3_128.mp3?origine=fluxradios
+#EXTINF:-1 id="b3c6d1310c8c4a28a181e006c89e6c19" radio="true" group-title="France" tvg-id="Soleil FM" tvg-logo="https://graph.facebook.com/SoleilFM/picture?width=200&height=200" group-title="Stations", Soleil FM
+https://radio-shoutcast2.cyber-streaming.com:8120/
+#EXTINF:-1 id="41f0c7a73a13787bcda14d96f136599d" radio="true" group-title="France" tvg-id="TSF Jazz" tvg-logo="https://graph.facebook.com/TSFJazz/picture?width=200&height=200" group-title="Stations", TSF Jazz
+https://tsfjazz.ice.infomaniak.ch/tsfjazz-high
+#EXTINF:-1 id="70ba762f5e952000f3906e486611e2ab" radio="true" group-title="France" tvg-id="U Radio" tvg-logo="https://graph.facebook.com/URadio/picture?width=200&height=200" group-title="Stations", U Radio
+https://uradio-aac.ice.infomaniak.ch/uradio.aac
+#EXTINF:-1 id="124faa6d6d0b35981b5cce2a4f176ad6" radio="true" group-title="France" tvg-id="Vibration 80's" tvg-logo="https://graph.facebook.com/Vibrations/picture?width=200&height=200" group-title="Stations", Vibration 80's
+https://vibration80s.ice.infomaniak.ch/vibration80s.mp3
+#EXTINF:-1 id="ab472e69da0e9cfab9daef34bad1c376" radio="true" group-title="France" tvg-id="Vibration 90's" tvg-logo="https://graph.facebook.com/Vibrations/picture?width=200&height=200" group-title="Stations", Vibration 90's
+https://vibration90s.ice.infomaniak.ch/vibration90s.mp3
+#EXTINF:-1 id="7f919690b1637a4a0766a0148ab6197e" radio="true" group-title="France" tvg-id="Vibration Club" tvg-logo="https://graph.facebook.com/VibrationClub/picture?width=200&height=200" group-title="Stations", Vibration Club
+https://vibrationclub.ice.infomaniak.ch/vibrationclub.mp3
+#EXTINF:-1 id="a3d8b42b362f2b6d8d7fa804bfa4e600" radio="true" group-title="France" tvg-id="Vivre FM" tvg-logo="https://graph.facebook.com/VivreFM/picture?width=200&height=200" group-title="Stations", Vivre FM
+https://vivrefm.ice.infomaniak.ch/vivrefm-128.mp3
+#EXTINF:-1 id="5acb4d6b5a75d867c565e8096c38fe32" radio="true" group-title="France" tvg-id="Voltage 2000" tvg-logo="https://graph.facebook.com/Voltage/picture?width=200&height=200" group-title="Stations", Voltage 2000
+https://voltage2000.ice.infomaniak.ch/voltage2000-128.mp3
+#EXTINF:-1 id="bcdad9ede2c1c31be624390a687823c4" radio="true" group-title="France" tvg-id="Wave Radio" tvg-logo="https://graph.facebook.com/WaveRadio/picture?width=200&height=200" group-title="Stations", Wave Radio
+https://s34.myradiostream.com/:12340/listen.mp3
+#EXTINF:-1 id="45aab2840ec6934ddc8863e8b059848f" radio="true" group-title="France" tvg-id="C9 Radio" tvg-logo="https://graph.facebook.com/CRadio/picture?width=200&height=200" group-title="Stations", C9 Radio
+https://stream.c9.fr/c9.mp3
+#EXTINF:-1 id="989745ca3333b796dc19f2068eefc792" radio="true" group-title="France" tvg-id="Radio Metropolys 97.6" tvg-logo="https://graph.facebook.com/RadioMetropolys/picture?width=200&height=200" group-title="Stations", Radio Metropolys 97.6
+https://str0.creacast.com/metropolys_hq.mp3
+#EXTINF:-1 id="5b94d26754fb8988d0b7747dfe27db20" radio="true" group-title="France" tvg-id="Phare FM Live" tvg-logo="https://graph.facebook.com/phare-fm/picture?width=200&height=200" group-title="Stations", Phare FM Live
+https://str30.creacast.com/pharefmlive
+#EXTINF:-1 id="77b3f5c707a2a114f754d825e769a9f6" radio="true" group-title="France" tvg-id="ABC Jazz" tvg-logo="https://graph.facebook.com/ABCJazz/picture?width=200&height=200" group-title="Stations", ABC Jazz
+https://streamingv2.shoutcast.com/ABC-Jazz
+#EXTINF:-1 id="e3b29fc61cf03b8d3df2bfcc0b7294a1" radio="true" group-title="France" tvg-id="Allzic Alternative Live" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Alternative Live
+https://allzic46.ice.infomaniak.ch/allzic46.mp3
+#EXTINF:-1 id="4cbffa61d69d15ed65ecb291f9ce1469" radio="true" group-title="France" tvg-id="Allzic Annees 50" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Annees 50
+https://allzic29.ice.infomaniak.ch/allzic29.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="e88c99feadb7bd93419e6873d8c1e1a8" radio="true" group-title="France" tvg-id="Allzic Annees 80" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Annees 80
+https://allzic08.ice.infomaniak.ch/allzic08.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="c6a88fd8cc194ad11d83cf6c01fd2517" radio="true" group-title="France" tvg-id="Allzic Annees 90" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Annees 90
+https://allzic24.ice.infomaniak.ch/allzic24.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="817b27b087fededf6632fe1ad5951e49" radio="true" group-title="France" tvg-id="Allzic Black Music" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Black Music
+https://allzic04.ice.infomaniak.ch/allzic04.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="1d79b3ed681b077ced470cd1809cd729" radio="true" group-title="France" tvg-id="Allzic Blues" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Blues
+https://allzic09.ice.infomaniak.ch/allzic09.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="ba9f255f6a3d08e2071fe30f3b646c02" radio="true" group-title="France" tvg-id="Allzic Brazil" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Brazil
+https://allzic19.ice.infomaniak.ch/allzic19.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="484deba69388ebf78e1fa5fb96a783a7" radio="true" group-title="France" tvg-id="Allzic Classic" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Classic
+https://allzic06.ice.infomaniak.ch/allzic06.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="dc23cce09d5cdb6138eba140db02e291" radio="true" group-title="France" tvg-id="Allzic Comptines" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Comptines
+https://allzic05.ice.infomaniak.ch/allzic05.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="089f31da5575848303b67990c7345afd" radio="true" group-title="France" tvg-id="Allzic Dance Floor" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Dance Floor
+https://allzic07.ice.infomaniak.ch/allzic07.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="10a2486578f88230098611706f8e592c" radio="true" group-title="France" tvg-id="Allzic Deep Disco" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Deep Disco
+https://allzic31.ice.infomaniak.ch/allzic31.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="eb4bda13db2c4737a42b1f429557a2f2" radio="true" group-title="France" tvg-id="Allzic Enfant 712 Ans" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Enfant 712 Ans
+https://allzic16.ice.infomaniak.ch/allzic16.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="186e01f3760170d484af0fc11ece0516" radio="true" group-title="France" tvg-id="Allzic Enfoires" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Enfoires
+https://allzic12.ice.infomaniak.ch/allzic12.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="b31fee9fbc4ebb08c1ec710dd1c8359c" radio="true" group-title="France" tvg-id="Allzic Faire la Fete" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Faire la Fete
+https://allzic26.ice.infomaniak.ch/allzic26.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="8507da31477146e9a8095d5b17cadf86" radio="true" group-title="France" tvg-id="Allzic Fitness" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Fitness
+https://allzic13.ice.infomaniak.ch/allzic13.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="be67d2cb6877808220f5afb5fa68a19f" radio="true" group-title="France" tvg-id="Allzic Funk" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Funk
+https://allzic08.ice.infomaniak.ch/allzic11.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="cb81d27bb2e1bbd2a6d2d94148d9b712" radio="true" group-title="France" tvg-id="Allzic Golds Francais" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Golds Francais
+https://allzic30.ice.infomaniak.ch/allzic30.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="9ad29873930e32e8ddac0fd9c85dc2a6" radio="true" group-title="France" tvg-id="Allzic Gothique" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Gothique
+https://allzic27.ice.infomaniak.ch/allzic27.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="ae9721f5b67d7ea51bc5d88b3406f78a" radio="true" group-title="France" tvg-id="Allzic Hard and Heavy" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Hard and Heavy
+https://allzic18.ice.infomaniak.ch/allzic18.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="fc3a626d014b76da400331de1a416943" radio="true" group-title="France" tvg-id="Allzic Humour" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Humour
+https://allzic25.ice.infomaniak.ch/allzic25.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="64609af4b4095b16582bbd757cbf0f73" radio="true" group-title="France" tvg-id="Allzic Interactive" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Interactive
+https://allzic20.ice.infomaniak.ch/allzic20.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="91d452aeb1307265a92f031fe1a8f910" radio="true" group-title="France" tvg-id="Allzic Jazz Lounge" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Jazz Lounge
+https://allzic03.ice.infomaniak.ch/allzic03.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="37b6a27eee4d406b13cca3d6dd316659" radio="true" group-title="France" tvg-id="Allzic Lounge" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Lounge
+https://allzic21.ice.infomaniak.ch/allzic21.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="1f042c3369e7e5537419d4e7021d52d4" radio="true" group-title="France" tvg-id="Allzic Love Song" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Love Song
+https://allzic34.ice.infomaniak.ch/allzic34.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="979a1481cc2196241fb43b9a22c3211e" radio="true" group-title="France" tvg-id="Allzic Noel" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Noel
+https://allzic32.ice.infomaniak.ch/allzic32.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="7a69bce7d78da534eface31e38b25993" radio="true" group-title="France" tvg-id="Allzic Nouveautes Francaises" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Nouveautes Francaises
+https://allzic23.ice.infomaniak.ch/allzic23.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="2506558d3edb323080e4ee004c65bb82" radio="true" group-title="France" tvg-id="Allzic Orientale" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Orientale
+https://allzic33.ice.infomaniak.ch/allzic33.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="5a617fbbc9c7f97e670d33f2fc33ef0a" radio="true" group-title="France" tvg-id="Allzic Radio 80s" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio 80s
+https://allzic08.ice.infomaniak.ch/allzic08.mp3
+#EXTINF:-1 id="3783af4412be570d67534e85536d6330" radio="true" group-title="France" tvg-id="Allzic Radio Annes 70" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Annes 70
+https://allzic50.ice.infomaniak.ch/allzic50.aac
+#EXTINF:-1 id="41ea9b22c1812f1e957de54822025037" radio="true" group-title="France" tvg-id="Allzic Radio Live GOLD" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Live GOLD
+https://allzic45.ice.infomaniak.ch/allzic45.mp3
+#EXTINF:-1 id="b8381c790b2760dd5096e8a7cd37087e" radio="true" group-title="France" tvg-id="Allzic Radio Love" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Love
+https://allzic34.ice.infomaniak.ch/allzic34.mp3
+#EXTINF:-1 id="5c9d733828726e0308c8d3ccd00fad1c" radio="true" group-title="France" tvg-id="Allzic Radio Nationale 7" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Nationale 7
+https://allzic38.ice.infomaniak.ch/allzic38.mp3
+#EXTINF:-1 id="788f74b063120ef0d1fcf9fb8aaa7b9b" radio="true" group-title="France" tvg-id="Allzic Radio Pop Queens" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Pop Queens
+https://allzic54.ice.infomaniak.ch/allzic54.mp3
+#EXTINF:-1 id="d07ce72e83f0d8865dc2f40ee5d7a936" radio="true" group-title="France" tvg-id="Allzic Radio Rock FM" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Rock FM
+https://allzic17.ice.infomaniak.ch/allzic17.mp3
+#EXTINF:-1 id="26ffe977bfd71b43c0e3daf09402cfd7" radio="true" group-title="France" tvg-id="Allzic Radio Route 66" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Route 66
+https://allzic37.ice.infomaniak.ch/allzic37.mp3
+#EXTINF:-1 id="37acb6892c6612713a789228e37d69ed" radio="true" group-title="France" tvg-id="Allzic Radio TOP 10" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio TOP 10
+https://allzic22.ice.infomaniak.ch/allzic22.mp3
+#EXTINF:-1 id="081ac13de46fc9d27e25de542ea58cf0" radio="true" group-title="France" tvg-id="Allzic Radio TOP 20" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio TOP 20
+https://allzic41.ice.infomaniak.ch/allzic41.mp3
+#EXTINF:-1 id="584ad91b8cf6974c0a1564e8f10ded19" radio="true" group-title="France" tvg-id="Allzic Radio TOP 50" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio TOP 50
+https://allzic55.ice.infomaniak.ch/allzic55.mp3
+#EXTINF:-1 id="e339df1a7e08607a06cb5d17692cb649" radio="true" group-title="France" tvg-id="Allzic Rap FR" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Rap FR
+https://allzic02.ice.infomaniak.ch/allzic02.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="a00848e79e3ced46ed0c66e36ee15c6e" radio="true" group-title="France" tvg-id="Allzic Rap US" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Rap US
+https://allzic01.ice.infomaniak.ch/allzic01.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="1b0dda0c856fcb366176dc2d80533904" radio="true" group-title="France" tvg-id="Allzic RnB" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic RnB
+https://allzic08.ice.infomaniak.ch/allzic10.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="38c9769a16c9af76b20dd25edf8b36ec" radio="true" group-title="France" tvg-id="Allzic Rock FM" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Rock FM
+https://allzic17.ice.infomaniak.ch/allzic17.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="251ee348f13755d8e5f3bfdc3301aaa8" radio="true" group-title="France" tvg-id="Allzic Top 10" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Top 10
+https://allzic22.ice.infomaniak.ch/allzic22.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="9c398c5592c325367328c5898e6c9d9e" radio="true" group-title="France" tvg-id="Allzic Zouk" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Zouk
+https://allzic28.ice.infomaniak.ch/allzic28.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="9cf0d88ccc99818bc602273421c8f88a" radio="true" group-title="France" tvg-id="Atlantica Radio" tvg-logo="https://graph.facebook.com/AtlanticaRadio/picture?width=200&height=200" group-title="Stations", Atlantica Radio
+https://radios.topymedia.com:8000/listen.mp3
+#EXTINF:-1 id="a02f312d4b883980f2b8cf46667edf04" radio="true" group-title="France" tvg-id="Best Radio 1" tvg-logo="https://graph.facebook.com/BestRadio/picture?width=200&height=200" group-title="Stations", Best Radio 1
+https://radio12.pro-fhi.net/radio/9018/stream
+#EXTINF:-1 id="cf634bc5d1763119e18d96f3f9435193" radio="true" group-title="France" tvg-id="Blackbox Radio" tvg-logo="https://graph.facebook.com/BlackboxRadio/picture?width=200&height=200" group-title="Stations", Blackbox Radio
+https://start-blackbox.ice.infomaniak.ch/start-blackbox-high.aac
+#EXTINF:-1 id="a44ec63fa2ce06fa0b11171a8ec1d5f2" radio="true" group-title="France" tvg-id="Bulle FM" tvg-logo="https://graph.facebook.com/BulleFM/picture?width=200&height=200" group-title="Stations", Bulle FM
+https://srv1.coollabel-productions.com:8024/
+#EXTINF:-1 id="a1ac6d85bf7a1a3293229fe663c0f6a1" radio="true" group-title="France" tvg-id="CapSao" tvg-logo="https://graph.facebook.com/CapSao/picture?width=200&height=200" group-title="Stations", CapSao
+https://str0.creacast.com/capsao
+#EXTINF:-1 id="c722fc218dcb55020275b7b88711aae7" radio="true" group-title="France" tvg-id="Classic and Jazz" tvg-logo="https://graph.facebook.com/ClassicandJazz/picture?width=200&height=200" group-title="Stations", Classic and Jazz
+https://jazz-wr01.ice.infomaniak.ch/jazz-wr01-128.mp3
+#EXTINF:-1 id="2e07fd0c6e5e6834b0e581a9fc821f8c" radio="true" group-title="France" tvg-id="Collector Radio" tvg-logo="https://graph.facebook.com/CollectorRadio/picture?width=200&height=200" group-title="Stations", Collector Radio
+https://chai5she.cdn.dvmr.fr/ouifm6-128.mp3
+#EXTINF:-1 id="6210510cd1626676da04e2b5a21e01b5" radio="true" group-title="France" tvg-id="Deep Kulture" tvg-logo="https://graph.facebook.com/DeepKulture/picture?width=200&height=200" group-title="Stations", Deep Kulture
+https://listen.radioking.com/radio/8792/stream/18902
+#EXTINF:-1 id="9754e101fe2be00da44de3433b4288ec" radio="true" group-title="France" tvg-id="Delta Fm" tvg-logo="https://graph.facebook.com/DeltaFm/picture?width=200&height=200" group-title="Stations", Delta Fm
+https://deltafmboulogne.ice.infomaniak.ch/deltafmboulogne-high.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="ec07948ae0f05ecc886e9dfb513d2a65" radio="true" group-title="France" tvg-id="FRANCE EUROVISION" tvg-logo="https://graph.facebook.com/FRANCEEUROVISION/picture?width=200&height=200" group-title="Stations", FRANCE EUROVISION
+https://listen.radioking.com/radio/182434/stream/224341
+#EXTINF:-1 id="9d4f2f6fd9006072af046c87915e36aa" radio="true" group-title="France" tvg-id="FunAdos Radio" tvg-logo="https://graph.facebook.com/FunAdosRadio/picture?width=200&height=200" group-title="Stations", FunAdos Radio
+https://funados.ice.infomaniak.ch/funados.mp3
+#EXTINF:-1 id="2b09003a5a2777c2c02d67204434ff7d" radio="true" group-title="France" tvg-id="Generations2000" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations2000
+https://generations-2000.ice.infomaniak.ch/generations-2000.aac
+#EXTINF:-1 id="8ec6c1594b1c78853e87240c723dbb41" radio="true" group-title="France" tvg-id="Generations New Jack" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations New Jack
+https://generations-njs.ice.infomaniak.ch/generations-njs.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="d2fb6b0614fc8d97932699b9fd619b94" radio="true" group-title="France" tvg-id="Generations Parlez Vous Francais" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Parlez Vous Francais
+https://gene-wr09.ice.infomaniak.ch/gene-wr09.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="9df7576d900585be62126a975c77f108" radio="true" group-title="France" tvg-id="Generations Slowjam" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Slowjam
+https://gene-wr11.ice.infomaniak.ch/gene-wr11.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="a936c6139b3e2dd699967a2c913e8622" radio="true" group-title="France" tvg-id="Hits 1 Radio" tvg-logo="https://graph.facebook.com/HitsRadio/picture?width=200&height=200" group-title="Stations", Hits 1 Radio
+https://radio12.pro-fhi.net/live/Hits1radio
+#EXTINF:-1 id="7c1848782d162059623c37ac4673e8ce" radio="true" group-title="France" tvg-id="Identite Radio" tvg-logo="https://graph.facebook.com/IdentiteRadio/picture?width=200&height=200" group-title="Stations", Identite Radio
+https://listen.radioking.com/radio/26860/stream/59584
+#EXTINF:-1 id="67f40dd129719088f3c46269c05d3207" radio="true" group-title="France" tvg-id="MAXXI Sud" tvg-logo="https://graph.facebook.com/MAXXISud/picture?width=200&height=200" group-title="Stations", MAXXI Sud
+https://radio9.pro-fhi.net:9100/stream
+#EXTINF:-1 id="a12b5b72c10cc31c6ad81a80a768cdd3" radio="true" group-title="France" tvg-id="MilRadio" tvg-logo="https://graph.facebook.com/MilRadio/picture?width=200&height=200" group-title="Stations", MilRadio
+https://mil-radio.ice.infomaniak.ch/mil-radio-64.aac
+#EXTINF:-1 id="dcab31d44c8686e7b312762f9c641a31" radio="true" group-title="France" tvg-id="MixFeever" tvg-logo="https://graph.facebook.com/MixFeever/picture?width=200&height=200" group-title="Stations", MixFeever
+https://listen.mixfeever.com/feevermix
+#EXTINF:-1 id="6b6e70b54775a375f645c601ef698e37" radio="true" group-title="France" tvg-id="Mouv Radio" tvg-logo="https://graph.facebook.com/MouvRadio/picture?width=200&height=200" group-title="Stations", Mouv Radio
+https://icecast.radiofrance.fr/mouv-midfi.mp3
+#EXTINF:-1 id="3f4fb06a033223ad571e88625629e2b3" radio="true" group-title="France" tvg-id="Neo FM 1041" tvg-logo="https://graph.facebook.com/NeoFM/picture?width=200&height=200" group-title="Stations", Neo FM 1041
+https://neofming.streamakaci.com/neofm.mp3
+#EXTINF:-1 id="0aaafee345cd50d2df43c111d6fb6def" radio="true" group-title="France" tvg-id="PepsUpMusic" tvg-logo="https://graph.facebook.com/PepsUpMusic/picture?width=200&height=200" group-title="Stations", PepsUpMusic
+https://listen.radioking.com/radio/329/stream/1508
+#EXTINF:-1 id="7e680370acd0fbed632fe98cf3fb1ac5" radio="true" group-title="France" tvg-id="Phare FM 949" tvg-logo="https://graph.facebook.com/phare-fm/picture?width=200&height=200" group-title="Stations", Phare FM 949
+https://str0.creacast.com/pharefm?type=.mp3/stream.mp3
+#EXTINF:-1 id="e107de540dc7836b5f9a1d3e35593048" radio="true" group-title="France" tvg-id="Quantum Radio" tvg-logo="https://graph.facebook.com/QuantumRadio/picture?width=200&height=200" group-title="Stations", Quantum Radio
+https://listen.radioking.com/radio/307565/stream/354464
+#EXTINF:-1 id="652615a56fc37cd38de73891095ae4e2" radio="true" group-title="France" tvg-id="Radio 17 bis" tvg-logo="https://graph.facebook.com/Radiobis/picture?width=200&height=200" group-title="Stations", Radio 17 bis
+https://listen.radioking.com/radio/444/stream/1754
+#EXTINF:-1 id="dc3c78939c5ccc1fbcdfd3df216d698c" radio="true" group-title="France" tvg-id="Radio 87" tvg-logo="https://graph.facebook.com/Radio/picture?width=200&height=200" group-title="Stations", Radio 87
+https://live2.radio87.fr
+#EXTINF:-1 id="4ad6912ed1cac63527eeedb971991d8e" radio="true" group-title="France" tvg-id="Radio Biarritz" tvg-logo="https://graph.facebook.com/RadioBiarritz/picture?width=200&height=200" group-title="Stations", Radio Biarritz
+https://listen.radioking.com/radio/530/stream/1985
+#EXTINF:-1 id="f8b869564c573ac19252f39e74652b4a" radio="true" group-title="France" tvg-id="Radio C9" tvg-logo="https://graph.facebook.com/RadioC/picture?width=200&height=200" group-title="Stations", Radio C9
+https://stream.c9.fr:80/c9.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="730d5c8d877c1b26a2bfdcd45e1f28cd" radio="true" group-title="France" tvg-id="Radio Deja Vu" tvg-logo="https://graph.facebook.com/RadioDejaVu/picture?width=200&height=200" group-title="Stations", Radio Deja Vu
+https://listen.radioking.com/radio/22274/stream/63592
+#EXTINF:-1 id="427636a523fcdeaa5bc8810a67cfdd01" radio="true" group-title="France" tvg-id="Radio Dreams" tvg-logo="https://graph.facebook.com/RadioDreams/picture?width=200&height=200" group-title="Stations", Radio Dreams
+https://listen.radioking.com/radio/292/stream/63664
+#EXTINF:-1 id="a04eb40ec8294cdb8c8dc8fe856b4f65" radio="true" group-title="France" tvg-id="Radio Espace Club" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Radio Espace Club
+https://espace100.ice.infomaniak.ch/espace100-high.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="0ce21f8517ca8465b2120a9df95b41f2" radio="true" group-title="France" tvg-id="Radio Espace Dance 90" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Radio Espace Dance 90
+https://espace-disco.ice.infomaniak.ch/espace-disco-high.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="ab76432ffcfb642de1b0bd3c1660f8c1" radio="true" group-title="France" tvg-id="Radio Espace Dance Floor" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Radio Espace Dance Floor
+https://espace-dancefloor.ice.infomaniak.ch/espace-dancefloor-high.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="57324b7b9773382d4b5b32abab2c0751" radio="true" group-title="France" tvg-id="Radio Espace Hot 30" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Radio Espace Hot 30
+https://espace-vintage.ice.infomaniak.ch/espace-vintage-high.mp3?type=.mp3/stream.mp3
+#EXTINF:-1 id="a391b804e44b232d171f3afe228ed09a" radio="true" group-title="France" tvg-id="Radio Grand Paris" tvg-logo="https://graph.facebook.com/RadioGrandParis/picture?width=200&height=200" group-title="Stations", Radio Grand Paris
+https://azuracast.conceptradio.fr/radio/8090/radio.mp3
+#EXTINF:-1 id="7b9583b08b124b2c019285d91a51c239" radio="true" group-title="France" tvg-id="Radio Montmartre" tvg-logo="https://graph.facebook.com/RadioMontmartre/picture?width=200&height=200" group-title="Stations", Radio Montmartre
+https://montmartre.ice.infomaniak.ch/montmartre.mp3
+#EXTINF:-1 id="5bba2de497e26150a7754e2acaeb47b9" radio="true" group-title="France" tvg-id="Radio RFE" tvg-logo="https://graph.facebook.com/RadioRFE/picture?width=200&height=200" group-title="Stations", Radio RFE
+https://radio4.pro-fhi.net/flux-naearvli/stream2
+#EXTINF:-1 id="a7ed5b1939f621c457ed821f6f163b25" radio="true" group-title="France" tvg-id="Radio RVE" tvg-logo="https://graph.facebook.com/RadioRVE/picture?width=200&height=200" group-title="Stations", Radio RVE
+https://str0.creacast.com/rve
+#EXTINF:-1 id="ee48a41b88f608219ecaf40cff84d0b7" radio="true" group-title="France" tvg-id="Radio Shalom Bourgogne" tvg-logo="https://graph.facebook.com/RadioShalomBourgogne/picture?width=200&height=200" group-title="Stations", Radio Shalom Bourgogne
+https://listen.radioking.com/radio/4801/stream/12977
+#EXTINF:-1 id="8ab183694cc342f63a4a9f1377e3a3cb" radio="true" group-title="France" tvg-id="Radio Victoire" tvg-logo="https://graph.facebook.com/RadioVictoire/picture?width=200&height=200" group-title="Stations", Radio Victoire
+https://listen.radioking.com/radio/17278/stream/49996
+#EXTINF:-1 id="f2e04a4d25ff50cd1c9a9abc3d3db49f" radio="true" group-title="France" tvg-id="Radio VINCI Autoroutes" tvg-logo="https://graph.facebook.com/RadioVINCIAutoroutes/picture?width=200&height=200" group-title="Stations", Radio VINCI Autoroutes
+https://str0.creacast.com/radio_vinci_autoroutes_1?type=.mp3/stream.mp3
+#EXTINF:-1 id="4cafe4b4a918290dd36c09ef70c170c2" radio="true" group-title="France" tvg-id="RPM" tvg-logo="https://graph.facebook.com/RPM/picture?width=200&height=200" group-title="Stations", RPM
+https://137.74.42.111:8000/stream
+#EXTINF:-1 id="2fdefecde33146c690e7658af884595f" radio="true" group-title="France" tvg-id="Skyrock Klassiks" tvg-logo="https://graph.facebook.com/SkyrockKlassiks/picture?width=200&height=200" group-title="Stations", Skyrock Klassiks
+https://icecast.skyrock.net/s/klassiks_aac_64k
+#EXTINF:-1 id="d0d4f66138d9aefb62e15ac624564d94" radio="true" group-title="France" tvg-id="Skyrock Nord" tvg-logo="https://graph.facebook.com/SkyrockNord/picture?width=200&height=200" group-title="Stations", Skyrock Nord
+https://icecast.skyrock.net/s/lille_aac_64k
+#EXTINF:-1 id="7ad85c49192ad1964c7812cb4dca1001" radio="true" group-title="France" tvg-id="Tsugi Radio" tvg-logo="https://graph.facebook.com/TsugiRadio/picture?width=200&height=200" group-title="Stations", Tsugi Radio
+https://listen.radioking.com/radio/1906/stream/63694
+#EXTINF:-1 id="4492ba356642d329a9eb486dece07d15" radio="true" group-title="France" tvg-id="Vibration Radio" tvg-logo="https://graph.facebook.com/VibrationRadio/picture?width=200&height=200" group-title="Stations", Vibration Radio
+https://webvib-vendome.ice.infomaniak.ch/webvib-vendome-128.mp3
+#EXTINF:-1 id="834dacb404cc29fccb7e7460119b0f25" radio="true" group-title="France" tvg-id="Vinyles Times" tvg-logo="https://graph.facebook.com/VinylesTimes/picture?width=200&height=200" group-title="Stations", Vinyles Times
+https://listen.radioking.com/radio/7551/stream/17069
+#EXTINF:-1 id="eeaf67a55d1095c11e923b2a074bb5c6" radio="true" group-title="France" tvg-id="Generations Rap Français" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations Rap Français
+https://generationfm-rap.ice.infomaniak.ch/generationfm-rap-high.mp3
+#EXTINF:-1 id="1c63921bd8f7afe01e7a9adb35c2f2ac" radio="true" group-title="France" tvg-id="Allzic Radio Golds Français" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Golds Français
+https://allzic30.ice.infomaniak.ch/allzic30.mp3
+#EXTINF:-1 id="6d049f5b85c0d530d13870670485446f" radio="true" group-title="France" tvg-id="Allzic Années 2000" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Années 2000
+https://allzic49.ice.infomaniak.ch/allzic49.mp3
+#EXTINF:-1 id="3ba287bf203887764301f753c92c0256" radio="true" group-title="France" tvg-id="Jupiter FM" tvg-logo="https://graph.facebook.com/JupiterFM/picture?width=200&height=200" group-title="Stations", Jupiter FM
+https://listen.radioking.com/radio/426340/stream/479872
+#EXTINF:-1 id="d3ff4a279f030960a7773ced5168a2ca" radio="true" group-title="France" tvg-id="OUI FM Rock Français" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Rock Français
+https://ouifmrockfrancais.ice.infomaniak.ch/ouifmrockfrancais.mp3
+#EXTINF:-1 id="67cae520116ee811bf9166427f42adad" radio="true" group-title="France" tvg-id="Allzic Radio Live FR" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Live FR
+https://allzic44.ice.infomaniak.ch/allzic44.mp3
+#EXTINF:-1 id="7463d7a6968e5a3cfeb69597b8e64469" radio="true" group-title="France" tvg-id="Allzic Radio Comédies Musicales" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Comédies Musicales
+https://allzic46.ice.infomaniak.ch/allzic46.aac
+#EXTINF:-1 id="dfc5478c08b35ae18248c2dc6663794a" radio="true" group-title="France" tvg-id="Radio Flam" tvg-logo="https://graph.facebook.com/RadioFlam/picture?width=200&height=200" group-title="Stations", Radio Flam
+https://streamlive.syndicationradio.fr:8038/
+#EXTINF:-1 id="4905f95e15fddf9acb292d3474414ac2" radio="true" group-title="France" tvg-id="Melodie FM" tvg-logo="https://graph.facebook.com/MelodieFM/picture?width=200&height=200" group-title="Stations", Melodie FM
+https://stream2.dgnet.be:8008/
+#EXTINF:-1 id="be4e3c669f2fba836e71493f8f29de7d" radio="true" group-title="France" tvg-id="OUI FM - Blues'n'Rock" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM - Blues'n'Rock
+https://srv2.streaming-ingenierie.fr:8172/stream
+#EXTINF:-1 id="b622e05771cd4b24563d69fd72bd9040" radio="true" group-title="France" tvg-id="Allzic Radio – Comédies Musicales" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio – Comédies Musicales
+https://allzic42.ice.infomaniak.ch/allzic56.mp3
+#EXTINF:-1 id="e9a45c6c2e7d8d30e59842859c2d7586" radio="true" group-title="France" tvg-id="Allzic Radio – Nationale 7" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio – Nationale 7
+https://allzic38.ice.infomaniak.ch/allzic38.mp3
+#EXTINF:-1 id="7945e9de2e6125d9ad5870e3de9d6b4a" radio="true" group-title="France" tvg-id="Allzic Radio – Noël" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio – Noël
+https://allzic42.ice.infomaniak.ch/allzic42.mp3
+#EXTINF:-1 id="6d9f815d2032f0d2bea96af757fb70e0" radio="true" group-title="France" tvg-id="Allzic Radio – Orientale" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio – Orientale
+https://allzic33.ice.infomaniak.ch/allzic33.mp3
+#EXTINF:-1 id="6cdf0ecab24cd64815a0d33bd07ef3c8" radio="true" group-title="France" tvg-id="Allzic Radio – TOP 20" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio – TOP 20
+https://allzic41.ice.infomaniak.ch/allzic41.aac
+#EXTINF:-1 id="6305c9488d92f85cca26077a74707533" radio="true" group-title="France" tvg-id="Collector RADIO" tvg-logo="https://graph.facebook.com/CollectorRADIO/picture?width=200&height=200" group-title="Stations", Collector RADIO
+https://stream.collectorradio.fr/collector-128.mp3
+#EXTINF:-1 id="73c03b40dcc740e53bc12260c77ff2e4" radio="true" group-title="France" tvg-id="Generations – Booba" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations – Booba
+https://generations-booba.ice.infomaniak.ch/generations-booba.mp3
+#EXTINF:-1 id="7df5d93cf6fcb402305de7c1f7127d4f" radio="true" group-title="France" tvg-id="Generations – En Mode Brand New" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations – En Mode Brand New
+https://gene-wr10.ice.infomaniak.ch/gene-wr10.mp3
+#EXTINF:-1 id="4a51c9b2d6ed7e184b7e88da1b9bcdd6" radio="true" group-title="France" tvg-id="Generations – FreeSTYLE" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations – FreeSTYLE
+https://gene-wr09.ice.infomaniak.ch/gene-wr09.mp3
+#EXTINF:-1 id="619f7e969fa1510e4476d8f5ec52607f" radio="true" group-title="France" tvg-id="Generations – Funk" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations – Funk
+https://gene-wr05.ice.infomaniak.ch/gene-wr05.mp3
+#EXTINF:-1 id="badcdb11f793a1cee49b82722dde9de0" radio="true" group-title="France" tvg-id="Generations – Hype" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations – Hype
+https://generations-wr002.ice.infomaniak.ch/generations-wr002.mp3
+#EXTINF:-1 id="96ccbaa0b546b8f90cd10de39c4196b1" radio="true" group-title="France" tvg-id="Generations – Jul" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations – Jul
+https://generations-jul.ice.infomaniak.ch/generations-jul.mp3
+#EXTINF:-1 id="29af009cac2f2165903d1dceacd79e18" radio="true" group-title="France" tvg-id="Generations – Rookie" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations – Rookie
+https://generations-wr003.ice.infomaniak.ch/generations-wr003.mp3
+#EXTINF:-1 id="9b69d8d51bd9967bbe8bb726be19f8f1" radio="true" group-title="France" tvg-id="Generations – Wati B" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations – Wati B
+https://generationfm-rap.ice.infomaniak.ch/generationfm-rap-high.mp3
+#EXTINF:-1 id="6dcd3bb0ed5456efc68433aeb0dcadc7" radio="true" group-title="France" tvg-id="OUI Radio" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI Radio
+https://mu1stream.mushost.com:8080/stream/
+#EXTINF:-1 id="8ea8f17ea650ec60a9d91e2f47658e89" radio="true" group-title="France" tvg-id="Radio Cadence Musique" tvg-logo="https://graph.facebook.com/RadioCadenceMusique/picture?width=200&height=200" group-title="Stations", Radio Cadence Musique
+https://radiocadencemusique.ice.infomaniak.ch/radiocadencemusique-128.mp3
+#EXTINF:-1 id="18ce2c4e630d067bc019d48437b8b649" radio="true" group-title="France" tvg-id="Radio Generations XYZ" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Radio Generations XYZ
+https://94.23.57.5:9156/stream
+#EXTINF:-1 id="ebd7170955fdac1aab64eecab4fa2201" radio="true" group-title="France" tvg-id="Express FM" tvg-logo="https://graph.facebook.com/ExpressFM/picture?width=200&height=200" group-title="Stations", Express FM
+https://expressfm.ice.infomaniak.ch/expressfm-64.mp3
+#EXTINF:-1 id="683da990aa2aa258ed4d52d5792f11dd" radio="true" group-title="France" tvg-id="Zouk Radio" tvg-logo="https://graph.facebook.com/ZoukRadio/picture?width=200&height=200" group-title="Stations", Zouk Radio
+https://zouknews.ice.infomaniak.ch/zouknews-192
+#EXTINF:-1 id="1c254fc9b4ba902a64166a28bf28a1c8" radio="true" group-title="France" tvg-id="OUI FM Classic Rock" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Classic Rock
+https://ouifm3.ice.infomaniak.ch/ouifm3.aac
+#EXTINF:-1 id="ca3b7a65a19373a31566f885a8536562" radio="true" group-title="France" tvg-id="Espace 2" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Espace 2
+https://stream.srg-ssr.ch/m/espace-2/aacp_96
+#EXTINF:-1 id="84547ed95bcf6a69831fad0481fedc07" radio="true" group-title="France" tvg-id="TOP 80 radio" tvg-logo="https://graph.facebook.com/TOPradio/picture?width=200&height=200" group-title="Stations", TOP 80 radio
+https://stream.only1radio.com:8050/
+#EXTINF:-1 id="9c952fa129c5198874d4d78960e46daf" radio="true" group-title="France" tvg-id="OUI FM Alternatif" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Alternatif
+https://ouifm2.ice.infomaniak.ch/ouifm2.aac
+#EXTINF:-1 id="8c3e75af4e4619108038d954c047d509" radio="true" group-title="France" tvg-id="OUI FM Rock Indé" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Rock Indé
+https://ouifm5.ice.infomaniak.ch/ouifm5.aac
+#EXTINF:-1 id="f96c1bbf7754ca278f7e210eb292e608" radio="true" group-title="France" tvg-id="HIT RADIO" tvg-logo="https://graph.facebook.com/HITRADIO/picture?width=200&height=200" group-title="Stations", HIT RADIO
+https://broadcast.sksgroup.com/kif_aac
+#EXTINF:-1 id="95c95e7cc18e03f62dbd41a2d361e1b8" radio="true" group-title="France" tvg-id="Prysm Radio 1" tvg-logo="https://graph.facebook.com/PrysmRadio/picture?width=200&height=200" group-title="Stations", Prysm Radio 1
+https://stream.rcs.revma.com/p9qyxmfucrruv
+#EXTINF:-1 id="462e7812a46d412f7becb0c3fe0b826d" radio="true" group-title="France" tvg-id="Radio Shalom" tvg-logo="https://graph.facebook.com/RadioShalom/picture?width=200&height=200" group-title="Stations", Radio Shalom
+https://listen.radioking.com/radio/130300/stream/170152
+#EXTINF:-1 id="bf3d6539dc51f935ae149484a434daea" radio="true" group-title="France" tvg-id="Classic FM" tvg-logo="https://graph.facebook.com/ClassicFM/picture?width=200&height=200" group-title="Stations", Classic FM
+https://classicfm.ice.infomaniak.ch/classic-fm.mp3
+#EXTINF:-1 id="8982e69b0d2fe363ee273ce60fddae84" radio="true" group-title="France" tvg-id="OUI FM Blues'N'Rock" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Blues'N'Rock
+https://ouifmbluesnrock.ice.infomaniak.ch/ouifmbluesnrock-64.aac
+#EXTINF:-1 id="973eaaa879bb769e6ab144651abdb027" radio="true" group-title="France" tvg-id="CIEL" tvg-logo="https://graph.facebook.com/CIEL/picture?width=200&height=200" group-title="Stations", CIEL
+https://stream.statsradio.com:8046/stream
+#EXTINF:-1 id="a5d4c0cf78b742919e097d2435b6c866" radio="true" group-title="France" tvg-id="PHARE fm" tvg-logo="https://graph.facebook.com/PHAREfm/picture?width=200&height=200" group-title="Stations", PHARE fm
+https://str0.creacast.com/pharefm-aac
+#EXTINF:-1 id="99689728836dd1b050b14c88cb1033ef" radio="true" group-title="France" tvg-id="L'essentiel Radio" tvg-logo="https://graph.facebook.com/LessentielRadio/picture?width=200&height=200" group-title="Stations", L'essentiel Radio
+https://lessentielradio.ice.infomaniak.ch/lessentielradio-128.mp3
+#EXTINF:-1 id="0234b84f52a8d3b1e9a89af811200a91" radio="true" group-title="France" tvg-id="CHOC-FM" tvg-logo="https://graph.facebook.com/CHOCFM/picture?width=200&height=200" group-title="Stations", CHOC-FM
+https://stream2.statsradio.com:8110/stream
+#EXTINF:-1 id="1699e66465c5d987f0767d9ce0776676" radio="true" group-title="France" tvg-id="OUI FM Rock 2000" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Rock 2000
+https://rock2000.stream.ouifm.fr/ouifmrock2000.mp3
+#EXTINF:-1 id="06adeaef4110172c250abd4810ece99c" radio="true" group-title="France" tvg-id="RCA" tvg-logo="https://graph.facebook.com/RCA/picture?width=200&height=200" group-title="Stations", RCA
+https://rcanantes.ice.infomaniak.ch/rcanantes-192.mp3
+#EXTINF:-1 id="f7c0476c960f19f6f08ad86a8f55f912" radio="true" group-title="France" tvg-id="Mixx FM" tvg-logo="https://graph.facebook.com/MixxFM/picture?width=200&height=200" group-title="Stations", Mixx FM
+https://mixxfm.ice.infomaniak.ch/mixxfm-192.mp3
+#EXTINF:-1 id="6110a327379d146a8c5c778cb89db821" radio="true" group-title="France" tvg-id="OUI FM Rock 60's" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Rock 60's
+https://ouifmrock60s.ice.infomaniak.ch/ouifmsixties.aac
+#EXTINF:-1 id="650622fd32c72eb1f910f7745557b099" radio="true" group-title="France" tvg-id="PHARE FM Hits" tvg-logo="https://graph.facebook.com/PHAREFMHits/picture?width=200&height=200" group-title="Stations", PHARE FM Hits
+https://str0.creacast.com/pharefmhits
+#EXTINF:-1 id="9c925d0cfffbb6331de745aaaa9a544a" radio="true" group-title="France" tvg-id="RDS Radio" tvg-logo="https://graph.facebook.com/RDSRadio/picture?width=200&height=200" group-title="Stations", RDS Radio
+https://stream.919sports.ca/cklx.mp3
+#EXTINF:-1 id="1c6c634b16feb1c6a204ebb670fedeed" radio="true" group-title="France" tvg-id="OUI FM Rock 90's" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Rock 90's
+https://verticalradio.ice.infomaniak.ch/verticalradio-128.aac
+#EXTINF:-1 id="92601344845e49aa2001ee18d474a701" radio="true" group-title="France" tvg-id="Cerise FM" tvg-logo="https://graph.facebook.com/CeriseFM/picture?width=200&height=200" group-title="Stations", Cerise FM
+https://stream.rcs.revma.com/w792ynewnwzuv
+#EXTINF:-1 id="fd5b94cbafd0585411da5d22f96bf6ef" radio="true" group-title="France" tvg-id="Ultrason" tvg-logo="https://graph.facebook.com/Ultrason/picture?width=200&height=200" group-title="Stations", Ultrason
+https://ultrason.ice.infomaniak.ch/ultrason-high.aac
+#EXTINF:-1 id="94e3701218aeb750b46d7dda61b4045f" radio="true" group-title="France" tvg-id="OUI FM Reggae" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Reggae
+https://ganja.stream.ouifm.fr/ouifmganja-128.mp3
+#EXTINF:-1 id="83b4e8d1b037215d7e1645af1b5d6279" radio="true" group-title="France" tvg-id="Radio Maria" tvg-logo="https://graph.facebook.com/RadioMaria/picture?width=200&height=200" group-title="Stations", Radio Maria
+https://dreamsiteradiocp2.com:8082/stream/
+#EXTINF:-1 id="84ab6828ce4595b3dcd23e701976b9f9" radio="true" group-title="France" tvg-id="OUI FM Rock 80's" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Rock 80's
+https://ouifmrock80s.ice.infomaniak.ch/ouifmeighties.aac
+#EXTINF:-1 id="d50e0b31a1c650415a77a33305fa1580" radio="true" group-title="France" tvg-id="OUI FM Rock 70's" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Rock 70's
+https://ouifmrock70s.ice.infomaniak.ch/ouifmseventies.aac
+#EXTINF:-1 id="e417595f6949cee1d0df508c9aeca1e8" radio="true" group-title="France" tvg-id="France Ô" tvg-logo="https://graph.facebook.com/France/picture?width=200&height=200" group-title="Stations", France Ô
+https://outremer.ice.infomaniak.ch/outremer-128.mp3
+#EXTINF:-1 id="42e70df0dee8129bf75f09d25c4203e2" radio="true" group-title="France" tvg-id="Allzic Radio Années 80" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Années 80
+https://allzic08.ice.infomaniak.ch/allzic08.mp3
+#EXTINF:-1 id="556443b79ca8a0d04a1b091d5e35625d" radio="true" group-title="France" tvg-id="C'Rock Radio" tvg-logo="https://graph.facebook.com/CRockRadio/picture?width=200&height=200" group-title="Stations", C'Rock Radio
+https://stric6.streamakaci.com/crock.mp3
+#EXTINF:-1 id="221db1d2e3f5cdc10232d90fe714f54b" radio="true" group-title="France" tvg-id="Allzic Radio Love song" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Love song
+https://allzic34.ice.infomaniak.ch/allzic34.aac
+#EXTINF:-1 id="005a327ec1a911316128a3c8872e6cc4" radio="true" group-title="France" tvg-id="Allzic Radio Brazil" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Brazil
+https://allzic19.ice.infomaniak.ch/allzic19.mp3
+#EXTINF:-1 id="0c21bdc7b705b6794b4c278e087fd72f" radio="true" group-title="France" tvg-id="Allzic Radio Rap US" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Rap US
+https://allzic01.ice.infomaniak.ch/allzic01.mp3
+#EXTINF:-1 id="c4c08ec78e5a8ac7564262d2a272b666" radio="true" group-title="France" tvg-id="Allzic Radio Zouk" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Zouk
+https://allzic28.ice.infomaniak.ch/allzic28.aac
+#EXTINF:-1 id="e14e43dbaf21d52306a3a39736f60da0" radio="true" group-title="France" tvg-id="Allzic Radio Années 90" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Années 90
+https://allzic24.ice.infomaniak.ch/allzic24.mp3
+#EXTINF:-1 id="907db04c492176b06635bee2ba4688b9" radio="true" group-title="France" tvg-id="Allzic Radio Black Music" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Black Music
+https://allzic04.ice.infomaniak.ch/allzic04.mp3
+#EXTINF:-1 id="f20d0be8b2e238630b0e4e25b466f789" radio="true" group-title="France" tvg-id="Allzic Radio Top 10" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Top 10
+https://allzic22.ice.infomaniak.ch/allzic22.mp3
+#EXTINF:-1 id="750e6aee6fbc3779cd9b67e14e19857e" radio="true" group-title="France" tvg-id="Allzic Hard & Heavy" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Hard & Heavy
+https://allzic18.ice.infomaniak.ch/allzic18.mp3
+#EXTINF:-1 id="32e3849ac355fe77c72cbb9508be45a6" radio="true" group-title="France" tvg-id="Allzic Radio Nouveautés Françaises" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Nouveautés Françaises
+https://allzic23.ice.infomaniak.ch/allzic23.mp3
+#EXTINF:-1 id="16a98ec0b7ce6a7213b9dfa24359d89e" radio="true" group-title="France" tvg-id="OUI FM Les Slows du Rock" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Les Slows du Rock
+https://ouifmlesslowsdurock.ice.infomaniak.ch/ouifmslowrock.aac
+#EXTINF:-1 id="02f1f8c943c32ec494a9feedaa30a050" radio="true" group-title="France" tvg-id="Allzic Radio Jazz Lounge" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Jazz Lounge
+https://allzic03.ice.infomaniak.ch/allzic03.mp3
+#EXTINF:-1 id="ad0f5f482550a4c5e7f667993f8f2846" radio="true" group-title="France" tvg-id="OUI FM Top Of The Week" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Top Of The Week
+https://ouifmtopoftheweek.ice.infomaniak.ch/ouifmtopweek.aac
+#EXTINF:-1 id="3ab2a42c03d7fa6d260257385f4f910e" radio="true" group-title="France" tvg-id="Allzic Radio Top 20" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Top 20
+https://allzic41.ice.infomaniak.ch/allzic41.mp3
+#EXTINF:-1 id="7e70f9a70fde320d6e2881f7934c12e1" radio="true" group-title="France" tvg-id="DELTA FM" tvg-logo="https://graph.facebook.com/DELTAFM/picture?width=200&height=200" group-title="Stations", DELTA FM
+https://deltafm.ice.infomaniak.ch/deltafm-90-2
+#EXTINF:-1 id="1199c256dcc9821da494245832405c50" radio="true" group-title="France" tvg-id="Allzic Radio Jazz" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Jazz
+https://allzic40.ice.infomaniak.ch/allzic40.mp3
+#EXTINF:-1 id="4c3290e227a0bc3428938a885fe8be4e" radio="true" group-title="France" tvg-id="Allzic Radio R&B" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio R&B
+https://allzic08.ice.infomaniak.ch/allzic10.mp3
+#EXTINF:-1 id="079ddc66b0766d87c94a2477ba4254f2" radio="true" group-title="France" tvg-id="Allzic Radio Road 66" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Radio Road 66
+https://allzic37.ice.infomaniak.ch/allzic37.mp3
+#EXTINF:-1 id="fb0eab9d481fff450fac232ba9bd7e17" radio="true" group-title="France" tvg-id="NEO FM" tvg-logo="https://graph.facebook.com/NEOFM/picture?width=200&height=200" group-title="Stations", NEO FM
+https://neofming.streamakaci.com:80/neofm.mp3
+#EXTINF:-1 id="5fce99050b46c15286d3b14dc733d771" radio="true" group-title="France" tvg-id="Radio REMPART" tvg-logo="https://graph.facebook.com/RadioREMPART/picture?width=200&height=200" group-title="Stations", Radio REMPART
+https://radio.pro-fhi.net:9112/stream
+#EXTINF:-1 id="6aeb31a9b9b0e5f5b2b661df6127fa1e" radio="true" group-title="France" tvg-id="PIRENÈUS" tvg-logo="https://graph.facebook.com/PIRENUS/picture?width=200&height=200" group-title="Stations", PIRENÈUS
+https://stream4.vestaradio.com/PIRENEUS
+#EXTINF:-1 id="274f2eec4da1d1812098e685bad94e46" radio="true" group-title="France" tvg-id="Pulse Air" tvg-logo="https://graph.facebook.com/PulseAir/picture?width=200&height=200" group-title="Stations", Pulse Air
+https://pulseair.ice.infomaniak.ch/pulseair-mobile.aac
+#EXTINF:-1 id="4a798c279207bffac866fa5f74d5537d" radio="true" group-title="France" tvg-id="*DUUU radio" tvg-logo="https://graph.facebook.com/DUUUradio/picture?width=200&height=200" group-title="Stations", *DUUU radio
+https://duuu.out.airtime.pro:8000/duuu_b
+#EXTINF:-1 id="41e9b82ed8df96ae2de73d53d693947e" radio="true" group-title="France" tvg-id="RADIO ALPHA" tvg-logo="https://graph.facebook.com/RADIOALPHA/picture?width=200&height=200" group-title="Stations", RADIO ALPHA
+https://radio3.pro-fhi.net:9058/live
+#EXTINF:-1 id="d2af9cc24a464b4880b40f9e4af10afd" radio="true" group-title="France" tvg-id="Mouv' FM" tvg-logo="https://graph.facebook.com/MouvFM/picture?width=200&height=200" group-title="Stations", Mouv' FM
+https://listen.radioking.com/radio/255529/stream/300106
+#EXTINF:-1 id="d97fc7149bc8bd419464ad46908304e1" radio="true" group-title="France" tvg-id="LEBONMIX RADIO" tvg-logo="https://graph.facebook.com/LEBONMIXRADIO/picture?width=200&height=200" group-title="Stations", LEBONMIX RADIO
+https://stream9.xdevel.com/audio0s976748-1514/stream/icecast.audio
+#EXTINF:-1 id="dc002fbe79623dd517cf2165f7900395" radio="true" group-title="France" tvg-id="CLAZZ Radio" tvg-logo="https://graph.facebook.com/CLAZZRadio/picture?width=200&height=200" group-title="Stations", CLAZZ Radio
+https://str0.creacast.com/clazz_hq.mp3
+#EXTINF:-1 id="b37518b5528eb8b06f0ab569e9f88f5f" radio="true" group-title="France" tvg-id="TOP 80 Radio" tvg-logo="https://graph.facebook.com/TOPRadio/picture?width=200&height=200" group-title="Stations", TOP 80 Radio
+https://securestreams6.autopo.st:2321/stream/1/
+#EXTINF:-1 id="283aec28b910c7c2fda173049fec9098" radio="true" group-title="France" tvg-id="LEGIBENIN" tvg-logo="https://graph.facebook.com/LEGIBENIN/picture?width=200&height=200" group-title="Stations", LEGIBENIN
+https://listen.radioking.com/radio/185545/stream/227638
+#EXTINF:-1 id="1f666a907a2b715077c7f4613263bf2e" radio="true" group-title="France" tvg-id="Radio Cyclo" tvg-logo="https://graph.facebook.com/RadioCyclo/picture?width=200&height=200" group-title="Stations", Radio Cyclo
+https://listen.radioking.com/radio/199108/stream/241663
+#EXTINF:-1 id="833dc1e815792d3370bc949af80ab653" radio="true" group-title="France" tvg-id="OUI FM Acoustic" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Acoustic
+https://ouifmacoustic.ice.infomaniak.ch/ouifmacoustic.mp3
+#EXTINF:-1 id="b254fc0951a32cfdf0be0c341c0fbc15" radio="true" group-title="France" tvg-id="Radio MCM" tvg-logo="https://graph.facebook.com/RadioMCM/picture?width=200&height=200" group-title="Stations", Radio MCM
+https://ecmanager3.pro-fhi.net/radiomcm
+#EXTINF:-1 id="944aca647cfbcc4446d49d9365fd95cc" radio="true" group-title="France" tvg-id="OUI FM Génération Woodstock" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Génération Woodstock
+https://ouifmwoodstock.ice.infomaniak.ch/ouifmwoodstock.mp3
+#EXTINF:-1 id="0e71f7d8aebdc58438263b126df8c3cb" radio="true" group-title="France" tvg-id="Allzic Reggae" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Reggae
+https://allzic43.ice.infomaniak.ch/allzic43.mp3
+#EXTINF:-1 id="4144e17591bcef946e4bd23e2efd4d9b" radio="true" group-title="France" tvg-id="Allzic Disney" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Disney
+https://allzic52.ice.infomaniak.ch/allzic52.mp3
+#EXTINF:-1 id="90da8fd5a28394d8ddbbfc28fb208628" radio="true" group-title="France" tvg-id="Allzic Classic Violon" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Classic Violon
+https://allzic48.ice.infomaniak.ch/allzic48.mp3
+#EXTINF:-1 id="cae74ca2ec982f3d307039078a34f47e" radio="true" group-title="France" tvg-id="Allzic Chill Out" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Chill Out
+https://allzic53.ice.infomaniak.ch/allzic53.mp3
+#EXTINF:-1 id="541cd3f52e046d804755309e750e8f23" radio="true" group-title="France" tvg-id="OUI FM Summertime" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM Summertime
+https://ouifmsummertime.ice.infomaniak.ch/ouifmsummertime.mp3
+#EXTINF:-1 id="a92e60d22246594bde241f604e7942d7" radio="true" group-title="France" tvg-id="Allzic Zen" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Zen
+https://allzic20.ice.infomaniak.ch/allzic20.aac
+#EXTINF:-1 id="2a7b0503e6eedd5cb6714f713741e3da" radio="true" group-title="France" tvg-id="Kiss FM West Coast" tvg-logo="https://graph.facebook.com/kiss-fm/picture?width=200&height=200" group-title="Stations", Kiss FM West Coast
+https://kisswestcoast.ice.infomaniak.ch/kisswestcoast-64.aac
+#EXTINF:-1 id="112e4498181001b542b9ced653b84488" radio="true" group-title="France" tvg-id="Voltage 90" tvg-logo="https://graph.facebook.com/Voltage/picture?width=200&height=200" group-title="Stations", Voltage 90
+https://voltage90s.ice.infomaniak.ch/voltage90s-128.mp3
+#EXTINF:-1 id="74e5a281897e68b4a9993c4aa50fb19f" radio="true" group-title="France" tvg-id="Voltage 80" tvg-logo="https://graph.facebook.com/Voltage/picture?width=200&height=200" group-title="Stations", Voltage 80
+https://voltage80s.ice.infomaniak.ch/voltage80s-128.mp3
+#EXTINF:-1 id="aceac1326f69381778a5f80d5ea08798" radio="true" group-title="France" tvg-id="One FM Dance" tvg-logo="https://graph.facebook.com/OneFMDance/picture?width=200&height=200" group-title="Stations", One FM Dance
+https://webradio0003.ice.infomaniak.ch/webradio0003-128.mp3
+#EXTINF:-1 id="804c4bba600c1a05a56e19debfaabdfb" radio="true" group-title="France" tvg-id="One Love" tvg-logo="https://graph.facebook.com/OneLove/picture?width=200&height=200" group-title="Stations", One Love
+https://webradio0010.ice.infomaniak.ch/webradio0010-128.mp3
+#EXTINF:-1 id="741d2438d13165f5be44971b7167d72e" radio="true" group-title="France" tvg-id="One Lounge" tvg-logo="https://graph.facebook.com/OneLounge/picture?width=200&height=200" group-title="Stations", One Lounge
+https://webradio0007.ice.infomaniak.ch/webradio0007-128.mp3
+#EXTINF:-1 id="b2ecd3a5c6db3676989e6145a3341705" radio="true" group-title="France" tvg-id="Allzic Jazz" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Jazz
+https://allzic40.ice.infomaniak.ch:80/allzic40.mp3
+#EXTINF:-1 id="a425517b3aec4560ff20c84085d27440" radio="true" group-title="France" tvg-id="Allzic Latino" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Latino
+https://allzic39.ice.infomaniak.ch/allzic39.mp3
+#EXTINF:-1 id="5227882bd51c85f40d22a3943179ba80" radio="true" group-title="France" tvg-id="Allzic Disco" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Disco
+https://allzic31.ice.infomaniak.ch/allzic31.mp3
+#EXTINF:-1 id="e271bca04c6ecb46fdc680b1c54fd7a2" radio="true" group-title="France" tvg-id="Generations - Wati B" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations - Wati B
+https://generations-wati-b.ice.infomaniak.ch/generations-wati-b.aac
+#EXTINF:-1 id="501518c1dd2ec3bdfdf57f38fd88a6db" radio="true" group-title="France" tvg-id="Allzic Italia" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Italia
+https://allzic35.ice.infomaniak.ch/allzic35.mp3
+#EXTINF:-1 id="7a4116711b2f9e09511513cbb6b23b7c" radio="true" group-title="France" tvg-id="Allzic Nouveautés Françaises" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Nouveautés Françaises
+https://allzic23.ice.infomaniak.ch/allzic23.mp3
+#EXTINF:-1 id="b63434c408a68f315b56d51e28de337d" radio="true" group-title="France" tvg-id="Allzic TOP10" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic TOP10
+https://allzic01.ice.infomaniak.ch/allzic01.mp3
+#EXTINF:-1 id="4cec2e9648e17cc59379f5ca9de6e820" radio="true" group-title="France" tvg-id="Allzic R&B" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic R&B
+https://allzic10.ice.infomaniak.ch/allzic10.mp3
+#EXTINF:-1 id="e173f2a74d3f5ced84b7be5a81d18a53" radio="true" group-title="France" tvg-id="Allzic Hard et Heavy" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Hard et Heavy
+https://allzic18.ice.infomaniak.ch/allzic18.mp3
+#EXTINF:-1 id="086abcedf06bd417e06b11bfa7955dce" radio="true" group-title="France" tvg-id="Allzic Golds Français" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Golds Français
+https://allzic08.ice.infomaniak.ch/allzic11.mp3
+#EXTINF:-1 id="c69ea30c1cb534ccdef220598f761259" radio="true" group-title="France" tvg-id="Allzic Faire la Fête" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Faire la Fête
+https://allzic26.ice.infomaniak.ch/allzic26.mp3
+#EXTINF:-1 id="22a6d2053343e693eb970c1ff3c03d04" radio="true" group-title="France" tvg-id="Allzic Enfoirés" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Enfoirés
+https://allzic12.ice.infomaniak.ch/allzic12.mp3
+#EXTINF:-1 id="f328e47d503c9af6dc27862c16e22d37" radio="true" group-title="France" tvg-id="Allzic Enfants 4/7 ans" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Enfants 4/7 ans
+https://allzic15.ice.infomaniak.ch/allzic15.mp3
+#EXTINF:-1 id="5ec1e3cd1a034a2c7bc9e8cd0ef1bbcc" radio="true" group-title="France" tvg-id="Allzic Enfants 0/4 ans" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Enfants 0/4 ans
+https://allzic14.ice.infomaniak.ch/allzic14.mp3
+#EXTINF:-1 id="10779a76ae53d7ad8762fccf25a17d5c" radio="true" group-title="France" tvg-id="Allzic Dancefloor" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Dancefloor
+https://allzic07.ice.infomaniak.ch/allzic07.mp3
+#EXTINF:-1 id="a6ebd05295a9fd88991fbcf3b288a877" radio="true" group-title="France" tvg-id="Allzic Années 90" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Années 90
+https://allzic24.ice.infomaniak.ch/allzic24.mp3
+#EXTINF:-1 id="0071c0329e8ac69124d64e2e9a65db4b" radio="true" group-title="France" tvg-id="Allzic Années 50" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Années 50
+https://allzic29.ice.infomaniak.ch/allzic29.mp3
+#EXTINF:-1 id="da5788f8c0dee3c903e4dd7f26d55b70" radio="true" group-title="France" tvg-id="Allzic Enfant 7/12 ans" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Enfant 7/12 ans
+https://allzic16.ice.infomaniak.ch/allzic16.mp3
+#EXTINF:-1 id="e14eaebd6ed625246e477f19242a59de" radio="true" group-title="France" tvg-id="Allzic Brazil" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic Brazil
+https://allzic19.ice.infomaniak.ch/allzic19.mp3
+#EXTINF:-1 id="d4ee8aec6e99bd78e73cbdcb80ed760b" radio="true" group-title="France" tvg-id="ABC Classic" tvg-logo="https://graph.facebook.com/ABCClassic/picture?width=200&height=200" group-title="Stations", ABC Classic
+https://streamingv2.shoutcast.com/ABC-Classic
+#EXTINF:-1 id="a96179240b973a3c984b94bdeff41950" radio="true" group-title="France" tvg-id="Radio VFM" tvg-logo="https://graph.facebook.com/RadioVFM/picture?width=200&height=200" group-title="Stations", Radio VFM
+https://str0.creacast.com/vfm_hq.mp3
+#EXTINF:-1 id="bb427119c2e6f1b5a11bb8ab65024d16" radio="true" group-title="France" tvg-id="Mix 89.5" tvg-logo="https://graph.facebook.com/Mix/picture?width=200&height=200" group-title="Stations", Mix 89.5
+https://hosting.studioradiomedia.fr:1085/stream
+#EXTINF:-1 id="4fcf3ee55c3d5b75de9b524f60bf64a9" radio="true" group-title="France" tvg-id="Kiss FM" tvg-logo="https://graph.facebook.com/kiss-fm/picture?width=200&height=200" group-title="Stations", Kiss FM
+https://kissfm2.ice.infomaniak.ch/kissfm2-128.mp3
+#EXTINF:-1 id="6b0f27297f52a83fd0a55b487b1a6627" radio="true" group-title="France" tvg-id="Radio France InternationaleMonde" tvg-logo="https://graph.facebook.com/franceinter/picture?width=200&height=200" group-title="Stations", Radio France InternationaleMonde
+https://rfimonde64k.ice.infomaniak.ch/rfimonde-64.mp3
+#EXTINF:-1 id="6c2827b12d3ab8aca1ae518027957a55" radio="true" group-title="France" tvg-id="Radio Espace Club" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Radio Espace Club
+https://espace100.ice.infomaniak.ch/espace100-high.mp3
+#EXTINF:-1 id="98d1d0962d1a5e0dcbd0724eca154cdc" radio="true" group-title="France" tvg-id="Rouge FM" tvg-logo="https://graph.facebook.com/RougeFM/picture?width=200&height=200" group-title="Stations", Rouge FM
+https://rougefm.ice.infomaniak.ch/rougefm-high.aac
+#EXTINF:-1 id="c60d7b22727296d12daa7d8d646d470c" radio="true" group-title="France" tvg-id="Radio Espace Dancefloor" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Radio Espace Dancefloor
+https://espace-dancefloor.ice.infomaniak.ch/espace-dancefloor-high.mp3
+#EXTINF:-1 id="94adf503357eb06297c25f43e9ae5667" radio="true" group-title="France" tvg-id="Radio Contact" tvg-logo="https://graph.facebook.com/RadioContact/picture?width=200&height=200" group-title="Stations", Radio Contact
+https://radiocontact.ice.infomaniak.ch/radiocontact-mp3-128.mp3
+#EXTINF:-1 id="5b43ad181886ff448db40f01c1ed1af0" radio="true" group-title="France" tvg-id="Rockenfolie" tvg-logo="https://graph.facebook.com/Rockenfolie/picture?width=200&height=200" group-title="Stations", Rockenfolie
+https://player.rockenfolie.com/stream/1/
+#EXTINF:-1 id="631832eb5595594a70f53ce46af4e31b" radio="true" group-title="France" tvg-id="Radio Swiss Classic" tvg-logo="https://graph.facebook.com/RadioSwissClassic/picture?width=200&height=200" group-title="Stations", Radio Swiss Classic
+https://stream.srg-ssr.ch/m/rsc_fr/mp3_128
+#EXTINF:-1 id="e199cfebb2790fe8ffe27924959c65ae" radio="true" group-title="France" tvg-id="Impact FM" tvg-logo="https://graph.facebook.com/ImpactFM/picture?width=200&height=200" group-title="Stations", Impact FM
+https://impactfm.ice.infomaniak.ch/impactfm-64.aac
+#EXTINF:-1 id="344dbbd9c3a41870c7e5bf7a5c7c1fba" radio="true" group-title="France" tvg-id="Sud Radio" tvg-logo="https://graph.facebook.com/SudRadio/picture?width=200&height=200" group-title="Stations", Sud Radio
+https://ice.creacast.com/sudradio
+#EXTINF:-1 id="f0508c0c18206d55ca3e088ab1900bbd" radio="true" group-title="France" tvg-id="Metropolys" tvg-logo="https://graph.facebook.com/Metropolys/picture?width=200&height=200" group-title="Stations", Metropolys
+https://str0.creacast.com/metropolys_hq.mp3
+#EXTINF:-1 id="737b073622f88f34adad4fed08220bd3" radio="true" group-title="France" tvg-id="Tonic Radio" tvg-logo="https://graph.facebook.com/TonicRadio/picture?width=200&height=200" group-title="Stations", Tonic Radio
+https://tonicradiohd.ice.infomaniak.ch/tonicradiohd-128.mp3
+#EXTINF:-1 id="f11c5a9c576b121895d11187142a3384" radio="true" group-title="France" tvg-id="Radio Lovely" tvg-logo="https://graph.facebook.com/RadioLovely/picture?width=200&height=200" group-title="Stations", Radio Lovely
+https://lovely.ice.infomaniak.ch/lovely-96.aac
+#EXTINF:-1 id="e9baba9a23f1d8946f64fe1ad7491618" radio="true" group-title="France" tvg-id="France Culture" tvg-logo="https://graph.facebook.com/FranceCulture/picture?width=200&height=200" group-title="Stations", France Culture
+https://icecast.radiofrance.fr/franceculture-midfi.mp3
+#EXTINF:-1 id="c20a6044e2439694a7bc53786a0b5dce" radio="true" group-title="France" tvg-id="France Musique" tvg-logo="https://graph.facebook.com/FranceMusique/picture?width=200&height=200" group-title="Stations", France Musique
+https://icecast.radiofrance.fr/francemusique-lofi.mp3
+#EXTINF:-1 id="13b5cde1b465bb5f1ce85a3173cbb4f8" radio="true" group-title="France" tvg-id="TSF Jazz" tvg-logo="https://graph.facebook.com/TSFJazz/picture?width=200&height=200" group-title="Stations", TSF Jazz
+https://tsfjazz.ice.infomaniak.ch/tsfjazz-high.mp3
+#EXTINF:-1 id="2995282df5b8b5560f17df977b118365" radio="true" group-title="France" tvg-id="Radio Espace" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Radio Espace
+https://radioespace.ice.infomaniak.ch/radioespace-high.mp3
+#EXTINF:-1 id="94f3efb2c985950f8692e385bbd945cf" radio="true" group-title="France" tvg-id="France Inter" tvg-logo="https://graph.facebook.com/franceinter/picture?width=200&height=200" group-title="Stations", France Inter
+https://icecast.radiofrance.fr/franceinter-hifi.aac
+#EXTINF:-1 id="03fa6d14513fa5df2f6b196a754779b4" radio="true" group-title="France" tvg-id="C9 Radio" tvg-logo="https://graph.facebook.com/CRadio/picture?width=200&height=200" group-title="Stations", C9 Radio
+https://stream.c9.fr/c9.mp3
+#EXTINF:-1 id="d38ebc011eb3a7e28f5ebfb799f36f24" radio="true" group-title="France" tvg-id="France Inter - 87.8 FM" tvg-logo="https://graph.facebook.com/franceinter/picture?width=200&height=200" group-title="Stations", France Inter - 87.8 FM
+https://icecast.radiofrance.fr/franceinter-midfi.mp3?ID=76zqey582k_
+#EXTINF:-1 id="169345b8018988460b240aa634b84ff0" radio="true" group-title="France" tvg-id="Skyrock - 96.0 FM" tvg-logo="https://graph.facebook.com/SkyrockFM/picture?width=200&height=200" group-title="Stations", Skyrock - 96.0 FM
+https://icecast.skyrock.net/s/parisidf_aac_64k?tvr_name=tunein19&tvr_section1=parisidf-64aac_
+#EXTINF:-1 id="57ff10cd8ce9de17c6095341ad1ce064" radio="true" group-title="France" tvg-id="RMC Info" tvg-logo="https://graph.facebook.com/RMCInfo/picture?width=200&height=200" group-title="Stations", RMC Info
+https://audio.bfmtv.com/rmcradio_128.mp3?
+#EXTINF:-1 id="47dd7d418566c673215b6c4449023396" radio="true" group-title="France" tvg-id="Radio Nova 101.5 FM" tvg-logo="https://graph.facebook.com/RadioNovaFM/picture?width=200&height=200" group-title="Stations", Radio Nova 101.5 FM
+https://novazz.ice.infomaniak.ch/novazz-128.mp3?
+#EXTINF:-1 id="11114afc4872389caa91b401d4e4e1c4" radio="true" group-title="France" tvg-id="Jazz Radio - 97.3 FM" tvg-logo="https://graph.facebook.com/JazzRadioFM/picture?width=200&height=200" group-title="Stations", Jazz Radio - 97.3 FM
+https://jazzradio.ice.infomaniak.ch:80/jazzradio-high.mp3
+#EXTINF:-1 id="48e87fa95850077afdacbb55f7117c75" radio="true" group-title="France" tvg-id="Jazz Radio 97.3 FM" tvg-logo="https://graph.facebook.com/JazzRadioFM/picture?width=200&height=200" group-title="Stations", Jazz Radio 97.3 FM
+https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3??
+#EXTINF:-1 id="c16b7fb39761d55f7c71cbd3eb4c384b" radio="true" group-title="France" tvg-id="Radio Scoop 91.3 FM" tvg-logo="https://graph.facebook.com/RadioScoopFM/picture?width=200&height=200" group-title="Stations", Radio Scoop 91.3 FM
+https://radioscoopsaintetienne.ice.infomaniak.ch/radioscoop-stetienne-128.mp3
+#EXTINF:-1 id="679b7b8ad950991404a276cd11b635b7" radio="true" group-title="France" tvg-id="OUI FM - 102.3 FM" tvg-logo="https://graph.facebook.com/oui-radio/picture?width=200&height=200" group-title="Stations", OUI FM - 102.3 FM
+https://ouifm.ice.infomaniak.ch/ouifm-high.mp3
+#EXTINF:-1 id="4efa2ae9a01bee71d0bfa935411a1618" radio="true" group-title="France" tvg-id="Fip radio" tvg-logo="https://graph.facebook.com/Fipradio/picture?width=200&height=200" group-title="Stations", Fip radio
+https://icecast.radiofrance.fr/fip-lofi.mp3
+#EXTINF:-1 id="9f7ad9390f2a2ed1d995eb89e3ace167" radio="true" group-title="France" tvg-id="Radio Nova" tvg-logo="https://graph.facebook.com/RadioNova/picture?width=200&height=200" group-title="Stations", Radio Nova
+https://radionova.ice.infomaniak.ch:80/radionova.aac
+#EXTINF:-1 id="b4e1252a9faefee263cfb69a5834e30d" radio="true" group-title="France" tvg-id="Radio Emotion - 105.3 FM" tvg-logo="https://graph.facebook.com/RadioEmotionFM/picture?width=200&height=200" group-title="Stations", Radio Emotion - 105.3 FM
+https://radioemotion.ice.infomaniak.ch/radioemotion-64.mp3
+#EXTINF:-1 id="46166520c93e4f4dcb1f6c6f9940ecba" radio="true" group-title="France" tvg-id="Radio Nova101.5 FM" tvg-logo="https://graph.facebook.com/RadioNovaFM/picture?width=200&height=200" group-title="Stations", Radio Nova101.5 FM
+https://radionova.ice.infomaniak.ch/radionova-high.mp3
+#EXTINF:-1 id="4d66289aab6a65400f73364bc3bd19ac" radio="true" group-title="France" tvg-id="Mona FM | Plus De Hits" tvg-logo="https://graph.facebook.com/MonaFMPlusDeHits/picture?width=200&height=200" group-title="Stations", Mona FM | Plus De Hits
+https://listen.radioking.com/radio/5040/stream/13349?
+#EXTINF:-1 id="d82290f96ce7ab551f4dd5d953456240" radio="true" group-title="France" tvg-id="PhareFM" tvg-logo="https://graph.facebook.com/PhareFM/picture?width=200&height=200" group-title="Stations", PhareFM
+https://str0.creacast.com/pharefm
+#EXTINF:-1 id="0ee9602219b6901c73a7f23ff486d7cd" radio="true" group-title="France" tvg-id="Allzic - Classic Violon" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic - Classic Violon
+https://allzic48.ice.infomaniak.ch/allzic48.mp3
+#EXTINF:-1 id="973e9b7059378be7d0269b18d56b323d" radio="true" group-title="France" tvg-id="Radio Espace FM - 91.6" tvg-logo="https://graph.facebook.com/radioespace/picture?width=200&height=200" group-title="Stations", Radio Espace FM - 91.6
+https://espace.ice.infomaniak.ch/espace-192.mp3
+#EXTINF:-1 id="c93acf16b3b15cbd200ebf0c484fcdcd" radio="true" group-title="France" tvg-id="Allzic - Jazz" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic - Jazz
+https://futuradiorock.ice.infomaniak.ch/frrock-128.mp3?utm_source=appradiofm&utm_medium=directory&utm_host=futuradiorock.ice.infomaniak.ch
+#EXTINF:-1 id="fb9dada6264001776c98b1ac5775b258" radio="true" group-title="France" tvg-id="Allzic - Rap FR" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic - Rap FR
+https://allzic44.ice.infomaniak.ch/allzic44.mp3
+#EXTINF:-1 id="c6efc2b29880ee5d63b4d93b7b769968" radio="true" group-title="France" tvg-id="Allzic - Reggae" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic - Reggae
+https://allzic43.ice.infomaniak.ch/allzic43.mp3
+#EXTINF:-1 id="b60a40f7834792c16430758815f8b604" radio="true" group-title="France" tvg-id="Allzic - TOP 50" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic - TOP 50
+https://allzic55.ice.infomaniak.ch/allzic55.mp3
+#EXTINF:-1 id="3112c5648019c90e202630bc1dd5cee8" radio="true" group-title="France" tvg-id="Latina FM" tvg-logo="https://graph.facebook.com/LatinaFM/picture?width=200&height=200" group-title="Stations", Latina FM
+https://start-latina.ice.infomaniak.ch/start-latina-high
+#EXTINF:-1 id="b5f94fd1044dfa143c872722349fcbeb" radio="true" group-title="France" tvg-id="Allzic - Annees 2000" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic - Annees 2000
+https://allzic49.ice.infomaniak.ch/allzic49.mp3
+#EXTINF:-1 id="1d1eb980a4f0a9575adb1cc6d428d047" radio="true" group-title="France" tvg-id="Radio Judaica" tvg-logo="https://graph.facebook.com/RadioJudaica/picture?width=200&height=200" group-title="Stations", Radio Judaica
+https://judaica.ice.infomaniak.ch/judaica-high
+#EXTINF:-1 id="ff1e7c0022880d9eb94d563c8527f8e2" radio="true" group-title="France" tvg-id="RCF Puy de D´me" tvg-logo="https://graph.facebook.com/RadioChretienneFrancophone/picture?width=200&height=200" group-title="Stations", RCF Puy de D´me
+https://rcf.streamakaci.com/rcf63.mp3
+#EXTINF:-1 id="d49b8adf2a0f4f17cd9791efcffd2a80" radio="true" group-title="France" tvg-id="AirZen Radio" tvg-logo="https://graph.facebook.com/AirZenRadio/picture?width=200&height=200" group-title="Stations", AirZen Radio
+https://n09.rcs.revma.com/vuumdncf368uv
+#EXTINF:-1 id="6d71ed86d0880aa7bfa8fd3933c188d4" radio="true" group-title="France" tvg-id="Allzic - Enfant 47 ans" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic - Enfant 47 ans
+https://auxoisfm.ice.infomaniak.ch/auxoisfm-128.mp3
+#EXTINF:-1 id="3eb2b319427db9a9c8e2a1a058027959" radio="true" group-title="France" tvg-id="Allzic - POP Queens" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic - POP Queens
+https://allzic54.ice.infomaniak.ch/allzic54.mp3
+#EXTINF:-1 id="b52e34752d6ca9cd1d86c05654704ab7" radio="true" group-title="France" tvg-id="RCF Méditerranée Est-Var" tvg-logo="https://graph.facebook.com/RadioChretienneFrancophone/picture?width=200&height=200" group-title="Stations", RCF Méditerranée Est-Var
+https://rcf.streamakaci.com/rcf83ev.mp3
+#EXTINF:-1 id="6f10739e68cfb89b76f2d1b17329a106" radio="true" group-title="France" tvg-id="Maxi" tvg-logo="https://graph.facebook.com/Maxi/picture?width=200&height=200" group-title="Stations", Maxi
+https://audio1.maxi80.com:443
+#EXTINF:-1 id="98fbbce862a9196ebcbb5e2afeaa9fe9" radio="true" group-title="France" tvg-id="Allzic - Annees 70" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic - Annees 70
+https://allzic50.ice.infomaniak.ch/allzic50.mp3
+#EXTINF:-1 id="b0153f6c4f428cb4e4576b8c608fefc6" radio="true" group-title="France" tvg-id="Allzic - Latino" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic - Latino
+https://listen.radioking.com/radio/329/stream/1508?
+#EXTINF:-1 id="29c6ba6939f5f385ba97477a4a84005b" radio="true" group-title="France" tvg-id="Phare Montauban FM" tvg-logo="https://graph.facebook.com/phare-fm/picture?width=200&height=200" group-title="Stations", Phare Montauban FM
+https://str0.creacast.com/pharefm_montauban
+#EXTINF:-1 id="78f59d1b5788d3d5463859eaa4ac0c28" radio="true" group-title="France" tvg-id="Mona FM | Plus de Fiesta" tvg-logo="https://graph.facebook.com/MonaFMPlusdeFiesta/picture?width=200&height=200" group-title="Stations", Mona FM | Plus de Fiesta
+https://listen.radioking.com/radio/45799/stream/82585?
+#EXTINF:-1 id="3667fbc3f64568bb20e112e87127c06f" radio="true" group-title="France" tvg-id="Generations - 2000" tvg-logo="https://graph.facebook.com/generationsradio/picture?width=200&height=200" group-title="Stations", Generations - 2000
+https://generations-2000.ice.infomaniak.ch/generations-2000.mp3
+#EXTINF:-1 id="8f0bd4c198e44225fc71a7b371080433" radio="true" group-title="France" tvg-id="Allzic - Gold" tvg-logo="https://graph.facebook.com/allzic-radio/picture?width=200&height=200" group-title="Stations", Allzic - Gold
+https://allzic45.ice.infomaniak.ch/allzic45.mp3
+#EXTINF:-1 id="a5f7acbecf593634228ab2c9f6ab8f36" radio="true" group-title="France" tvg-id="Radio Joyce" tvg-logo="https://graph.facebook.com/RadioJoyce/picture?width=200&height=200" group-title="Stations", Radio Joyce
+https://caster05.streampakket.com/proxy/8992/streamaudio.mp3
+#EXTINF:-1 id="641d0fb562156a51046795bd351d9a98" radio="true" group-title="France" tvg-id="Phare FM Mons" tvg-logo="https://graph.facebook.com/phare-fm/picture?width=200&height=200" group-title="Stations", Phare FM Mons
+https://str0.creacast.com:80/pharefm_mons

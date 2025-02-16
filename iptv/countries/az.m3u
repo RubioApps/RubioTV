@@ -1,0 +1,95 @@
+#EXTM3U
+#EXTINF:-1 id="1a613f8b755810941afff41a8ccab14c" tvg-id="24HorasInternacional.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" group-title="News", 24 Horas Internacional
+https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8
+#EXTINF:-1 id="b76f48c7d72a74cce47563bf74b28c8c" tvg-id="AgroTVAzerbaijan.az" tvg-logo="https://i.imgur.com/hPC48jL.png" group-title="Outdoor", Agro TV Azerbaijan
+https://yayin30.haber100.com/live/agrotv2/playlist.m3u8
+#EXTINF:-1 id="332b703860df6cb47fac856034736334" tvg-id="AlvinChannelTV.az" tvg-logo="https://i.imgur.com/m6CM7VU.png" group-title="General", Alvin Channel TV
+https://cdn10-alvinchannel.yayin.com.tr/alvinchannel/alvinchannel/playlist.m3u8
+#EXTINF:-1 id="0e022d7eab5ef75b05f873aca1098564" tvg-id="APATv.az" tvg-logo="https://i.imgur.com/2CSW4V4.png" group-title="News", APA TV
+http://rtmp.apa.tv/@pagroup!23.m3u8
+#EXTINF:-1 id="b37cbcf72d345097a61e8e6439c40884" tvg-id="ARB24.az" tvg-logo="https://i.imgur.com/mtvIFyq.png" group-title="News", ARB 24 HD
+https://edge02.odtv.az/o7/arb24/playlist.m3u8
+#EXTINF:-1 id="298b9ba5b4ffdf7d89e99aae802c941c" tvg-id="ARBGunes.az" tvg-logo="https://i.imgur.com/dSg7KUK.png" group-title="Kids", ARB Günəş
+http://149.255.152.199/arbgunes.m3u8
+#EXTINF:-1 id="71eef8cfacd4be60b2d8cc7c3af36d3c" tvg-id="ARB.az" tvg-logo="https://i.imgur.com/E97M2OL.png" group-title="General", ARB TV HD
+https://edge02.odtv.az/o1/arbtv/playlist.m3u8
+#EXTINF:-1 id="2aa8904c6554657876a35b26b84bbcb3" tvg-id="AznewsTV.az" tvg-logo="https://i.imgur.com/2V0AemI.png" group-title="News", AZ News
+https://edge1.socialsmart.tv/aznews/smil/aznews/720p/chunks.m3u8
+#EXTINF:-1 id="4533b62415bbaec7684678a7aabf4a67" tvg-id="AzTV.az" tvg-logo="https://i.imgur.com/snBMMeH.png" group-title="General", Az TV
+https://str.yodacdn.net/aztv/index.m3u8
+#EXTINF:-1 id="feec730cfc2b97dd6166821d499b276e" tvg-id="AzadTV.az" tvg-logo="https://i.imgur.com/rDYSoRL.png" group-title="General", Azad TV
+http://85.132.81.184:8080/atv/index.m3u8
+#EXTINF:-1 id="6a3ab9d205245ac986ece28a6684f4e0" tvg-id="AzadTVMinus2.az" tvg-logo="https://i.imgur.com/rDYSoRL.png" group-title="General", Azad TV -2
+http://85.132.81.184:8080/atv-2/index.m3u8
+#EXTINF:-1 id="0f8c98711b278815d198b6c3a28df85b" tvg-id="AzadTVMinus4.az" tvg-logo="https://i.imgur.com/rDYSoRL.png" group-title="General", Azad TV -4
+http://85.132.81.184:8080/atv-4/index.m3u8
+#EXTINF:-1 id="548ea559c71aca5db89d3aa674b7ea47" tvg-id="BakuTV.az" tvg-logo="https://i.imgur.com/r4FzxSg.png" group-title="News", Baku TV
+https://rtmp.baku.tv/live/bakutv_720p.m3u8
+#EXTINF:-1 id="90c16f90b8c10ba66f56457b2a111057" tvg-id="BBCNewsEurope.uk" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="News", BBC World News
+http://ott-cdn.ucom.am/s24/index.m3u8
+#EXTINF:-1 id="4a08cfe19a64a141a3c0323012623801" tvg-id="BloombergTVEMEALiveEvent.uk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business", Bloomberg TV EMEA Live Event
+https://bloomberg.com/media-manifest/streams/eu-event.m3u8
+#EXTINF:-1 id="a6fe07536a802e9b1396497a390d4fb0" tvg-id="BloombergTVEurope.uk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business", Bloomberg TV Europe
+https://bloomberg.com/media-manifest/streams/eu.m3u8
+#EXTINF:-1 id="a2806fed7c5c418ee157600dd84a569f" tvg-id="CBC.az" tvg-logo="https://i.imgur.com/wVT0dwO.png" group-title="News", CBC
+https://edge02.odtv.az/o1/cbc/playlist.m3u8
+#EXTINF:-1 id="248d336f9b62d73610ffb5a9f9c5d99d" tvg-id="CGTNRussian.cn" tvg-logo="https://i.imgur.com/nDWkCmL.png" group-title="News", CGTN Русский
+https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
+#EXTINF:-1 id="f6efdaec066bcaaf1520d698949ff797" tvg-id="ELTV.az" tvg-logo="https://i.imgur.com/tTlokZ2.png" group-title="General", EL TV
+http://85.132.53.162:1935/live/eltv/playlist.m3u8
+#EXTINF:-1 id="3c67bbf91ab40800e17172cc3f48579d" tvg-id="EWTNAfricaAsia.us" tvg-logo="https://i.imgur.com/F8ZM25a.png" group-title="Religious", EWTN Africa Asia
+https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
+#EXTINF:-1 id="d0e412c82d8f55a980c3a287acfeecab" tvg-id="EWTNEurope.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png" group-title="Religious", EWTN Europe
+https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/live/playlist.m3u8
+#EXTINF:-1 id="123c722f04de9cb49ae6c46295cc0394" tvg-id="ExtremeSportsChannel.nl" tvg-logo="https://i.imgur.com/m7IC01U.png" group-title="Sports", Extreme Sports
+https://edge02.odtv.az/o4/extremesport/playlist.m3u8
+#EXTINF:-1 id="d02d44d35e55e460241d4676d3aa4d06" tvg-id="FashionTVEurope.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Lifestyle", Fashion TV
+https://fashiontv-fashiontv-5-nl.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="88d1a6fe2d28ffe71dc4a16da15dfa47" tvg-id="edge02.odtv.az" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", Ictimai TV
+https://edge02.odtv.az/o1/ictimai/playlist.m3u8
+#EXTINF:-1 id="5e89a09bb4e4292325a14f2f5e653a01" tvg-id="IctimaiTV.az" tvg-logo="https://i.imgur.com/HzY4VMo.png" group-title="General", Ictimai TV
+http://109.205.166.68/server124/ictimai_tv/index.m3u8
+#EXTINF:-1 id="035197efd85571316f0ed7a4245266f0" tvg-id="IdmanTV.az" tvg-logo="https://i.imgur.com/fM9FOrZ.png" group-title="Sports", Idman
+https://edge02.odtv.az/o7/idman/playlist.m3u8
+#EXTINF:-1 id="d435a3132d65cc2520eeae860e586dfb" tvg-id="KanalTuran.fr" tvg-logo="https://i.imgur.com/9AWwu2o.png" group-title="News", Kanal Turan
+https://donvolga.com/Turan-TV/index.m3u8
+#EXTINF:-1 id="33e91d9708e25940a2a6ed5b56bf5eba" tvg-id="85.132.81.184" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", Kəpəz TV
+http://85.132.81.184:8080/arbkepez/live/index.m3u8
+#EXTINF:-1 id="5d3035f153ede5d243279b713fb6a446" tvg-id="MedeniyyetTV.az" tvg-logo="https://i.imgur.com/PlvaDIa.png" group-title="Culture", Medeniyyet
+https://edge02.odtv.az/o1/medeniyyet/playlist.m3u8
+#EXTINF:-1 id="743ef8329548d4068be40b2f1fa66d41" tvg-id="MuganTV.az" tvg-logo="https://i.imgur.com/HMT5vZA.png" group-title="General", Mugan TV
+https://cdn10-mugantv.yayin.com.tr/mugantv/mugantv/playlist.m3u8
+#EXTINF:-1 id="2b2aba0bd33ec6ba3fd0f6563ff456e0" tvg-id="NickelodeonCIS.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/512px-Nickelodeon_2009_logo.svg.png" group-title="Kids", Nickelodeon
+http://31.148.48.15/Nickelodeon/index.m3u8
+#EXTINF:-1 id="ddf87c12c72f419cbe56f263e2e56d1e" tvg-id="NicktoonsCIS.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" group-title="Kids", Nicktoons
+https://stream01.vnet.am/Boomerang/mono.m3u8
+#EXTINF:-1 id="085f66d1d87ce3501bce7cc31dcae240" tvg-id="QafqazTV.az" tvg-logo="https://upload.wikimedia.org/wikipedia/az/thumb/6/69/Qafqaz_TV_%282017-h.h.%29.png/512px-Qafqaz_TV_%282017-h.h.%29.png" group-title="General", Qafqaz TV
+https://str1.yodacdn.net/qafkaz/playlist.m3u8
+#EXTINF:-1 id="5f939beed7c824adbd35ac13b6c2a620" tvg-id="RealTV.az" tvg-logo="https://i.imgur.com/e2KFL0R.png" group-title="Undefined", Real TV
+https://edge02.odtv.az/o2/realtv/playlist.m3u8
+#EXTINF:-1 id="d4cbb850b90819c319bce9370f61b23d" tvg-id="ShowPlusTV.az" tvg-logo="https://i.imgur.com/Je2DGSG.jpg" group-title="Entertainment", Show Plus TV
+https://glb.bozztv.com/glb/ssh101/showplus/index.m3u8
+#EXTINF:-1 id="84c4a0cfcb0f971f56e2f5627a395ae7" tvg-id="SpaceTV.az" tvg-logo="https://i.imgur.com/ufvVQJH.png" group-title="General", Space TV
+https://edge02.odtv.az/o1/space/playlist.m3u8
+#EXTINF:-1 id="c983be52f47fb508bd27d7621eb744a1" tvg-id="TGRTEurope.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png" group-title="General", TGRT Europe
+https://canli.tgrteu.com/tgrteu.m3u8
+#EXTINF:-1 id="eafbe5eb5c1c58bba3625d23b48f9484" tvg-id="TV5MondeEurope.fr" tvg-logo="https://i.imgur.com/rPAbMSu.png" group-title="General", TV5Monde Europe
+https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8
+#EXTINF:-1 id="c4a7057ba91265859c3174c9bc769fe4" tvg-id="TVEInternacionalEuropeAsia.es" tvg-logo="https://i.imgur.com/ow1HArj.png" group-title="Undefined", TVE Internacional Europe-Asia
+https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8
+#EXTINF:-1 id="737f519107c8ead93689a0d669dcc758" tvg-id="ZarokTV.iq" tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="Animation;Education;Family;Kids;Music", Zarok TV Sorani
+https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:-1 id="df81e5c7e611cc14963bf3705c6f4479" tvg-id="Detskimir.ru" tvg-logo="https://i.imgur.com/bBVEP0S.png" group-title="Kids", Детский мир
+http://stream01.vnet.am/CartoonNetwork/mono.m3u8
+#EXTINF:-1 id="aa1f8a8cef47189f332e0420e468ca21" tvg-id="CarouselInternational.ru" tvg-logo="https://i.imgur.com/DnlngRZ.png" group-title="Kids", Карусель Int
+http://stream02.vnet.am/Karusel/mono.m3u8
+#EXTINF:-1 id="8ce34d9bad698c509345a7a14e119106" tvg-id="MTV.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png" group-title="Entertainment", МТВ
+http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
+#EXTINF:-1 id="cfd4d96f6121ec7b582085fc0ebb8352" tvg-id="NTVMir.ru" tvg-logo="https://i.imgur.com/pUcV46F.png" group-title="Undefined", НТВ Мир
+http://stream02.vnet.am/HTB/mono.m3u8
+#EXTINF:-1 id="7607307f6832b6ed917037086d76d095" tvg-id="RTRPlanetaEurope.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" group-title="General", РТР Планета Евро
+https://player.smotrim.ru/iframe/stream/live_id/4941
+#EXTINF:-1 id="9519e66574a88f818d6dc9d8a9fec27a" tvg-id="RTRPlanetaCIS.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" group-title="General", РТР Планета СНГ
+https://player.smotrim.ru/iframe/stream/live_id/63253
+#EXTINF:-1 id="20e346d32242a414d6fb6ee03ce0fc1f" tvg-id="HuzurTV.ru" tvg-logo="https://i.imgur.com/Abg1fct.png" group-title="Religious", Хузур ТВ
+https://hls-mycdn08724960135.cdnvideo.ru/mycdn08724960135/stream1/playlist.m3u8

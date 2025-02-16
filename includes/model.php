@@ -32,7 +32,6 @@ namespace RubioTV\Framework;
 defined('_TVEXEC') or die;
 
 use RubioTV\Framework\Factory; 
-use RubioTV\Framework\SEF; 
 use RubioTV\Framework\M3U; 
 use RubioTV\Framework\Pagination;
 use RubioTV\Framework\Language\Text;
@@ -46,29 +45,49 @@ class Model
     protected $link;
     protected $pagination;                    
     public function __construct($params = null)
-    {        
-        // Get the parameters
+    {    
+        // Get the parameters 
         $this->params   = new \stdClass;
+
+        // Get the preferences
         foreach($params as $k=>$p)
         {
-            if(is_object($p) && $k === 'config'){                    
+            if(is_object($p) && $k == 'config'){                    
                 $this->config = $p; 
-            } else { 
-                if(strstr($p['value'] , ':') !== false)
+            } else {            
+                if($p && strstr($p , ':') !== false)
                 {
                     $alias = $k . '_alias';
-                    $parts = explode(':' , $p['value']);
+                    $parts = explode(':' , $p);
                     $this->params->$k = $parts[0];
                     $this->params->$alias = $parts[1];
                 } else {
-                    $this->params->$k = $p['value']; 
+                    $this->params->$k = $p; 
                 }
             }            
         }    
 
+        // Get the query string
+        $input = Request::get('GET');
+        foreach($input as $k=>$p)
+        {
+            if(empty($this->params->$k))
+            {
+                if(strstr($p , ':') !== false)
+                {
+                    $alias = $k . '_alias';
+                    $parts = explode(':' , $p);
+                    $this->params->$k = $parts[0];
+                    $this->params->$alias = $parts[1];
+                } else {
+                    $this->params->$k = $p;
+                }
+            }
+        }
+
         // Get the page
-        $this->page                 = Factory::getPage();   
-        $this->page->title          = $this->config->sitename;                      
+        $this->page                 = Factory::getPage();
+        $this->page->title          = $this->config->sitename;                   
     }
 
     public function __destruct()
@@ -80,7 +99,7 @@ class Model
     {        
         $this->page->menu   = $this->_menu();      
         return true;                    
-    }
+    }  
 
     protected function _data()
     {                                          
@@ -161,29 +180,33 @@ class Model
              
     protected function _pagination()
     {         
+        $offset = Request::getInt('offset',0,'GET');
+        $limit  = Request::getInt('limit', $this->config->list_limit,'GET');
+
         if($this->data){
-            $total  = count($this->data);
-            $this->page->data = array_slice($this->data , (int) $this->params->offset , (int) $this->params->limit);
-            $this->pagination = new Pagination( $total , (int) $this->params->offset, (int) $this->params->limit);
+            $total  = count($this->data);            
+            if($offset>$total) $offset = 0;
+            $this->page->data = array_slice($this->data , $offset , $limit,true);
+            $this->pagination = new Pagination( $total , (int) $offset, (int) $limit);
             
             // Clean-up redondant parameters (join id and alias)
-            $array = get_object_vars($this->params);       
-            foreach($array as $key => $value)
+            $query = Request::get('GET');
+            foreach($query as $key => $p)
             {
-                if(isset($array[$key . '_alias']))
+                if(isset($query[$key . '_alias']))
                 {
-                    $array[$key] .= ':' . $array[$key. '_alias'];
-                    unset($array[$key. '_alias']);
+                    $query[$key] .= ':' . $query[$key. '_alias'];
+                    unset($query[$key. '_alias']);
                 }
             }                  
 
             // Add the parameters to the pagination
-            foreach($array as $key => $value)
-                $this->pagination->setAdditionalUrlParam( $key ,$value);
+            foreach($query as $key => $p)
+                $this->pagination->setAdditionalUrlParam( $key ,$p);
 
         } else {
             $this->page->data = [];
-            $this->pagination = new Pagination( 0 , (int) $this->params->offset, (int) $this->params->limit);
+            $this->pagination = new Pagination( 0 , (int) $offset, (int) $limit);
         }
         return $this->pagination;
     }       
@@ -191,8 +214,8 @@ class Model
     protected function _term()
     {            
         $folder  = $this->params->folder;
-        $source  = $this->params->source;    
-        $alias   = $this->params->source_alias;
+        $source  = $this->params->source ?? null;    
+        $alias   = $this->params->source_alias ?? null;
         $term    = $this->params->term;
 
         $result = [];
@@ -200,10 +223,14 @@ class Model
             foreach($this->data as $item)
             {
                 if(preg_match("/^$term/im" , $item->name , $match)){
-                    if($this->params->source !== null)
-                        $item->link    = Factory::Link('view', $folder , $source . ':' . $alias  , $item->id . ':' . $item->name);                          
-                    else
-                        $item->link    = Factory::Link('channels', $folder , $item->id . ':' . $item->name);                          
+                    if($this->params->source !== null){
+                        if($this->params->folder !== 'stations')
+                            $item->link    = Factory::Link('watch', $folder , $source . ($alias ? ':' . $alias : '')  , $item->id . ($item->name ? ':' . $item->name : ''));                          
+                        else 
+                            $item->link    = Factory::Link('listen', $folder , $source . ($alias ? ':' . $alias : '')  , $item->id . ($item->name ? ':' . $item->name : ''));                          
+                    } else {
+                        $item->link    = Factory::Link('channels', $folder , $item->id . ($item->name ? ':' . $item->name : ''));                          
+                    }
 
                     $result[] = $item;
                 }        

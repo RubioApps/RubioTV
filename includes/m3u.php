@@ -45,14 +45,14 @@ class M3U{
     protected $data;
 
     public function __construct($folder , $source , $url = null)
-    {
+    {        
         $this->folder = $folder;
         $this->source = $source;
         $this->filename = TV_IPTV . DIRECTORY_SEPARATOR . $this->folder . DIRECTORY_SEPARATOR . $this->source . '.m3u';
         $this->downloaded = false;     
 
         if(!empty($url))
-            $this->url = $url;
+            $this->url = $url;         
     }
 
     public function load()
@@ -60,16 +60,17 @@ class M3U{
         if(!file_exists($this->filename))
         {
             if (!empty($this->url))
-            {              
-                if(!$this->_remoteExists() || !$this->_download())
+            {      
+                if(!$this->_download()){                
                     return false; 
+                }
             } else {
                 $this->_create();                
             }
         }
 
         // Get the content from the local file
-        $this->content = file_get_contents($this->filename);
+        $this->content = file_get_contents($this->filename);            
 
         // Parse the content
         $this->data   = $this->_parse($this->content);              
@@ -123,9 +124,8 @@ class M3U{
         foreach($ids as $id)
         {
             unset($this->data[$id]);   
-
             // Remove cache
-            $cache = TV_CACHE . DIRECTORY_SEPARATOR . $id . '.png';
+            $cache = TV_CACHE_CHANNELS . DIRECTORY_SEPARATOR . $id . '.png';
             if(file_exists($cache))
                 unlink($cache);
         }
@@ -206,7 +206,7 @@ class M3U{
     }
 
     public function import( $text = null)
-    {
+    {        
         $list = $this->_parse( $text );
 
         if(is_array($list))
@@ -239,21 +239,27 @@ class M3U{
         // Toggle as not downloaded
         $this->downloaded = false;
 
+        if(!$this->_remoteExists())
+            return false;         
+
         // Overwrite 
         if(file_exists($this->filename))
-            unlink($this->filename);
+            unlink($this->filename);       
 
-        // Get the content
+        // Get the content        
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $this->url);
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET"); 
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);  
         curl_setopt($ch, CURLOPT_TIMEOUT, 10);    
         $content    = curl_exec($ch);
-        curl_close($ch);      
-
-        if(!preg_match('/^#EXTM3/', $content))
+        curl_close($ch);   
+        
+        if(!$content || !preg_match('/^#EXTM3/', $content))
             return false;
+
+        if(!preg_match('/#EXTINF:/', $content))
+            return false;                   
 
         // Clean
         $content = preg_replace('/user-agent=".*"/i','',$content);
@@ -292,8 +298,8 @@ class M3U{
 
     protected function _parse( $text )
     {
-        $match = array();        
-        preg_match_all('/(?P<tag>#EXTINF:-1)|(?:(?P<prop_key>[-a-z]+)=\"(?P<prop_val>[^"]+)")|(?<something>,[^\r\n]+)|(?<url>http[^\s]+)/', $text , $match );
+        $match = [];        
+        preg_match_all('/(?P<tag>#EXTINF:)|(?:(?P<prop_key>[-a-z]+)=\"(?P<prop_val>[^"]+)")|(?<something>,[^\r\n]+)|(?<url>http[^\s]+)/', $text , $match );
         $count = count( $match[0] );
 
         if(!$count)
@@ -325,7 +331,7 @@ class M3U{
     }
 
     protected function _format( $array )
-    {   
+    {           
         if(empty($array) || !is_array($array))     
             return false;
 
@@ -349,7 +355,12 @@ class M3U{
                 $item->group = $entry['group-title'];
             }     
 
-            //id
+            //Not id = need to save it once formatted
+            if(!isset($entry['id'])){
+                $this->downloaded = true;
+            }
+
+            //ID
             if(!isset($entry['tvg-id'])) {
                 $item->tvg_id = parse_url($entry['url'],PHP_URL_HOST);
                 $item->id = md5($entry['url']);
@@ -369,14 +380,18 @@ class M3U{
                 continue;
 
             $item->name = self::_sanitizeChannelName(join('',explode(',',$entry['something'])));                                               
-
             
             // Image
             if(isset($entry['logo']) && $this->downloaded)
             {                
-                //DTV does not use tvg_logo but logo
+                //DTV does not use tvg_logo but logo. Unfortunately, some icons does not exists remote
                 $path = explode('/',parse_url($entry['logo'],PHP_URL_PATH));
-                $item->logo = $config->dtv['host'] . $config->dtv['cache'] . '/' . $path[count($path) -1] . '.png';                
+                
+                if(curl_init($entry['logo']) !== false) {                    
+                    $item->logo = $config->dtv['host'] . $config->dtv['cache'] . '/' . $path[count($path) -1] . '.png';   
+                } else {
+                    $item->logo = Factory::getAssets() . '/images/notfound.png'; 
+                }            
                 
             } elseif(isset($entry['tvg-logo'])){                            
                 
@@ -396,10 +411,11 @@ class M3U{
                 $blank = 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
 
                 // Does the image already exist in the cache?
-                if(file_exists(TV_CACHE . DIRECTORY_SEPARATOR . $item->id . '.png'))
-                {                    
-                    $item->remote = $config->live_site . '/cache/' . $item->id . '.png'; 
-                    $item->image = $config->live_site . '/cache/' . $item->id . '.png';                    
+                $cache = ($task === 'channels' ? 'channels' : 'stations');
+                if(file_exists(TV_CACHE . DIRECTORY_SEPARATOR . $cache . DIRECTORY_SEPARATOR . $item->id . '.png'))
+                {                              
+                    $item->remote = $config->live_site . '/cache/' . $cache . '/' . $item->id . '.png'; 
+                    $item->image = $config->live_site . '/cache/' . $cache . '/' . $item->id . '.png';                    
                 } else {  
                     unset($item->remote);
                     switch($task)                                 
@@ -407,7 +423,7 @@ class M3U{
                         case 'channels':
                             $item->image = $blank;                        
                             break;
-                        case 'view':
+                        case 'watch':
                             $item->image = Factory::getAssets() . '/images/notfound.png';  
                             break;
                         default:
@@ -428,10 +444,13 @@ class M3U{
             }
             
             // Mime
-            if($this->folder != 'dtv' && $item->url){
-                $item->mime = $this->_getMIME($item->url);
-            } else {
-                $item->mime = "video/webm";
+            switch($this->folder){
+                case 'dtv':
+                    $item->mime = 'video/mpeg4';
+                case 'stations':
+                    $item->mime = 'audio/mpeg';
+                default:       
+                    $item->mime = $this->_getMIME($item->url);           
             }
 
             // Store item
@@ -443,7 +462,7 @@ class M3U{
 
     protected function _getMIME($url)
     {
-        $match = array();
+        $match = [];
         $parts = parse_url($url);
         if(!isset($parts['path'])) {
             return "video/webm";

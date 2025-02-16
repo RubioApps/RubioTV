@@ -40,11 +40,12 @@ use RubioTV\Framework\Language\Text;
 class modelChannels extends Model
 {
     public function display()
-    {        
+    {     
         // Get the SEF
         $this->params->source_alias = $this->params->source_alias ?? SEF::rfind($this->params->folder , $this->params->source);         
 
-        $this->page->title          = Text::_('GROUPS')[strtoupper($this->params->source)] ?? ucfirst(SEF::decode($this->params->source_alias));                        
+        $this->page->title          = Text::_('GROUPS')[strtoupper($this->params->source)] ?? ucfirst(SEF::decode($this->params->source_alias)); 
+        $this->page->folder         = $this->params->folder;        
         $this->page->source         = $this->params->source;
         $this->page->source_alias   = $this->params->source_alias;
         $this->page->data           = $this->_data();
@@ -61,7 +62,7 @@ class modelChannels extends Model
         // Defered function Factory::Link for performance purposes
         foreach($this->page->data as $e)
         {
-            $e->link    = Factory::Link('view', 
+            $e->link    = Factory::Link('watch', 
                 $this->params->folder , 
                 $this->params->source . ':' . $this->params->source_alias, 
                 $e->id . ':' . $e->name);            
@@ -103,11 +104,9 @@ class modelChannels extends Model
             case 'languages':  
                 $this->link = IPTV::getSource($this->params->folder , $this->params->source);                
                 break;                
-            case 'custom':              
+            case 'custom':
+            case 'dtv':              
                 $this->link = $this->config->live_site . '/iptv/' . $this->params->folder  . '/' . $this->params->source . '.m3u';                
-                break;
-            case 'dtv':                 
-                $this->link = $this->config->dtv['host'] . $this->config->dtv['channels'];
                 break;
             default:                              
                 return false;

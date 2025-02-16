@@ -37,7 +37,7 @@ class Text
 {
 
     protected static $lang;    
-    protected static $strings = array();
+    protected static $strings = [];
 
     
     public static function _($string, $jsSafe = false , $interpretBackSlashes = false)

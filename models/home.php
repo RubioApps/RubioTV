@@ -1,4 +1,5 @@
 <?php
+
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
@@ -26,27 +27,84 @@
  +-------------------------------------------------------------------------+
  | Author: Jaime Rubio <jaime@rubiogafsi.com>                              |
  +-------------------------------------------------------------------------+
-*/
+ */
+
 namespace RubioTV\Framework;
 
 defined('_TVEXEC') or die;
 
-use RubioTV\Framework\Language\Text; 
+use RubioTV\Framework\Language\Text;
 
 class modelHome extends Model
 {
+
     public function display()
     {
-        $this->page->title      = Text::_('HOME');                 
+        $this->page->title      = Text::_('HOME');
         $this->page->data       = $this->_data();
         parent::display();
-    } 
+    }
 
+    public function snapshot()
+    {
+        $url     = Request::getVar('url', null, 'GET');
+        if ($url) {
+            $path   = parse_url(urldecode($url), PHP_URL_PATH);
+            $id     = array_pop(explode('/', $path));
+            $file   = TV_EPG_SNAPSHOTS .  DIRECTORY_SEPARATOR . $id . '.jpeg';
 
-    public function _data()
-    {    
-        $this->data   = $this->_folders();                                 
+            ob_end_clean();
+
+            if (isset($_FILES['data']))
+            {
+                if(file_exists(TV_EPG_SNAPSHOTS . DIRECTORY_SEPARATOR . $id . '.jpeg'))
+                    unlink(TV_EPG_SNAPSHOTS . DIRECTORY_SEPARATOR . $id . '.jpeg');
+
+                if (move_uploaded_file($_FILES['data']['tmp_name'], $file)) 
+                {
+                    header('Content-type: image/jpeg');
+                    readfile(TV_EPG_SNAPSHOTS . DIRECTORY_SEPARATOR . $id . '.jpeg');
+                    exit(0);
+                }
+            }
+        }
+        header('Content-type: image/gif');
+        echo base64_decode(explode(',', TV_BLANK)[1]);
+        exit(0);
+    }
+
+    protected function _data()
+    {
+        $config = Factory::getConfig();
+
+        //Get current folders
+        $this->data = [];
+        $this->data['menu']   = $this->_folders();
+
+        //Get channels playing now
+        $model = Factory::getModel('guides');
+        $array = $model->get('dtv', 'coreelec');
+
+        foreach ($array as &$item) 
+        {
+            $item->link = Factory::Link('watch', 'dtv', 'coreelec:corelec', $item->id . ':' . SEF::encode($item->name));
+            $item->snapshot = TV_BLANK;
+            $item->getshot = true;
+
+            $file   = TV_EPG_SNAPSHOTS .  DIRECTORY_SEPARATOR . $item->id . '.jpeg';
+            if (file_exists($file))  
+            {
+                if (filectime($file) <= time() - 900 ) {                    
+                    unlink($file);
+                } else {                    
+                    $item->snapshot = $config->live_site . '/epg/snapshots/' . $item->id . '.jpeg';
+                    $item->getshot = false;                    
+                }
+            }
+        }
+
+        $this->data['playing'] = is_array($array) ? array_slice($array, 0, 15) : null;
+
         return $this->data;
-    }    
-
+    }
 }

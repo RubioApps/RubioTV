@@ -1,0 +1,155 @@
+#EXTM3U
+#EXTINF:-1 id="1a613f8b755810941afff41a8ccab14c" tvg-id="24HorasInternacional.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" group-title="News", 24 Horas Internacional
+https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8
+#EXTINF:-1 id="8823f18d114c0bc7352a80981f89fbd9" tvg-id="AgrotendenciaTV.cr" tvg-logo="https://i.imgur.com/frd60hR.png" group-title="Outdoor", Agrotendencia TV
+https://5fc584f3f19c9.streamlock.net/agrotendencia/videoagrotendencia_hls1/playlist.m3u8
+#EXTINF:-1 id="4a74864dd664e24a5b699f65f14f4066" tvg-id="AngelTVSpanish.in" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Religious", Angel TV Spanish
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelspanish_all/playlist.m3u8
+#EXTINF:-1 id="f8eefafdb15d3e2e09c1339f9dd194c2" tvg-id="AnimeZoneTV.do" tvg-logo="https://i.imgur.com/AHaXlCh.png" group-title="Animation", Anime Zone TV
+http://animezonetv.net/hls/stream.m3u8
+#EXTINF:-1 id="4a9c709485cf2c9af1451003c025ac5a" tvg-id="ANIMESTATION.ar" tvg-logo="https://web.archive.org/web/20240509182044if_/https://pbs.twimg.com/profile_images/1744338643957780480/24Kv02RD_400x400.jpg" group-title="Animation", ANIMESTATION
+https://ssh101-fl.bozztv.com/ssh101/livestreamingtv/index.m3u8
+#EXTINF:-1 id="0460b7f14cf17cc04c4967e50550d630" tvg-id="AXNCentralAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/512px-AXN_logo_%282015%29.svg.png" group-title="Movies", AXN
+https://streamer1.nexgen.bz/AXN/index.m3u8
+#EXTINF:-1 id="5d47f5ed82392a1ba5a959b55bef9422" tvg-id="BBCNewsNorthAmerica.uk" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="News", BBC News
+https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
+#EXTINF:-1 id="dca30695d9997f9e3d7a5a0bd97ab0f3" tvg-id="BblackCaribbean.fr" tvg-logo="https://i.imgur.com/GyZQCjq.png" group-title="Music", Bblack! Caribbean
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackcaribbean/manifest.m3u8
+#EXTINF:-1 id="aea6b7c894da69c845bbd3756945b7d2" tvg-id="BblackClassik.fr" tvg-logo="https://i.imgur.com/PDCDy0b.png" group-title="Music", Bblack! Classik
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
+#EXTINF:-1 id="4c3e1d5e330fd5c6153ddfb4bab2235c" tvg-id="Canal26.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/512px-Canal_26_logo_%282022%29.svg.png" group-title="News", Canal 26
+https://ythls.armelin.one/channel/UCrpMfcQNog595v5gAS-oUsQ.m3u8
+#EXTINF:-1 id="6d0a158a956d6c7ed54f6fd4391a6765" tvg-id="CAtv.pr" tvg-logo="https://caribbeanadvantage.com/images/CAtv-logo-512.png" group-title="General", Caribbean Advantage TV
+https://video2.getstreamhosting.com:19360/8216/8216.m3u8
+#EXTINF:-1 id="2ff3a90a2cf6d8c3fba3eaf0d6d2c638" tvg-id="CCTV4America.cn" tvg-logo="https://i.imgur.com/gBbLyqh.png" group-title="General", CCTV-4 America
+https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+#EXTINF:-1 id="02a615b5dc19a7946da714d27f0f7884" tvg-id="CGTNSpanish.cn" tvg-logo="https://i.imgur.com/Poz3xfi.png" group-title="News", CGTN Español
+https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
+#EXTINF:-1 id="38016919ebf74fad582c9c25f3b81c57" tvg-id="ClanInternacional.es" tvg-logo="https://i.imgur.com/03jFV68.png" group-title="Kids", Clan TVE Internacional
+https://rtvelivestream.akamaized.net/rtvesec/int/clan_int_main.m3u8
+#EXTINF:-1 id="b5b7dcfdc974c1961334706e6dffc5d5" tvg-id="CubavisionInternacional.cu" tvg-logo="https://i.imgur.com/0ZHm9f6.png" group-title="General", Cubavisión Internacional
+https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
+#EXTINF:-1 id="321e62fe3e7c7221788c1181ae4f6a4a" tvg-id="DePeliculaLatinAmerica.mx" tvg-logo="https://i.imgur.com/aksM8pa.png" group-title="Movies", De Película
+https://linear-354.frequency.stream/mt/studio/354/hls/master/playlist.m3u8
+#EXTINF:-1 id="da6609665c6255db52bb002a82d76588" tvg-id="DePeliculaPlus.mx" tvg-logo="https://i.imgur.com/MMhSmDK.png" group-title="Movies", De Película Plus
+https://linear-404.frequency.stream/mt/studio/404/hls/master/playlist.m3u8
+#EXTINF:-1 id="779c71c063ef50b7c0d7128b7509e937" tvg-id="DisneyChannelLatinAmerica.ar" tvg-logo="https://pbs.twimg.com/profile_images/1740338476736815104/vJGKgOJe_400x400.jpg" group-title="Animation;Kids", Disney Channel Latin America
+http://168.181.122.234:8000/play/a038/index.m3u8
+#EXTINF:-1 id="dbbf7ae64eee5987b712692b67da0706" tvg-id="DistritoComedia.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/DistritoComediaLOGO2018.png/512px-DistritoComediaLOGO2018.png" group-title="Comedy", Distrito Comedia
+https://linear-405.frequency.stream/mt/studio/405/hls/master/playlist.m3u8
+#EXTINF:-1 id="5475b070a7ca7e583e46924cc2bb0d30" tvg-id="DNews.us" tvg-logo="https://i.imgur.com/jF2BabI.png" group-title="News", DNews
+https://ythls.armelin.one/channel/UC4dWvSKVWJ36tJyhjDQCCaQ.m3u8
+#EXTINF:-1 id="faef0baf399f2d23dfcdceee034c0ce5" tvg-id="DreamforceBtl.us" tvg-logo="https://i.imgur.com/6SsaKEh.png" group-title="General", Dreamforce Btl
+https://srv2.tropicalmoonmedia.com/dreamforcebtltv/dreamforcebtltv/playlist.m3u8
+#EXTINF:-1 id="74deb3911175a57ad92bf851c2f13c21" tvg-id="DWEspanol.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News", DW Español
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+#EXTINF:-1 id="873f19ea6e0997612717daa43140ce92" tvg-id="EnerGeek.cl" tvg-logo="https://cdn.energeek.cl/logos/Marca-512.png" group-title="Animation", EnerGeek
+https://streaming-cl.sh1ny.space/memfs/e8a8e789-170b-4de4-a33b-90a9a475ce65.m3u8
+#EXTINF:-1 id="2600b563d74eec5c2ce52ab26e3d58cc" tvg-id="EnerGeekRadio.cl" tvg-logo="https://i.imgur.com/euaoN1A.png" group-title="Music", EnerGeek Radio
+https://streaming-cl.sh1ny.space/memfs/75b105a4-2fd3-4538-a55c-480f3903a262.m3u8
+#EXTINF:-1 id="d159075f0b9d3559502d84104ceeb71d" tvg-id="Enlace.cr" tvg-logo="https://i.imgur.com/YwUVTmS.png" group-title="Religious", Enlace
+https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
+#EXTINF:-1 id="11bb3e6b219f152d74d0f2b3a5f9dbc2" tvg-id="eSportsMaxTV.ve" tvg-logo="https://i.imgur.com/OprRgQN.png" group-title="Animation", eSports Max
+http://vcpar.myplaytv.com/esportsmax/live/playlist.m3u8
+#EXTINF:-1 id="f73710b6120d9ff746071b0840510c13" tvg-id="EWTNEspanaLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png" group-title="Religious", EWTN el Canal Católico
+https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
+#EXTINF:-1 id="eb2468d18211863524d09714a6015a9a" tvg-id="FanpopTV.cl" tvg-logo="https://cdn.energeek.cl/logos/Fanpop-512.png" group-title="Animation", Fanpop TV
+https://streaming-cl.sh1ny.space/memfs/e16d2f72-70b5-4bf5-b9c5-107b6390a10f.m3u8
+#EXTINF:-1 id="65c2058948792f268edabc5516b48add" tvg-id="Filmstream.nl" tvg-logo="https://i.imgur.com/DTRPV6B.png" group-title="Movies", Filmstream
+https://spi-filmstream-1-in.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="c841fc0ea4f2c13f696012546886447f" tvg-id="France24Espanol.fr" tvg-logo="https://i.imgur.com/ZnmAXVv.png" group-title="News", France 24 Español
+https://ythls.armelin.one/channel/UCUdOoVWuWmgo1wByzcsyKDQ.m3u8
+#EXTINF:-1 id="c1d847e1ad08c3b3f7f40a6ea156b467" tvg-id="FMTV.uk" tvg-logo="https://i.imgur.com/vPxvbVv.png" group-title="Music", Frecuencia Musical TV
+https://s2.tvdatta.com:3307/hybrid/play.m3u8
+#EXTINF:-1 id="54b0a0fccc917fdd5be17b4eaa1f218f" tvg-id="GaliciaTVAmerica.es" tvg-logo="https://i.imgur.com/s59AaqG.png" group-title="General", Galicia TV América
+https://america-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="a506abcfb6932a5df96764fc95db54fe" tvg-id="GarageTVLatinAmerica.ar" tvg-logo="https://i.imgur.com/FqFxog1.png" group-title="Auto", Garage TV Latin America
+https://stream1.sersat.com/hls/garagetv.m3u8
+#EXTINF:-1 id="1f52d2d3642b795c730fdcd80a0c24fc" tvg-id="GoldenEdgePanregional.mx" tvg-logo="https://i.imgur.com/SlSbcp3.png" group-title="Undefined", Golden Edge Panregional
+https://linear-407.frequency.stream/mt/studio/407/hls/master/playlist.m3u8
+#EXTINF:-1 id="d04db458796c28fdd30f757a988c4d9f" tvg-id="GoldenPanregional.mx" tvg-logo="https://i.imgur.com/NNd1lYl.png" group-title="Undefined", Golden TV
+https://bozztv.com/gusa/gusa-goldentv/index.m3u8
+#EXTINF:-1 id="a77bb3c260c42314177a65c023eca7dc" tvg-id="HiperconectadosTV.cl" tvg-logo="https://i.imgur.com/CBbbrkI.png" group-title="Science", Hiperconectados TV
+https://stmv5.voxtvhd.com.br/hiperconectados/hiperconectados/playlist.m3u8
+#EXTINF:-1 id="e8970d8401df3fe0f5c8e26606dc5819" tvg-id="HispanTV.ir" tvg-logo="https://i.imgur.com/AfsVFfM.png" group-title="News", Hispan TV
+https://cdnlive.presstv.ir/live/smil:live.smil/playlist.m3u8
+#EXTINF:-1 id="65fda295e1cfeeedc137e4ec65e9a520" tvg-id="KanalDDrama.tr" tvg-logo="https://i.imgur.com/WIeZMKT.png" group-title="Entertainment", Kanal D Drama
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
+#EXTINF:-1 id="c4a07c2ee549aff0e4547fe8c52197cf" tvg-id="LatinoKidsTV.uy" tvg-logo="https://i.imgur.com/VEk5aJ6.png" group-title="Animation", LatinoKids
+https://6362ca6f1fc28.streamlock.net/8062/8062/playlist.m3u8
+#EXTINF:-1 id="48fa443f0da73ea79105f55090c94e84" tvg-id="LocomotionTV.do" tvg-logo="https://i.imgur.com/1CftDPB.png" group-title="Animation", Locomotion TV
+http://51.222.85.85:81/hls/loco/index.m3u8
+#EXTINF:-1 id="b19db3af9ce9cafea619eacbe8dee791" tvg-id="MAXAnime.ve" tvg-logo="https://i.imgur.com/Oj3hEBh.jpg" group-title="Animation", MAX Anime
+https://vcp14.myplaytv.com/maxanime/maxanime/playlist.m3u8
+#EXTINF:-1 id="35bcd33cdaa0927b45f7cbc15e918ad6" tvg-id="NHKWorldEspanol.jp" tvg-logo="https://i.imgur.com/8dml3im.png" group-title="Culture;News", NHK World News
+https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/es/playlist.m3u8
+#EXTINF:-1 id="34b0906670b5d57d7bdfc8990eb6ec79" tvg-id="Novelisima.us" tvg-logo="https://i.imgur.com/8dUS3Ih.png" group-title="Series", Novelisima
+https://dai.google.com/linear/hls/event/sFuxwI37R9KMTs-KywMcBg/master.m3u8
+#EXTINF:-1 id="df374b1570d216dc21d3d2e1df861e9c" tvg-id="NuevoTiempo.br" tvg-logo="https://i.imgur.com/exdDHml.png" group-title="Religious", Nuevo Tiempo
+https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8
+#EXTINF:-1 id="6da103b2b77cc52ec8327988e6168e50" tvg-id="PandamaxChannel.cl" tvg-logo="https://pandamax.cl/assets/img/pandalogo2.png" group-title="Animation", Pandamax Channel
+https://stream.wifiexpert.cl/telenorte/pandamaxch/playlist.m3u8
+#EXTINF:-1 id="6d7f35f5726938f78cb7d56a2e604a75" tvg-id="PlatziTV.es" tvg-logo="https://i.imgur.com/vEzeqHP.png" group-title="Education", Platzi TV
+https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
+#EXTINF:-1 id="6054ce282d349aa8c9af3f1848193436" tvg-id="PortuguesaTelevision.ve" tvg-logo="https://intervenhosting.net/roku/portutv/portutv.jpg" group-title="General", PortuTV
+https://streamtv.intervenhosting.net:3789/live/portutvlive.m3u8
+#EXTINF:-1 id="ec29d96e866c6da0e319820f06875357" tvg-id="PrensaLatinaTV.cu" tvg-logo="https://i.imgur.com/jbm2S9O.jpg" group-title="News", Prensa Latina TV
+https://eu1.servers10.com:8081/8192/index.m3u8
+#EXTINF:-1 id="9c93b5a91e39515e019a8b1122499e6f" tvg-id="RadioyTelevisionMarti.us" tvg-logo="https://i.imgur.com/Y7E5OTy.png" group-title="Undefined", Radio y Televisión Martí
+https://ocb-ingest.akamaized.net/hls/live/2037032/tvmc01/playlist.m3u8
+#EXTINF:-1 id="2a0ee032a0bdaf8a95e2c02fbfdf9b02" tvg-id="RCNMas.co" tvg-logo="https://i.imgur.com/MJzuRAN.png" group-title="Entertainment", RCN Mas
+https://rcntv-rcnmas-1-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="821b9b5346e607159166c97b0922db2c" tvg-id="RCNXtra.co" tvg-logo="https://i.imgur.com/N7VH24E.png" group-title="Entertainment", RCN Xtra
+https://latv-rcn-xtra-1-mx.tcl.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="7da3601066bebb8ff4430b4df4c279da" tvg-id="SEOTV1FHD.bo" tvg-logo="https://i.imgur.com/aTcJ5p3.png" group-title="General", SEO TV 1
+https://seo.tv.bo/tv/SEOTV_1FHD.m3u8
+#EXTINF:-1 id="da2e414577534a5af53163c2f69a3ab1" tvg-id="SEOTV2Kids.bo" tvg-logo="https://i.imgur.com/BC0Ii7i.png" group-title="Kids", SEO TV 2 Kids
+https://seo.tv.bo/tv/CTV2.m3u8
+#EXTINF:-1 id="a92a36a70449f0f606ca0ce3b269f46a" tvg-id="SEOTV3Novelas.bo" tvg-logo="https://i.imgur.com/aTcJ5p3.png" group-title="Series", SEO TV 3 Novelas
+https://seo.tv.bo/tv/SEOTV3.m3u8
+#EXTINF:-1 id="d5a3724bae18022029f961fc2f9f656a" tvg-id="SEOTV4Peliculas.bo" tvg-logo="https://i.imgur.com/aTcJ5p3.png" group-title="Movies", SEO TV 4 Películas
+https://seo.tv.bo/tv/SEOTV4_HD.m3u8
+#EXTINF:-1 id="7a7d83a0a726a1188590e90483e26769" tvg-id="SEOTV5Deportes.bo" tvg-logo="https://i.imgur.com/N56B7si.png" group-title="Sports", SEO TV 5 Deportes
+https://seo.tv.bo/tv/SEOtv_5sd.m3u8
+#EXTINF:-1 id="15b9bccc668fdd1ae71039386e09b547" tvg-id="SEOTV7.bo" tvg-logo="https://i.imgur.com/aTcJ5p3.png" group-title="Comedy", SEO TV 7
+https://seo.tv.bo/tv/SEOTV7.m3u8
+#EXTINF:-1 id="a8c2e25fcf75f83b87754761015bec80" tvg-id="SomosCulturaTV.pa" tvg-logo="https://i.imgur.com/kWR3END.png" group-title="Culture", Somos Cultura TV
+https://srv.tropicalmoonmedia.com/somosculturatv/somosculturatv/playlist.m3u8
+#EXTINF:-1 id="4e212ec3c182d195b9ba1e7da6b7b8fb" tvg-id="TastemadeenEspanol.us" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking", Tastemade en Español
+https://tastemadees16intl-samsungmexico.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="b57b8cbf7c0209ee129f9489362a3731" tvg-id="TelefeInternacional.ar" tvg-logo="https://i.imgur.com/HNcCX3h.png" group-title="Undefined", Telefe Internacional
+https://siloh-mcdn.plutotv.net/lilo/production/TelefePluto/master.m3u8
+#EXTINF:-1 id="998cccd425f13f232508306e5d4c5181" tvg-id="TeleHit.mx" tvg-logo="https://i.imgur.com/NVxHxJn.png" group-title="Music", Telehit
+http://45.175.139.194:8000/play/62
+#EXTINF:-1 id="0d339135e3518e5e5224a1983a7c67e8" tvg-id="TelehitMusica.mx" tvg-logo="https://i.imgur.com/PfROac9.png" group-title="Music", Telehit Musica
+http://190.60.42.86:8000/play/a02x/index.m3u8
+#EXTINF:-1 id="852c0d39e452775f9bd1b0b4bad11f23" tvg-id="Telesur.ve" tvg-logo="https://i.imgur.com/P50VjRX.png" group-title="News", TeleSUR
+https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
+#EXTINF:-1 id="909b0fd0f51a927f28b8ca5fbf275cf3" tvg-id="Tevex.cl" tvg-logo="https://i.imgur.com/FnInQRd.png" group-title="Business", Tevex
+https://v4.tustreaming.cl/tevexinter/index.m3u8
+#EXTINF:-1 id="cb9a5a1e9bd2ea3cac4700dd819044cb" tvg-id="TropicalMoonCumbiaTV.pa" tvg-logo="https://i.imgur.com/jL1kLyS.png" group-title="Music", Tropical Moon Cumbia TV
+https://srv2.tropicalmoonmedia.com/cumbiatv/cumbiatv/playlist.m3u8
+#EXTINF:-1 id="a2b3d598c7dda71775352df907fa9e62" tvg-id="TropicalMoonEventosTV.pa" tvg-logo="https://i.imgur.com/RklPmml.png" group-title="General", Tropical Moon Eventos TV
+https://srv2.tropicalmoonmedia.com/eventostv/eventostv/playlist.m3u8
+#EXTINF:-1 id="dbb28a0dfbe5fbac63f4897f434fa8d2" tvg-id="TropicalMoonSalsaTV.pa" tvg-logo="https://i.imgur.com/jL1kLyS.png" group-title="Music", Tropical Moon Salsa TV
+https://srv.tropicalmoonmedia.com/musictv/musictv/playlist.m3u8
+#EXTINF:-1 id="be81b35608407ba26714059995e9f421" tvg-id="TropicalMoonUrbanTV.pa" tvg-logo="https://i.imgur.com/WcM7BP5.png" group-title="Music", Tropical Moon Urban TV
+https://srv.tropicalmoonmedia.com/urbantvnetott/urbantvnetott/playlist.m3u8
+#EXTINF:-1 id="2d8d3e72c81c4bfbd640f5e60b044dc1" tvg-id="TropicalMusicTV.us" tvg-logo="https://i.imgur.com/h48pwLn.png" group-title="Music", Tropical Music TV
+http://68.235.37.11:1935/vallenato/vallenato/.m3u8
+#EXTINF:-1 id="eda5692d5a3a7c2fe82dfd11638f8126" tvg-id="TVDaja.do" tvg-logo="https://dajatv.com/wp-content/uploads/2021/09/logo_daja_2.png" group-title="Undefined", TV Daja
+https://rdn.essastream.com:3388/live/dajatvlive.m3u8
+#EXTINF:-1 id="57025fd384f66c0b594e361cf930f2ef" tvg-id="TVEInternacionalAmerica.es" tvg-logo="https://i.imgur.com/iODADvi.png" group-title="Undefined", TVE Internacional America
+https://rtvelivestream.akamaized.net/rtvesec/int/tvei_ame_main.m3u8
+#EXTINF:-1 id="cff5f6289cb2036774cf5db04df4c4c7" tvg-id="TVEStarHD.es" tvg-logo="https://i.imgur.com/zsCZHMh.png" group-title="Series", TVE Star HD
+https://rtvelivestream.akamaized.net/rtvesec/int/star_main.m3u8
+#EXTINF:-1 id="863a0da30b69554fc10ecfd1a6d0c82b" tvg-id="TVQ.gt" tvg-logo="https://i.imgur.com/RnZU9q3.png" group-title="General", TVQ
+https://dacastmmd.mmdlive.lldns.net/dacastmmd/9b8beac9026c450fb81ed895539c4665/index.m3u8
+#EXTINF:-1 id="b3e04f0c6da3eee05adc65315ae63a2a" tvg-id="TVQSports.gt" tvg-logo="https://i.imgur.com/CQpuBeQ.png" group-title="Sports", TVQ Sports
+https://dacastmmd.mmdlive.lldns.net/dacastmmd/1b6bbade53634f5a847b953c9adfd102/index.m3u8
+#EXTINF:-1 id="c356140400f812e4964ba026fda92649" tvg-id="UCL.uy" tvg-logo="https://i.imgur.com/BzQphbw.png" group-title="Undefined", UCL
+https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
+#EXTINF:-1 id="64d4738b26368c34308f1b16a7fa9562" tvg-id="VenevisionInternacional.ve" tvg-logo="https://i.imgur.com/vtGED07.jpg" group-title="General", Venevisión Internacional
+https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8
+#EXTINF:-1 id="adf15c70d166d267ce8ed0a31ced18b7" tvg-id="VPItv.ve" tvg-logo="https://i.imgur.com/X5hyKU8.png" group-title="News", VPItv
+https://ott3.streann.com/loadbalancer/services/public/channels/5d23d5882cdce61dae029fd8/playlist.m3u8

@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
@@ -26,74 +27,49 @@
  +-------------------------------------------------------------------------+
  | Author: Jaime Rubio <jaime@rubiogafsi.com>                              |
  +-------------------------------------------------------------------------+
-*/
+ */
 
-defined('_TVEXEC') or die; 
+defined('_TVEXEC') or die;
 
 use \RubioTV\Framework\Language\Text;
 ?>
-
+<header class="navbar navbar-expand-lg sticky-top">
+    <nav class="container-xxl flex-wrap flex-xxl-nowrap justify-content-center">
+        <a class="navbar-brand tv-brand text-center text-truncate" href="<?= $factory->Link(); ?>">
+            <div class="h3 fw-bold text-white"><?= $config->sitename; ?></div>
+        </a>
+    </nav>
+</header>
 <!-- Login -->
-<main role="main" class="container container-md mx-auto my-auto">         
-    <form><?= $factory::getToken();?></form>
-    <div class="row justify-content-center p-3 flex-nowrap mt-5">                    
-        <div class="col-auto bg-light border rounded">
-            <div class="row p-1">
-                <div class="col text-center mt-2">
-                    <label for="pwd" class="col-form-label fw-bolder"><?= Text::_('PASSWORD');?></label>
+<main role="main" class="container container-md mx-auto my-auto">
+    <form>
+        <?= $factory->getToken(); ?>
+        <input type="hidden" id="url" name="url" value="<?= $factory->Link('login');?>" />
+        <div class="row justify-content-center p-3 flex-nowrap mt-5">
+            <div class="col-auto border rounded">
+                <div class="row p-1">
+                    <div class="col mt-2 text-center">
+                        <label for="pwd" class="form-label">
+                            <?= Text::_('PASSWORD'); ?>
+                        </label>
+                        <input type="password" id="pwd" name="password" class="form-control" value=""
+                            autocomplete="false" />
+                    </div>
                 </div>
-            </div>
-            <div class="row p-1">
-                <div class="col">
-                    <input type="password" id="pwd" name="password" class="form-control" value="" />
-                </div>
-            </div>
-            <div class="row p-1">
-                <div class="col text-center mb-2">                  
-                    <button id="btn-submit" type="button" class="btn btn-primary"><?= Text::_('SUBMIT'); ?></button>
+                <div class="row p-1">
+                    <div class="col text-center mb-2">
+                        <button id="btn-submit" type="button" class="btn btn-primary"><?= Text::_('SUBMIT'); ?></button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
 </main>
 <!-- JS -->
-<script type="text/javascript">   
-jQuery(document).ready(function(){   
-
-    $('#btn-submit').on('click',function(e){
-        e.preventDefault(); 
-
-        var pwd     = $('input#pwd').val();
-        var token   = $('input#token').attr('name');
-        var sid     = $('input#token').val();        
-
-        data = {'password' : pwd , [token] : sid};
-        var posting = $.post('<?= $factory->Link('login');?>',data);
-        posting.done(function(result){
-            raise( result.message , result.error);
-            if(result.error){
-                $.get('<?= $factory->Link('login.token');?>').done(function(data){
-                    var token   = $('input#token').attr('name');
-                    var sid     = $('input#token').val();                      
-                    token.attr('name',data.token);
-                    token.val(data.sid);
-                });                  
-            } else {                          
-                setTimeout(1000, top.location='<?= $factory->Link();?>');                 
-            }       
-        });
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        $.rtv.livesite = '<?= $config->live_site;?>';
+        $.rtv.logged = <?= $factory->isLogged() ? 'true' : 'false'; ?>;
+        $.rtv.login('#btn-submit');
     });
-
-    function raise( text , error )
-    {
-        var wrapper = $('#tv-toast');
-        var toast   = wrapper.find('.toast:first').clone();
-        toast.find('.toast-body').html(text);
-        toast.addClass(error ? 'bg-danger' : 'bg-success');
-        toast.appendTo('body');
-        const tbs = bootstrap.Toast.getOrCreateInstance(toast.get(0));
-        tbs.show();        
-    }    
-
-});
 </script>
