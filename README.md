@@ -144,6 +144,7 @@ Add the line
 We recommend to execute the cronjob every 15 minutes for local purposes. You can make it mre frequently depending on the available ressources in your server.
 
 ## Snapshots
+![home](https://github.com/user-attachments/assets/1be6bc1c-d0e1-413f-98b0-16f625735299)
 ![radio](https://github.com/user-attachments/assets/b5b151d1-4012-45bc-b04a-f9c9c7e54486)
 ![favorites](https://github.com/user-attachments/assets/20dcbb2a-046e-4157-abc4-769a1677a895)
 ![epg](https://github.com/user-attachments/assets/c93ae473-9207-40f4-83c3-355272073064)
