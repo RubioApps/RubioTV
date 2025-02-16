@@ -39,7 +39,7 @@ use \RubioTV\Framework\Language\Text;
 
 <!-- Breadcrumb -->
 <div class="tv-breadcrumb">
-    <nav class="rounded border bg-light m-3" aria-label="breadcrumb">
+    <nav class="rounded m-3" aria-label="breadcrumb">
         <ol class="breadcrumb p-2 m-0">
             <li class="breadcrumb-item">
                 <a href="<?= $factory->Link();?>"><?= Text::_('HOME');?></a>

@@ -32,13 +32,15 @@
 
 defined('_TVEXEC') or die;
 ?>
-<footer class="container-md p-1 mt-5 mx-auto w-100 bg-light">
+<footer class="footer mt-5 mx-auto w-100">
     <div class="tv-footer">
     <nav class="navbar navbar-expand">
-        <ul class="navbar-nav d-flex">
+        <ul class="navbar-nav mx-auto">
             <?php foreach ($config->links as $k=>$v):?>
-            <li class="nav-item">
-                <a class="nav-link" href="<?= $v; ?>" target="_blank"><?= htmlspecialchars($k); ?></a>
+            <li class="nav-item p-0 m-0">
+                <a class="nav-link" href="<?= $v; ?>" target="_blank">
+                    <span class="text-trucate"><?= htmlspecialchars($k); ?></span>
+                </a>
             </li>            
             <?php endforeach; ?>             
         </ul>

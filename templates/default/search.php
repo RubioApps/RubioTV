@@ -33,7 +33,7 @@ defined('_TVEXEC') or die;
 use \RubioTV\Framework\Language\Text;
 
 ?>
-<section class="header-main border-bottom mb-2">
+<section class="header-main mb-2">
 	<div class="container">
        <div class="row p-1 pt-3 pb-3 d-flex align-items-center">
             <div class="col">
@@ -59,8 +59,7 @@ jQuery(document).ready(function(){
                 response( cache[ term ] );
                 return;
             }
-            $.getJSON('<?= $factory->Link($page->task.'.search', $page->folder, 
-                $page->source ? $page->source . ':' . $page->source_alias : null , null, 'format=json');?>', 
+            $.getJSON('<?= $factory->Link($factory->getTask().'.search', $page->folder, $page->source ? $page->source . ':' . $page->source_alias : null , null, 'format=json');?>', 
                 request, function( data, status, xhr ) {
                     cache[ term ] = data;
                     response( data );

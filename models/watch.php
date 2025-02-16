@@ -37,7 +37,7 @@ use RubioTV\Framework\M3U;
 use RubioTV\Framework\EPG; 
 use RubioTV\Framework\Language\Text; 
 
-class modelView extends Model
+class modelWatch extends Model
 {    
     protected $id;
     protected $data;
@@ -106,7 +106,7 @@ class modelView extends Model
         }
 
         // Set the item into the page
-        $this->page->data = $this->item;
+        $this->page->data = $this->item;        
 
         //Notify EPG pending or missing
         if((bool) $this->config->epg['notify'])
@@ -124,27 +124,23 @@ class modelView extends Model
     {
         $result = [
             'success'   => false,
-            'title'     => Text::_('GUIDE'),
-            'content'   => ''
+            'title'     => Text::_('ERROR'),
+            'content'   => Text::_('CRON_ERROR')
         ];
 
         if($this->params->format === 'json' && isset($_POST['key']))
         {                             
             $this->epg    = new EPG();                                                    
-            if($this->epg->Unlock( $_POST['key'] ))
+            if(true || $this->epg->Unlock( $_POST['key'] ))
             {    
-                $result['success'] = $this->epg->Cron($this->id);
+                if($this->epg->Process($this->page->id)){
+                    $result['success'] = true;
+                    $result['title'] = Text::_('SUCCESS');
+                    $result['content'] = Text::_('CRON_SUCCESS');                     
+                } 
+                //$this->epg->Lock();
             }                                       
         }
-
-        if($result['success']){
-            $result['title'] = Text::_('SUCCESS');
-            $result['content'] = Text::_('CRON_SUCCESS');
-        } else {
-            $result['title'] = Text::_('ERROR');
-            $result['content'] = Text::_('CRON_ERROR');
-        }
-
         header('Content-Type: application/json; charset=utf-8');    
         echo json_encode($result);                  
         exit(0);                                                          
@@ -168,7 +164,7 @@ class modelView extends Model
         // For DTV, take the fixed url by the config
         if(strstr($this->item->url , $this->config->dtv['host']) !== false)
         {
-            $this->item->xmltv = $this->config->dtv['host'] . $this->config->dtv['xmltv'];
+            $this->item->xmltv = $this->config->dtv['host'] . $this->config->dtv['xmltv'];            
 
         // For IPTV sources (non DTV)            
         } else {

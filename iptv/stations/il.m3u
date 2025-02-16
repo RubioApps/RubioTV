@@ -1,0 +1,20 @@
+#EXTM3U
+#EXTINF:-1 id="7b3658799e8664b42afc01776fafa742" radio="true" tvg-id="cdn.cybercdn.live" tvg-logo="https://station-images.prod.radio-api.net/300/radio103fm.png" group-title="Stations", Radio 103FM
+https://cdn.cybercdn.live/103FM/Live/icecast.audio
+#EXTINF:-1 id="386f986f1b7249a98042f10d34a8b5e5" radio="true" tvg-id="kanbet.media.kan.org.il" tvg-logo="https://station-images.prod.radio-api.net/300/reshetbet.png" group-title="Stations", Reshet Bet כאן | רשת ב
+https://kanbet.media.kan.org.il/hls/live/2024811/2024811/kanbet_mp3/chunklist.m3u8
+#EXTINF:-1 id="b012385bcf0ca78345c77015bf57e04e" radio="true" tvg-id="glzwizzlv.bynetcdn.com" tvg-logo="https://station-images.prod.radio-api.net/300/galgalatz.png" group-title="Stations", Galgalatz 91.8 FM
+https://glzwizzlv.bynetcdn.com/glglz_mp3
+#EXTINF:-1 id="0c644e8e98b0bafc9d6622edb860b0c1" radio="true" tvg-id="glzwizzlv.bynetcdn.com" tvg-logo="https://station-images.prod.radio-api.net/300/galeizahal.png" group-title="Stations", Galei Zahal Galatz 102.3
+https://glzwizzlv.bynetcdn.com/glz_mp3
+#EXTINF:-1 id="665d2b1d6d4647d1e35a653d49e43c10" radio="true" tvg-id="media2.93fm.co.il" tvg-logo="https://station-images.prod.radio-api.net/300/kcm.png group-title=" group-title="Stations", Radio Kol Haï Music KCM
+http://media2.93fm.co.il/livemusic
+#EXTINF:-1 id="886916b7c1a47ceb5066623ae9dfb41e" radio="true" tvg-id="102.livecdn.biz" tvg-logo="https://station-images.prod.radio-api.net/300/102fmtelaviv.png" group-title="Stations", 102 FM Radio Tel Aviv
+https://102.livecdn.biz/102fm_aac
+#EXTINF:-1 id="32f08322b6f71a4bbcd4d560c4288e6b" radio="true" tvg-id="kangimmel.media.kan.org.il" tvg-logo="https://station-images.prod.radio-api.net/300/kangimel.png" group-title="Stations", KAN GIMEL
+https://kangimmel.media.kan.org.il/hls/live/2024813/2024813/playlist.m3u8
+#EXTINF:-1 id="ee5b8fc5c047138ff3d1ea76082c653a" radio="true" tvg-id="cdn.cybercdn.live" tvg-logo="https://station-images.prod.radio-api.net/300/91fm-levhamedina.png" group-title="Stations", 91 FM Lev Ha'medina
+https://cdn.cybercdn.live/Lev_Hamedina/Audio/icecast.audio
+#EXTINF:-1 id="c42b6197148eec4c82c39b0eb7b3f28f" radio="true" tvg-id="cast.ereznet.co.il" tvg-logo="https://station-images.prod.radio-api.net/300/radiomaniail.png" group-title="Stations", Radio Mania Israel
+https://cast.ereznet.co.il/radio/8030/radio.mp3
+

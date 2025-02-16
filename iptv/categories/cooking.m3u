@@ -1,0 +1,57 @@
+#EXTM3U
+#EXTINF:-1 id="9285009d6e0903d76bc2dfc8c5433e2d" tvg-id="AmericasTestKitchen.us" tvg-logo="https://i.imgur.com/prMkTsZ.png" group-title="Cooking", America's Test Kitchen
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e84f54a82f05300080e6746/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c268074-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=29e05466-9808-43c4-9894-00b77be27051
+#EXTINF:-1 id="f2c7cf3c492690c119c2d113081298b0" tvg-id="BBCFood.us" tvg-logo="https://i.imgur.com/kcmHcSx.png" group-title="Cooking", BBC Food
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fb5844bf5514d0007945bda/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26f5a0-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c628f2e9-ff30-4bd0-9ff6-99fb1649f628
+#EXTINF:-1 id="3c21c9591ce04f3fca084c4a7e8dd3d2" tvg-id="bonappetit.us" tvg-logo="https://i.imgur.com/YhFFxlE.png" group-title="Cooking", bon appétit
+https://bonappetit-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="b17f74df9d4d6ff7a22d1587f18a7cd1" tvg-id="ChefChampion.us" tvg-logo="https://i.imgur.com/15a9pG9.png" group-title="Cooking", Chef Champion
+https://bozztv.com/gusa/gusa-chefchampion/index.m3u8
+#EXTINF:-1 id="8f3a3235fb47b00559a20765bcab5a43" tvg-id="ChefRocShow.us" tvg-logo="https://i.imgur.com/vhVnAzE.png" group-title="Cooking", Chef Roc Show
+https://bozztv.com/gusa/gusa-chefrock/index.m3u8
+#EXTINF:-1 id="6db65db72c617c5a9051be12bf384b95" tvg-id="CookingPanda.us" tvg-logo="https://i.imgur.com/bhY0Zcs.png" group-title="Cooking", Cooking Panda
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46
+#EXTINF:-1 id="84c5a738b4d8b0ab94de05b2288a1978" tvg-id="Food52.us" tvg-logo="https://i.imgur.com/cjvqjh2.png" group-title="Cooking", Food 52
+https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo1212A-redboxfood52A/CDN/master.m3u8
+#EXTINF:-1 id="c3002a815dcbd37b4f1f518b0588b2a4" tvg-id="FoodFood.in" tvg-logo="https://i.imgur.com/J930pA1.png" group-title="Cooking;Lifestyle", Food Food
+http://14.199.164.20:4001/play/a0qx/index.m3u8
+#EXTINF:-1 id="cab8af329bb025ebd4059360c23e0370" tvg-id="Foodies.us" tvg-logo="https://i.imgur.com/ff2kOul.png" group-title="Cooking", Foodies
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d0fbaa8742fa3093899da/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28ca67-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1858ec57-4da6-4f94-af3c-b2e9664fa9f4
+#EXTINF:-1 id="a29cfdfc22f0d7ee30bf485644d29617" tvg-id="GordonRamsaysHellsKitchen.us" tvg-logo="https://i.imgur.com/WgN4T18.png" group-title="Cooking", Gordon Ramsay's Hell's Kitchen
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5b4e99f4423e067bd6df6903/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c291882-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c7ee55eb-3425-4f5e-a567-3a1ed6ca44ec
+#EXTINF:-1 id="afebd6db81e2cce203fc25f394f4ad3e" tvg-id="HelloTaste.ro" tvg-logo="https://i.imgur.com/o0VJYrn.png" group-title="Cooking", Hello Taste
+https://stream1.antenaplay.ro/live/HelloTaste/playlist.m3u8
+#EXTINF:-1 id="3e323dfbe606ed1a0bc335e01194b664" tvg-id="Hungry.us" tvg-logo="https://i.imgur.com/MIUDYh0.png" group-title="Cooking", Hungry
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxhungry/CDN/playlist.m3u8
+#EXTINF:-1 id="b884da4b477dd119b1d095f90a176615" tvg-id="iFoodTV.us" tvg-logo="https://i.imgur.com/cBOkQtS.png" group-title="Cooking", iFood.TV
+https://ft-ifood-roku.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="1195901bca33118028da31e43c85b437" tvg-id="IntheKitchen.us" tvg-logo="https://i.imgur.com/HrRUd6r.png" group-title="Cooking;Shop", In the kitchen
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc4us/master.m3u8
+#EXTINF:-1 id="eea63779be41f668eac4a7adc59cdfd9" tvg-id="JuliaChild.us" tvg-logo="https://i.imgur.com/o5EPIyZ.png" group-title="Cooking", Julia Child
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/606b5ee42b54a100079dd593/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2966a3-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=88ac2596-0c05-4abb-a965-5fc31339f864
+#EXTINF:-1 id="33ecda10ef1641f459d61ca782063b82" tvg-id="MadDogandMerrill.us" tvg-logo="https://i.imgur.com/5QQy3aW.png" group-title="Cooking", Mad Dog and Merrill
+https://bozztv.com/gusa/gusa-mwg/index.m3u8
+#EXTINF:-1 id="b9aaa548a29c880e157378630676d3a9" tvg-id="PlutoTVCocina.es" tvg-logo="https://i.imgur.com/LRtfQla.png" group-title="Cooking", Pluto TV Cocina
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d8d0fbaa8742fa3093899da/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 id="a97a3ade7093fcf7b81b46f5e5ae8d87" tvg-id="SamiraTV.dz" tvg-logo="https://i.imgur.com/XZzINfq.png" group-title="Cooking", Samira TV
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dzflix/samira.m3u8
+#EXTINF:-1 id="923b56706b1dcb1a12c391baa012dbe4" tvg-id="SoYummy.us" tvg-logo="https://i.imgur.com/ju2NyoL.png" group-title="Cooking", So Yummy!
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxsoyummy/CDN/playlist.m3u8
+#EXTINF:-1 id="ce32ea2f4ab6b66be4a688bf545c2b48" tvg-id="Tastemade.us" tvg-logo="https://i.imgur.com/xP7Ehn8.png" group-title="Cooking", Tastemade
+https://tastemade-es16tm-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="be16c8a7c4ed24b698fba4866346aade" tvg-id="Tastemade.au" tvg-logo="https://i.imgur.com/rR7CLzZ.png" group-title="Cooking", Tastemade Australia
+https://tmint-aus-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="a4b450a81daccd305c4e33ecd87c72a9" tvg-id="TastemadeBrasil.br" tvg-logo="https://i.imgur.com/FPy4zF4.png" group-title="Cooking", Tastemade Brasil
+https://tastemade-pt16intl-samsungbrazil.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="76a07ab33d67a951a3d0236b061ef2c2" tvg-id="Tastemade.de" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking", Tastemade Deutschland
+https://tastemade-de-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="4e212ec3c182d195b9ba1e7da6b7b8fb" tvg-id="TastemadeenEspanol.us" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking", Tastemade en Español
+https://tastemadees16intl-samsungmexico.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="fb0b4b4715b65628121d36e0fadb16b6" tvg-id="Tastemade.fr" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking", Tastemade France
+https://tastemadefr16min-redbox.amagi.tv/hls/amagi_hls_data_tastemade-tastemadefreetv16-redbox/CDN/playlist.m3u8
+#EXTINF:-1 id="02c27b730753a69f650c3381c2b176cd" tvg-id="TastemadeTravel.us" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking", Tastemade Travel
+https://amg00047-tastemade-amg00047c3-cineverse-us-1360.playouts.now.amagi.tv/playlist/amg00047-tastemadefast-tastemadetravel-cineverseus/playlist.m3u8
+#EXTINF:-1 id="9365c11d6a8d1d6651b183cffeb7b321" tvg-id="KukhnyaTV.ru" tvg-logo="https://i.imgur.com/7jxZnuS.png" group-title="Cooking", Кухня ТВ HD
+http://stream01.vnet.am/KukhnyaTv/mono.m3u8
+#EXTINF:-1 id="79b4cf4b9bf71b8a8aa262a4037be105" tvg-id="Telecafe.ru" tvg-logo="https://i.imgur.com/1H3h1HL.png" group-title="Cooking", Телекафе
+http://stream01.vnet.am/Telekafe/mono.m3u8

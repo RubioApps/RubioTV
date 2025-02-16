@@ -44,7 +44,12 @@ define('TV_IPTV', TV_BASE . DIRECTORY_SEPARATOR . 'iptv');
 define('TV_EPG', TV_BASE . DIRECTORY_SEPARATOR . 'epg');
 define('TV_EPG_QUEUE', TV_EPG . DIRECTORY_SEPARATOR . 'queue');
 define('TV_EPG_SAVED', TV_EPG . DIRECTORY_SEPARATOR . 'saved');
+define('TV_EPG_EXPIRED', TV_EPG . DIRECTORY_SEPARATOR . 'expired');
+define('TV_EPG_SNAPSHOTS', TV_EPG . DIRECTORY_SEPARATOR . 'snapshots');
 define('TV_CACHE', TV_BASE . DIRECTORY_SEPARATOR . 'cache');
+define('TV_CACHE_CHANNELS', TV_CACHE . DIRECTORY_SEPARATOR . 'channels');
+define('TV_CACHE_STATIONS', TV_CACHE . DIRECTORY_SEPARATOR . 'stations');
+define('TV_RADIO', TV_CACHE . DIRECTORY_SEPARATOR . 'radio');
 define('TV_SEF', TV_BASE . DIRECTORY_SEPARATOR . 'sef');
 
 define('ERR_NONE', 0);
@@ -65,6 +70,6 @@ define('ERR_INVALID_LISTNAME', 105);
 define('ERR_MISSING_LISTNAME', 106);
 define('ERR_MAX_LISTS_REACHED', 107);
 
-
+define('TV_BLANK','data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==');
 define('IV_KEY', '8w)kz^r71Z^V]*X');
 

@@ -54,12 +54,22 @@ class modelGuides extends Model
         $this->page->data           = $this->_data();       
         $this->page->link           = $this->_link();
 
-        foreach($this->data as $e)
-            $e-> link = Factory::Link('view', $this->page->folder , $this->page->source . ':' . $this->page->source_alias , 
-                $e->id . ':' . $e->name);
-
+        if(isset($this->page->data) && is_array($this->page->data))
+        {
+            foreach($this->data as $e)
+                $e-> link = Factory::Link('watch', $this->page->folder , $this->page->source . ':' . $this->page->source_alias , 
+                    $e->id . ':' . $e->name);
+        }
         parent::display();
     }    
+
+    public function get( $folder , $source)
+    {
+        $this->params->folder = $folder;
+        $this->params->source = $source;
+        return $this->_data();  
+    }
+
     protected function _data()
     {    
         $this->epg = new EPG(); 

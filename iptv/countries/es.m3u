@@ -1,0 +1,681 @@
+#EXTM3U
+#EXTINF:-1 id="ca14d69116315fa11457ce66c42fe501" tvg-id="324.es" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/21/324_%28CCMA%29_logo.svg/revision/latest/scale-to-width-down/512" group-title="News", 3/24
+https://directes-tv-int.ccma.cat/live-origin/canal324-hls/master.m3u8
+#EXTINF:-1 id="bcf9d063b3565a461f23a8d185c6836c" tvg-id="Canal7TeleValencia.es" tvg-logo="https://i.imgur.com/ILfXDRs.png" group-title="General", 7 TeleValencia
+https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8
+#EXTINF:-1 id="451dd4f5000f988ecf109a286c3d0c99" tvg-id="La7.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/La_7_logo.svg/150px-La_7_logo.svg.png" group-title="Undefined", 7 Televisión Región de Murcia
+https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3u8
+#EXTINF:-1 id="af15ba40cd2f0e9dc8fd343776e40962" tvg-id="8LaMarinaTV.es" tvg-logo="https://i.imgur.com/BTJvvBK.png" group-title="General", 8 La Marina TV
+https://streaming005.gestec-video.com/hls/canal24.m3u8
+#EXTINF:-1 id="7bfdafe03ab3ecd1edfb36cc7d1902ad" tvg-id="9laLomaTV.es" tvg-logo="https://i.imgur.com/WQP3el2.png" group-title="General", 9 la Loma TV
+https://9laloma.tv/live.m3u8
+#EXTINF:-1 id="399a6a04160b52a0c97ce60d105c2e2e" tvg-id="12tv.es" tvg-logo="https://i.imgur.com/VSTgXsh.png" group-title="General", 12tv
+https://cloud.streamingconnect.tv/hls/12tv/12tv2.m3u8
+#EXTINF:-1 id="1a613f8b755810941afff41a8ccab14c" tvg-id="24HorasInternacional.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" group-title="News", 24 Horas Internacional
+https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8
+#EXTINF:-1 id="afd95d9fbc0a74ad6b84f6a32fcd144f" tvg-id="28kanala.es" tvg-logo="https://i.imgur.com/DyvK28q.png" group-title="General", 28 kanala
+https://5940924978228.streamlock.net/8157/8157/master.m3u8
+#EXTINF:-1 id="a3bd7575703e2c435aabc2397ef0c733" tvg-id="101tvAntequera.es" tvg-logo="https://i.imgur.com/GzI3RC4.png" group-title="General", 101tv Antequera
+https://www.streaming101tv.es:19360/antequera/antequera.m3u8
+#EXTINF:-1 id="4f5cb201967b68b8dc0d10aed54e2aab" tvg-id="101tvAxarquia.es" tvg-logo="https://i.imgur.com/GzI3RC4.png" group-title="General", 101tv Axarquia
+https://www.streaming101tv.es:19360/axarquia/axarquia.m3u8
+#EXTINF:-1 id="624a86565913624c1ed64414c045e643" tvg-id="101tvCadiz.es" tvg-logo="https://i.imgur.com/GzI3RC4.png" group-title="General", 101tv Cádiz
+https://streaming101tv.es/hls/webcadiz.m3u8
+#EXTINF:-1 id="26dd377f745b4187fd0bf2de50bca881" tvg-id="101tvMalaga.es" tvg-logo="https://yt3.googleusercontent.com/IIUzjqsChpzsjIafaLfwhZltNxslCol_0xoGEgNvquhPtyeQW03tDUN7yiTiiaININ2UUjmzXO4=s512-c-k-c0x00ffffff-no-rj" group-title="News", 101tv Málaga
+https://limited38.todostreaming.es/live/101tv-web101tv.m3u8
+#EXTINF:-1 id="48c49650a755eaf09f552725fcdecb15" tvg-id="101tvRonda.es" tvg-logo="https://i.imgur.com/GzI3RC4.png" group-title="General", 101tv Ronda
+https://streaming101tv.es/hls/webronda.m3u8
+#EXTINF:-1 id="717947a37f56c66ee58a4ed87c212b9b" tvg-id="101tvSevilla.es" tvg-logo="https://i.imgur.com/GzI3RC4.png" group-title="General", 101tv Sevilla
+https://streaming101tv.es/hls/websevilla.m3u8
+#EXTINF:-1 id="ea720b4ab66e2a55387872cad64acfe7" tvg-id="ANoveTV.es" tvg-logo="https://i.ibb.co/JKpTCwP/LOGO-TV-SOMBRA.png" group-title="General", A Nove TV
+https://ythls.armelin.one/channel/UC9dfpRzwL7gyukOK0UtnYyQ.m3u8
+#EXTINF:-1 id="682c840b7b627b1763807c9f2ccdaaa8" tvg-id="APunt.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Logotip_d%27%C3%80_Punt_%282017-%29.svg/512px-Logotip_d%27%C3%80_Punt_%282017-%29.svg.png" group-title="General", À Punt
+https://bcovlive-a.akamaihd.net/1e7e91116b104391a4f22e13a694d94f/eu-central-1/6057955885001/playlist_dvr.m3u8
+#EXTINF:-1 id="901fdb90c9547f588deab642f45fca9c" tvg-id="ActivaTV.es" tvg-logo="https://i.imgur.com/VCUZKiw.png" group-title="Music", Activa TV
+https://streamtv.mediasector.es/hls/activatv/index.m3u8
+#EXTINF:-1 id="37d32106bbaababde895e4f2467e1817" tvg-id="AfortunadasTV.es" tvg-logo="https://i.imgur.com/geVZYUA.png" group-title="Undefined", Afortunadas TV
+https://cloudvideo.servers10.com:8081/8108/index.m3u8
+#EXTINF:-1 id="f09518f860cfb1868017b4fa4e896d97" tvg-id="AlacantiTV.es" tvg-logo="https://i.imgur.com/pcWU6e1.png" group-title="General", Alacantí TV
+https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8
+#EXTINF:-1 id="9b7942d91cbaf8f79c0566f7d2dca283" tvg-id="AlcarriaTV.es" tvg-logo="https://i.imgur.com/pzJAYan.png" group-title="General", Alcarria TV
+http://217.182.77.27/live/alcarriatv-livestream.m3u8
+#EXTINF:-1 id="aea24ffb27dcc0cf46728a45939443dd" tvg-id="AMC.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/512px-AMC_logo_2019.svg.png" group-title="Movies", AMC
+https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge4/smil:87_HD.smil/manifest.m3u8
+#EXTINF:-1 id="f8eefafdb15d3e2e09c1339f9dd194c2" tvg-id="AnimeZoneTV.do" tvg-logo="https://i.imgur.com/AHaXlCh.png" group-title="Animation", Anime Zone TV
+http://animezonetv.net/hls/stream.m3u8
+#EXTINF:-1 id="fdea050abd28db4e8f70f6642d4b7f25" tvg-id="ArabiTV.es" tvg-logo="https://i.ibb.co/9Vp9Ghg/LOGO-WEB-ARABI-TV-3.png" group-title="General", Arabí TV
+https://streamtv2.elitecomunicacion.cloud:3956/live/arabitvlive.m3u8
+#EXTINF:-1 id="b61a588f972cb7db17bdfa74390282b2" tvg-id="AragonTV.es" tvg-logo="https://i.imgur.com/6YSi1zW.png" group-title="General", Aragón TV
+https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
+#EXTINF:-1 id="351a08afc722e7f08db83a3ac7047f87" tvg-id="Atreseries.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Atreseries_2020_logo.svg/512px-Atreseries_2020_logo.svg.png" group-title="Series", Atreseries
+https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge2/smil:10_HD.smil/manifest.m3u8
+#EXTINF:-1 id="8b768ecaa29d7c15f415461bb4559616" tvg-id="BailenTV.es" tvg-logo="https://i.imgur.com/a64hwzq.png" group-title="Undefined", Bailén TV
+http://cpd.bailen.tv:8080/Playlist_CANAL_24H/playlist.m3u8
+#EXTINF:-1 id="4a7b0b3b6630ebb5201b8ad087ec77ee" tvg-id="BBCDrama.es" tvg-logo="https://i.imgur.com/HctHhLL.png" group-title="Series", BBC Drama
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60dafb9a0df1ba000758d37b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 id="90c16f90b8c10ba66f56457b2a111057" tvg-id="BBCNewsEurope.uk" tvg-logo="https://i.imgur.com/REuN9RR.png" group-title="News", BBC World News
+http://ott-cdn.ucom.am/s24/index.m3u8
+#EXTINF:-1 id="f92045506daf370e9c1e31e8b557d69c" tvg-id="BDN.es" tvg-logo="https://i.imgur.com/ktasO33.png" group-title="News", BDNCOM
+https://liveingesta318.cdnmedia.tv/badalonatvlive/smil:live.smil/playlist.m3u8
+#EXTINF:-1 id="336ed5ff07b7cad34476e74505252dc6" tvg-id="BeMad.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Be_Mad_TV.svg/512px-Be_Mad_TV.svg.png" group-title="Undefined", Be Mad
+https://spa-ha-p002.cdn.masmediatv.es/SVoriginOperatorEdge/smil:20_HD.smil/index.m3u8
+#EXTINF:-1 id="135f2913ac733fcc3cd9f9e7a075d8dc" tvg-id="Beteve.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Logotip_betev%C3%A9.svg/512px-Logotip_betev%C3%A9.svg.png" group-title="Undefined", Betevé
+https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_n6442jz0/format/applehttp/.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0
+#EXTINF:-1 id="c7464a13028f69df8b8f3cb70378076f" tvg-id="BiosferaTV.es" tvg-logo="https://i.imgur.com/khytcgd.png" group-title="Undefined", Biosfera TV
+https://tvdatta.com:3021/live/biosferatvlive.m3u8
+#EXTINF:-1 id="4a08cfe19a64a141a3c0323012623801" tvg-id="BloombergTVEMEALiveEvent.uk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business", Bloomberg TV EMEA Live Event
+https://bloomberg.com/media-manifest/streams/eu-event.m3u8
+#EXTINF:-1 id="a6fe07536a802e9b1396497a390d4fb0" tvg-id="BloombergTVEurope.uk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business", Bloomberg TV Europe
+https://bloomberg.com/media-manifest/streams/eu.m3u8
+#EXTINF:-1 id="24ec4da163bfe4407e16bcce0afd1207" tvg-id="Boing.es" tvg-logo="https://i.imgur.com/nUYuCAP.png" group-title="Kids", Boing
+https://spa-ha-p002.cdn.masmediatv.es/SVoriginOperatorEdge/smil:17_HD.smil/index.m3u8
+#EXTINF:-1 id="912b346fad5780723b064002c3bbfefe" tvg-id="BonDiaTV.es" tvg-logo="https://i.imgur.com/90WOoro.png" group-title="Undefined", Bon Dia TV
+https://directes-tv-int.ccma.cat/live-origin/bondia-hls/master.m3u8
+#EXTINF:-1 id="f763c91c7748c7c3286e139eaa70264b" tvg-id="BurrianaTeVe.es" tvg-logo="https://i.imgur.com/G3nIGHh.png" group-title="General", Burriana TV
+https://www.burrianateve.com/hls/btv.m3u8
+#EXTINF:-1 id="2770606e44d1f310db59c2e5e6d73faa" tvg-id="CadenaElite.es" tvg-logo="https://i.imgur.com/3yeGDTP.png" group-title="Music", Cadena Elite
+https://cloudvideo.servers10.com:8081/8004/index.m3u8
+#EXTINF:-1 id="35b78f78981016c8aad23e6c6d2c7fa3" tvg-id="Calle13Universal.es" tvg-logo="https://i.imgur.com/Lu1l4qD.png" group-title="Undefined", Calle 13 Universal
+https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge3/smil:96_HD.smil/manifest.m3u8
+#EXTINF:-1 id="8a59ba4b6a7748dc3388ce0f306c176e" tvg-id="Canal1MarMenorTorrePacheco.es" tvg-logo="https://i.imgur.com/MQOwCdZ.png" group-title="General;News", Canal 1 Mar Menor-Torre Pacheco
+https://directo.tuwebtv.es/canal1.m3u8
+#EXTINF:-1 id="405b0c7c7a8473d48f05832ec850704a" tvg-id="Canal3TVBiar.es" tvg-logo="https://i.imgur.com/cnKCZkK.png" group-title="General", Canal 3 Biar
+https://avantstreaming.es/hls/canal3.m3u8
+#EXTINF:-1 id="86ba5c99293a36cf31131b8fec11f93f" tvg-id="Canal4Catalunya.es" tvg-logo="https://i.imgur.com/tQh8C3s.png" group-title="General", Canal 4 Catalunya
+https://limited35.todostreaming.es/live/mitjans-livestream.m3u8
+#EXTINF:-1 id="4f067947654d98181cbf25bf60746237" tvg-id="Canal4Mallorca.es" tvg-logo="https://i.imgur.com/tQh8C3s.png" group-title="General", Canal 4 Mallorca
+https://limited35.todostreaming.es/live/mitjans-livestream1.m3u8
+#EXTINF:-1 id="27169214de297c58ebeff5614cfaaf4b" tvg-id="Canal4ManchaCentro.es" tvg-logo="https://i.imgur.com/t3O3O9M.png" group-title="Undefined", Canal 4 Mancha Centro
+https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8
+#EXTINF:-1 id="66f3bc46eb98c554082139b5445e7a31" tvg-id="Canal4Tenerife.es" tvg-logo="https://i.imgur.com/Egymir4.png" group-title="Undefined", Canal 4 Tenerife
+https://5940924978228.streamlock.net/Directo2/Directo2/playlist.m3u8
+#EXTINF:-1 id="a24c8316d57d16089441dc3e41989fe2" tvg-id="Canal10Emporda.es" tvg-logo="https://i.imgur.com/ojQ6wzX.png" group-title="Undefined", Canal 10 Empordà
+http://ventdelnord.tv:8080/escala/directe.m3u8
+#EXTINF:-1 id="09a490eb473755021917cadb167052bd" tvg-id="24Horas.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" group-title="News", Canal 24 Horas
+https://rtvelivestream-clnx.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
+#EXTINF:-1 id="278ce1991c81c97ca4e01b05d3afe033" tvg-id="24HorasCanarias.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" group-title="News", Canal 24 Horas Canarias
+https://rtvelivestream.akamaized.net/rtvesec/can/24h_can_main_dvr.m3u8
+#EXTINF:-1 id="335d0891d91f503e9bafb8a402457484" tvg-id="24HorasCatalunya.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" group-title="News", Canal 24 Horas Catalunya
+https://rtvelivestream.akamaized.net/rtvesec/cat/24h_cat_main_dvr.m3u8
+#EXTINF:-1 id="1f3e0d06c5a85424fa462facb10ab0a1" tvg-id="Canal25TV.es" tvg-logo="https://i.imgur.com/2BBGZ1H.png" group-title="Undefined", Canal 25 TV
+https://common01.todostreaming.es/live/tvbarbastro-livestream.m3u8
+#EXTINF:-1 id="61a789eaabb65c5c9aef5f8beb8b209d" tvg-id="Canal33Madrid.es" tvg-logo="https://i.imgur.com/1zJpDIX.png" group-title="Undefined", Canal 33 Madrid
+https://5ab29cc78f681.streamlock.net/canal33tvmadridgmailcom/livestream/master.m3u8
+#EXTINF:-1 id="c14d2a366fa11f2cec4bba12467f37b8" tvg-id="Canal45.es" tvg-logo="https://i.imgur.com/yEfSnGt.png" group-title="Undefined", Canal 45
+https://nlb1-live.emitstream.com/hls/625csn5et2iszm9oze65/master.m3u8
+#EXTINF:-1 id="79ec3239164de91b25bfc921bc5974bd" tvg-id="Canal56.es" tvg-logo="https://i.imgur.com/pwRVbCz.png" group-title="Undefined", Canal 56
+https://videos.canal56.com/directe/stream/index.m3u8
+#EXTINF:-1 id="033b618970bc5c56303e0cb22627d8ba" tvg-id="Canal2000.es" tvg-logo="https://i.imgur.com/9RoBASf.png" group-title="Undefined", Canal 2000 La Solana
+http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8
+#EXTINF:-1 id="044e9ae770dbf98dfa8ea16da20d16ef" tvg-id="CanalCoinTV.es" tvg-logo="https://i.imgur.com/3QPJIpa.png" group-title="General", Canal Coín
+https://canalcoin.garjim.es/hls/directo.m3u8
+#EXTINF:-1 id="64f147e8c361dfee5d1fb023b879d694" tvg-id="CanalDiocesano.es" tvg-logo="https://i.imgur.com/uWhVKL3.png" group-title="Undefined", Canal Diocesano
+https://nlb2-live.emitstream.com/hls/5i3pxfuz4az356yu22ij/master.m3u8
+#EXTINF:-1 id="4088e486884144a0533f1472a07f5ddb" tvg-id="CanalDonana.es" tvg-logo="https://i.imgur.com/0WrKIxm.png" group-title="Undefined", Canal Doñana
+https://secure5.todostreaming.es/live/division-alm.m3u8
+#EXTINF:-1 id="f8b1ec92a83ea3ca4b8eb9fc24997da1" tvg-id="CanalExtremadura.es" tvg-logo="https://i.imgur.com/pjqGrEo.png" group-title="General", Canal Extremadura
+https://cdnlive.codev8.net/canalextremaduralive/smil:channel1DVR.smil/playlist.m3u8?DVR=
+#EXTINF:-1 id="4bade7d6d85e3abd48cfcbe2e6c802d2" tvg-id="CanalLuzTelevision.es" tvg-logo="https://i.imgur.com/H3JzQ1G.jpg" group-title="General", Canal Luz Televisión
+https://5d8d85cf2c308.streamlock.net:1936/CanalLuz/enDirecto/playlist.m3u8
+#EXTINF:-1 id="69d9d7d23cb012373fdb8d2da643b128" tvg-id="CanalMalagaRTV.es" tvg-logo="https://i.imgur.com/QSUOxtM.png" group-title="General", Canal Málaga RTV
+https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="8f3c7f6df7ebaf9ebb8fd469c352b9ab" tvg-id="CanalParlamento.es" tvg-logo="https://i.imgur.com/BUO0wH6.png" group-title="Legislative", Canal Parlamento
+https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8
+#EXTINF:-1 id="49ccf1bca19154c679c94a4a4f5293a2" tvg-id="CanalRed.es" tvg-logo="https://i.imgur.com/6pExdIs.png" group-title="News", Canal Red
+https://ythls.armelin.one/channel/UCky112obBMG68Nw5MrSNNPA.m3u8
+#EXTINF:-1 id="436d1b90bb862c06bde25945f07f86e0" tvg-id="CanalReusTV.es" tvg-logo="https://i.imgur.com/HYRc9sJ.png" group-title="General", Canal Reus TV
+https://liveingesta318.cdnmedia.tv/canalreustvlive/smil:live.smil/playlist.m3u8
+#EXTINF:-1 id="d4fe8087670399a031ff7a9151152d8a" tvg-id="CanalSanRoque.es" tvg-logo="https://i.imgur.com/QBzvCJc.png" group-title="General", Canal San Roque
+https://cdnlivevlc.codev8.net/aytosanroquelive/smil:channel1.smil/playlist.m3u8
+#EXTINF:-1 id="bb061e130e1438f354f7abd79034a44f" tvg-id="CanalSierradeCadiz.es" tvg-logo="https://i.imgur.com/94rn7pb.png" group-title="General", Canal Sierra de Cádiz
+https://s.emisoras.tv:8081/sierradecadiz/index.m3u8
+#EXTINF:-1 id="e862828a7b1f5950f0f29d6017ab18d7" tvg-id="CanalSur2.es" tvg-logo="https://i.imgur.com/VZjtGvm.png" group-title="General", Canal Sur Andalucía 2
+https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
+#EXTINF:-1 id="82b1b08001369b233c30e175fac71059" tvg-id="CanalSurAndalucia.es" tvg-logo="https://i.imgur.com/fJhkyZP.png" group-title="General", Canal Sur Andalucía
+https://cdnlive.codev8.net/rtvalive/smil:channel1.smil/playlist.m3u8
+#EXTINF:-1 id="a39d3a1f18d7ca79f3e56740aff1721e" tvg-id="CanalTaronjaAnoia.es" tvg-logo="https://i.imgur.com/RP8VcqZ.png" group-title="General", Canal Taronja Anoia
+https://ingest1-video.streaming-pro.com/canaltaronja/anoia/playlist.m3u8
+#EXTINF:-1 id="5ecc4f8c53149ed0b4c90ea0e123e2c5" tvg-id="CanalTaronjaComarquesCentrals.es" tvg-logo="https://i.imgur.com/RP8VcqZ.png" group-title="General", Canal Taronja Comarques Centrals
+https://ingest1-video.streaming-pro.com/canaltaronja/central/playlist.m3u8
+#EXTINF:-1 id="c7cd41b6cd099b36d069d2d93fcf9c77" tvg-id="CanalTaronjaOsonaiMoianes.es" tvg-logo="https://i.imgur.com/RP8VcqZ.png" group-title="General", Canal Taronja Osona i Moianés
+https://ingest1-video.streaming-pro.com/canaltaronja/osona/playlist.m3u8
+#EXTINF:-1 id="a546c717bdc79d5287e7b474a4eb78ee" tvg-id="CanalTerrassa.es" tvg-logo="https://i.imgur.com/5fc5ZyI.png" group-title="Undefined", Canal Terrassa
+https://ingest2-video.streaming-pro.com/canalterrassa/stream/playlist.m3u8
+#EXTINF:-1 id="aa7b335b29181cdde7b62565ed8b61f2" tvg-id="CanalTerresdelEbre.es" tvg-logo="https://i.ibb.co/3ynghbW/logox2.png" group-title="General", Canal Terres de L'Ebre
+https://ingest1-video.streaming-pro.com/canalteABR/ctestream/playlist.m3u8
+#EXTINF:-1 id="bb13a6d590c687f21038f3a477c79dd0" tvg-id="CanalCosta.es" tvg-logo="https://i.imgur.com/ap4FmYb.png" group-title="Undefined", CanalCosta
+https://5d8d85cf2c308.streamlock.net:1936/CanalcostaTV/endirecto/playlist.m3u8
+#EXTINF:-1 id="b9c33d64563cc3a5915d465eea1f08a4" tvg-id="CancioneroTV.es" tvg-logo="https://i.imgur.com/tbboALa.png" group-title="Undefined", Cancionero TV
+http://89.140.229.5/hls1/cancionero.m3u8
+#EXTINF:-1 id="eab1632168681267065500b3bbdce494" tvg-id="CCMAExclusiu1.es" tvg-logo="https://i.imgur.com/Uja11ZN.png" group-title="Undefined", CCMA Exclusiu 1
+https://directes-tv-cat.ccma.cat/live-origin/oca1-hls/master.m3u8
+#EXTINF:-1 id="bf50a2c3b9de8d82f9083925ce676e13" tvg-id="CCMAExclusiu2.es" tvg-logo="https://i.imgur.com/tkTMKYZ.png" group-title="Undefined", CCMA Exclusiu 2
+https://directes-tv-cat.ccma.cat/live-origin/oca2-hls/master.m3u8
+#EXTINF:-1 id="3ad6877e5990acb363aadaab49a53e28" tvg-id="CCMAExclusiu3.es" tvg-logo="https://i.imgur.com/tkTMKYZ.png" group-title="Undefined", CCMA Exclusiu 3
+https://directes-tv-cat.ccma.cat/live-origin/oca3-hls/master.m3u8
+#EXTINF:-1 id="4f0337cafb362cc4cd9235e84f62249a" tvg-id="CetelmonTV.es" tvg-logo="https://i.imgur.com/GGn7itj.png" group-title="Religious", Cetelmón TV
+http://player.cetelmon.tv/protecteddfd43c2f3a8b41f3f28582bf8993aca6/992_high.m3u8
+#EXTINF:-1 id="f8bc80d10c38bccb2be47b0c9e8659c6" tvg-id="CiudadRealTV.es" tvg-logo="https://i.imgur.com/mh07Om9.png" group-title="General", Ciudad Real TV
+https://ythls.armelin.one/channel/UCNxFBlUBOaI3iQW37T3hFww.m3u8
+#EXTINF:-1 id="0f689250511fcadf87e99af3ece43e4a" tvg-id="CiudadesdelOcioTV.es" tvg-logo="https://i.imgur.com/CTQgqsM.png" group-title="Entertainment", Ciudades Del Ocio TV
+https://cloudvideo.servers10.com:8081/8024/index.m3u8
+#EXTINF:-1 id="5bc640e21738d2bd6582af55f7f67a3a" tvg-id="Clan.es" tvg-logo="https://i.imgur.com/03jFV68.png" group-title="Kids", Clan TVE
+https://rtvelivestream.akamaized.net/rtvesec/clan/clan_main_dvr.m3u8
+#EXTINF:-1 id="9ede6366a693434e69654e94022fad87" tvg-id="CMMTV.es" tvg-logo="https://i.imgur.com/9siClBC.png" group-title="General", CMM TV
+https://cdnapi.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_01fn4ycl/format/applehttp/.m3u8
+#EXTINF:-1 id="75531b67abcd39a5044ad3488c9c6f27" tvg-id="Condavision.es" tvg-logo="https://i.imgur.com/dlrazec.png" group-title="Culture", Condavisión
+https://5d8d85cf2c308.streamlock.net:1936/Condavision/endirecto/playlist.m3u8
+#EXTINF:-1 id="e0a97fb8a074e4cf53818c97b22f1600" tvg-id="CongresodelosDiputados1.es" tvg-logo="https://i.imgur.com/3Qxpe72.png" group-title="Legislative", Congreso de los Diputados 1
+https://congresodirecto.akamaized.net/hls/live/2038274/canal1/master.m3u8
+#EXTINF:-1 id="d7673cf7526b6901fa10fc17dfd039e7" tvg-id="CongresodelosDiputados2.es" tvg-logo="https://i.imgur.com/ffN2LE3.png" group-title="Legislative", Congreso de los Diputados 2
+https://congresodirecto.akamaized.net/hls/live/2038275/canal2/master.m3u8
+#EXTINF:-1 id="a40c147f38628bc4bfeed70442862136" tvg-id="CongresodelosDiputados3.es" tvg-logo="https://i.imgur.com/2LAzcH8.jpg" group-title="Legislative", Congreso de los Diputados 3
+https://congresodirecto.akamaized.net/hls/live/2038276/canal3/master.m3u8
+#EXTINF:-1 id="d838b82d2e6732dca067fb27568e1330" tvg-id="CongresodelosDiputados4.es" tvg-logo="https://i.imgur.com/2LAzcH8.jpg" group-title="Legislative", Congreso de los Diputados 4
+https://congresodirecto.akamaized.net/hls/live/2038277/canal4/master.m3u8
+#EXTINF:-1 id="6068a5ea4db4351f68eb7282f4c08a70" tvg-id="CongresodelosDiputados5.es" tvg-logo="https://i.imgur.com/2LAzcH8.jpg" group-title="Legislative", Congreso de los Diputados 5
+https://congresodirecto.akamaized.net/hls/live/2038278/canal5/master.m3u8
+#EXTINF:-1 id="0adeb230196ee48ccb6b9c87c0467323" tvg-id="CordobaTV.es" tvg-logo="https://i.imgur.com/qVe0hET.png" group-title="News", Córdoba TV
+https://cloudvideo.servers10.com:8081/8020/index.m3u8
+#EXTINF:-1 id="ce447fe4cd423dcc66ee0e695813057b" tvg-id="CortsValencianes.es" tvg-logo="https://i.imgur.com/bVkRBg5.png" group-title="Legislative", Corts Valencianes
+https://streamserver3.seneca.tv/cval_live/cdn_enc_3/master.m3u8
+#EXTINF:-1 id="c55027798a00cfe0a749a71b03c94506" tvg-id="COSMO.es" tvg-logo="https://i.imgur.com/L2KKKuB.png" group-title="Undefined", COSMO
+https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge4/smil:75_HD.smil/manifest.m3u8
+#EXTINF:-1 id="58bf34d2c3408503c7d409dad570766d" tvg-id="CostaNoroesteTV.es" tvg-logo="https://i.imgur.com/iM9AN6Z.png" group-title="General", Costa Noroeste TV
+https://limited31.todostreaming.es/live/noroestetv-livestream.m3u8
+#EXTINF:-1 id="df7ce3442fc2192bbf1868ac6eb76ef6" tvg-id="CostadelSolTV.es" tvg-logo="https://i.imgur.com/01acb17.png" group-title="General", CostadelSol TV
+https://limited11.todostreaming.es/live/benalmadena-livestream.m3u8
+#EXTINF:-1 id="2013709b03bb813ab2b74c453a370a87" tvg-id="CristianaTV.es" tvg-logo="https://i.imgur.com/FpkNIIG.jpg" group-title="Religious", Cristiana TV
+https://cristianos2.todostreaming.es/live/malaga-livestream.m3u8
+#EXTINF:-1 id="97730af0f4ef2df7fd3dbfad20c866fb" tvg-id="Cuatro.es" tvg-logo="https://i.imgur.com/NYLnABb.png" group-title="General", Cuatro
+https://spa-ha-p002.cdn.masmediatv.es/SVoriginOperatorEdge/smil:9_HD.smil/index.m3u8
+#EXTINF:-1 id="247ba257432002e22d7ab4e80bcc47ce" tvg-id="CugatTV.es" tvg-logo="https://i.imgur.com/0WQC25N.png" group-title="General", Cugat TV
+https://liveingesta318.cdnmedia.tv/cugatcatlive/smil:rtmp01.smil/playlist.m3u8
+#EXTINF:-1 id="b7c103b6f230bf502884fa39254afc15" tvg-id="DejatedeHistoriasTV.es" tvg-logo="https://i.imgur.com/Vortgm7.png" group-title="Entertainment", Déjate de Historias TV
+https://ythls.armelin.one/channel/UChMCkc02GVSi89TrvhbRasA.m3u8
+#EXTINF:-1 id="7606a3933ad7ea2e4b5e76bda58c8ab9" tvg-id="DiezTVLasVillas.es" tvg-logo="https://i.imgur.com/QTA40lP.png" group-title="General", Diez TV Las Villas
+https://streaming.cloud.innovasur.es/mmj2/index.m3u8
+#EXTINF:-1 id="afcd7fb3626c1808f2dc6611f34606de" tvg-id="DiezTVUbeda.es" tvg-logo="https://i.imgur.com/o2a7s4W.png" group-title="General", Diez TV Úbeda
+https://streaming.cloud.innovasur.es/mmj/index.m3u8
+#EXTINF:-1 id="ff177987fe3c3995620dc9ab951ad100" tvg-id="DisneyChannel.es" tvg-logo="https://i.imgur.com/CFS67yj.png" group-title="Kids", Disney Channel
+https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge2/smil:21_HD.smil/manifest.m3u8
+#EXTINF:-1 id="eaa5a0d66947068fc6a11b313527e913" tvg-id="DistritoTV.es" tvg-logo="https://i.imgur.com/AqGIoIt.png" group-title="General", Distrito TV
+https://nlb2-live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8
+#EXTINF:-1 id="5616825a0854f50bc6c2b59c45719417" tvg-id="Divinity.es" tvg-logo="https://i.imgur.com/o7fvEr6.png" group-title="Lifestyle", Divinity
+https://spa-ha-p002.cdn.masmediatv.es/SVoriginOperatorEdge/smil:18_HD.smil/index.m3u8
+#EXTINF:-1 id="50625eabb69605ffbd7809eaeb793da6" tvg-id="DurangaldekoTelebista.es" tvg-logo="https://i.imgur.com/qdlW6cg.png" group-title="General", Durangaldeko Telebista
+https://nlb2-live.emitstream.com/hls/5f9asjsehd7gmyxsdpzu/master.m3u8
+#EXTINF:-1 id="61de858a327143892f0d1ee87906dadc" tvg-id="EbS.be" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Legislative", EbS Live
+https://eucom-live.freecaster.com/eucom/96098bf4-5a2a-466b-8d7f-e35300fa4f28/96098bf4-5a2a-466b-8d7f-e35300fa4f28.isml/master.m3u8
+#EXTINF:-1 id="9a623e70172ebcb869185805bef83b32" tvg-id="EbSPlus.be" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Legislative", EbS+ Live
+https://eucom-live.freecaster.com/eucom/96098c0b-0743-4afc-9562-db1673053f9d/96098c0b-0743-4afc-9562-db1673053f9d.isml/master.m3u8
+#EXTINF:-1 id="5340de997bc5632e90dcb2d68ba20087" tvg-id="El9TV.es" tvg-logo="https://i.imgur.com/QyW5VyW.png" group-title="General", El 9 TV
+https://liveingesta318.cdnmedia.tv/9tvlive/smil:live.smil/playlist.m3u8?DVR=
+#EXTINF:-1 id="40a189662631ffc7eb3994ccf6cba598" tvg-id="El33SX3.es" tvg-logo="https://i.imgur.com/a3uR3vu.png" group-title="Culture", El 33 SX3
+https://directes-tv-cat.ccma.cat/live-origin/c33-super3-hls/master.m3u8
+#EXTINF:-1 id="8696f8c8d21717745a6952f1e2f5879c" tvg-id="ElConfidencialTV.es" tvg-logo="https://i.imgur.com/W2Qqz2F.png" group-title="News", El Confidencial TV
+https://daqnsnf5phf17.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sde7fypd1420w-prod/fast-channel-elconfidencial/fast-channel-elconfidencial.m3u8
+#EXTINF:-1 id="c6cdf4dcacd6aef6ef92869d1c971f10" tvg-id="ElFuturoentumano.es" tvg-logo="https://i.imgur.com/wkxMhxL.png" group-title="Religious", El Futuro en tu mano
+https://ythls.armelin.one/channel/UCZSw3jfFZo_8I9BHSMlT2Fg.m3u8
+#EXTINF:-1 id="f33dc76e3a9e6f0dd8044b68bf766f78" tvg-id="ElPaisTV.es" tvg-logo="https://i.imgur.com/JzAzsft.png" group-title="News", EL PAÍS TV
+https://d2xqbi89ghm9hh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-79fx3huimw4xc-ssai-prd/fast-channel-el-pais.m3u8
+#EXTINF:-1 id="b72807c864466672b4dbfc30c931a210" tvg-id="ElToroTV.es" tvg-logo="https://i.imgur.com/z8M0Dpy.png" group-title="General", El Toro TV
+https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
+#EXTINF:-1 id="8fa16bb472267ba3cc2096d5f847fb92" tvg-id="Elche7TV.es" tvg-logo="https://i.imgur.com/tjI0dLx.png" group-title="Undefined", Elche 7 TV
+https://elche7tv.gestec-video.com/hls/canal2.m3u8
+#EXTINF:-1 id="b7f2ead2f8861f0edcd315208a943ca4" tvg-id="EmpordaTV.es" tvg-logo="https://i.imgur.com/jc0lUbX.png" group-title="General", Empordà TV
+https://video3.lhdserver.es/empordatv2/live.m3u8
+#EXTINF:-1 id="300b7bbe6ae180152aba9198a9900068" tvg-id="Energy.es" tvg-logo="https://i.imgur.com/NxDHI6Y.png" group-title="Entertainment", Energy
+https://spa-ha-p002.cdn.masmediatv.es/SVoriginOperatorEdge/smil:19_HD.smil/index.m3u8
+#EXTINF:-1 id="01d7647293811372bb2811644e6c1d18" tvg-id="ErloTelebista.es" tvg-logo="https://i.imgur.com/2QKuggT.png" group-title="General", Erlo Telebista
+https://5940924978228.streamlock.net/8159/8159/master.m3u8
+#EXTINF:-1 id="6cb279897f879be3e9133c48dbc73737" tvg-id="Esport3.es" tvg-logo="https://i.imgur.com/tkjUFzb.png" group-title="Sports", Esport3
+https://directes-tv-cat.ccma.cat/live-origin/esport3-hls/master.m3u8
+#EXTINF:-1 id="b658ef0534d9dbaf05928d1bee7831cc" tvg-id="EsteCanalTV.es" tvg-logo="https://i.imgur.com/jDT5XFs.jpg" group-title="General", Este Canal TV
+http://synclosdragos1.syncsolutions.es:8008/live3/emision/index.m3u8
+#EXTINF:-1 id="7843994e1783f0f4ff87dc0dbce893fe" tvg-id="EsteponaTelevision.es" tvg-logo="https://i.imgur.com/rMAB720.png" group-title="Undefined", Estepona Televisión
+https://cloudvideo.servers10.com:8081/8022/index.m3u8
+#EXTINF:-1 id="18f66d09a23b62040155ffcaff860c5f" tvg-id="EsTuTele.es" tvg-logo="https://i.imgur.com/bsAbcmC.png" group-title="General", EsTuTele
+https://cloud.streamingconnect.tv/hls/estutele/estutele.m3u8
+#EXTINF:-1 id="687f4118e9dbfb5c02fa10116475b89b" tvg-id="ETB1.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/ETB1_2022_logo.svg/512px-ETB1_2022_logo.svg.png" group-title="General", ETB 1
+https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8
+#EXTINF:-1 id="6e79cd8609c23c5d507ebafc51e29cce" tvg-id="ETB2.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/ETB2_2022_logo.svg/512px-ETB2_2022_logo.svg.png" group-title="General", ETB 2
+https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8
+#EXTINF:-1 id="0da511ce4283ee2176a44388094cff99" tvg-id="etv.es" tvg-logo="https://i.imgur.com/Waf1SOq.png" group-title="General", ETV Terramar
+https://liveingesta318.cdnmedia.tv/tvetvlive/smil:rtmp01.smil/playlist.m3u8
+#EXTINF:-1 id="b0169c4c73d1081316dd1a4c6d390914" tvg-id="EurolatinaTV.es" tvg-logo="https://i.imgur.com/s2KcWnr.png" group-title="Culture;Music", Eurolatina TV
+https://media2.streambrothers.com:1936/8150/8150/playlist.m3u8
+#EXTINF:-1 id="f73710b6120d9ff746071b0840510c13" tvg-id="EWTNEspanaLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png" group-title="Religious", EWTN el Canal Católico
+https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
+#EXTINF:-1 id="d0e412c82d8f55a980c3a287acfeecab" tvg-id="EWTNEurope.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png" group-title="Religious", EWTN Europe
+https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/live/playlist.m3u8
+#EXTINF:-1 id="123c722f04de9cb49ae6c46295cc0394" tvg-id="ExtremeSportsChannel.nl" tvg-logo="https://i.imgur.com/m7IC01U.png" group-title="Sports", Extreme Sports
+https://edge02.odtv.az/o4/extremesport/playlist.m3u8
+#EXTINF:-1 id="d02d44d35e55e460241d4676d3aa4d06" tvg-id="FashionTVEurope.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Lifestyle", Fashion TV
+https://fashiontv-fashiontv-5-nl.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="dd7eb5c5cd5d3751873130a79ee79ff2" tvg-id="Fibwi.es" tvg-logo="https://i.imgur.com/4vcGzcC.png" group-title="General", Fibwi
+https://hostcdn3.fibwi.com/fibwi_diario/index.fmp4.m3u8
+#EXTINF:-1 id="65c2058948792f268edabc5516b48add" tvg-id="Filmstream.nl" tvg-logo="https://i.imgur.com/DTRPV6B.png" group-title="Movies", Filmstream
+https://spi-filmstream-1-in.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="1419fe86bd7c04c81810947867ae6b84" tvg-id="FitelTV.es" tvg-logo="https://i.imgur.com/3lAoTq3.png" group-title="General", Fitel TV
+https://tv.mywifisocial.es/live.m3u8
+#EXTINF:-1 id="c841fc0ea4f2c13f696012546886447f" tvg-id="France24Espanol.fr" tvg-logo="https://i.imgur.com/ZnmAXVv.png" group-title="News", France 24 Español
+https://ythls.armelin.one/channel/UCUdOoVWuWmgo1wByzcsyKDQ.m3u8
+#EXTINF:-1 id="3325fdb9a9e56af4b545c2ee289c6b84" tvg-id="FuengirolaTV.es" tvg-logo="https://i.ibb.co/D9LGcNf/Patalla-streaming.png" group-title="General", Fuengirola TV
+https://secure.todostreaming.es/live/nerja-livestream.m3u8
+#EXTINF:-1 id="f7e19dcebea48a0b65164f6f158f8354" tvg-id="FuerteventuraTV.es" tvg-logo="https://i.ibb.co/MpvjCzC/Fuerteventura-tv-service-webtv-488969d1-1.png" group-title="General", Fuerteventura TV
+https://5c0956165db0b.streamlock.net/ftv/directo/.m3u8
+#EXTINF:-1 id="28fd7c6f7d92a741fb035ca130fbb8a6" tvg-id="GaliciaTVEuropa.es" tvg-logo="https://i.imgur.com/YBaxWQC.png" group-title="General", Galicia TV Europa
+https://europa-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="195ba05ec1c255df14e6f71636644c36" tvg-id="GoienaEus.es" tvg-logo="https://i.imgur.com/eaLIJzK.png" group-title="Undefined", Goiena Eus
+https://zuzenean.goienamedia.eus/goiena-telebista.m3u8
+#EXTINF:-1 id="2f16da5b580673b64282f27857ee1856" tvg-id="GoierriIrratiTelebista.es" tvg-logo="https://i.imgur.com/AHOYcAq.png" group-title="General", Goierri Irrati Telebista
+https://5940924978228.streamlock.net/8155/8155/playlist.m3u8
+#EXTINF:-1 id="c5566ae4f835570980841a87dec9dce7" tvg-id="GOLPLAY.es" tvg-logo="https://i.imgur.com/DSKLw0U.png" group-title="Sports", GOL PLAY
+https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge/smil:5_HD.smil/manifest.m3u8
+#EXTINF:-1 id="13e918e4f8af75efc56868c6addf17ba" tvg-id="GuadaTV.es" tvg-logo="https://i.imgur.com/YaDNsYN.png" group-title="General", Guada TV
+https://cloud.streamingconnect.tv/hls/guadatv/guadatv.m3u8
+#EXTINF:-1 id="c8a9bd19b2f88cc24ba0bb81cb8be4a7" tvg-id="HamaikaTelebista.es" tvg-logo="https://i.imgur.com/HR3G3Ie.png" group-title="Culture", Hamaika Telebista
+https://cdn3.wowza.com/1/RERMR282dnU5eE5Z/OHY0dVFs/hls/live/playlist.m3u8
+#EXTINF:-1 id="77977d95032cf13a2fd1a3ac9588e711" tvg-id="HermesTVVigo.es" tvg-logo="https://i.imgur.com/o2ynw86.png" group-title="News", Hermes TV
+https://ythls.armelin.one/channel/UCv_HqaMNADVSi7A3jLrVPsA.m3u8
+#EXTINF:-1 id="b467cafd52a5d74487ea078884ea0a8e" tvg-id="Historia.es" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Entertainment", Historia
+https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge4/smil:90_HD.smil/manifest.m3u8
+#EXTINF:-1 id="fc1bceccbdb841c0866d28ac0f811067" tvg-id="HITTV.es" tvg-logo="https://i0.wp.com/audiovisual451.com/wp-content/uploads/HIT-TV.jpg?resize=300%2C236&ssl=1" group-title="Music", Hit Tv
+http://185.189.225.149/HitTV/index.m3u8
+#EXTINF:-1 id="c55b5fafe55295937ea558b781c3065e" tvg-id="HuelvaTV.es" tvg-logo="https://i.imgur.com/hEnpvKj.png" group-title="General", Huelva TV
+https://5d8d85cf2c308.streamlock.net:1936/huelvatv/htvdirecto/playlist.m3u8
+#EXTINF:-1 id="a67a1c8fe6d1582e3fe61ec1d3c04d05" tvg-id="IB3.es" tvg-logo="https://i.imgur.com/0gojkDE.png" group-title="General", IB3
+https://ythls.armelin.one/channel/UCff_CBVJDTHP4wOHPjP5BMg.m3u8
+#EXTINF:-1 id="5b27278c23d4d0bb8488074fa0ae42c8" tvg-id="IberoamericaTV.es" tvg-logo="https://i.imgur.com/N3K6PAG.png" group-title="Entertainment", IberoAmerica TV
+https://limited39.todostreaming.es/live/salome-livestream.m3u8
+#EXTINF:-1 id="0bb1336395894e7b3706573664ad3074" tvg-id="IbizaGlobalTV.es" tvg-logo="https://i.imgur.com/7etSMR5.png" group-title="Music", Ibiza Global TV
+https://ibgrtv.streaming-pro.com/hls/ibgrlive.m3u8
+#EXTINF:-1 id="1ae8da2719d5ef5ce51a0ad9eda161e6" tvg-id="rakuten-hola-2-es.samsung.wurl.tv" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", iHola Play
+https://rakuten-hola-2-es.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="5d239ede3bb0883b90f291d229f70ee3" tvg-id="ImasTV.es" tvg-logo="https://i.imgur.com/a9hgTmM.png" group-title="General", Imás TV
+https://secure3.todostreaming.es/live/imastv-livestream.m3u8
+#EXTINF:-1 id="d1a7dfd866e9155e91c76ab5b69586da" tvg-id="InteralmeriaTV.es" tvg-logo="https://i.imgur.com/ulSkAjZ.png" group-title="General", Interalmeria TV
+https://interalmeria.tv/directo/live.m3u8
+#EXTINF:-1 id="6b74a3fff61dea179768efa7a5b4178e" tvg-id="IntercomarcalTV.es" tvg-logo="https://i.imgur.com/KLPSnAT.png" group-title="General", Intercomarcal TV
+https://streamingtvi.gestec-video.com/hls/tvixa.m3u8
+#EXTINF:-1 id="7f418cdc1b4e1921396a22b35a407eb4" tvg-id="JuntadeCastillayLeon.es" tvg-logo="https://i.imgur.com/hGR3tv9.png" group-title="Legislative", Junta de Castilla y León
+https://16escalones-live2.flumotion.com/chunks.m3u8
+#EXTINF:-1 id="63399197bfcaa08b7564b3ec9aa7ac4b" tvg-id="Kidz.es" tvg-logo="https://i.imgur.com/iBgsCOV.png" group-title="Kids", Kidz Atresmedia
+https://fast-channels.atresmedia.com/648c271d2bfab0e4177a0d61/648c271d2bfab0e4177a0d61.m3u8
+#EXTINF:-1 id="c09d9a9dc799ed53a8bc137a8ce420e8" tvg-id="KrolusTV.es" tvg-logo="https://i.imgur.com/VlqovOS.png" group-title="Business", Krolus TV
+https://vcnkrolustv.teleosmedia.com/linear/krolustv/krolustv/playlist.m3u8
+#EXTINF:-1 id="c9b9761a0d450d44dd412585eab0398f" tvg-id="KTO.fr" tvg-logo="https://i.imgur.com/EY6TsdV.png" group-title="Undefined", KTO
+https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8
+#EXTINF:-1 id="c9e41db8ef64c997a2ed51c66e91729d" tvg-id="La1.es" tvg-logo="https://i.imgur.com/1jDS9UC.png" group-title="General", La 1
+https://ztnr.rtve.es/ztnr/1688877.m3u8
+#EXTINF:-1 id="9cde536d271d46d59e58ef0b171dae4a" tvg-id="La1Canarias.es" tvg-logo="https://i.imgur.com/RqUJ4oj.png" group-title="General", La 1 Canarias
+https://ztnr.rtve.es/ztnr/5190066.m3u8
+#EXTINF:-1 id="039b66d2af569883398696c475c9bfb6" tvg-id="La1Catalunya.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/512px-Logo_TVE-1.svg.png" group-title="General", La 1 Catalunya
+https://ztnr.rtve.es/ztnr/3293681.m3u8
+#EXTINF:-1 id="d5b3a081a1009d7865ff5e122f741cef" tvg-id="La2.es" tvg-logo="https://i.imgur.com/3NwzqoB.png" group-title="Documentary", La 2
+https://ztnr.rtve.es/ztnr/1688885.m3u8
+#EXTINF:-1 id="f1502e3583667e865a8cd1c11b7d6f33" tvg-id="La2Canarias.es" tvg-logo="https://i.imgur.com/iwDi3ND.png" group-title="Documentary", La 2 Canarias
+https://ztnr.rtve.es/ztnr/5468585.m3u8
+#EXTINF:-1 id="7d13c229a7342ff9483876d582dc3fb3" tvg-id="La2Catalunya.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_TVE-2.svg/512px-Logo_TVE-2.svg.png" group-title="Documentary", La 2 Catalunya
+https://ztnr.rtve.es/ztnr/3987218.m3u8
+#EXTINF:-1 id="c2c11fdf622011bd0f35b1ecf76cc601" tvg-id="La8Mediterraneo.es" tvg-logo="https://i.imgur.com/EQmRrTF.png" group-title="General", La 8 Mediterráneo
+https://streaming004.gestec-video.com/hls/8TV.m3u8
+#EXTINF:-1 id="440fa9605457277ec1632ccaaef49872" tvg-id="LaFabricaTV.es" tvg-logo="https://i.imgur.com/6p0oPfq.png" group-title="Undefined", La Fábrica TV
+https://mejorestrucos.com:5443/LiveApp/streams/854077030689510682594068.m3u8
+#EXTINF:-1 id="db21509be8b6d9a1314a315270420d5a" tvg-id="LaRosadeGuadalupe.us" tvg-logo="https://i.imgur.com/tK9zOgo.png" group-title="Series", La Rosa de Guadalupe
+https://linear-344.frequency.stream/dist/vix/344/hls/master/playlist.m3u8
+#EXTINF:-1 id="0932c8c39ec16dfd32f8a813d2a450d7" tvg-id="LaSexta.es" tvg-logo="https://i.imgur.com/aKV5voq.png" group-title="Undefined", La Sexta
+https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge2/smil:11_HD.smil/index.m3u8
+#EXTINF:-1 id="bbf314eebb3cfd204c297348351c3f37" tvg-id="LaUrbanTV.es" tvg-logo="https://i.imgur.com/hythjEn.png" group-title="Undefined", La Urban TV
+https://urbanrevolution.es:8443/live/TV/playlist.m3u8
+#EXTINF:-1 id="d946bd62c6d6adb436cadaeb500be33c" tvg-id="LancelotTV.es" tvg-logo="https://i.imgur.com/RlzVIJP.png" group-title="Undefined", Lancelot TV
+https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8
+#EXTINF:-1 id="d856b5fdae89a1d531b16228328bc219" tvg-id="LaOtra.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/La_Otra_logo_%282017%29.svg/512px-La_Otra_logo_%282017%29.svg.png" group-title="Undefined", LaOtra
+https://laotra-1-23.secure2.footprint.net/master.m3u8
+#EXTINF:-1 id="c156981151b09a4b3a0c1b440db586a8" tvg-id="LiraTV.es" tvg-logo="https://i.imgur.com/hBswXYZ.png" group-title="Music", LiraTV
+https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
+#EXTINF:-1 id="fef438bbf85192fb0d832ddf42325412" tvg-id="LleidaTelevisio.es" tvg-logo="https://i.imgur.com/xWY2568.png" group-title="Undefined", Lleida Televisió
+https://liveingesta318.cdnmedia.tv/lleidatvlive/smil:live.smil/playlist.m3u8?DVR=
+#EXTINF:-1 id="48fa443f0da73ea79105f55090c94e84" tvg-id="LocomotionTV.do" tvg-logo="https://i.imgur.com/1CftDPB.png" group-title="Animation", Locomotion TV
+http://51.222.85.85:81/hls/loco/index.m3u8
+#EXTINF:-1 id="d552542b1fd7fc7bc48febab2dd75270" tvg-id="LogosTV.es" tvg-logo="https://i.imgur.com/Kr3U3Ub.png" group-title="Undefined", Logos TV
+https://streamer1.streamhost.org/salive/logosH/master.m3u8
+#EXTINF:-1 id="aa6ce638d15f80e86248c175629be46f" tvg-id="LogosTVEstudio.es" tvg-logo="https://i.imgur.com/qkHrttj.png" group-title="Religious", Logos TV Estudio
+https://streamer1.streamhost.org/salive/logosdirectaH/playlist.m3u8
+#EXTINF:-1 id="06e08d378b5cf656369334f171eeefd5" tvg-id="LogosTVKids.es" tvg-logo="https://i.imgur.com/Kr3U3Ub.png" group-title="Kids", Logos TV Kids
+https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
+#EXTINF:-1 id="2369476547256288db21e0fee0fea114" tvg-id="LogosTVSalud.es" tvg-logo="https://i.imgur.com/qkHrttj.png" group-title="Lifestyle", Logos TV Salud
+https://streamer1.streamhost.org/salive/logossaludH/playlist.m3u8
+#EXTINF:-1 id="097880f5f05ba34499e05b732410d26e" tvg-id="M95TelevisionMarbella.es" tvg-logo="https://i.imgur.com/RzAkP1V.png" group-title="Undefined", M95 Televisión Marbella
+https://limited2.todostreaming.es/live/m95-livestream.m3u8
+#EXTINF:-1 id="fe96cfde1a91136c3a93a77cd952993e" tvg-id="MaestratTV.es" tvg-logo="https://i.imgur.com/9gOS1ts.png" group-title="Undefined", Maestrat TV
+https://stream.maestrat.tv/hls/stream.m3u8
+#EXTINF:-1 id="bf729064871cd1a77e98f5ea38636ed7" tvg-id="Malaga24h.es" tvg-logo="https://i.imgur.com/jxDCxNh.png" group-title="Undefined", Málaga 24h
+https://ythls.armelin.one/channel/UCoMWImnPAur6JhXDK63dpAg.m3u8
+#EXTINF:-1 id="ce13a169f944a025036bc8376d744cee" tvg-id="MarTV.es" tvg-logo="https://i.imgur.com/qQkkavo.png" group-title="Undefined", Mar TV
+http://iptv.services.everywan.net:8080/martv-web/video.m3u8
+#EXTINF:-1 id="046057b8823c9ce66b6ed2c5bd6c6e3a" tvg-id="MataroTelevisio.es" tvg-logo="https://i.imgur.com/FTGbu8A.png" group-title="General", Mataró Televisió
+https://liveingesta318.cdnmedia.tv/m1tvlive/smil:live.smil/playlist.m3u8?DVR=
+#EXTINF:-1 id="4bcd0c33b5ad76d2985330ba040e42ff" tvg-id="Mijas340TV.es" tvg-logo="https://i.imgur.com/RH1zLLs.png" group-title="Undefined", Mijas 3.40TV
+https://streaming004.gestec-video.com/hls/MIJAS.m3u8
+#EXTINF:-1 id="d58a81bae4f732b16289dc628c9d0466" tvg-id="MirameTV.es" tvg-logo="https://i.imgur.com/LK4pLgT.png" group-title="Undefined", Mírame TV
+https://bit.controlstreams.com:5443/LiveApp/streams/mirametv.m3u8
+#EXTINF:-1 id="279cc270f3003124f6ca2109cdea4fcb" tvg-id="MolahitsTV.es" tvg-logo="https://i.imgur.com/FYcLtqT.png" group-title="Music", Molahits TV
+http://ventdelnord.tv:8080/mola/directe.m3u8
+#EXTINF:-1 id="4f36b3784fc5b9a2b6d5497d72b966c9" tvg-id="MyTimeMovieNetwork.es" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies", MyTime movie network Spain
+https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="3b03d5552d16d8348a8f90f33f0a923c" tvg-id="NatureTime.es" tvg-logo="https://i.imgur.com/72JmyjM.png" group-title="Documentary", NatureTime
+https://shls-live-ak.akamaized.net/out/v1/b06a89a463764d3688cda337d40dc5bf/index.m3u8
+#EXTINF:-1 id="85bd755085a08cb54483b21e7dc8de74" tvg-id="NegociosTV.es" tvg-logo="https://i.imgur.com/GrzQ1ya.png" group-title="Undefined", Negocios TV
+https://streaming013.gestec-video.com/hls/negociostv.m3u8
+#EXTINF:-1 id="74c88f3c967009030c1392659e3cdb4a" tvg-id="Nickelodeon.es" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids", Nickelodeon
+http://185.189.225.150:85/nickelodeon/index.m3u8
+#EXTINF:-1 id="18bd2db4cd3b2f0c822db9861298e206" tvg-id="NoroesteTV.es" tvg-logo="https://i.imgur.com/s6V8rQd.png" group-title="Undefined", Noroeste TV
+https://cloudvideo.servers10.com:8081/8032/index.m3u8
+#EXTINF:-1 id="72a15484cb62ac04b568336689ddbfe2" tvg-id="Nortevision.es" tvg-logo="https://i.imgur.com/C5SYw7B.png" group-title="Undefined", NORTEvisión
+http://amaru.dyndns.org:8870/0.m3u8
+#EXTINF:-1 id="51fe495ecef9dc6982d376aee6ffe37f" tvg-id="OizmendiTelebista.es" tvg-logo="https://i.imgur.com/qEJsVal.png" group-title="Undefined", Oizmendi Telebista
+https://5940924978228.streamlock.net/8161/8161/master.m3u8
+#EXTINF:-1 id="42117ba62747f8edec249603d8947f5e" tvg-id="OlotTV.es" tvg-logo="https://i.imgur.com/u8wO4Lf.png" group-title="Undefined", Olot TV
+https://liveingesta118.cdnmedia.tv/olottvlive/smil:live.smil/playlist.m3u8?DVR=
+#EXTINF:-1 id="fe5a567c40eeb06f4287b7ad4e03f746" tvg-id="Onda15TV.es" tvg-logo="https://i.imgur.com/mUrZz9O.png" group-title="Music;News", Onda 15 TV
+https://cloudvideo.servers10.com:8081/8034/index.m3u8
+#EXTINF:-1 id="2a954d17c94d2d4a8bd10ff3ed26b431" tvg-id="OndaAlgeciras.es" tvg-logo="https://i.imgur.com/kUhFkVF.png" group-title="Undefined", Onda Algeciras TV
+https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8
+#EXTINF:-1 id="cddaa285aa7c89eccecf7da6df7fde22" tvg-id="OndaCadiz.es" tvg-logo="https://i.imgur.com/sOBMnby.png" group-title="Undefined", Onda Cádiz 24h
+https://ondacadiztv.es:30443/octv/24h/playlist.m3u8
+#EXTINF:-1 id="2ae0a6581d3bf28bc7ccdee422bbbcbc" tvg-id="OndaGranCanaria.es" tvg-logo="https://i.imgur.com/YXwKL8x.png" group-title="General", Onda Gran Canaria
+https://live.cloudhostservers.com:3473/stream/play.m3u8
+#EXTINF:-1 id="6dcfa37268274d1f7ed5801a925feac5" tvg-id="OndaMadrid.es" tvg-logo="https://i.imgur.com/Q1YwYsR.png" group-title="Undefined", Onda Madrid
+https://tvradio-1-23.secure2.footprint.net/master.m3u8
+#EXTINF:-1 id="36adf61e124c10c613ccad6e668345d9" tvg-id="OndaValenciaTV.es" tvg-logo="https://i.imgur.com/6HxLUQd.png" group-title="Music;News", Onda Valencia
+https://cloudvideo.servers10.com:8081/8116/index.m3u8
+#EXTINF:-1 id="810d1c616500ff09749909d3e416c58c" tvg-id="ParlamentodeAndalucia.es" tvg-logo="https://i.imgur.com/J6h5IQS.png" group-title="Legislative", Parlamento de Andalucía
+http://193.147.254.64:1935/realizacion1/realizacion1/playlist.m3u8
+#EXTINF:-1 id="e210908b8c5385450eec06cffb2e0733" tvg-id="ParlamentodeNavarra.es" tvg-logo="https://i.imgur.com/JnhWxKv.png" group-title="Legislative", Parlamento de Navarra
+https://broadcasting.parlamentodenavarra.es/live/canal1/master.m3u8
+#EXTINF:-1 id="cf29327df6866aa78f14be587dc11292" tvg-id="PeerTVAltoAdige.it" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-alto-adige.png" group-title="Outdoor;Travel", Peer TV Alto Adige
+https://iptv.peer.biz/live/peertv-it.m3u8
+#EXTINF:-1 id="756f8e6c19efb1201a907939a0cb00ab" tvg-id="PeerTVSouthTyrol.it" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-south-tyrol.png" group-title="Outdoor;Travel", Peer TV South Tyrol
+https://iptv.peer.biz/live/peertv-en.m3u8
+#EXTINF:-1 id="47fde034c41793c9ba489f16926198cd" tvg-id="PeerTVSudtirol.it" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-suedtirol.png" group-title="Outdoor;Travel", Peer TV Südtirol
+https://iptv.peer.biz/live/peertv.m3u8
+#EXTINF:-1 id="96b84a2c616a771f967d745cc2c111a0" tvg-id="PenedesTelevisio.es" tvg-logo="https://i.imgur.com/mNuv3OL.png" group-title="General", Penedès Televisió
+https://liveingesta318.cdnmedia.tv/rtvvilafrancalive/smil:live.smil/playlist.m3u8?DVR=
+#EXTINF:-1 id="4a93a2610a770ffab2031cc6d1de58e9" tvg-id="Pequeradio.es" tvg-logo="https://i.imgur.com/BNqZwxS.png" group-title="Undefined", Pequeradio
+https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8
+#EXTINF:-1 id="c96d73f89f59b4a568993fbe99dd2fb9" tvg-id="PieraTV.es" tvg-logo="https://i.imgur.com/R4BzwqR.png" group-title="Undefined", Piera TV
+http://51.254.47.72:1935/piera/smil:piera.smil/master.m3u8
+#EXTINF:-1 id="6d7f35f5726938f78cb7d56a2e604a75" tvg-id="PlatziTV.es" tvg-logo="https://i.imgur.com/vEzeqHP.png" group-title="Education", Platzi TV
+https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
+#EXTINF:-1 id="17af8c9530556aa12ee9bfc8f173023b" tvg-id="Anaylos7.es" tvg-logo="https://i.imgur.com/X5g6gXS.png" group-title="Series", Pluto TV Ana y los 7
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1acce7f17797000718f9be/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 id="b8512b231e68544b7649d3091ff42bbf" tvg-id="PlutoTVAnimakids.es" tvg-logo="https://i.imgur.com/MSGZ3S9.png" group-title="Kids", Pluto TV Animakids
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aabee6f4a2c00076a322c/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 id="fd905d5aa389c4da6cfa4dd486da95be" tvg-id="PlutoTVAnimales.es" tvg-logo="https://i.imgur.com/P2jEmG1.png" group-title="Entertainment", Pluto TV Animales
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd834c66fe2ca0009303b8d/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 id="b533d356e8b5b53cc0fe99611ebb8dca" tvg-id="PlutoTVCineAccion.es" tvg-logo="https://i.imgur.com/PXhCzXn.png" group-title="Movies", Pluto TV Cine Acción
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
+#EXTINF:-1 id="19c33a50a5c009c608568311d72980cc" tvg-id="PlutoTVCineClasico.es" tvg-logo="https://i.imgur.com/hCA5BRr.png" group-title="Movies", Pluto TV Cine Clásico
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61373bb45168fe000773eecd/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 id="1424bf1a5ae512aa2933e5950e65e138" tvg-id="PlutoTVCineEstelar.es" tvg-logo="https://i.imgur.com/v3BO4nW.png" group-title="Movies", Pluto TV Cine Estelar
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 id="b9aaa548a29c880e157378630676d3a9" tvg-id="PlutoTVCocina.es" tvg-logo="https://i.imgur.com/LRtfQla.png" group-title="Cooking", Pluto TV Cocina
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d8d0fbaa8742fa3093899da/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 id="9b871e8809721ddd26a17357d3512d10" tvg-id="service-stitcher.clusters.pluto.tv" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", Pluto TV Comedia
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1abce155a03d0007718834/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 id="59892bc6b62ce29d3b1085d4b0b6b0ae" tvg-id="PlutoTVKids.es" tvg-logo="https://i.imgur.com/eilI830.png" group-title="Kids", Pluto TV Kids
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ad9b648e738977e2c312131/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5ad9b648e738977e2c312131&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=30292edb-0714-11eb-97af-0242ac110002&terminate=false&userId=
+#EXTINF:-1 id="b81767587bb9ed2ebea0cabb1acbd005" tvg-id="MTVCatfishTVShow.es" tvg-logo="https://i.imgur.com/tpLRnP2.png" group-title="Undefined", Pluto TV MTV Catfish
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1ab3c7778230000735cf41/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f1ab3c7778230000735cf41&deviceLat=41.1167&deviceLon=1.2500&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=ES&serverSideAds=false&sid=305&terminate=false&userId=
+#EXTINF:-1 id="63ec0f6a2c1dd1e8c6ab578de2cd0da2" tvg-id="MTVOriginals.es" tvg-logo="https://i.imgur.com/qWf8Zku.png" group-title="Undefined", Pluto TV MTV Originals
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1aadf373bed3000794d1d7/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f1aadf373bed3000794d1d7&deviceLat=41.1167&deviceLon=1.2500&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=ES&serverSideAds=false&sid=300&terminate=false&userId=
+#EXTINF:-1 id="c5cdf959a60ed7075cf7f44802bc9315" tvg-id="PlutoTVTeenStars.es" tvg-logo="https://i.imgur.com/f0FXTXJ.png" group-title="Kids", Pluto TV Teen Stars
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60016a60a8e3520008e0d331/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 id="0f5d3f3d5e42a258d1e72ed4e74662ae" tvg-id="PlutoTVTelenovelas.es" tvg-logo="https://i.imgur.com/GrtNJki.png" group-title="Series", Pluto TV Telenovelas
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60b4c06717da110007ee1af6/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 id="b31061be65d1fc5484fe980bd67c18f4" tvg-id="PlutoTVToonsClasico.es" tvg-logo="https://i.imgur.com/gQcuJSE.png" group-title="Kids", Pluto TV Toons Clásico
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/609e7e423e9173000706a681/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 id="737a5cd081f84ed1fdcfd6262be70e3d" tvg-id="POPWorldTV.es" tvg-logo="https://i.imgur.com/LQB6G3s.jpg" group-title="Music", POP World TV
+https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8
+#EXTINF:-1 id="c6b19e5a9a8cf35b747b7a3d3acd3467" tvg-id="PopularTVCantabria.es" tvg-logo="https://i.imgur.com/amgBFmH.png" group-title="Undefined", Popular TV Cantabria
+https://limited12.todostreaming.es/live/ptvcantabria-livestream.m3u8
+#EXTINF:-1 id="6397daf24513d304514548c617fae193" tvg-id="PopularTVMelilla.es" tvg-logo="https://i.imgur.com/TbevWX4.png" group-title="Undefined", Popular TV Melilla
+http://5940924978228.streamlock.net:1935/8009/8009/playlist.m3u8
+#EXTINF:-1 id="c94d1f1f8956e0d9f0144026fafe6d5f" tvg-id="PopularTVMurcia.es" tvg-logo="https://i.imgur.com/jFg9dGO.png" group-title="Undefined", Popular TV Murcia
+https://cloud.fastchannel.es/mic/manifiest/populartvrm.m3u8
+#EXTINF:-1 id="becbbb18a1885680df8e703ef704a937" tvg-id="PTVAlmeria.es" tvg-logo="https://i.imgur.com/X3eIdVf.png" group-title="General", PTV Almería
+https://streamer.zapitv.com/ptv_almeria/index.m3u8
+#EXTINF:-1 id="90bb3900448e91e31200bdd8a15a1930" tvg-id="PTVCordoba.es" tvg-logo="https://i.imgur.com/X3eIdVf.png" group-title="General", PTV Córdoba
+https://streamer.zapitv.com/PTV_CORDOBA/index.m3u8
+#EXTINF:-1 id="a0cadd8f8138110eba02b9b54c8f3815" tvg-id="PTVGranada.es" tvg-logo="https://i.imgur.com/eOcAakM.png" group-title="General", PTV Granada
+https://streamer.zapitv.com/PTV-granada/index.m3u8
+#EXTINF:-1 id="29f689f0cc36485b02eedc9381487969" tvg-id="PTVLinares.es" tvg-logo="https://i.imgur.com/IqChsLQ.png" group-title="General", PTV Linares
+https://streamer.zapitv.com/ptv-linarez/index.m3u8
+#EXTINF:-1 id="7501df303a825d47924cf262ee545e55" tvg-id="PTVMalaga.es" tvg-logo="https://i.imgur.com/4eZYIX1.png" group-title="Undefined", PTV Málaga
+https://streamer.zapitv.com/PTV-malaga/index.m3u8
+#EXTINF:-1 id="d9dbdecc56963ce3f3b391c48091eea2" tvg-id="PTVSevilla.es" tvg-logo="https://i.imgur.com/EcinFGu.png" group-title="General", PTV Sevilla
+https://streamer.zapitv.com/PTV_sevilla/index.m3u8
+#EXTINF:-1 id="cb6f6d78867a6730ea29b1f0d79d6848" tvg-id="Punt3.es" tvg-logo="https://i.imgur.com/i9tsnhD.png" group-title="Undefined", Punt 3 Vall Uixó
+https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8
+#EXTINF:-1 id="4a6c7d16de2e7703175db4821b76dcc8" tvg-id="RadioBocairentTV.es" tvg-logo="https://i.imgur.com/MzUQtrl.png" group-title="General", Ràdio Bocairent TV
+http://185.81.77.4/BocairentTV/index.m3u8
+#EXTINF:-1 id="dd3cdbcbe1a083a5586959606452c9fc" tvg-id="RadioCarnavalTV.es" tvg-logo="https://i.imgur.com/cdpbkSo.png" group-title="Entertainment;Music", Radio Carnaval TV
+https://eu1.servers10.com:8081/8116/index.m3u8
+#EXTINF:-1 id="266e98d944bab23728d7b9002a0de50f" tvg-id="RadioRutasdelPeru.es" tvg-logo="https://i.imgur.com/88Iyvm8.png" group-title="Travel", Radio Rutas del Perú
+https://tv.portalexpress.es:3731/stream/play.m3u8
+#EXTINF:-1 id="5e668f5e05bbf99b166b97b480417a0f" tvg-id="TelevisionMelilla.es" tvg-logo="https://i.imgur.com/NeaRzwk.png" group-title="Undefined", Radio Televisión Melilla
+https://tvmelilla-hls-rm-lw.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="a8a8c650a9901b8cf9264e34aea94be5" tvg-id="RadioTelevisionMogan.es" tvg-logo="https://i.imgur.com/oefjONS.png" group-title="Undefined", Radio Televisión Mogán
+https://cloudvideo.servers10.com:8081/8028/index.m3u8
+#EXTINF:-1 id="dd1405cc7d329b1664da3715e8c51bb4" tvg-id="RakutenTVActionMovies.es" tvg-logo="https://i.imgur.com/NJYEYE3.png" group-title="Movies", Rakuten Action Movies
+https://rakuten-actionmovies-2-es.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="dd219a93bf189a9a587d0b874a4bad9c" tvg-id="RakutenTVComedyMovies.es" tvg-logo="https://i.imgur.com/NJYEYE3.png" group-title="Movies", Rakuten Comedy Movies
+https://rakuten-comedymovies-2-es.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="f8e21b7295be89af0122fa286b79b246" tvg-id="RakutenTVDramaMovies.es" tvg-logo="https://i.imgur.com/NJYEYE3.png" group-title="Movies", Rakuten Drama
+https://rakuten-tvshows-2-es.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="bc1292d232a6326815e2def4c48018c9" tvg-id="RakutenTVFamilyMovies.es" tvg-logo="https://i.imgur.com/NJYEYE3.png" group-title="Family;Movies", Rakuten Family
+https://rakuten-family-2-es.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="e39d8520295cb56df7839194ac25da9f" tvg-id="RakutenTVSpotlight.es" tvg-logo="https://i.imgur.com/NJYEYE3.png" group-title="Movies", Rakuten Spotlight
+https://rakuten-spotlight-2-es.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="2c53eab4e5612c5d24a760ea70e0dbbe" tvg-id="rakuten-topfree-2-eu.rakuten.wurl.tv" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", Rakuten Top Free Spain
+https://rakuten-topfree-2-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="e7e1c2bd69688782c1a7bc5d8348bd12" tvg-id="rakuten-tvshows-2-eu.rakuten.wurl.tv" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", Rakuten TV Shows Spain
+https://rakuten-tvshows-2-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="873e80363acd3d5696e0cae41ffcd7d3" tvg-id="RealMadridTV.es" tvg-logo="https://i.imgur.com/5pMo7dL.png" group-title="Sports", Real Madrid
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=1545
+#EXTINF:-1 id="5d3a6e045ba7183dbdb75f67c9fc5795" tvg-id="RiberaTV.es" tvg-logo="https://i.imgur.com/mPvSubP.png" group-title="General", Ribera TV
+https://common01.todostreaming.es/live/ribera-livestream.m3u8
+#EXTINF:-1 id="fc1a233b9f3eb692a443b4c591ad7cf2" tvg-id="TVR.es" tvg-logo="https://i.ibb.co/nRq3YfT/Logo-Rioja-Televisi-n-S-A.png" group-title="General", Rioja Televisión
+https://5924d3ad0efcf.streamlock.net/riojatv/riojatvlive/playlist.m3u8
+#EXTINF:-1 id="66e746c4f05878194bb8484fac70fabd" tvg-id="ROTVValencia.es" tvg-logo="https://i.imgur.com/0TDnVQ4.png" group-title="Entertainment", ROTV Valencia
+https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8
+#EXTINF:-1 id="7203aa654ec4bc11dab616b8206e5fa7" tvg-id="RTenEspanol.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" group-title="News", RT en Español
+https://cloud.odysee.live/content/9f638b94d11d879726ae55dd5a0923621b96a45b/master.m3u8
+#EXTINF:-1 id="d4b9af42001197d42e1855803ae256e8" tvg-id="RTVElVendrell.es" tvg-logo="https://i.imgur.com/x9CgczD.png" group-title="Undefined", RTV El Vendrell
+https://liveingesta318.cdnmedia.tv/tvvendrelllive/smil:live.smil/playlist.m3u8
+#EXTINF:-1 id="284735f7fa951261c6d3834afe9fb198" tvg-id="RTVManilva.es" tvg-logo="https://i.imgur.com/zKgrnXx.png" group-title="General", RTV Manilva
+https://stream.castr.com/627a72d21914543be01c1720/live_e2ae1780dc2a11eca660b7b17b7952a5/index.m3u8
+#EXTINF:-1 id="5f18c0b5f0ecf86187709d438648f774" tvg-id="RadioTelevisionMarbella.es" tvg-logo="https://i.imgur.com/o9Ro8TR.png" group-title="Undefined", RTV Marbella
+https://streaming.rtvmarbella.tv/hls/streamingweb.m3u8
+#EXTINF:-1 id="25dc622439f164b235fa2b2ae61cb181" tvg-id="RTVVida.es" tvg-logo="https://i.imgur.com/EqUfEAh.png" group-title="Music", RTV Vida
+https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
+#EXTINF:-1 id="d04cd446c884ffc80db3d71f056dc6ee" tvg-id="RTVCCardedeu.es" tvg-logo="https://i.imgur.com/rrCJyza.png" group-title="Undefined", RTVC Cardedeu
+https://liveingesta118.cdnmedia.tv/cardedeutvlive/smil:live.smil/playlist.m3u8
+#EXTINF:-1 id="e237b223eea1dbcec7b2ddf6f1219dab" tvg-id="RadioTelevisionCeuta.es" tvg-logo="https://i.imgur.com/ys7zC6R.png" group-title="Undefined", RTVCE
+https://cdnlivevlc.codev8.net/rtvcelive/smil:channel1.smil/playlist.m3u8
+#EXTINF:-1 id="c6b2d6e685fb6511ae2aedeea732ad1f" tvg-id="SalTelevision.es" tvg-logo="https://i.imgur.com/7ewYJ4Y.jpg" group-title="Undefined", Sal Televisión
+https://cloudvideo.servers10.com:8081/8254/index.m3u8
+#EXTINF:-1 id="9011bcc3b4b1fea05b75a4862c7ba271" tvg-id="SevillaFCTV.es" tvg-logo="https://i.imgur.com/yujGVbm.png" group-title="Undefined", Sevilla FC TV
+https://open.http.mp.streamamg.com/p/3001314/sp/300131400/playManifest/entryId/0_ye0b8tc0/format/applehttp/protocol/https/uiConfId/30026292/a.m3u8
+#EXTINF:-1 id="2a1c5c00eb30a8d4aca25d719bccd5bc" tvg-id="SolMusica.es" tvg-logo="https://i.imgur.com/rbJrmPw.png" group-title="Music", Sol Música
+https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8
+#EXTINF:-1 id="d67919f1c1f47783b96c700befe12b9d" tvg-id="SolidariaTV.es" tvg-logo="https://i.imgur.com/Bgm2iZY.png" group-title="Undefined", Solidaria TV
+https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
+#EXTINF:-1 id="d70882a22314bf9a7e80f92a7a019b45" tvg-id="SpektraTV.es" tvg-logo="https://i.imgur.com/0zCt8e4.png" group-title="Music", SpektraTV
+https://cloudvideo.servers10.com:8081/8136/index.m3u8
+#EXTINF:-1 id="a86d47f133c05047e014c4a0c3d5f68a" tvg-id="STZTelebista.es" tvg-logo="https://i.imgur.com/rFQuAEv.png" group-title="Music", STZ Telebista
+https://cloudvideo.servers10.com:8081/stztelebista/index.m3u8
+#EXTINF:-1 id="c0ff379ebe1171f4a1c7518d74c7c896" tvg-id="SundanceTV.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/512px-SundanceTV_2014.svg.png" group-title="Movies", Sundance TV
+https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge4/smil:88_HD.smil/manifest.m3u8
+#EXTINF:-1 id="44e14290e15a94f2a92f74caa1c7c6b4" tvg-id="SX3.es" tvg-logo="https://i.imgur.com/vuLUp3v.png" group-title="Undefined", SX3
+https://directes-tv-cat.ccma.cat/live-origin/super3-hls/master.m3u8
+#EXTINF:-1 id="f058a08f47ef8e77e246c4c28ab9484a" tvg-id="Tac12.es" tvg-logo="https://i.imgur.com/XHOVbSu.png" group-title="Undefined", Tac12
+https://ingest1-video.streaming-pro.com/nimble/tac12/playlist.m3u8
+#EXTINF:-1 id="4e73deeeb05c711ec28755f6c0182b0c" tvg-id="Taroteame.es" tvg-logo="https://i.imgur.com/OgEeQzl.jpg" group-title="Religious", Tarotéame
+https://5d2733224ac48.streamlock.net/taroteame/tarot_web/playlist.m3u8
+#EXTINF:-1 id="eb2da615356b92e3052da9da9dbd6d4c" tvg-id="TarotVision.es" tvg-logo="https://i.imgur.com/yOQ9e3a.png" group-title="Religious", TarotVisión
+https://stream.andalhost.com/hls/tarotvision.m3u8
+#EXTINF:-1 id="020180a3317f8c3960b14a507a5ff00c" tvg-id="TBNEspana.es" tvg-logo="https://i.imgur.com/oGvsUH9.png" group-title="Religious", TBN España
+https://edge.xn--tbnespaa-j3a.es/LiveApp/streams/tbnlive.m3u8
+#EXTINF:-1 id="caae27be01f1842ae7e3c8c9bd1deac8" tvg-id="TEF.es" tvg-logo="https://i.imgur.com/WVVIDoA.png" group-title="Undefined", TEF
+https://5940924978228.streamlock.net/EIVISSA_2/EIVISSA_2/playlist.m3u8
+#EXTINF:-1 id="7534d166bfe9e6d5ba14e207676b3e0b" tvg-id="TeleElx.es" tvg-logo="https://i.imgur.com/w5NTWpl.png" group-title="General", Tele Elx
+https://tvdirecto.teleelx.es/stream/teleelx.m3u8
+#EXTINF:-1 id="138fa375a0458f17a0a6fb31be34bbfc" tvg-id="TeleSafor.es" tvg-logo="https://i.imgur.com/EowJfr0.png" group-title="Undefined", Tele Safor
+https://video.telesafor.com/hls/video.m3u8
+#EXTINF:-1 id="05d54f17a56e17acc6fccd7c17871ae5" tvg-id="TeleBilbao.es" tvg-logo="https://i.ibb.co/Nj1sZY0/unnamed-1.jpg" group-title="General", TeleBilbao
+https://cloudbilbao.todostreaming.es/live/telebilbao-livestream.m3u8
+#EXTINF:-1 id="ea6024bd8d7ef7651f99bec25acf4013" tvg-id="Teledeporte.es" tvg-logo="https://i.imgur.com/b0H5f62.png" group-title="Sports", Teledeporte
+https://rtvelivestream.akamaized.net/rtvesec/tdp/tdp_main.m3u8
+#EXTINF:-1 id="596b6a5ac825c36d12fab5dda025a19f" tvg-id="Teleganes.es" tvg-logo="https://i.imgur.com/BXyplMX.png" group-title="Undefined", Teleganés
+https://nlb2-live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8
+#EXTINF:-1 id="8ce23219a161c543d0c25b78c363cb6d" tvg-id="TeleGilena.es" tvg-logo="https://i.imgur.com/sEDBaUr.png" group-title="Undefined", TeleGilena
+https://5940924978228.streamlock.net/Directo1/Directo1/master.m3u8
+#EXTINF:-1 id="d64d1e5688ee6400d580f6474a014dd0" tvg-id="Telemadrid.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/TeleMadrid.svg/512px-TeleMadrid.svg.png" group-title="Undefined", Telemadrid
+https://telemadrid-23.secure2.footprint.net/master.m3u8
+#EXTINF:-1 id="649e79a6b00674668064375abe0f3123" tvg-id="TelemadridINT.es" tvg-logo="https://i.imgur.com/2xRKezH.png" group-title="General", Telemadrid Internacional
+https://new-international-23.secure2.footprint.net/index.m3u8
+#EXTINF:-1 id="082f0d1e19ea9d49e15cdf42714bde90" tvg-id="Telemotril.es" tvg-logo="https://i.imgur.com/4nspLHb.png" group-title="Undefined", Telemotril
+https://5940924978228.streamlock.net/8431/8431/playlist.m3u8
+#EXTINF:-1 id="7db845c325db5335a8b412d9aa4bd92a" tvg-id="Teleonuba.es" tvg-logo="https://i.imgur.com/cHMfmO7.png" group-title="Undefined", Teleonuba
+https://5d8d85cf2c308.streamlock.net:1936/Teleonuba/endirecto/playlist.m3u8
+#EXTINF:-1 id="d2cadeae69a60d2e49a676ed78140684" tvg-id="TeleRibera.es" tvg-logo="https://pbs.twimg.com/profile_images/780539549239902208/g2MfVVuY_400x400.jpg" group-title="Undefined", TeleRibera
+https://video1.lhdserver.es/teleribera/live.m3u8
+#EXTINF:-1 id="30bae6f1b8b390ad42da7f30bf573e23" tvg-id="TeleVigo.es" tvg-logo="https://i.imgur.com/4iVmlFa.png" group-title="Undefined", TeleVigo
+https://cloud.fastchannel.es/mic/manifiest/hls/televigo/televigo.m3u8
+#EXTINF:-1 id="a9e2aa581b227c05f77682d25bb6fae2" tvg-id="TVSantCugat.es" tvg-logo="https://i.imgur.com/4ypVY2K.png" group-title="General", Televisió Sant Cugat
+https://ythls.armelin.one/channel/UCoFs7RGrmWQkqU5KNNGvCjA.m3u8
+#EXTINF:-1 id="d9249e521b261b52fde0f67c8397d885" tvg-id="TelevisionAranda.es" tvg-logo="https://i.imgur.com/FwIIdKG.png" group-title="Undefined", Televisión Aranda
+https://cloud.streamingconnect.tv/hls/telearanda/telearanda.m3u8
+#EXTINF:-1 id="88c46c87b5c7d52d9db71a933dea2417" tvg-id="TelevisionConsciente.es" tvg-logo="https://i.imgur.com/6QVHKPw.png" group-title="Religious", Televisión Consciente
+https://cdn318.fractalmedia.es/318/live/hls/tvc/master.m3u8
+#EXTINF:-1 id="c983be52f47fb508bd27d7621eb744a1" tvg-id="TGRTEurope.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png" group-title="General", TGRT Europe
+https://canli.tgrteu.com/tgrteu.m3u8
+#EXTINF:-1 id="83cbb41e63b8e6969a4c2e844213a78a" tvg-id="ThePetCollective.es" tvg-logo="https://i.imgur.com/F4hEPMK.png" group-title="Family", The Pet Collective
+https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="f77621b440ea5b643ee03d6ef1eafb6b" tvg-id="Torrevision.es" tvg-logo="https://i.imgur.com/3Kb01OO.png" group-title="Undefined", Torrevisión
+https://api.new.livestream.com/accounts/2614936/events/10365077/live.m3u8
+#EXTINF:-1 id="1f318fd9d4e0d2df4eb68c0c303f6047" tvg-id="Trece.es" tvg-logo="https://i.imgur.com/Fbti7Ln.png" group-title="Religious", Trece TV
+https://live-edge-bhs-1.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/playlist.m3u8
+#EXTINF:-1 id="74fadd4de9ea38a5fa2d92d60a8db42a" tvg-id="TuyaLaJandaTelevision.es" tvg-logo="https://i.imgur.com/KjWuini.png" group-title="Undefined", Tuya La Janda Televisión
+http://185.210.20.13:8080/0.m3u8
+#EXTINF:-1 id="0906f77c81cc285b84dc38184008218a" tvg-id="TV3.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/TV3.svg/300px-TV3.svg.png" group-title="Undefined", TV3
+https://directes-tv-cat.ccma.cat/live-origin/tv3-hls/master.m3u8
+#EXTINF:-1 id="7c923e4429cf0640e360909e81dfcd6a" tvg-id="TV3CAT.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/512px-TV3CAT.svg.png" group-title="Undefined", TV3CAT
+https://directes-tv-int.ccma.cat/live-origin/tvi-hls/master.m3u8
+#EXTINF:-1 id="91ce8ae9f7ffa735b44a8fbdaa8adabd" tvg-id="TV4LaVall.es" tvg-logo="https://i.imgur.com/NqjFVHp.png" group-title="Undefined", TV4 La Vall
+https://limited09.todostreaming.es/live/tarson-livestream.m3u8
+#EXTINF:-1 id="eafbe5eb5c1c58bba3625d23b48f9484" tvg-id="TV5MondeEurope.fr" tvg-logo="https://i.imgur.com/rPAbMSu.png" group-title="General", TV5Monde Europe
+https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8
+#EXTINF:-1 id="a3265e280dca6647cabc55dd72dcdab1" tvg-id="TVAlmassora.es" tvg-logo="https://i.imgur.com/syeJXGh.png" group-title="General", TV Almassora
+https://live.fullsport.es/hls/tvalmassora.m3u8
+#EXTINF:-1 id="24050414c2f3f5b12c7565accd8effd2" tvg-id="TVA.es" tvg-logo="https://i.imgur.com/aobkgrS.png" group-title="Undefined", TV Artequatre
+https://streaming007.gestec-video.com/hls/artequatreTVA.m3u8
+#EXTINF:-1 id="d6f462c85cfffe4eaec9d265e18c8aef" tvg-id="TVBergueda.es" tvg-logo="https://i.imgur.com/U5OVi3L.png" group-title="Undefined", TV Berguedà
+https://liveingesta318.cdnmedia.tv/berguedatvlive/smil:migracion.smil/playlist.m3u8?DVR=
+#EXTINF:-1 id="698c0d2dc7c78cc43c233c7838877a7e" tvg-id="TelevisionCanaria.es" tvg-logo="https://i.imgur.com/KtG2gvH.png" group-title="Undefined", TV Canaria
+https://ythls.armelin.one/channel/UCTQrUTmzCWIfG6h4EVCdOCQ.m3u8
+#EXTINF:-1 id="ff98c7228ff16c73024fa3558108cd1f" tvg-id="TVCarmona.es" tvg-logo="https://i.imgur.com/0QIls2H.jpg" group-title="Undefined", TV Carmona
+https://ythls.armelin.one/channel/UCRniQmtUlHJedl36F0Mehvw.m3u8
+#EXTINF:-1 id="9b6063dabeca32259dc0f3149b2b7baf" tvg-id="TVCostaBrava.es" tvg-logo="https://i.imgur.com/i6EnVZa.png" group-title="Undefined", TV Costa Brava
+https://liveingesta318.cdnmedia.tv/costabravatvlive/smil:live.smil/playlist.m3u8
+#EXTINF:-1 id="01b7e137c5bee76b74ba6c7b583518ad" tvg-id="vidistream.ddns.net" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", Tv Famypanc HD
+https://vidistream.ddns.net/hls/espana.play.m3u8
+#EXTINF:-1 id="566b93a2701bc75793343d5378da9692" tvg-id="TVFerrol.es" tvg-logo="https://i.imgur.com/TjpjoOu.png" group-title="Undefined", TV Ferrol
+https://directo.tvferrol.es/tv.m3u8
+#EXTINF:-1 id="33f38f193163c4fb8e83eb31740a8fc0" tvg-id="TVGirona.es" tvg-logo="https://i.imgur.com/yfiK1Vp.png" group-title="Undefined", TV Girona
+http://ventdelnord.tv:8080/girona/directe.m3u8
+#EXTINF:-1 id="502a0bd817350c981e7f6384feb6d077" tvg-id="TVHellin.es" tvg-logo="https://televisionhellin.com/wp-content/uploads/2021/08/logotipo-tvhellinonline.png" group-title="Undefined", TV Hellín
+https://hellin-hls-live.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="dba0e66d8e8a608171f4a6f4ae227913" tvg-id="TVLHospitalet.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Logotip_TV_L%27H.svg/400px-Logotip_TV_L%27H.svg.png" group-title="Undefined", TV L'Hospitalet
+https://liveingesta318.cdnmedia.tv/tvhospitaletlive/smil:tvhospitalet.smil/playlist.m3u8?DVR=
+#EXTINF:-1 id="c60d58aa20ebb8466d85325852f9b830" tvg-id="TVRipolles.es" tvg-logo="https://i.imgur.com/S5KB9DS.png" group-title="General", TV Ripollès
+https://liveingesta318.cdnmedia.tv/tvripolleslive/smil:live.smil/playlist.m3u8?DVR=
+#EXTINF:-1 id="f3c0b4a39c62ace07a4a06958e411d6f" tvg-id="TVSabadellValles.es" tvg-logo="https://i.imgur.com/fSTsGbG.png" group-title="General", TV Sabadell-Vallès
+https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
+#EXTINF:-1 id="5b8e9726c23dfd9ae214040cb4405610" tvg-id="TelevisiondeSanVicente.es" tvg-logo="https://i.imgur.com/oLnrf0d.png" group-title="General", TV San Vicente
+https://emision.arpamedia.es:4343/hls/tvsanvicenteweb.m3u8
+#EXTINF:-1 id="e9c1b0f2d939d53d142c1e57b46ea754" tvg-id="TVVegaBaja.es" tvg-logo="https://i.imgur.com/GIV9v1Y.png" group-title="Undefined", TV Vega Baja
+https://streaming.tvt.es:8080/hls/tvb_interno/live.m3u8
+#EXTINF:-1 id="cfa37dc08c097b6aa4e06d17f533a80d" tvg-id="TVCentroAndalucia.es" tvg-logo="https://i.imgur.com/xQAzYOD.png" group-title="Undefined", TVCentro Andalucía
+https://5fa5de1a545ae.streamlock.net/8052/8052/playlist.m3u8
+#EXTINF:-1 id="c4a7057ba91265859c3174c9bc769fe4" tvg-id="TVEInternacionalEuropeAsia.es" tvg-logo="https://i.imgur.com/ow1HArj.png" group-title="Undefined", TVE Internacional Europe-Asia
+https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8
+#EXTINF:-1 id="9ce996b58844acec0cda173eb6fa44e4" tvg-id="TVG2.es" tvg-logo="https://i.imgur.com/JpFmekJ.png" group-title="Undefined", TVG2
+https://events2-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="a0b165f002b6d29a0948cee29695eada" tvg-id="TelevisiondeGalicia.es" tvg-logo="https://i.imgur.com/YBaxWQC.png" group-title="Undefined", TVG
+https://europa-crtvg.flumotion.com/crtvg/europa_high/playlist.m3u8
+#EXTINF:-1 id="63a9a1136c6fc514ca04c8021e713c7a" tvg-id="TVGCativos.es" tvg-logo="https://i.imgur.com/rS9i9RL.png" group-title="Kids", TVG Cativ@s
+https://xabarintv-r2-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="2d43efa074101a6c08e7aceabc593931" tvg-id="TVGCultural.es" tvg-logo="https://i.imgur.com/dvkzH8n.png" group-title="Culture", TVG Cultural
+https://cultural-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="5184a19b38e162e32bb0c509c23a2c75" tvg-id="TVGEvento1.es" tvg-logo="https://i.imgur.com/ncxmX63.png" group-title="Undefined", TVG Evento 1
+https://events1-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="503c55f1984421dfc4b2d85006d515e6" tvg-id="TVGEvento4.es" tvg-logo="https://i.imgur.com/XBwebY0.png" group-title="Undefined", TVG Evento 4
+https://events4-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="35e71077f56277b3e026bcab680ca228" tvg-id="TVGEvento5.es" tvg-logo="https://i.imgur.com/XBwebY0.png" group-title="Undefined", TVG Evento 5
+https://amodino-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="4d2b40345903431e40f2d1cced62329d" tvg-id="TVGInfantil.es" tvg-logo="https://i.imgur.com/KgbNv4G.png" group-title="Kids", TVG Infantil
+https://infantil-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="1bce6ca2e9e498faf4f8ee6606800399" tvg-id="TVGMocinos.es" tvg-logo="https://i.imgur.com/rS9i9RL.png" group-title="Kids", TVG Mociñ@s
+https://xabarintv-r3-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="14e10510977ca761c98b0b9603b01961" tvg-id="TVGMomento.es" tvg-logo="https://i.imgur.com/rS9i9RL.png" group-title="Undefined", TVG Momentos G
+https://momentog-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="b54490e1d3649f00a7ce0bc501c90a08" tvg-id="TVGMusigal.es" tvg-logo="https://i.imgur.com/KgbNv4G.png" group-title="Music", TVG Musigal
+https://musigal-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="da53ec662d1191d459d8231e7f0a9068" tvg-id="TVGPequerrechos.es" tvg-logo="https://i.imgur.com/rS9i9RL.png" group-title="Kids", TVG Pequerrech@s
+https://xabarintv-r1-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="05e40cd1e90daaea35202068da57fbf5" tvg-id="TVMCordoba.es" tvg-logo="https://i.imgur.com/jN5k8Ob.png" group-title="Undefined", TVM Córdoba
+http://teledifusion.tv/cordoba/cordobalive/playlist.m3u8
+#EXTINF:-1 id="4e41925f96bc5d1873e989878b918425" tvg-id="TVReus.es" tvg-logo="https://i.imgur.com/Ee0C8UH.jpg" group-title="General", TVReus
+https://eu1.servers10.com:8081/8166/index.m3u8
+#EXTINF:-1 id="0e84797e6159a4e7b50930c1b6bcd67f" tvg-id="UDTV.es" tvg-logo="https://i.ibb.co/GJzmcPz/union-deportiva-las-palmas-tv-en-directo.png" group-title="Sports", UD Las Palmas TV
+https://cdn318.fractalmedia.es/live319/hls/cudtv/high/index.m3u8
+#EXTINF:-1 id="148a9179d595ac02904cda6ba2b928f4" tvg-id="UneVinalopo.es" tvg-logo="https://i.imgur.com/WpGR7RQ.png" group-title="Undefined", Une Vinalopó
+https://streamingtvi.gestec-video.com/hls/unesd.m3u8
+#EXTINF:-1 id="5e0d81a8ce8eba0db5d1d8b60e9a14b8" tvg-id="UniversTV.es" tvg-logo="https://i.imgur.com/EW2bfix.png" group-title="Entertainment", Univers TV
+https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8
+#EXTINF:-1 id="19c6d577409888342a4a614397d3f002" tvg-id="UrolaTelebista.es" tvg-logo="https://i.imgur.com/V23bltn.png" group-title="General", Urola Telebista
+https://5940924978228.streamlock.net/j_Directo2/mp4:j_Directo2/playlist.m3u8
+#EXTINF:-1 id="38b6afac6fcbc30765394a04a3575b32" tvg-id="VallesVisio.es" tvg-logo="https://www.vallesvisio.cat/wp-content/uploads/cropped-Logo-Valles-Visio-1.png" group-title="Undefined", Vallès Visió
+https://liveingesta318.cdnmedia.tv/vallesvisiotvlive/smil:live.smil/playlist.m3u8
+#EXTINF:-1 id="e0b59254af087966b09a18f9d39a9e1f" tvg-id="VentdelnordTV.es" tvg-logo="https://i.imgur.com/6sUkVOd.png" group-title="Undefined", Ventdelnord TV
+http://ventdelnord.tv:8080/hls/directe.m3u8
+#EXTINF:-1 id="a096c22d7a8f6a362735e6957d302268" tvg-id="VerbenaTV.es" tvg-logo="https://verbenafm.com/wp-content/uploads/2022/08/logoverbenatv-300x300.png" group-title="Music", Verbena TV
+https://streamtv2.elitecomunicacion.cloud:3144/live/verbenatvlive.m3u8
+#EXTINF:-1 id="ee9e5804ed3488e9a9d7c2a8a9b3dcd9" tvg-id="VinxTV.es" tvg-logo="https://i.imgur.com/6EGV2eo.png" group-title="Sports", Vinx TV
+https://tv.radiocast.es:5443/vinxtv/streams/vinxtvlive.m3u8
+#EXTINF:-1 id="ce9bc7fcb109e10991434c5dbe5704a3" tvg-id="Vision6TV.es" tvg-logo="https://i.imgur.com/TB1wMQ7.jpg" group-title="Undefined", Visión 6 TV
+https://secure3.todostreaming.es/live/visionseis-livestream.m3u8
+#EXTINF:-1 id="fb1915cd42cd383039819b9a4d9c4c5c" tvg-id="VivaMurciaTV.es" tvg-logo="https://i.imgur.com/8G2FlfF.jpg" group-title="Music", Viva Murcia TV
+http://185.36.211.142:8080/tmp_hls/viva/index.m3u8
+#EXTINF:-1 id="15dae5fcaa7612dda62aa41c256a6058" tvg-id="Vivamovil.es" tvg-logo="https://i.imgur.com/QQviU5m.png" group-title="Undefined", Vivamóvil
+https://5d8d85cf2c308.streamlock.net:1936/AlcalaTV/endirecto/playlist.m3u8
+#EXTINF:-1 id="7a4239a0c073fc813dfe6513f78e48eb" tvg-id="VOTV.es" tvg-logo="https://i.imgur.com/1g2Z64L.png" group-title="Undefined", VOTV
+https://ingest2-video.streaming-pro.com/votv/streaming_web/playlist.m3u8
+#EXTINF:-1 id="9c3a3df7238058801d7bcc37a58688d5" tvg-id="XPTV1.es" tvg-logo="https://i.imgur.com/Ty7GkoN.png" group-title="Music", XPTV1
+https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
+#EXTINF:-1 id="705ee5305871d98ef120640d214f326a" tvg-id="XPTV2.es" tvg-logo="https://i.imgur.com/74Z8ATB.png" group-title="Entertainment", XPTV2
+https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8
+#EXTINF:-1 id="94095412d13467b155a1ab93e8f5d1f2" tvg-id="XPTVUS.es" tvg-logo="https://i.imgur.com/1m7kDmc.png" group-title="Series", XPTV US
+https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
+#EXTINF:-1 id="3aca510d7bbf1168ae17f3e16269abed" tvg-id="ZafraTV.es" tvg-logo="https://i.ibb.co/BChc6HR/1293583425.jpg" group-title="General", Zafra TV
+https://cloud.fastchannel.es/mic/manifiest/hls/radiotvzafra/radiotvzafra.m3u8
+#EXTINF:-1 id="cfd4d96f6121ec7b582085fc0ebb8352" tvg-id="NTVMir.ru" tvg-logo="https://i.imgur.com/pUcV46F.png" group-title="Undefined", НТВ Мир
+http://stream02.vnet.am/HTB/mono.m3u8
+#EXTINF:-1 id="7b3e7659f1dd77042a07d21db7c99e1e" tvg-id="PeretzInternational.ru" tvg-logo="https://i.imgur.com/On6ggLe.png" group-title="Entertainment", Перец
+http://stream01.vnet.am/Perec/mono.m3u8
+#EXTINF:-1 id="7607307f6832b6ed917037086d76d095" tvg-id="RTRPlanetaEurope.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" group-title="General", РТР Планета Евро
+https://player.smotrim.ru/iframe/stream/live_id/4941

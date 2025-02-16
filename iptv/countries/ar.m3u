@@ -1,0 +1,675 @@
+#EXTM3U
+#EXTINF:-1 id="9abd316dcc43b33c7a67cc8c3c7885fc" tvg-id="5tv.ar" tvg-logo="https://i.imgur.com/mSn7ACs.png" group-title="General", 5TV Corrientes
+http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8
+#EXTINF:-1 id="1d91feac6c684443f545278b75bf1fd0" tvg-id="13MaxTelevision.ar" tvg-logo="https://i.imgur.com/QvF4l2t.png" group-title="General", 13Max Televisión
+http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8
+#EXTINF:-1 id="aaaf659965e590adc05a969e7c99d752" tvg-id="247CanaldeNoticias.ar" tvg-logo="https://i.imgur.com/4hDCB1M.png" group-title="News", 24/7 Canal de Noticias
+https://panel.host-live.com:19360/cn247tv/passthru.m3u8
+#EXTINF:-1 id="1a613f8b755810941afff41a8ccab14c" tvg-id="24HorasInternacional.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" group-title="News", 24 Horas Internacional
+https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8
+#EXTINF:-1 id="0d52eab62c88cc79fdda3481884d4e32" tvg-id="A24.ar" tvg-logo="https://i.imgur.com/LnXQkIU.png" group-title="News", A24
+https://ythls.armelin.one/channel/UCR9120YBAqMfntqgRTKmkjQ.m3u8
+#EXTINF:-1 id="ff17c61d802c850f172d34861e0a8ccf" tvg-id="AcequiaTV.ar" tvg-logo="https://i.imgur.com/RdGdMCj.png" group-title="General", Acequia TV
+https://ythls.armelin.one/channel/UCrYFBjFOP_zlFzsif9XDhgw.m3u8
+#EXTINF:-1 id="8823f18d114c0bc7352a80981f89fbd9" tvg-id="AgrotendenciaTV.cr" tvg-logo="https://i.imgur.com/frd60hR.png" group-title="Outdoor", Agrotendencia TV
+https://5fc584f3f19c9.streamlock.net/agrotendencia/videoagrotendencia_hls1/playlist.m3u8
+#EXTINF:-1 id="87a950bc9de0f1962ca95b5710c72855" tvg-id="AiredeSantaFe.ar" tvg-logo="https://i.imgur.com/60vSWW0.png" group-title="General", Aire de Santa Fe
+https://unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u8
+#EXTINF:-1 id="d97751643ba2a3b991b4ace9769a2eb1" tvg-id="AlternaTV.ar" tvg-logo="https://alternatv.ar/alternatv.png" group-title="Culture;Documentary;Entertainment;General;Movies;Music", AlternaTV
+https://alternatv.ar/stream/hls/live.m3u8
+#EXTINF:-1 id="eb56c91c72d3fc674282449004681785" tvg-id="Am1020.ar" tvg-logo="https://i.imgur.com/nEVKVZK.png" group-title="Music", Am1020
+http://51.79.83.93:9998/live/am1020/playlist.m3u8
+#EXTINF:-1 id="2504cdfe89e05463106d5aa24e829462" tvg-id="AmericaTucuman.ar" tvg-logo="https://i.imgur.com/TJmzwv9.png" group-title="News", América Tucumán
+https://ythls.armelin.one/channel/UCZ8sgVyD7HqDor8ujB-TZpg.m3u8
+#EXTINF:-1 id="66daaf2ba3c44c25060c1093621cd31a" tvg-id="AmericaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/512px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" group-title="General", América TV
+https://ythls.armelin.one/channel/UC6NVDkuzY2exMOVFw4i9oHw.m3u8
+#EXTINF:-1 id="4a74864dd664e24a5b699f65f14f4066" tvg-id="AngelTVSpanish.in" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Religious", Angel TV Spanish
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelspanish_all/playlist.m3u8
+#EXTINF:-1 id="f8eefafdb15d3e2e09c1339f9dd194c2" tvg-id="AnimeZoneTV.do" tvg-logo="https://i.imgur.com/AHaXlCh.png" group-title="Animation", Anime Zone TV
+http://animezonetv.net/hls/stream.m3u8
+#EXTINF:-1 id="4a9c709485cf2c9af1451003c025ac5a" tvg-id="ANIMESTATION.ar" tvg-logo="https://web.archive.org/web/20240509182044if_/https://pbs.twimg.com/profile_images/1744338643957780480/24Kv02RD_400x400.jpg" group-title="Animation", ANIMESTATION
+https://ssh101-fl.bozztv.com/ssh101/livestreamingtv/index.m3u8
+#EXTINF:-1 id="4fc46c699e0b241eb3795486ee2f86d4" tvg-id="Antena91.ar" tvg-logo="https://i.imgur.com/HAJxHcV.png" group-title="Undefined", Antena 91
+https://tuvideoonline.com.ar:3393/live/antena91live.m3u8
+#EXTINF:-1 id="984c05b2ecc2b1bb426b344491d6c9e6" tvg-id="ArgentinisimaSatelital.ar" tvg-logo="https://i.imgur.com/xFgJawa.png" group-title="General", Argentinísima Satelital
+https://stream1.sersat.com/hls/argentinisima.m3u8
+#EXTINF:-1 id="7fc2276a74af2be9754cb2df53c2b676" tvg-id="AstroNet.ar" tvg-logo="https://i.imgur.com/SNbLfau.png" group-title="Science", AstroNet
+https://stmv1.cnarlatam.com/astronet/astronet/playlist.m3u8
+#EXTINF:-1 id="298509bfaf6f58612b32e5047d85f18c" tvg-id="ATVArgentina.ar" tvg-logo="https://i.ibb.co/rMBVDmZ/atvargentina-x1.png" group-title="News", ATV Argentina
+https://stream.arcast.com.ar/atbargentina/atbargentina/playlist.m3u8
+#EXTINF:-1 id="b554252dce63eebbfc1ec4f2eb394836" tvg-id="Aunar.ar" tvg-logo="https://i.imgur.com/BfaCaZF.png" group-title="Culture;Travel", Aunar
+https://538d0bde28ccf.streamlock.net/live-cont.ar/mirador/.m3u8
+#EXTINF:-1 id="5cfbed8cfea460df9a38b17cee3177e4" tvg-id="AVCHD.ar" tvg-logo="https://i.imgur.com/8CT4y1O.png" group-title="General", AVC HD
+https://ssh101.bozztv.com/ssh101/streamavc/playlist.m3u8
+#EXTINF:-1 id="bae654920f46043d8ff85e5db351e925" tvg-id="AventurasTV.ar" tvg-logo="https://i.imgur.com/qt6g1wi.png" group-title="Entertainment", Aventuras TV
+https://stmv1.cnarlatam.com/mundotv/mundotv/playlist.m3u8
+#EXTINF:-1 id="b2917c3a7bc3c64aee69ff5fa1669f34" tvg-id="AzaharesRadiovisualMultimedia.ar" tvg-logo="https://i.imgur.com/g1BFoSs.png" group-title="Music", Azahares Radio Multimedia
+https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8
+#EXTINF:-1 id="591d13e40d7144f608fa0a15618fbd05" tvg-id="AZMTV.ar" tvg-logo="https://i.imgur.com/irp42T9.png" group-title="Undefined", AZM TV
+https://live.canalnueve.tv/canal.m3u8
+#EXTINF:-1 id="cc26607d15b65c3e2c07ae9776f26d6b" tvg-id="BayresTV.ar" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKrroOZ4RYMYlzGqMQjiIO2QbRNVndEM9PiC-CaRn0PO2AoB_YKyrt6Eigzh4M1gPZaVn5udDL5YzrzxAmyQCj_HTF8Pszo46dk9dABt9TpepY43_IEzT80atZEMaiMcdrqt3lmxAbZYaLwCgr6vDUgV1HlvmhIOJ99UlwAhG2FoHgtCm13CWEugV7Bvg/w1200-h630-p-k-no-nu/bayres-tv-removebg-preview.png" group-title="General", Bayres TV
+https://streaming02.gbasat.com.ar:19360/bayrestv/bayrestv.m3u8
+#EXTINF:-1 id="0889ba228c1b2a4d1bd9b62a5714a6f8" tvg-id="BeatsRadio.ar" tvg-logo="https://i.imgur.com/zkNUO5p.png" group-title="Music", Beats Radio
+https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8
+#EXTINF:-1 id="32cd8147452bd3f96cda6526438fbe82" tvg-id="BVC.ar" tvg-logo="https://bvconline.com.ar/images/logo.png" group-title="Undefined", BVC
+https://vivo.solumedia.com:19360/bvconline/bvconline.m3u8
+#EXTINF:-1 id="798e1406c8ab9584b83879fcad1e1d4e" tvg-id="C5N.ar" tvg-logo="https://i.imgur.com/5ZNZYjO.png" group-title="News", C5N
+https://ythls.armelin.one/channel/UCFgk2Q2mVO1BklRQhSv6p0w.m3u8
+#EXTINF:-1 id="d15906f328ba3ca00f0e09b0f47647b4" tvg-id="CableImagenArmstrong.ar" tvg-logo="https://i.imgur.com/U9NuJQC.png" group-title="Undefined", Cable Imagen Armstrong
+https://stream.arcast.com.ar/casse/casse/playlist.m3u8
+#EXTINF:-1 id="11a738a480017de9057aa2593d0a5c7c" tvg-id="Cadena103TV.ar" tvg-logo="https://i.imgur.com/vBsry35.png" group-title="Undefined", Cadena 103
+http://arcast.net:1935/cadena103/cadena103/playlist.m3u8
+#EXTINF:-1 id="a5352d95af25df5cdbd2d3206744f1e1" tvg-id="CadenaCoversClasicos.ar" tvg-logo="https://i.imgur.com/CC1MFt6.png" group-title="Classic;Music", Cadena Cover's Clásicos
+https://bamus-spa-roku.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="c5f56e891612c636616f2238fd5e5dd2" tvg-id="CadenaVIVO.ar" tvg-logo="https://i.imgur.com/bCjaI8j.png" group-title="Undefined", Cadena V!VO
+https://stmv1.voxtvhd.com.br/cadenavivo/cadenavivo/playlist.m3u8
+#EXTINF:-1 id="343679017df2039125a30ca0f2c6d2af" tvg-id="CalchaquiTV.ar" tvg-logo="https://i.imgur.com/5XkvytM.png" group-title="Undefined", Calchaquí TV
+https://video.streamtvradio.com:8443/uv068/uv068/chunks.m3u8
+#EXTINF:-1 id="7f1332d17b6d2aca5f32c3be2ca39533" tvg-id="Canal2deUshuaia.ar" tvg-logo="https://i.ibb.co/q5NPdK2/canal2-logo.png" group-title="General", Canal 2 de Ushuaia
+https://nd106.republicaservers.com:4433/hls/c6611/index.m3u8
+#EXTINF:-1 id="5c37a2b5a0a7f559515f341f820077e4" tvg-id="Canal2Jujuy.ar" tvg-logo="https://i.imgur.com/q0FyrAv.png" group-title="Undefined", Canal 2 Jujuy
+https://api.new.livestream.com/accounts/679322/events/3782013/live.m3u8
+#EXTINF:-1 id="bb2bb1fb75f427308be6b719c8031eff" tvg-id="Canal2Misiones.ar" tvg-logo="https://i.imgur.com/YqTNXDf.png" group-title="Undefined", Canal 2 Misiones
+https://nd106.republicaservers.com:4433/hls/canal2misioness/index.m3u8
+#EXTINF:-1 id="13db94ca969e711bc0ad074fffc152ce" tvg-id="Canal2Perico.ar" tvg-logo="https://i.imgur.com/1zF4mZC.png" group-title="Undefined", Canal 2 Perico
+https://streamcasthd.com:1936/tecnovisioncanal2tv/tecnovisioncanal2tv/playlist.m3u8
+#EXTINF:-1 id="d4f1d8ecf8a8a15d2ba8f0e1de514fc8" tvg-id="Canal2Salta.ar" tvg-logo="https://i.imgur.com/kwOIiaO.png" group-title="Undefined", Canal 2 Salta
+https://vivo.solumedia.com:19360/tv2salta/tv2salta.m3u8
+#EXTINF:-1 id="100c01543dad19cc5dcd076b24930d01" tvg-id="Canal2Sanagasta.ar" tvg-logo="https://i.imgur.com/ssuILLB.jpg" group-title="Undefined", Canal 2 Sanagasta
+https://stmvideo1.livecastv.com/canal2/canal2/playlist.m3u8
+#EXTINF:-1 id="5132712b1e15e741421775da1222b529" tvg-id="Canal3Formosa.ar" tvg-logo="https://i.imgur.com/rVDrNIy.png" group-title="Undefined", Canal 3 Formosa
+https://stmvideo2.livecastv.com/agenfor/agenfor/playlist.m3u8
+#EXTINF:-1 id="72a34805f328d2db98f0cdea9c7e4dd0" tvg-id="Canal3LaPampa.ar" tvg-logo="https://i.imgur.com/SsNFudZ.png" group-title="Undefined", Canal 3 La Pampa
+https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
+#EXTINF:-1 id="da9830c3b9a937b67916c46391912616" tvg-id="Canal3LasHeras.ar" tvg-logo="https://i.imgur.com/bd2afET.png" group-title="Undefined", Canal 3 Las Heras
+https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8
+#EXTINF:-1 id="6c4a02aa31ef194888f9ccc6f40bac12" tvg-id="Canal3Rosario.ar" tvg-logo="https://i.imgur.com/PjsKbrz.png" group-title="Undefined", Canal 3 Rosario
+https://59d52c5a5ce5e.streamlock.net:4443/canal3rosario/ngrp:canal3rosario_all/playlist.m3u8
+#EXTINF:-1 id="40e8b9725af59b567e4bc6c3317f8794" tvg-id="Canal4Balcarce.ar" tvg-logo="https://i.imgur.com/6xYbED7.png" group-title="Undefined", Canal 4 Balcarce
+https://stmvideo2.livecastv.com/canal4/canal4/playlist.m3u8
+#EXTINF:-1 id="68e731a6a2235007e9dee6e70a344fe3" tvg-id="Canal4Eldorado.ar" tvg-logo="https://i.imgur.com/wgLw4sV.png" group-title="Undefined", Canal 4 Eldorado
+https://stream.arcast.com.ar/canal4eldorado/canal4eldorado/playlist.m3u8
+#EXTINF:-1 id="43d05d1dd3c0fe0041f68f48bc825cf3" tvg-id="Canal4Esquel.ar" tvg-logo="https://i.imgur.com/6kbOr16.png" group-title="Undefined", Canal 4 Esquel
+https://stream.arcast.com.ar/canal4esquel/canal4esquel/playlist.m3u8
+#EXTINF:-1 id="55af6c05491307528e011ca3ebbbd350" tvg-id="Canal4Jujuy.ar" tvg-logo="https://i.imgur.com/qB6I274.png" group-title="Undefined", Canal 4 Jujuy
+http://190.52.32.13:1935/canal4/smil:manifest.smil/playlist.m3u8
+#EXTINF:-1 id="8759662b981622cef91b14dbbd5875a9" tvg-id="Canal4Posadas.ar" tvg-logo="https://i.imgur.com/tElJr3e.png" group-title="Undefined", Canal 4 Posadas
+https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8
+#EXTINF:-1 id="2225ce8ecf7a3bda78173b37e11662eb" tvg-id="Canal4SanJuan.ar" tvg-logo="https://i.imgur.com/MsCnwRA.png" group-title="Undefined", Canal 4 San Juan
+https://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8
+#EXTINF:-1 id="7286aa1f0f0a39e0efea58911be62568" tvg-id="Canal5DelPueblo.ar" tvg-logo="https://i.ibb.co/XzcYYMc/Canal-5-alcorta-ver.jpg" group-title="General", Canal 5 del Pueblo
+https://stmv1.cnarlatam.com/canal5pueblo/canal5pueblo/playlist.m3u8
+#EXTINF:-1 id="66e73ff840521f849e633d7ca93cae44" tvg-id="Canal5PicoTruncado.ar" tvg-logo="https://i.imgur.com/VwUiSVF.png" group-title="Undefined", Canal 5 Pico Truncado
+https://stream.arcast.com.ar/canal5picotruncado/canal5picotruncado/playlist.m3u8
+#EXTINF:-1 id="4a62683ea9c6347a98f0d1647275c650" tvg-id="Canal5SantaFe.ar" tvg-logo="https://i.imgur.com/WX0esjQ.png" group-title="Undefined", Canal 5 Santa Fe
+https://stream.arcast.com.ar/c5sf/c5sf/playlist.m3u8
+#EXTINF:-1 id="d9ae6d8bf0ea70730800ec943aa4dfb8" tvg-id="Canal5Tucuman.ar" tvg-logo="https://i2.paste.pics/a3cc09111530a9edea11497d6575afb0.png" group-title="Undefined", Canal 5 Tucumán
+https://videohd.live:19360/8090/8090.m3u8
+#EXTINF:-1 id="f87796e14da25210e6e813328311dcb7" tvg-id="Canal6EntreRiosTV.ar" tvg-logo="https://i.imgur.com/3lMcBfz.png" group-title="Undefined", Canal 6 ERTV
+https://ythls.armelin.one/channel/UCgj6Vesuxfr_fVEp-rG5sxQ.m3u8
+#EXTINF:-1 id="94b410e1cdca53ba0163842889d42919" tvg-id="Canal6MardelPlata.ar" tvg-logo="https://i.imgur.com/fNaIrvV.png" group-title="Undefined", Canal 6 Mar del Plata
+https://panel.dattalive.com/8166/8166/playlist.m3u8
+#EXTINF:-1 id="c695f4c17da88996fc69a69837bf5981" tvg-id="Canal6Moreno.ar" tvg-logo="https://i.imgur.com/TefE4HC.png" group-title="Undefined", Canal 6 Moreno
+https://stream.arcast.com.ar/canal6moreno/canal6moreno/playlist.m3u8
+#EXTINF:-1 id="683b34fa31fb77736f804706dd37a308" tvg-id="Canal6Posadas.ar" tvg-logo="https://i.imgur.com/OamBiS5.png" group-title="Undefined", Canal 6 Posadas
+https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8
+#EXTINF:-1 id="9691226611828f267dee8a391143f920" tvg-id="Canal7Chubut.ar" tvg-logo="https://www.lyngsat.com/logo/tv/cc/canal-7-chubut-ar.png" group-title="Undefined", Canal 7 Chubut
+https://ythls.armelin.one/channel/UCfmLIFSQSQ-4y9Jgn93nefA.m3u8
+#EXTINF:-1 id="51ece0235aaef75ed9558f23a32ac8fb" tvg-id="Canal7Jujuy.ar" tvg-logo="https://i.imgur.com/K0jk8p4.png" group-title="Undefined", Canal 7 Jujuy
+https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8
+#EXTINF:-1 id="e52b9ec7af212ad54a82f103d7b929bf" tvg-id="Canal7Neuquen.ar" tvg-logo="https://i.ibb.co/BrvQsWm/C7neuquenlogo2023.png" group-title="General", Canal 7 Neuquén
+https://stream.arcast.com.ar/c7nq/ngrp:c7nq_all/playlist.m3u8
+#EXTINF:-1 id="b978272bbb1abf602f2bce0760672c0d" tvg-id="Canal7Salta.ar" tvg-logo="https://i.imgur.com/CudG6sl.png" group-title="Undefined", Canal 7 Salta
+https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8
+#EXTINF:-1 id="3c2288f8eab78ea8bf1f162cc195dd2c" tvg-id="Canal7TV.ar" tvg-logo="https://i.imgur.com/iJMH0UK.png" group-title="Undefined", Canal 7 Santiago del Estero
+https://stream.arcast.com.ar/envivo/castv/playlist.m3u8
+#EXTINF:-1 id="39273fc12ee620766d939330d711d08b" tvg-id="Canal8MardelPlata.ar" tvg-logo="https://i.imgur.com/G7TaQ1L.png" group-title="Undefined", Canal 8 Mar del Plata
+https://stream.arcast.com.ar/c8mdp/ngrp:c8mdp_all/playlist.m3u8
+#EXTINF:-1 id="21557485c6045e8b43ee6a337802a447" tvg-id="Canal8SanJuan.ar" tvg-logo="https://yt3.googleusercontent.com/ytc/AGIKgqPYspgaPVcDnGMJbiJyhthRt27nGqGkdWbqyk43bg=s176-c-k-c0x00ffffff-no-rj" group-title="General", Canal 8 San Juan
+https://ythls.armelin.one/channel/UC5UKMEIoqvNDMSDz2_6Sn9g.m3u8
+#EXTINF:-1 id="f6f3de1bd3ccfe60b756d633aea74a09" tvg-id="Canal8ValledeUco.ar" tvg-logo="https://i.imgur.com/XwZ7m4L.png" group-title="Undefined", Canal 8 Valle de Uco
+https://videostream.shockmedia.com.ar:19360/canal8/canal8.m3u8
+#EXTINF:-1 id="b522e4a5b13fa2f120618f83fd0e5f20" tvg-id="Canal9LaRioja.ar" tvg-logo="https://i.imgur.com/Sy7lBuk.png" group-title="General", Canal 9 La Rioja
+https://inliveserver.com:1936/17012/17012/playlist.m3u8
+#EXTINF:-1 id="8400f99846b19f8f361f2cd78d84193e" tvg-id="Canal9Litoral.ar" tvg-logo="https://i2.paste.pics/216f13d3a32f35802881b19c2fa39554.png" group-title="Undefined", Canal 9 Litoral
+https://stream.arcast.live/ahora/ahora/playlist.m3u8
+#EXTINF:-1 id="58c51f62c643f83f23376b5463b619ed" tvg-id="Canal9NorteMisionero.ar" tvg-logo="https://i.ibb.co/RSyDMxM/unnamed-6.png" group-title="General", Canal 9 Norte Misionero
+https://panel.dattalive.com/8076/8076/playlist.m3u8
+#EXTINF:-1 id="a09cdf32ab8730b95906bb6d9a38b896" tvg-id="Canal9Resistencia.ar" tvg-logo="https://i.imgur.com/xqgRFpC.png" group-title="General", Canal 9 Resistencia
+http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
+#EXTINF:-1 id="fa63ecc4f315324c4a3dd7101004600b" tvg-id="Canal9RioCuarto.ar" tvg-logo="https://i2.paste.pics/a6e7d4bb67f0a6601e6db436a52e08dc.png" group-title="Undefined", Canal 9 Río Cuarto
+https://streamcasthd.com:1936/canal9riocuartotv/canal9riocuartotv/playlist.m3u8
+#EXTINF:-1 id="9aeb6086b6edb0f142a1e72bf561133e" tvg-id="Canal9SantaCruz.ar" tvg-logo="https://i.imgur.com/WJjY3bu.png" group-title="General", Canal 9 Santa Cruz
+https://videostream.shockmedia.com.ar:19360/canal9santacruz/canal9santacruz.m3u8
+#EXTINF:-1 id="83cc22f17ecd52fbb2bc26405c99f15a" tvg-id="Canal9Televida.ar" tvg-logo="https://i.imgur.com/JUtAzg4.png" group-title="Undefined", Canal 9 Televida
+https://unlimited1-us.dps.live/televidaar/televidaar.smil/playlist.m3u8
+#EXTINF:-1 id="bc28d87350caf8c20d0d74ab2d775918" tvg-id="Canal10Cordoba.ar" tvg-logo="https://i.imgur.com/87WCHtd.png" group-title="Undefined", Canal 10 Córdoba
+https://stream.arcast.live/canal10/ngrp:canal10_all/playlist.m3u8
+#EXTINF:-1 id="57cf654b2fd147b32a3fd0b27931c23d" tvg-id="Canal10deJunin.ar" tvg-logo="https://i.imgur.com/FdWrWgt.png" group-title="Undefined", Canal 10 de Junín
+https://g4.mc-slo.transport.edge-access.net/a10/ngrp:canal10junin-100056_all/Playlist.m3u8
+#EXTINF:-1 id="2c0ac639b12bb1fb19dbbd0cd593ffb1" tvg-id="Canal10Goya.ar" tvg-logo="https://i.ibb.co/cySdXxP/unnamed-5.png" group-title="General", Canal 10 Goya
+https://streamcasthd.com:19360/canal10goya/canal10goya.m3u8
+#EXTINF:-1 id="6012570e4e518ff0be589a9ab8806016" tvg-id="Canal10MardelPlata.ar" tvg-logo="https://i.imgur.com/bq29sfG.png" group-title="Entertainment", Canal 10 Mar del Plata
+https://g5.mc-slo.transport.edge-access.net/a15/ngrp:canal10mdq-100044_all/Playlist.m3u8
+#EXTINF:-1 id="370120c38ae59f25db1a6eda41d08ca5" tvg-id="Canal10Neuquen.ar" tvg-logo="https://i.imgur.com/HVlnnDo.png" group-title="Undefined", Canal 10 Neuquén
+https://stmv1.srvstm.com/tv10/tv10/playlist.m3u8
+#EXTINF:-1 id="e12d820123b3157d5326c694e503b655" tvg-id="Canal10Nortevision.ar" tvg-logo="https://i.imgur.com/Uqf93Mu.png" group-title="Undefined", Canal 10 Nortevision
+https://vivo.solumedia.com:19360/nortevision/nortevision.m3u8
+#EXTINF:-1 id="5ee368e50d4ac6cc68f8341aab7cd0fb" tvg-id="Canal10TVRioNegro.ar" tvg-logo="https://i.imgur.com/zpJdUVC.png" group-title="Undefined", Canal 10 Rio Negro
+http://panel.dattalive.com:1935/8204/8204/playlist.m3u8
+#EXTINF:-1 id="bd41b89b1c57c446f16154085308fadb" tvg-id="Canal10SanRafael.ar" tvg-logo="https://i.imgur.com/yqyavnM.png" group-title="Undefined", Canal 10 San Rafael
+https://streamcasthd.com:1936/tvdiez/tvdiez/playlist.m3u8
+#EXTINF:-1 id="103c069e7a4a2ead9d3ad6598f12a379" tvg-id="Canal10Salta.ar" tvg-logo="https://i.imgur.com/don0WSG.png" group-title="General", Canal 10 Televisión Salteña
+https://restreamer.el10tv.com/memfs/725003c4-79c2-4565-8311-f429db4f7777.m3u8
+#EXTINF:-1 id="6f944509be9542305b3cb9334f7fa80c" tvg-id="Canal11delaCosta.ar" tvg-logo="https://i.imgur.com/yYExcq1.jpg" group-title="Undefined", Canal 11 de la Costa
+https://vivo.solumedia.com:19360/dadaproductora/dadaproductora.m3u8
+#EXTINF:-1 id="ad2cee3f390fa7a363bed519ca903170" tvg-id="Canal11LaRioja.ar" tvg-logo="https://i.imgur.com/Umy5drt.png" group-title="Undefined", Canal 11 La Rioja
+http://stmv4.questreaming.com/fenixlarioja/fenixlarioja/playlist.m3u8
+#EXTINF:-1 id="ac39a64d41d908482cc52b329f5f2a7c" tvg-id="DoceMisiones.ar" tvg-logo="https://i.imgur.com/agVTEeO.png" group-title="General", Canal 12 Misiones
+https://g4.vxral-slo.transport.edge-access.net/a05/ngrp:c12_live01-100129_all/Playlist.m3u8
+#EXTINF:-1 id="16964e37de8e11a3ef9ad6d5da8ec280" tvg-id="Canal12Web.ar" tvg-logo="https://i.imgur.com/VYcTRbd.png" group-title="Undefined", Canal 12 Puerto Madryn
+https://5f700d5b2c46f.streamlock.net/madryntv/madryntv/playlist.m3u8
+#EXTINF:-1 id="e260b76fa2ff9aa6bed7f756d3579f51" tvg-id="Canal13Jujuy.ar" tvg-logo="https://i.imgur.com/lmKLiJ3.jpg" group-title="Religious", Canal 13 Jujuy TV
+https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
+#EXTINF:-1 id="7581ed41eb66d3d0f2ec9731403b02e6" tvg-id="Canal13LaRioja.ar" tvg-logo="https://i.imgur.com/OI97Sgq.png" group-title="Undefined", Canal 13 La Rioja
+http://arcast.net:1935/mp/mp/playlist.m3u8
+#EXTINF:-1 id="49717c2aa0752ceb1c1e2fadda6adb64" tvg-id="Canal13SanJuan.ar" tvg-logo="https://pbs.twimg.com/profile_images/1617246021/Captura_de_pantalla_2011-11-01_a_las_11.42.42_400x400.png" group-title="General", Canal 13 San Juan
+https://ythls.armelin.one/channel/UCuJvDPQIaUhvdHiH275WjNA.m3u8
+#EXTINF:-1 id="42aedd2f021f66896b16dae8b5a38be0" tvg-id="Canal13SanLuis.ar" tvg-logo="https://i.imgur.com/NcfMC29.png" group-title="Undefined", Canal 13 San Luis
+https://stream.arcast.live/sanluistv/ngrp:sanluistv_all/playlist.m3u8
+#EXTINF:-1 id="b9440cbe93889339ca22e2cc254f9991" tvg-id="Canal20VillaMaria.ar" tvg-logo="https://i.imgur.com/PaQH5JM.png" group-title="Undefined", Canal 20 Villa María
+https://cronos.aldeaglobal.net.ar/hls/canal20.m3u8
+#EXTINF:-1 id="f6f2915f76005ee424a4f09610c2544b" tvg-id="Canal21TV.ar" tvg-logo="https://i.imgur.com/Am7yMXg.png" group-title="Undefined", Canal 21 TV
+https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8
+#EXTINF:-1 id="f771585649fb4c017e35b447e7ac95f2" tvg-id="Canal22.ar" tvg-logo="https://i.imgur.com/R4wXVxf.png" group-title="Undefined", Canal 22
+https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8
+#EXTINF:-1 id="4c3e1d5e330fd5c6153ddfb4bab2235c" tvg-id="Canal26.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/512px-Canal_26_logo_%282022%29.svg.png" group-title="News", Canal 26
+https://ythls.armelin.one/channel/UCrpMfcQNog595v5gAS-oUsQ.m3u8
+#EXTINF:-1 id="c8cfce02341247378c4f55fb0baa6d81" tvg-id="Canal34SanJuan.ar" tvg-logo="https://i.imgur.com/bZMEiYe.png" group-title="General", Canal 34 San Juan
+https://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8
+#EXTINF:-1 id="2533f4a54e8faa02ed0bc4dfd6445513" tvg-id="Canal40Caucete.ar" tvg-logo="https://i.imgur.com/xUiQvk8.png" group-title="Undefined", Canal 40 Caucete
+https://canalsj.kozow.com/canal40/index.m3u8
+#EXTINF:-1 id="33f8963f06e5eb76dcaf86f8b9dba49e" tvg-id="Canal50Morteros.ar" tvg-logo="https://i.imgur.com/IDhgBav.png" group-title="Undefined", Canal 50 Morteros
+https://coopmorteros.online/canal50/vivo.m3u8
+#EXTINF:-1 id="278468dde21572027b7aa2d0096d5e15" tvg-id="Canal79LaCosta.ar" tvg-logo="https://i.imgur.com/HYuSqJy.png" group-title="Undefined", Canal 79 La Costa
+https://streamconex.com:1936/lacosta/lacosta/playlist.m3u8
+#EXTINF:-1 id="3b8683a689e34fa2a5ca3bffa09bcf51" tvg-id="Canal79MardelPlata.ar" tvg-logo="https://i.imgur.com/I93ypGY.png" group-title="Undefined", Canal 79 Mar del Plata
+https://streamconex.com:1936/mardelplata/mardelplata/playlist.m3u8
+#EXTINF:-1 id="382857fb88d10328af44433a5d3f4b10" tvg-id="Canal79Puan.ar" tvg-logo="https://i.imgur.com/HYuSqJy.png" group-title="Undefined", Canal 79 Puan
+https://streamconex.com:1936/puan/puan/playlist.m3u8
+#EXTINF:-1 id="1c37c5e26483d17203cfcf9840215f3e" tvg-id="Canal79SanJuan.ar" tvg-logo="https://i.imgur.com/I93ypGY.png" group-title="Undefined", Canal 79 San Juan
+https://streamconex.com:1936/sanjuan/sanjuan/playlist.m3u8
+#EXTINF:-1 id="bca912054edccded2f50492728be1d59" tvg-id="Canal79SantaClaradelMar.ar" tvg-logo="https://i.imgur.com/I93ypGY.png" group-title="Undefined", Canal 79 Santa Clara del Mar
+https://streamconex.com:1936/santaclara/santaclara/playlist.m3u8
+#EXTINF:-1 id="32231b4980c87898dc1a12e2e70379df" tvg-id="Canal79VillaMaza.ar" tvg-logo="https://i.imgur.com/HYuSqJy.png" group-title="Undefined", Canal 79 Villa Maza
+https://streamconex.com:1936/villamaza/villamaza/playlist.m3u8
+#EXTINF:-1 id="3e5fc6a08e0e8f975009be42421e2272" tvg-id="Canal907FM.ar" tvg-logo="https://i.imgur.com/hdwtH9q.png" group-title="Undefined", Canal 907 FM
+https://panel.dattalive.com/canal907/canal907/playlist.m3u8
+#EXTINF:-1 id="0cd5663a709e48e7e252be56a22ec109" tvg-id="CanalBlu.ar" tvg-logo="https://i.imgur.com/EVe8j4y.png" group-title="Undefined", Canal Blu
+https://vivo.solumedia.com:19360/canalblu/canalblu.m3u8
+#EXTINF:-1 id="5f522a3f3b4cc0b51e8799530fbdad5a" tvg-id="CanalCNR.ar" tvg-logo="https://i.imgur.com/IhwOCKT.png" group-title="Undefined", Canal CNR
+https://ythls.armelin.one/channel/UCeNlqMQ1Um3NUM97OBGA0sw.m3u8
+#EXTINF:-1 id="667466e66968ebf1bba5fa4a85cd883f" tvg-id="CanalCoop.ar" tvg-logo="https://i.imgur.com/6sRGybG.png" group-title="Undefined", Canal Coop
+https://panel.dattalive.com/8138/8138/playlist.m3u8
+#EXTINF:-1 id="409858ff632aeff3737c1b4bf25d8367" tvg-id="CanaldelaCiudad.ar" tvg-logo="https://i.imgur.com/fNURpai.png" group-title="Undefined", Canal de la Ciudad
+https://ythls.armelin.one/channel/UCOV_Vx1baZJY9Tfvgm-UI3w.m3u8
+#EXTINF:-1 id="43dd5b33dd65f19f08708f55973033dc" tvg-id="CanalE.ar" tvg-logo="https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg" group-title="Business;News", Canal E
+https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
+#EXTINF:-1 id="d88c88650e1d710a5946f9bfee08126d" tvg-id="CanalLuz.ar" tvg-logo="https://i.imgur.com/GnY6dNT.png" group-title="Religious", Canal Luz
+https://g2.vxral-slo.transport.edge-access.net/a11/ngrp:canal_luz01-100009_all/Playlist.m3u8
+#EXTINF:-1 id="208858322f00fe81a71040651ab2acdd" tvg-id="CanalOrbe21.ar" tvg-logo="https://i.imgur.com/USD6Wn8.png" group-title="Religious", Canal Orbe 21
+https://cdn2.zencast.tv:30443/orbe/orbe21smil/playlist.m3u8
+#EXTINF:-1 id="209da5f79bab785390f8be6effe51fa6" tvg-id="CanalProvincial.ar" tvg-logo="https://i.imgur.com/bXHHtcb.png" group-title="General", Canal Provincial
+https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8
+#EXTINF:-1 id="b61f7128f3f962c400b6a9c931b7fc83" tvg-id="CanalRural.ar" tvg-logo="https://i.imgur.com/NgIBbPX.png" group-title="Outdoor", Canal Rural
+https://cda2.alsolnet.com/elrural/live/playlist.m3u8
+#EXTINF:-1 id="959b08b4f0cb266c56edc9bd694496a6" tvg-id="CanalSantaMaria.ar" tvg-logo="https://www.canalsantamaria.com.ar/images/santamaria_logo.jpg" group-title="Religious", Canal Santa María
+https://streaming.telered.com.ar/santa-maria/streaming/mystream.m3u8
+#EXTINF:-1 id="2f4fd1f4ac9af99646e3ee23a1ec2063" tvg-id="CanalSiete.ar" tvg-logo="https://i.imgur.com/NdQF9K9.png" group-title="General", Canal Siete
+https://vivo.solumedia.com:19360/canalsiete/canalsiete.m3u8
+#EXTINF:-1 id="904c7cfd5ba7336b7827e4eb350658fb" tvg-id="CanalTDC.ar" tvg-logo="https://i.imgur.com/nPG38B2.png" group-title="News", CANAL TDC
+https://5e7cdf2370883.streamlock.net/tdconline/tdconline/playlist.m3u8
+#EXTINF:-1 id="6b0d68ea2090397c0eb562dc129fa503" tvg-id="CanalU.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_cba-24n_m.png" group-title="General", Canal U
+https://stream.arcast.live/canalu/canalu/playlist.m3u8
+#EXTINF:-1 id="c0feb9b108873777bed3bd22418c005d" tvg-id="CanalXFN.ar" tvg-logo="https://i.imgur.com/Hw37hNs.png" group-title="Undefined", Canal XFN
+https://streamconex.com:1936/canalxfn/canalxfn/playlist.m3u8
+#EXTINF:-1 id="6d0a158a956d6c7ed54f6fd4391a6765" tvg-id="CAtv.pr" tvg-logo="https://caribbeanadvantage.com/images/CAtv-logo-512.png" group-title="General", Caribbean Advantage TV
+https://video2.getstreamhosting.com:19360/8216/8216.m3u8
+#EXTINF:-1 id="a305c04cfbe97c55d30fed8bb51a10ba" tvg-id="CatamarcaTV.ar" tvg-logo="https://i.imgur.com/CEuPoqG.png" group-title="Culture;News", Catamarca TV
+https://stream.arcast.com.ar/canal7catamarca/ngrp:canal7catamarca_all/playlist.m3u8?DVR=
+#EXTINF:-1 id="6e4d5556450ac94b8acf57c590506144" tvg-id="CeltaTV.ar" tvg-logo="https://i.imgur.com/rwoIF4w.png" group-title="Undefined", Celta TV
+https://vivo.solumedia.com:19360/celta/celta.m3u8
+#EXTINF:-1 id="02a615b5dc19a7946da714d27f0f7884" tvg-id="CGTNSpanish.cn" tvg-logo="https://i.imgur.com/Poz3xfi.png" group-title="News", CGTN Español
+https://livees.cgtn.com/1000e/prog_index.m3u8
+#EXTINF:-1 id="ebbe22e248c934bed465f44809c57723" tvg-id="ChacoTV.ar" tvg-logo="https://i.imgur.com/b6RerDw.png" group-title="Undefined", Chaco TV
+https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8
+#EXTINF:-1 id="5442ad5578a371f84c0f04c59b2013ab" tvg-id="ChacraTV.ar" tvg-logo="https://i.imgur.com/gy7AEfO.png" group-title="Outdoor", Chacra TV
+https://s8.stweb.tv/chacra/live/playlist.m3u8
+#EXTINF:-1 id="a605a794bc37ad61791c00f0700d39fc" tvg-id="ChilecitoTV.ar" tvg-logo="https://i.imgur.com/zGubmgZ.png" group-title="Undefined", Chilecito TV
+https://vivo.solumedia.com:19360/grupoemail/grupoemail.m3u8
+#EXTINF:-1 id="d9db2fbce5622f13e2100c62e940c544" tvg-id="CincoTV.ar" tvg-logo="https://i.imgur.com/p9aaBKg.png" group-title="News", Cinco TV
+https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
+#EXTINF:-1 id="4f979b05e2ac87ab3fa9b7a5b9db7c64" tvg-id="CineAr.ar" tvg-logo="https://i.imgur.com/Iozv4tT.png" group-title="Movies", CINE.AR
+https://5fb24b460df87.streamlock.net/live-cont.ar/cinear/playlist.m3u8
+#EXTINF:-1 id="40a1eaa7087ec92e0da22b4cb7082997" tvg-id="CiudadMagazine.ar" tvg-logo="https://i.imgur.com/V1xZV72.png" group-title="General", Ciudad Magazine
+https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8
+#EXTINF:-1 id="29a5bfc1efd6fe702861592d1f6716ae" tvg-id="CiudadMagica.ar" tvg-logo="https://i2.paste.pics/fcd782e9daa041902b003d38e11ed4bc.png" group-title="Outdoor", Ciudad Mágica
+https://tv.initium.net.ar:3235/live/grupocitylive.m3u8
+#EXTINF:-1 id="0cee017e4f6a88b2bbdd13db83d3e2b2" tvg-id="CiudadTVResistencia.ar" tvg-logo="https://i.imgur.com/oL8SMTL.png" group-title="General", Ciudad TV Resistencia
+http://coninfo.net:1935/chacodxdtv/live/playlist.m3u8
+#EXTINF:-1 id="38016919ebf74fad582c9c25f3b81c57" tvg-id="ClanInternacional.es" tvg-logo="https://i.imgur.com/03jFV68.png" group-title="Kids", Clan TVE Internacional
+https://rtvelivestream.akamaized.net/rtvesec/int/clan_int_main.m3u8
+#EXTINF:-1 id="a0047c6f87120e0ded1b54b754b8fe94" tvg-id="CMElCanaldelaMusica.ar" tvg-logo="https://i.imgur.com/gwpETyS.png" group-title="Music", CM El Canal de la Música
+http://g5.vxral-slo.transport.edge-access.net/a09/ngrp:CM_CanaldelaMusica-100044_all/Playlist.m3u8
+#EXTINF:-1 id="7eb7c58adaf4f50f5a01f7855884a2b0" tvg-id="Canal3Pinamar.ar" tvg-logo="https://i.imgur.com/IABFaH1.png" group-title="Undefined", CN3 Pinamar
+https://wowza.telpin.com.ar:1935/canal3/canal3.stream/playlist.m3u8
+#EXTINF:-1 id="75e2b685ef97979c3012660e83936bc7" tvg-id="CnArDeportes.ar" tvg-logo="https://i.imgur.com/07ki2df.png" group-title="Sports", CnAr Deportes
+https://stmv1.cnarlatam.com/cnardeportes2/cnardeportes2/playlist.m3u8
+#EXTINF:-1 id="b09bca6d1680627a8fdcf0bd9599f735" tvg-id="CnArNoticias.ar" tvg-logo="https://i.imgur.com/yOk4bHZ.png" group-title="News", CnAr Noticias
+https://stmv1.cnarlatam.com/cnarnoticias/cnarnoticias/playlist.m3u8
+#EXTINF:-1 id="5fdca831b1ea03728de696106632a687" tvg-id="CorrientesTV.ar" tvg-logo="https://i.imgur.com/7PBkvRp.png" group-title="General", Corrientes TV
+https://mediacp.hostradios.com.ar:19360/canal7/canal7.m3u8
+#EXTINF:-1 id="3caaef7980a4388afbf3ba8670248e29" tvg-id="CosmosTV.ar" tvg-logo="https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png" group-title="Entertainment", Cosmos TV
+https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
+#EXTINF:-1 id="03a17c1fe24d2977d826c330b2df007b" tvg-id="CPEtv.ar" tvg-logo="https://i.imgur.com/zFgbobO.png" group-title="Undefined", CPEtv
+https://stream.arcast.live/cpe/ngrp:cpe_all/playlist.m3u8
+#EXTINF:-1 id="a7009253af8c09928ece6c310bd04bf8" tvg-id="CronicaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/Cr%C3%B3nica_TV_logotipo_%282008-2015%29.png" group-title="News", Crónica TV
+https://ythls.armelin.one/channel/UCT7KFGv6s2a-rh2Jq8ZdM1g.m3u8
+#EXTINF:-1 id="7486ccabf28922e997b7527173fb71d0" tvg-id="CrossingCanalIPTV.ar" tvg-logo="https://i.imgur.com/iNJu7Fu.png" group-title="Entertainment", Crossing TV
+https://vivo.solumedia.com:19360/crossing/crossing.m3u8
+#EXTINF:-1 id="b5b7dcfdc974c1961334706e6dffc5d5" tvg-id="CubavisionInternacional.cu" tvg-logo="https://i.imgur.com/0ZHm9f6.png" group-title="General", Cubavisión Internacional
+https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
+#EXTINF:-1 id="32b2c3a2dccda54bb2e68cf1e3acc8d1" tvg-id="CVisionTV.ar" tvg-logo="https://i.imgur.com/QyAHZkH.png" group-title="Undefined", CVisión TV
+https://stream.cvisiontv.com/cvision_stream.m3u8
+#EXTINF:-1 id="801bd674fd13817c43008ab889482801" tvg-id="DanceTV.ar" tvg-logo="https://i.imgur.com/UKMR625.png" group-title="Music", Dance TV
+https://stmv1.cnarlatam.com/danncetv/danncetv/playlist.m3u8
+#EXTINF:-1 id="321e62fe3e7c7221788c1181ae4f6a4a" tvg-id="DePeliculaLatinAmerica.mx" tvg-logo="https://i.imgur.com/aksM8pa.png" group-title="Movies", De Película
+https://linear-354.frequency.stream/mt/studio/354/hls/master/playlist.m3u8
+#EXTINF:-1 id="da6609665c6255db52bb002a82d76588" tvg-id="DePeliculaPlus.mx" tvg-logo="https://i.imgur.com/MMhSmDK.png" group-title="Movies", De Película Plus
+https://linear-404.frequency.stream/mt/studio/404/hls/master/playlist.m3u8
+#EXTINF:-1 id="2a1b834c77b8a04d6eed0765c63c08a3" tvg-id="DemosRadioVisual.ar" tvg-logo="https://i.imgur.com/Z5rgmdP.png" group-title="News", Demos Radio Visual
+https://panel.dattalive.com/8066/8066/playlist.m3u8
+#EXTINF:-1 id="c9d00e2951282e70351c40f863ffab0c" tvg-id="DeporTV.ar" tvg-logo="https://i.imgur.com/THk9ARS.png" group-title="Sports", DeporTV
+https://538d0bde28ccf.streamlock.net/live-cont.ar/deportv/playlist.m3u8
+#EXTINF:-1 id="ff7451204ee73e4c200064cfbe59453d" tvg-id="DiputadosTV.ar" tvg-logo="https://i.imgur.com/UscKOIc.png" group-title="Legislative", Diputados TV
+https://ythls.armelin.one/channel/UC1h8_HKc5wScqeRw1HV6a6w.m3u8
+#EXTINF:-1 id="a029bcad072f0f285ce896439d50ff8d" tvg-id="DirecTVSports.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/512px-DirecTV_Sports_Latin_America_%282018%29.png" group-title="Sports", DirecTV Sports
+http://190.210.221.119/Processor3_9_chunklist_b1300000.m3u8
+#EXTINF:-1 id="779c71c063ef50b7c0d7128b7509e937" tvg-id="DisneyChannelLatinAmerica.ar" tvg-logo="https://pbs.twimg.com/profile_images/1740338476736815104/vJGKgOJe_400x400.jpg" group-title="Animation;Kids", Disney Channel Latin America
+http://168.181.122.234:8000/play/a038/index.m3u8
+#EXTINF:-1 id="08ed65fa1420cb630af1adaa1b8e4416" tvg-id="DisneyJuniorLatinAmerica.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Disney_Jr._2024.svg/512px-Disney_Jr._2024.svg.png" group-title="Animation;Kids", Disney Junior Latin America
+http://168.181.122.234:8000/play/a037/index.m3u8
+#EXTINF:-1 id="dbbf7ae64eee5987b712692b67da0706" tvg-id="DistritoComedia.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/DistritoComediaLOGO2018.png/512px-DistritoComediaLOGO2018.png" group-title="Comedy", Distrito Comedia
+https://linear-405.frequency.stream/mt/studio/405/hls/master/playlist.m3u8
+#EXTINF:-1 id="5475b070a7ca7e583e46924cc2bb0d30" tvg-id="DNews.us" tvg-logo="https://i.imgur.com/jF2BabI.png" group-title="News", DNews
+https://ythls.armelin.one/channel/UC4dWvSKVWJ36tJyhjDQCCaQ.m3u8
+#EXTINF:-1 id="faef0baf399f2d23dfcdceee034c0ce5" tvg-id="DreamforceBtl.us" tvg-logo="https://i.imgur.com/6SsaKEh.png" group-title="General", Dreamforce Btl
+https://srv2.tropicalmoonmedia.com/dreamforcebtltv/dreamforcebtltv/playlist.m3u8
+#EXTINF:-1 id="74deb3911175a57ad92bf851c2f13c21" tvg-id="DWEspanol.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News", DW Español
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+#EXTINF:-1 id="b92223ed480f0910026ca8000c338680" tvg-id="EcoTV.ar" tvg-logo="https://i.imgur.com/V2ldYVd.jpg" group-title="General", Eco TV
+https://stream.arcast.com.ar/ecotv/ngrp:ecotv_all/playlist.m3u8
+#EXTINF:-1 id="2fb54fe1c97a90d798c3b90233e03b36" tvg-id="ElDoce.ar" tvg-logo="https://i.imgur.com/HfyKPpD.png" group-title="General", El Doce
+https://ythls.armelin.one/channel/UCiaePeoCqpU8hBHiNrgkzrA.m3u8
+#EXTINF:-1 id="d3369008c59ce3daa59758ad9841cd50" tvg-id="ElHistonautaTV.ar" tvg-logo="https://i.imgur.com/H4SFkx6.png" group-title="Documentary", El Histonauta TV
+https://stmv1.cnarlatam.com/elhistonauta/elhistonauta/playlist.m3u8
+#EXTINF:-1 id="e7c93ab50bb15106b6723dda5c78b5dd" tvg-id="ElNueve.ar" tvg-logo="https://i.imgur.com/cJHP7bU.png" group-title="General", El Nueve
+https://ythls.armelin.one/channel/UC6Qf8b2jcHHilkcr2wpQ9jA.m3u8
+#EXTINF:-1 id="f30d782f492e134cbf7ad8ca479690f8" tvg-id="ElOcho.ar" tvg-logo="https://i.ibb.co/0yFbZj4/Captura.png" group-title="General", El Ocho
+https://ythls.armelin.one/channel/UCYozHHDnLnQs2yc2k3t8cPA.m3u8
+#EXTINF:-1 id="915414d74b6af7eb9b2060f5b877b777" tvg-id="ElOnce.ar" tvg-logo="https://i.imgur.com/sm2oUGF.png" group-title="News", El Once
+https://ythls.armelin.one/channel/UCWzsoIEZLGLinhYrm66VD4Q.m3u8
+#EXTINF:-1 id="b8ff4e65f08ffb860bbc49b7e44c85d2" tvg-id="ElPalomarTV.ar" tvg-logo="https://i.imgur.com/PqmBSqp.jpg" group-title="Undefined", El Palomar TV
+https://stream.trixserver.com:3249/live/uv038live.m3u8
+#EXTINF:-1 id="00e4ff4d44a477ed3d0cfb0cf8005783" tvg-id="ElSelloTVMadariaga.ar" tvg-logo="https://i.imgur.com/Cp3LMzV.png" group-title="General", El SelloTV Madariaga
+https://5f700d5b2c46f.streamlock.net/elsellotv/elsellotv/playlist.m3u8
+#EXTINF:-1 id="91ad97f5dc8f82961dc86989b349012b" tvg-id="ElSiete.ar" tvg-logo="https://i.imgur.com/yKb7nfP.png" group-title="General", El Siete Mendoza
+https://ythls.armelin.one/channel/UC64ZNqX0FQHabP8iIkmnR3A.m3u8
+#EXTINF:-1 id="bdb42cfbdcfbbcf8282614490ad338a0" tvg-id="ElTrece.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Logo_de_eltrece_lanzado_en_2016.png/512px-Logo_de_eltrece_lanzado_en_2016.png" group-title="General", El Trece
+https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8
+#EXTINF:-1 id="d54f1c57812548a1fe950faa18efcc40" tvg-id="Encuentro.ar" tvg-logo="https://i.imgur.com/uBBZR1X.png" group-title="Culture", Encuentro
+https://538d0bde28ccf.streamlock.net/live-cont.ar/encuentro/.m3u8
+#EXTINF:-1 id="873f19ea6e0997612717daa43140ce92" tvg-id="EnerGeek.cl" tvg-logo="https://cdn.energeek.cl/logos/Marca-512.png" group-title="Animation", EnerGeek
+https://streaming-cl.sh1ny.space/memfs/e8a8e789-170b-4de4-a33b-90a9a475ce65.m3u8
+#EXTINF:-1 id="2600b563d74eec5c2ce52ab26e3d58cc" tvg-id="EnerGeekRadio.cl" tvg-logo="https://i.imgur.com/euaoN1A.png" group-title="Music", EnerGeek Radio
+https://streaming-cl.sh1ny.space/memfs/75b105a4-2fd3-4538-a55c-480f3903a262.m3u8
+#EXTINF:-1 id="d159075f0b9d3559502d84104ceeb71d" tvg-id="Enlace.cr" tvg-logo="https://i.imgur.com/YwUVTmS.png" group-title="Religious", Enlace
+https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
+#EXTINF:-1 id="15db985df0dfa39952731257e461d519" tvg-id="EPSTV.ar" tvg-logo="https://3.bp.blogspot.com/-qdX1xKfFHj8/VBZKR5VGAHI/AAAAAAAAzHQ/cm-kffchUkE/s1600/Canal5ePs.jpg" group-title="News", EPS TV Canal 5
+https://live.enhdtv.com:19360/tvplaydigital2/tvplaydigital2.m3u8
+#EXTINF:-1 id="11bb3e6b219f152d74d0f2b3a5f9dbc2" tvg-id="eSportsMaxTV.ve" tvg-logo="https://i.imgur.com/OprRgQN.png" group-title="Animation", eSports Max
+http://vcpar.myplaytv.com/esportsmax/live/playlist.m3u8
+#EXTINF:-1 id="f73710b6120d9ff746071b0840510c13" tvg-id="EWTNEspanaLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png" group-title="Religious", EWTN el Canal Católico
+https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
+#EXTINF:-1 id="eb2468d18211863524d09714a6015a9a" tvg-id="FanpopTV.cl" tvg-logo="https://cdn.energeek.cl/logos/Fanpop-512.png" group-title="Animation", Fanpop TV
+https://streaming-cl.sh1ny.space/memfs/e16d2f72-70b5-4bf5-b9c5-107b6390a10f.m3u8
+#EXTINF:-1 id="15eb4231f5e35f0e935665e17154c189" tvg-id="FenixTV.ar" tvg-logo="https://i.imgur.com/wQ33T78.png" group-title="News", Fenix TV
+https://stmv1.questreaming.com/fenixlarioja/fenixlarioja/playlist.m3u8
+#EXTINF:-1 id="65c2058948792f268edabc5516b48add" tvg-id="Filmstream.nl" tvg-logo="https://i.imgur.com/DTRPV6B.png" group-title="Movies", Filmstream
+https://spi-filmstream-1-in.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="c841fc0ea4f2c13f696012546886447f" tvg-id="France24Espanol.fr" tvg-logo="https://i.imgur.com/ZnmAXVv.png" group-title="News", France 24 Español
+https://ythls.armelin.one/channel/UCUdOoVWuWmgo1wByzcsyKDQ.m3u8
+#EXTINF:-1 id="c1d847e1ad08c3b3f7f40a6ea156b467" tvg-id="FMTV.uk" tvg-logo="https://i.imgur.com/vPxvbVv.png" group-title="Music", Frecuencia Musical TV
+https://s2.tvdatta.com:3307/hybrid/play.m3u8
+#EXTINF:-1 id="54b0a0fccc917fdd5be17b4eaa1f218f" tvg-id="GaliciaTVAmerica.es" tvg-logo="https://i.imgur.com/YBaxWQC.png" group-title="General", Galicia TV América
+https://america-crtvg.flumotion.com/playlist.m3u8
+#EXTINF:-1 id="a506abcfb6932a5df96764fc95db54fe" tvg-id="GarageTVLatinAmerica.ar" tvg-logo="https://i.imgur.com/FqFxog1.png" group-title="Auto", Garage TV Latin America
+https://stream1.sersat.com/hls/garagetv.m3u8
+#EXTINF:-1 id="53d6a8c46651eab5f71df17269395bad" tvg-id="GenTV.ar" tvg-logo="https://i.imgur.com/qGddRW4.png" group-title="General", GenTV
+https://inliveserver.com:1936/14056/14056/playlist.m3u8
+#EXTINF:-1 id="a72402d1eb9d0e60f6da68f86bc1f0bf" tvg-id="GlobalTV.ar" tvg-logo="https://i.imgur.com/z6srIMD.png" group-title="Music", Global TV
+https://stmv.video.gmpro.top/global/global/playlist.m3u8
+#EXTINF:-1 id="1f52d2d3642b795c730fdcd80a0c24fc" tvg-id="GoldenEdgePanregional.mx" tvg-logo="https://i.imgur.com/SlSbcp3.png" group-title="Undefined", Golden Edge Panregional
+https://linear-407.frequency.stream/mt/studio/407/hls/master/playlist.m3u8
+#EXTINF:-1 id="d04db458796c28fdd30f757a988c4d9f" tvg-id="GoldenPanregional.mx" tvg-logo="https://i.imgur.com/NNd1lYl.png" group-title="Undefined", Golden TV
+https://bozztv.com/gusa/gusa-goldentv/index.m3u8
+#EXTINF:-1 id="a77bb3c260c42314177a65c023eca7dc" tvg-id="HiperconectadosTV.cl" tvg-logo="https://i.imgur.com/CBbbrkI.png" group-title="Science", Hiperconectados TV
+https://stmv5.voxtvhd.com.br/hiperconectados/hiperconectados/playlist.m3u8
+#EXTINF:-1 id="e8970d8401df3fe0f5c8e26606dc5819" tvg-id="HispanTV.ir" tvg-logo="https://i.imgur.com/AfsVFfM.png" group-title="News", Hispan TV
+https://cdnlive.presstv.ir/live/smil:live.smil/playlist.m3u8
+#EXTINF:-1 id="8d94be4aa07434f043a66dfef57f98c9" tvg-id="IngenioFM.ar" tvg-logo="https://yt3.ggpht.com/8Mqa9VCxk9ijWdeq2Y7hfMn6953MyVo8IQ8qCVpbxRMTYMfC8REhe75PcDlF2ntsyldJFvJT=s400-c-k-c0x00ffffff-no-rj" group-title="Music", Ingenio FM
+https://panel.dattalive.com/8064/8064/playlist.m3u8
+#EXTINF:-1 id="ba7002dd96c30eebf43caf7ac407a7b0" tvg-id="IPNoticias.ar" tvg-logo="https://i.imgur.com/dbu9nx4.png" group-title="News", IP Noticias
+https://d1nmqgphjn0y4.cloudfront.net/live/ip/live.isml/5ee6e167-1167-4a85-9d8d-e08a3f55cff3.m3u8
+#EXTINF:-1 id="65fda295e1cfeeedc137e4ec65e9a520" tvg-id="KanalDDrama.tr" tvg-logo="https://i.imgur.com/WIeZMKT.png" group-title="Entertainment", Kanal D Drama
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
+#EXTINF:-1 id="d9699a69073240b95c3a5d56bb6f2400" tvg-id="LaNacionPlus.ar" tvg-logo="https://i.imgur.com/Gj1kqH5.png" group-title="General", La Nación+
+https://ythls.armelin.one/channel/UCba3hpU7EFBSk817y9qZkiA.m3u8
+#EXTINF:-1 id="e2747f029be44dd2daed9e9443eb7b0a" tvg-id="LaVozdeTucuman.ar" tvg-logo="https://i.imgur.com/k2r7IeQ.png" group-title="Undefined", La Voz de Tucumán
+https://srv3.zcast.com.br/lavozdetucumanhd/lavozdetucumanhd/playlist.m3u8
+#EXTINF:-1 id="1cf64a9ab3dce24bdcea1090bac700c8" tvg-id="LapachoTVCanal11.ar" tvg-logo="https://i.imgur.com/PmFBL7x.png" group-title="Undefined", Lapacho TV Canal 11
+https://vivo.solumedia.com:19360/lapacho/lapacho.m3u8
+#EXTINF:-1 id="c4a07c2ee549aff0e4547fe8c52197cf" tvg-id="LatinoKidsTV.uy" tvg-logo="https://i.imgur.com/VEk5aJ6.png" group-title="Animation", LatinoKids
+https://6362ca6f1fc28.streamlock.net/8062/8062/playlist.m3u8
+#EXTINF:-1 id="486bd089d9c7dde44c5531e07161defb" tvg-id="LineaDirectaRadio.ar" tvg-logo="https://i.imgur.com/fFYZku9.png" group-title="General", Línea Directa Radio
+https://stmv1.cnarlatam.com/lineadirectaradio/lineadirectaradio/playlist.m3u8
+#EXTINF:-1 id="8eacce56cff059e362d025175e1b97db" tvg-id="LinkTV.ar" tvg-logo="https://i.ibb.co/ncYZY6T/logo-3.png" group-title="General", Link TV
+https://panel.dattalive.com/8128_1/8128_1/playlist.m3u8
+#EXTINF:-1 id="577a9686ec4870bd90273a2441d0b275" tvg-id="LitusTV.ar" tvg-logo="https://i.imgur.com/QIGSf4L.png" group-title="Undefined", Litus TV
+https://stream.arcast.com.ar/litustv/ngrp:litustv_all/playlist.m3u8
+#EXTINF:-1 id="48fa443f0da73ea79105f55090c94e84" tvg-id="LocomotionTV.do" tvg-logo="https://i.imgur.com/1CftDPB.png" group-title="Animation", Locomotion TV
+http://51.222.85.85:81/hls/loco/index.m3u8
+#EXTINF:-1 id="24a104344ba58eb5bc41fc420d58ee76" tvg-id="LTOTelevision.ar" tvg-logo="https://i.imgur.com/ibe9iSi.png" group-title="Undefined", LTO Televisión
+https://ltocatamarca.github.io/ltotv.m3u8
+#EXTINF:-1 id="69924a33f52191424a69d13b88d12021" tvg-id="MagicKids.ar" tvg-logo="https://i.imgur.com/CMImqQY.png" group-title="Animation", Magic Kids
+https://magicstream.ddns.net/magicstream/stream.m3u8
+#EXTINF:-1 id="02ac8e53f06116efbe30a646d333302d" tvg-id="MalbecPlay.ar" tvg-logo="https://i.ibb.co/Wy3Mz9C/MP.png" group-title="Entertainment", Malbec Play
+https://streamlov.alsolnet.com/malbecplay/live/playlist.m3u8
+#EXTINF:-1 id="a211095fa7888b283e2751f061da5101" tvg-id="MasFM.ar" tvg-logo="https://i.imgur.com/TJ4gWQM.png" group-title="Music", Más FM 95.9
+https://vivo.solumedia.com:19360/masfm/masfm.m3u8
+#EXTINF:-1 id="0a0777e2258d620b169ded5be84075c6" tvg-id="MasMusicaTV.ar" tvg-logo="https://i.imgur.com/RcbIgA0.png" group-title="Music", Más Música TV
+https://stmv1.cnarlatam.com/televideo/televideo/playlist.m3u8
+#EXTINF:-1 id="b19db3af9ce9cafea619eacbe8dee791" tvg-id="MAXAnime.ve" tvg-logo="https://i.imgur.com/Oj3hEBh.jpg" group-title="Animation", MAX Anime
+https://vcp14.myplaytv.com/maxanime/maxanime/playlist.m3u8
+#EXTINF:-1 id="4ae5a7da202cd1aaaa21f8720ec8355f" tvg-id="MaximaTV.ar" tvg-logo="https://i.ibb.co/NmwTVkX/Screenshot-20230715-163842.jpg" group-title="Entertainment", Maxima TV
+https://vivo.solumedia.com:19360/corrientes/corrientes.m3u8
+#EXTINF:-1 id="69e09902e2318d9cb792e1850c739801" tvg-id="MetroTV.ar" tvg-logo="https://i.imgur.com/7f7M7zl.png" group-title="Entertainment", Metro TV
+https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
+#EXTINF:-1 id="e0bbb2b2d0dbad3101b612c0d1ef53b0" tvg-id="MetropolitanaFM.ar" tvg-logo="https://i.imgur.com/hWIGeHw.png" group-title="Music", Metropolitana FM
+https://panel.dattalive.com/MetropolitanaFM/MetropolitanaFM/playlist.m3u8
+#EXTINF:-1 id="31e50775d3138af8487cf2e351d3ebca" tvg-id="MileniumTV.ar" tvg-logo="https://i.imgur.com/dhaY9DH.png" group-title="Undefined", Milenium TV
+https://stmv5.livecastv.com/milleniumtv/milleniumtv/playlist.m3u8
+#EXTINF:-1 id="69c2f01af79403e0fdcb47b7843e0d52" tvg-id="MilennioTV.ar" tvg-logo="https://i.ibb.co/0C5ZpfP/7-LPSf1-Th-400x400.jpg" group-title="Science", Milennio TV
+https://videostream.shockmedia.com.ar:19360/milenniotv/milenniotv.m3u8
+#EXTINF:-1 id="5d18224e94d12b2ebf7082273d2256d4" tvg-id="MisionesCuatro.ar" tvg-logo="https://i.imgur.com/HXRpRlK.png" group-title="General", Misiones Cuatro
+https://streamlov.alsolnet.com/misionescuatro/live/playlist.m3u8
+#EXTINF:-1 id="389b73617d769059538ff6509ecf3b76" tvg-id="MultivisionFederal.ar" tvg-logo="https://i.imgur.com/jX0lqy3.png" group-title="Undefined", Multivisión Federal
+http://panel.dattalive.com:1935/8250/8250/playlist.m3u8
+#EXTINF:-1 id="87c2fa273bb3eb46cfd6e489c6f3ddaa" tvg-id="MusicTop.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_musictop_m.png" group-title="Music", MusicTop
+http://live-edge01.telecentro.net.ar/live/smil:musictop.smil/playlist.m3u8
+#EXTINF:-1 id="5cdcb4f3b227e34c004bf6204959455a" tvg-id="NeoTV.ar" tvg-logo="https://i.imgur.com/Xtu85tb.png" group-title="Undefined", Neo TV
+https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
+#EXTINF:-1 id="09167f3977069801e061ff9cdc647522" tvg-id="NeoxTV.ar" tvg-logo="https://i.imgur.com/eIX71c9.png" group-title="Undefined", Neox TV
+https://tv.streamcasthd.com:3076/live/sonicaargentinalive.m3u8
+#EXTINF:-1 id="5ef237f73df5dc69c05b05d7d30594ef" tvg-id="NETTV.ar" tvg-logo="https://i.imgur.com/IhJ0BjF.png" group-title="General", NET TV
+https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
+#EXTINF:-1 id="28b11e2e0d3bf9fac8a2eb9bb915bf85" tvg-id="NGFederal.ar" tvg-logo="https://i.imgur.com/lJCIqYn.png" group-title="Undefined", NG Federal
+http://www.coninfo.net:1935/tvlink/live/playlist.m3u8
+#EXTINF:-1 id="35bcd33cdaa0927b45f7cbc15e918ad6" tvg-id="NHKWorldEspanol.jp" tvg-logo="https://i.imgur.com/8dml3im.png" group-title="Culture;News", NHK World News
+https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/es/playlist.m3u8
+#EXTINF:-1 id="a33776fb7aecd24d6fd96861ff75ac9e" tvg-id="NorteTV.ar" tvg-logo="https://i.imgur.com/jTX2vp0.png" group-title="General", Norte TV Canal 7
+https://video.streamtvradio.com:8443/uv027/uv027/playlist.m3u8
+#EXTINF:-1 id="34b0906670b5d57d7bdfc8990eb6ec79" tvg-id="Novelisima.us" tvg-logo="https://i.imgur.com/8dUS3Ih.png" group-title="Series", Novelisima
+https://dai.google.com/linear/hls/event/sFuxwI37R9KMTs-KywMcBg/master.m3u8
+#EXTINF:-1 id="df374b1570d216dc21d3d2e1df861e9c" tvg-id="NuevoTiempo.br" tvg-logo="https://i.imgur.com/exdDHml.png" group-title="Religious", Nuevo Tiempo
+https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8
+#EXTINF:-1 id="36dd655fb6516651291cf11fbe71817f" tvg-id="OneRadioTV.ar" tvg-logo="https://myradioenvivo.ar/public/uploads/radio_img/radio-one-103-7/play_250_250.jpg" group-title="Music", OneRadio TV
+https://stmvideo2.livecastv.com/oneradio/oneradio/playlist.m3u8
+#EXTINF:-1 id="7234404ce3505a70937d356d97912091" tvg-id="Pakapaka.ar" tvg-logo="https://i.imgur.com/GJbRWwH.png" group-title="Kids", Pakapaka
+https://5fb24b460df87.streamlock.net/live-cont.ar/pakapaka/playlist.m3u8
+#EXTINF:-1 id="1c07ddd2a00555690a9a64f0b9c2dab3" tvg-id="PancTV.ar" tvg-logo="https://i.imgur.com/u1dnEVv.png" group-title="General", Panc TV
+https://panel.host-live.com:19360/81500/81500.m3u8
+#EXTINF:-1 id="6da103b2b77cc52ec8327988e6168e50" tvg-id="PandamaxChannel.cl" tvg-logo="https://pandamax.cl/assets/img/pandalogo2.png" group-title="Animation", Pandamax Channel
+https://stream.wifiexpert.cl/telenorte/pandamaxch/playlist.m3u8
+#EXTINF:-1 id="6d7f35f5726938f78cb7d56a2e604a75" tvg-id="PlatziTV.es" tvg-logo="https://i.imgur.com/vEzeqHP.png" group-title="Education", Platzi TV
+https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
+#EXTINF:-1 id="19af600483dd7a0a5d42dc65e2177c8b" tvg-id="PlayTelevision.ar" tvg-logo="https://i.ibb.co/nR85vvb/2021-01-03.jpg" group-title="Entertainment", Play Television
+https://vivo.solumedia.com:19360/playtv/playtv.m3u8
+#EXTINF:-1 id="6145f86e21fcaae3aa6eaf7a1540105c" tvg-id="PlutoTVTelefeClasico.us" tvg-logo="https://i.imgur.com/3fuWMmy.png" group-title="Undefined", Pluto TV Telefe Clásico
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de91cf02fc07c0009910465/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 id="6054ce282d349aa8c9af3f1848193436" tvg-id="PortuguesaTelevision.ve" tvg-logo="https://intervenhosting.net/roku/portutv/portutv.jpg" group-title="Undefined", PortuTV
+https://streamtv.intervenhosting.net:3789/live/portutvlive.m3u8
+#EXTINF:-1 id="46d81f3cc141eb008c6bd9760b34044d" tvg-id="PowerMaxRadioTV.ar" tvg-logo="https://i.ibb.co/qgZLYDj/channels4-profile-6.jpg" group-title="Entertainment", Power Max Radio TV
+https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8
+#EXTINF:-1 id="434bf6e17369873082c05265187654ef" tvg-id="PowerHD.ar" tvg-logo="https://i.imgur.com/15gMDG0.png" group-title="Undefined", PowerHD
+https://live2.tensila.com/1-1-1.power-tv/hls/master.m3u8
+#EXTINF:-1 id="84d43b5c7f62c8acc586913b59b6a21f" tvg-id="QuatroTV.ar" tvg-logo="https://i.imgur.com/fhHFGwv.png" group-title="Undefined", Quatro TV
+https://stream.arcast.live/quatro/quatro/playlist.m3u8
+#EXTINF:-1 id="2943a5958cd4cc6a6435ef9d866972af" tvg-id="Radio3CadenaPatagonia.ar" tvg-logo="https://i.ibb.co/XbHVnXB/logoradio3.png" group-title="General", Radio 3 Cadena Patagonia
+https://5f700d5b2c46f.streamlock.net/radio3/radio3/playlist.m3u8
+#EXTINF:-1 id="fff336f83842673487e002a0a841a531" tvg-id="RadioFMTrujui.ar" tvg-logo="https://i.imgur.com/xPUQ17D.png" group-title="Undefined", Radio FM Trujui
+https://inliveserver.com:1936/14102/14102/playlist.m3u8
+#EXTINF:-1 id="a13049e766070d8fd713695c193c916c" tvg-id="RadioMitre.ar" tvg-logo="https://i.imgur.com/uvck4Vj.png" group-title="Undefined", Radio Mitre
+https://live-05-13-mitre.vodgc.net/live-05-13-mitre.vodgc.net/index.m3u8
+#EXTINF:-1 id="f1b6a5609f5d5b95bd2c60d0c3a44d1d" tvg-id="RadioRealpolitik.ar" tvg-logo="https://i.imgur.com/L9KCdTX.png" group-title="Music", Radio Realpolitik
+https://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8
+#EXTINF:-1 id="2250c23b226747d168b79524b5c50059" tvg-id="RadioSublimeGraciaTV.ar" tvg-logo="https://i.ibb.co/P9jgTz4/c49b986afb751882bcbee57f9c9b20d7-350x210.png" group-title="Religious", Radio Sublime Gracia TV
+https://5f700d5b2c46f.streamlock.net/sublime/sublime/playlist.m3u8
+#EXTINF:-1 id="16c49ae98db014579a9b39d3122e7c20" tvg-id="RadioTVNeuquen.ar" tvg-logo="https://i.imgur.com/HXBLozl.png" group-title="Undefined", Radio TV Neuquén
+https://media.neuquen.gov.ar/rtn/television/playlist.m3u8
+#EXTINF:-1 id="b230e8f5ec246140ddf3fb7f7b04c302" tvg-id="RadioYguazuTV.ar" tvg-logo="https://i.imgur.com/kVi0ICm.png" group-title="Entertainment", Radio Yguazú TV
+https://live.enhdtv.com:8081/radioiguazutv/index.m3u8
+#EXTINF:-1 id="779b5e49f68e8df93dbd7550b0ddcc83" tvg-id="Radiocanal.ar" tvg-logo="https://i.ibb.co/NNyDWsz/download-8.png" group-title="General", Radiocanal San Francisco
+http://204.199.3.2/.m3u8
+#EXTINF:-1 id="b25ddf36ff23d84fd98b5a08d9a0a3c0" tvg-id="RaiItaliaAmerica.it" tvg-logo="https://i.imgur.com/1nN4rEP.png" group-title="Undefined", Rai Italia America
+http://210.210.155.69/s/s63/S4/mnf.m3u8
+#EXTINF:-1 id="70f4d55a1cb27070c5b05c9f7409028a" tvg-id="RBDRadioMultimedia.ar" tvg-logo="https://i.imgur.com/TD0I4hG.png" group-title="Undefined", RBD Radio Multimedia
+https://videostream.shockmedia.com.ar:19360/rbdradio/rbdradio.m3u8
+#EXTINF:-1 id="2a0ee032a0bdaf8a95e2c02fbfdf9b02" tvg-id="RCNMas.co" tvg-logo="https://i.imgur.com/MJzuRAN.png" group-title="Entertainment", RCN Mas
+https://rcntv-rcnmas-1-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="821b9b5346e607159166c97b0922db2c" tvg-id="RCNXtra.co" tvg-logo="https://i.imgur.com/N7VH24E.png" group-title="Entertainment", RCN Xtra
+https://latv-rcn-xtra-1-mx.tcl.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="fea8059c02f98f2d54ab2399bc3622b0" tvg-id="RetroMagico.ar" tvg-logo="https://i.imgur.com/jh1VknJ.png" group-title="Entertainment", RetroMágico
+https://vivo.solumedia.com:19360/retromagico/retromagico.m3u8
+#EXTINF:-1 id="7203aa654ec4bc11dab616b8206e5fa7" tvg-id="RTenEspanol.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" group-title="News", RT en Español
+https://cloud.odysee.live/content/9f638b94d11d879726ae55dd5a0923621b96a45b/master.m3u8
+#EXTINF:-1 id="6c074d32905161b4296724bb8b4df4f4" tvg-id="RTN.ar" tvg-logo="https://i.imgur.com/8xqYg4C.png" group-title="Undefined", RTN
+https://media.neuquen.gov.ar/rtn/television/media.m3u8
+#EXTINF:-1 id="e7b066ce1ae99c388963d6fb96ad181d" tvg-id="SanPedroTV.ar" tvg-logo="https://i.imgur.com/UkpXogr.png" group-title="Undefined", San Pedro TV
+https://iptv.ixfo.com.ar:30443/live/sanpedrotv/playlist.m3u8
+#EXTINF:-1 id="dc728abdaeb99b4b09180715d7d8b6c3" tvg-id="SantaFeCanal.ar" tvg-logo="https://i.imgur.com/C1mY5X4.png" group-title="Undefined", Santa Fe Canal
+https://api.new.livestream.com/accounts/22636012/events/8242619/live.m3u8
+#EXTINF:-1 id="b5a62e080d5412334e1d6d41b455fa93" tvg-id="SenateTV.ar" tvg-logo="https://i.imgur.com/Mt0UCXk.png" group-title="Legislative", Senado TV
+https://ythls.armelin.one/channel/UCStm2uvQKowSXrnCzTWAn6Q.m3u8
+#EXTINF:-1 id="44a386205d07c6aed5825a18a776b606" tvg-id="SenalU.ar" tvg-logo="https://i.ibb.co/yBYcKTj/Senal-U-Uncuyo-en-vivo-Online.png" group-title="Culture", Señal U
+https://tvd.uncu.edu.ar/memfs/2d4ab656-9596-4ce8-85a5-9aae1cf3a31d.m3u8
+#EXTINF:-1 id="ba8c998d816428da96872d99d15b226a" tvg-id="SenillosaTV.ar" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLTrvk7gv0uCQ8QdGREqv6Rtzm4F6UMetdxKub6D=s400-c-k-c0x00ffffff-no-rj" group-title="Undefined", Senillosa TV
+https://stmv1.srvstm.com/senillosa/senillosa/playlist.m3u8
+#EXTINF:-1 id="7da3601066bebb8ff4430b4df4c279da" tvg-id="SEOTV1FHD.bo" tvg-logo="https://i.imgur.com/aTcJ5p3.png" group-title="General", SEO TV 1
+https://seo.tv.bo/tv/SEOTV_1FHD.m3u8
+#EXTINF:-1 id="da2e414577534a5af53163c2f69a3ab1" tvg-id="SEOTV2Kids.bo" tvg-logo="https://i.imgur.com/BC0Ii7i.png" group-title="Kids", SEO TV 2 Kids
+https://seo.tv.bo/tv/CTV2.m3u8
+#EXTINF:-1 id="a92a36a70449f0f606ca0ce3b269f46a" tvg-id="SEOTV3Novelas.bo" tvg-logo="https://i.imgur.com/aTcJ5p3.png" group-title="Series", SEO TV 3 Novelas
+https://seo.tv.bo/tv/SEOTV3.m3u8
+#EXTINF:-1 id="d5a3724bae18022029f961fc2f9f656a" tvg-id="SEOTV4Peliculas.bo" tvg-logo="https://i.imgur.com/aTcJ5p3.png" group-title="Movies", SEO TV 4 Películas
+https://seo.tv.bo/tv/SEOTV4_HD.m3u8
+#EXTINF:-1 id="7a7d83a0a726a1188590e90483e26769" tvg-id="SEOTV5Deportes.bo" tvg-logo="https://i.imgur.com/N56B7si.png" group-title="Sports", SEO TV 5 Deportes
+https://seo.tv.bo/tv/SEOtv_5sd.m3u8
+#EXTINF:-1 id="15b9bccc668fdd1ae71039386e09b547" tvg-id="SEOTV7.bo" tvg-logo="https://i.imgur.com/aTcJ5p3.png" group-title="Comedy", SEO TV 7
+https://seo.tv.bo/tv/SEOTV7.m3u8
+#EXTINF:-1 id="5ede627968a95efcea29cd066e72fafe" tvg-id="SicardiTV.ar" tvg-logo="https://i.imgur.com/W2EUIL2.png" group-title="Undefined", Sicardi TV
+https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
+#EXTINF:-1 id="c392ae9605a327b62a2e55e82774242e" tvg-id="SoliveTV.ar" tvg-logo="https://i.imgur.com/dyUxugT.png" group-title="Undefined", Solive TV
+https://stmv1.cnarlatam.com/solivetv/solivetv/playlist.m3u8
+#EXTINF:-1 id="a8c2e25fcf75f83b87754761015bec80" tvg-id="SomosCulturaTV.pa" tvg-logo="https://i.imgur.com/kWR3END.png" group-title="Culture", Somos Cultura TV
+https://srv.tropicalmoonmedia.com/somosculturatv/somosculturatv/playlist.m3u8
+#EXTINF:-1 id="db98b6f6345be0fc54cb8f43bc0c4f8b" tvg-id="SomosLaPampa.ar" tvg-logo="https://i2.paste.pics/91920f8c1ac64beaaf70f7fbc09982c8.png" group-title="Undefined", Somos La Pampa
+https://stream.arcast.com.ar/somosnoticias/somosnoticias/playlist.m3u8
+#EXTINF:-1 id="4c20fa1c9be0c78184d71c1cdf04eb9a" tvg-id="SuperClassicsTV.ar" tvg-logo="https://i.imgur.com/WlhCN7e.png" group-title="Music", Super Classics TV
+https://stmv1.cnarlatam.com/megaclassics/megaclassics/playlist.m3u8
+#EXTINF:-1 id="b6d606d520ddc2e4c9efbfb55fa89bb1" tvg-id="SuperKaosTV.ar" tvg-logo="https://i.imgur.com/uOkAHVq.png" group-title="Animation;Kids", Super Kaos TV
+https://stmv1.cnarlatam.com/novakidstv/novakidstv/playlist.m3u8
+#EXTINF:-1 id="68fea410f14becc7b8765c487b0d64fc" tvg-id="T5Satelital.ar" tvg-logo="https://i.imgur.com/ZcD0rUP.png" group-title="Undefined", T5 Satelital
+https://tv.t5satelital.com/tvhls/streamcorrientes.m3u8
+#EXTINF:-1 id="d6343c12ee4ad3ae3d7a02b3f9ec57d1" tvg-id="TangoTV.ar" tvg-logo="https://i.ibb.co/g6KXPgt/download-58.jpg" group-title="Music", Tango TV
+https://video.misistemareseller.com/8118/8118/playlist.m3u8
+#EXTINF:-1 id="4e212ec3c182d195b9ba1e7da6b7b8fb" tvg-id="TastemadeenEspanol.us" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking", Tastemade en Español
+https://tastemadees16intl-samsungmexico.amagi.tv/playlist.m3u8
+#EXTINF:-1 id="24633838b765cea9fa3b5a39ad38bc6e" tvg-id="TeloCuentoyQue.ar" tvg-logo="https://i.imgur.com/SWh8ZiH.png" group-title="Entertainment;News", Te Lo Cuento y Que...!!!
+https://stmv1.cnarlatam.com/telocuento/telocuento/playlist.m3u8
+#EXTINF:-1 id="dbd66a82e1c5a0b6b85ad83d9614e53e" tvg-id="TECTV.ar" tvg-logo="https://i.imgur.com/LYy0Rfo.png" group-title="Science", TEC TV
+https://tv.initium.net.ar:3939/live/tectvmainlive.m3u8
+#EXTINF:-1 id="fbc03e7749778b4907516e90f9599421" tvg-id="TechScience365.ar" tvg-logo="https://i.imgur.com/UtqOpaY.png" group-title="Science", TechScience 365
+https://stmv1.cnarlatam.com/techscience365/techscience365/playlist.m3u8
+#EXTINF:-1 id="70cf4f743ba00b75652ee0bdf68985e6" tvg-id="Telecinco.ar" tvg-logo="https://i.imgur.com/ZDenyAE.png" group-title="Undefined", TeleCinco Trelew
+https://videohd.live:19360/8016/8016.m3u8
+#EXTINF:-1 id="81a4befdb859538840d015f7f42e2916" tvg-id="TelecondorSatelital.ar" tvg-logo="https://i.ibb.co/zbR9qhb/descarga.jpg" group-title="General", Telecóndor Satelital
+https://videostream.shockmedia.com.ar:19360/canal4telecondor/canal4telecondor.m3u8
+#EXTINF:-1 id="9f9513350ed85d583adb735df4b5855b" tvg-id="Telecreativa.ar" tvg-logo="https://i.imgur.com/PjlAB6x.jpg" group-title="Undefined", Telecreativa
+https://panel.dattalive.com/8012/8012/playlist.m3u8
+#EXTINF:-1 id="db3f2c6aff35dde03bc08107c0e54a70" tvg-id="TelediarioTV.ar" tvg-logo="https://i.imgur.com/Z4HJc1c.png" group-title="Undefined", Telediario TV
+https://stmvideo2.livecastv.com/telediario/telediario/playlist.m3u8
+#EXTINF:-1 id="ae95a43b451d0f3951ac0d60efab3937" tvg-id="Telediez.ar" tvg-logo="https://i.imgur.com/cm4NOuM.jpg" group-title="Undefined", Telediez
+https://videohd.live:19360/8020/8020.m3u8
+#EXTINF:-1 id="d64a45008d5338c3446a509e8d515c3c" tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/512px-Telefe_%28nuevo_logo%29.png" group-title="Undefined", Telefe
+https://telefe.com/Api/Videos/GetSourceUrl/694564/0/HLS?.m3u8=
+#EXTINF:-1 id="c302e5c21fc0227f17b25a50b5d0fa1b" tvg-id="TelefeCordoba.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Telefe_C%C3%B3rdoba_%282018%29.png/512px-Telefe_C%C3%B3rdoba_%282018%29.png" group-title="Undefined", Telefe Córdoba
+https://ythls.armelin.one/channel/UC3OQ66wEJaOPHK25IBdWR_g.m3u8
+#EXTINF:-1 id="b57b8cbf7c0209ee129f9489362a3731" tvg-id="TelefeInternacional.ar" tvg-logo="https://i.imgur.com/HNcCX3h.png" group-title="Undefined", Telefe Internacional
+https://siloh-mcdn.plutotv.net/lilo/production/TelefePluto/master.m3u8
+#EXTINF:-1 id="c4dbf9917f1fb0d9c648c7da925c311f" tvg-id="TelefeNoticias.us" tvg-logo="https://i.imgur.com/GwdSxzV.png" group-title="News", Telefe Noticias
+https://siloh-mcdn.plutotv.net/lilo/production/LATAM/Telefe/master.m3u8
+#EXTINF:-1 id="4df70552fb71a567cb995e0a531fd5e5" tvg-id="TelefeRosario.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Telefe_Rosario_%282018%29.png/512px-Telefe_Rosario_%282018%29.png" group-title="Undefined", Telefe Rosario
+https://ythls.armelin.one/channel/UCPr0HEFKN8wtDIfcPsVB10Q.m3u8
+#EXTINF:-1 id="528b30ddc4e21040f98018e9e93efeec" tvg-id="TelefeSalta.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telefe_Salta_%282018%29.png/512px-Telefe_Salta_%282018%29.png" group-title="Undefined", Telefe Salta
+https://ythls.armelin.one/channel/UCy-r-BQ5BQRU6rzGS73-WBQ.m3u8
+#EXTINF:-1 id="026aa28d79623bd0f0fe82d1371e911e" tvg-id="TelefeSantaFe.ar" tvg-logo="https://i.imgur.com/x6hiZRU.png" group-title="Undefined", Telefe Santa Fe
+https://ythls.armelin.one/channel/UCOkh97CpojxaoUris4jkiRQ.m3u8
+#EXTINF:-1 id="6dbc21086e29b42470c6614d75d65dab" tvg-id="TeleJunin.ar" tvg-logo="https://i.imgur.com/5X8gdCv.png" group-title="Undefined", TeleJunín
+https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
+#EXTINF:-1 id="688fa67ac6ccfc99b82cfe89995210da" tvg-id="Telemax.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/512px-Telemax_Argentina_%282018%29.png" group-title="Undefined", Telemax
+http://live-edge01.telecentro.net.ar/live/smil:tlx.smil/master.m3u8
+#EXTINF:-1 id="ade124f979d200e761bc6d829968ed09" tvg-id="TeleMix.ar" tvg-logo="https://i.imgur.com/qlYSai7.png" group-title="Undefined", TeleMix
+https://panel.dattalive.com/8068/8068/playlist.m3u8
+#EXTINF:-1 id="0da720395ad651a168ae7388feb5c29e" tvg-id="Telenord.ar" tvg-logo="https://i.imgur.com/yqXORkt.png" group-title="Undefined", Telenord Corrientes
+http://www.coninfo.net:1935/previsoratv/live/playlist.m3u8
+#EXTINF:-1 id="a75752831a4a576f1584f8c17e524874" tvg-id="Telesol.ar" tvg-logo="https://i.imgur.com/79sTxtP.png" group-title="Undefined", Telesol
+https://ythls.armelin.one/channel/UCG7dtDLsyjkyrfoo5oGtcXw.m3u8
+#EXTINF:-1 id="852c0d39e452775f9bd1b0b4bad11f23" tvg-id="Telesur.ve" tvg-logo="https://i.imgur.com/P50VjRX.png" group-title="News", TeleSUR
+https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
+#EXTINF:-1 id="5da2dde2c43a2fc4ff1f215a369ef6a8" tvg-id="TelevideoRegional.ar" tvg-logo="https://i.imgur.com/zLAocPn.png" group-title="News", Televideo Regional
+https://inliveserver.com:1936/8050_1/8050_1/playlist.m3u8
+#EXTINF:-1 id="a3afe9e3f42932b1d81dc31a228923a8" tvg-id="TRU.ar" tvg-logo="https://i.ibb.co/Y0nf1Wd/TRU-Televisora-Regional-Unimar-en-vivo.png" group-title="General", Televisora Regional Unimar
+https://vivo.solumedia.com:19360/trutv/trutv.m3u8
+#EXTINF:-1 id="0bc712f7bde325b2320fd8409b1efe24" tvg-id="TelpinTVCanal2HD.ar" tvg-logo="https://i.imgur.com/qcVSZvo.png" group-title="Undefined", Telpin TV
+https://wowza.telpin.com.ar:1935/telpintv/ttv.stream/playlist.m3u8
+#EXTINF:-1 id="909b0fd0f51a927f28b8ca5fbf275cf3" tvg-id="Tevex.cl" tvg-logo="https://i.imgur.com/FnInQRd.png" group-title="Business", Tevex
+https://v4.tustreaming.cl/tevexinter/index.m3u8
+#EXTINF:-1 id="9fee4f534aee7a59f5d3b3e1156c418e" tvg-id="TierraMiaTV.ar" tvg-logo="https://i.imgur.com/LQCaoH9.png" group-title="Undefined", Tierra Mía TV
+http://live-edge01.telecentro.net.ar/live/smil:trm.smil/playlist.m3u8
+#EXTINF:-1 id="f2f84dad4e6be712e0f12c3d0c023b1c" tvg-id="TIVTelevision.ar" tvg-logo="https://i.imgur.com/gsgXGEj.png" group-title="Undefined", TIV Televisión
+https://inliveserver.com:1936/14044/14044/playlist.m3u8
+#EXTINF:-1 id="d7351444ccc73a3c9a9010003aed1b7b" tvg-id="TN.ar" tvg-logo="https://i.imgur.com/vFwPhPS.png" group-title="News", TN Todo Noticias
+https://live-01-01-tn.vodgc.net/TN24/index.m3u8
+#EXTINF:-1 id="cb9a5a1e9bd2ea3cac4700dd819044cb" tvg-id="TropicalMoonCumbiaTV.pa" tvg-logo="https://i.imgur.com/jL1kLyS.png" group-title="Music", Tropical Moon Cumbia TV
+https://srv2.tropicalmoonmedia.com/cumbiatv/cumbiatv/playlist.m3u8
+#EXTINF:-1 id="a2b3d598c7dda71775352df907fa9e62" tvg-id="TropicalMoonEventosTV.pa" tvg-logo="https://i.imgur.com/RklPmml.png" group-title="General", Tropical Moon Eventos TV
+https://srv2.tropicalmoonmedia.com/eventostv/eventostv/playlist.m3u8
+#EXTINF:-1 id="dbb28a0dfbe5fbac63f4897f434fa8d2" tvg-id="TropicalMoonSalsaTV.pa" tvg-logo="https://i.imgur.com/jL1kLyS.png" group-title="Music", Tropical Moon Salsa TV
+https://srv.tropicalmoonmedia.com/musictv/musictv/playlist.m3u8
+#EXTINF:-1 id="be81b35608407ba26714059995e9f421" tvg-id="TropicalMoonUrbanTV.pa" tvg-logo="https://i.imgur.com/WcM7BP5.png" group-title="Music", Tropical Moon Urban TV
+https://srv.tropicalmoonmedia.com/urbantvnetott/urbantvnetott/playlist.m3u8
+#EXTINF:-1 id="2d8d3e72c81c4bfbd640f5e60b044dc1" tvg-id="TropicalMusicTV.us" tvg-logo="https://i.imgur.com/h48pwLn.png" group-title="Music", Tropical Music TV
+http://68.235.37.11:1935/vallenato/vallenato/.m3u8
+#EXTINF:-1 id="e37eb1a451fc97f763d9b8a5316a9d0f" tvg-id="TVManaArgentina.ar" tvg-logo="https://i.imgur.com/jars0mP.png" group-title="Religious", TV Maná Argentina
+https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8
+#EXTINF:-1 id="3c91c15a02bed0940cbc975e19483710" tvg-id="TVPublica.ar" tvg-logo="https://i.imgur.com/XGrkzN3.png" group-title="General", TV Publica
+https://cntlnk-main-edge-access.dlt.qwilted-cds.cqloud.com/entrypoint/c7_vivo01_dai_source-20001_all.m3u8
+#EXTINF:-1 id="7392d312c024fd218b98fbafec310b54" tvg-id="TVSolidaria.ar" tvg-logo="https://i.imgur.com/M0fMypR.png" group-title="Undefined", TV Solidaria
+https://canadaremar2.todostreaming.es/live/argentina-web.m3u8
+#EXTINF:-1 id="57025fd384f66c0b594e361cf930f2ef" tvg-id="TVEInternacionalAmerica.es" tvg-logo="https://i.imgur.com/iODADvi.png" group-title="Undefined", TVE Internacional America
+https://rtvelivestream.akamaized.net/rtvesec/int/tvei_ame_main.m3u8
+#EXTINF:-1 id="cff5f6289cb2036774cf5db04df4c4c7" tvg-id="TVEStarHD.es" tvg-logo="https://i.imgur.com/zsCZHMh.png" group-title="Series", TVE Star HD
+https://rtvelivestream.akamaized.net/rtvesec/int/star_main.m3u8
+#EXTINF:-1 id="1fec17a47fc981a9b385e8f3ab27bfae" tvg-id="TVMAXCBA.ar" tvg-logo="https://i.imgur.com/v3nKtIV.png" group-title="Undefined", TVMAXCBA
+https://panel.dattalive.com/8976/8976/playlist.m3u8
+#EXTINF:-1 id="863a0da30b69554fc10ecfd1a6d0c82b" tvg-id="TVQ.gt" tvg-logo="https://i.imgur.com/RnZU9q3.png" group-title="General", TVQ
+https://dacastmmd.mmdlive.lldns.net/dacastmmd/9b8beac9026c450fb81ed895539c4665/index.m3u8
+#EXTINF:-1 id="b3e04f0c6da3eee05adc65315ae63a2a" tvg-id="TVQSports.gt" tvg-logo="https://i.imgur.com/CQpuBeQ.png" group-title="Sports", TVQ Sports
+https://dacastmmd.mmdlive.lldns.net/dacastmmd/1b6bbade53634f5a847b953c9adfd102/index.m3u8
+#EXTINF:-1 id="eea13c90812b4c87274812333a4b6feb" tvg-id="TVUniversidad.ar" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education", TVU Universidad Nacional de La Plata
+https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
+#EXTINF:-1 id="c356140400f812e4964ba026fda92649" tvg-id="UCL.uy" tvg-logo="https://i.imgur.com/BzQphbw.png" group-title="Undefined", UCL
+https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
+#EXTINF:-1 id="b68c2894be4e681a83f08b2d8abe65a1" tvg-id="UNAMTransmedia.ar" tvg-logo="https://i2.paste.pics/8c4977628c2855095b6b9bff9a9f2a1d.png" group-title="Undefined", UNAM Transmedia
+http://192.100.186.53:8090/hls/live.stream.m3u8
+#EXTINF:-1 id="244a75480e3bc433e2208f742890fa47" tvg-id="UnirioTV.ar" tvg-logo="https://i.imgur.com/RMlneSY.png" group-title="Undefined", Unirio TV
+https://5f700d5b2c46f.streamlock.net/uniriotv/uniriotv/playlist.m3u8
+#EXTINF:-1 id="a76681f88c9c37d2ddb5e92ace012b66" tvg-id="Uniteve.ar" tvg-logo="https://pbs.twimg.com/profile_images/720276300888453120/a_SDOmBc_400x400.jpg" group-title="Undefined", Uniteve
+https://vivo.solumedia.com:19360/uniteve/uniteve.m3u8
+#EXTINF:-1 id="09e88a49d8196c3ef9812a6d81e9e8a7" tvg-id="UTNTV.ar" tvg-logo="https://i.imgur.com/Sfi2nSE.png" group-title="Undefined", UTN TV
+https://stream.arcast.com.ar/utntv/utntv/playlist.m3u8
+#EXTINF:-1 id="289388368a0495c2563db6c55a60384c" tvg-id="VariedTV.ar" tvg-logo="https://i.ibb.co/nDdGrQn/LOGO-ID-VARIEDTV-WEB.png" group-title="Entertainment", VariedTV
+https://6362ca6f1fc28.streamlock.net/8066/8066/playlist.m3u8
+#EXTINF:-1 id="64d4738b26368c34308f1b16a7fa9562" tvg-id="VenevisionInternacional.ve" tvg-logo="https://i.imgur.com/vtGED07.jpg" group-title="General", Venevisión Internacional
+https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8
+#EXTINF:-1 id="e7e94f51471a51cee78580e1e1fe790c" tvg-id="VTV.ar" tvg-logo="https://i.imgur.com/TLaausJ.png" group-title="Undefined", VerTV
+https://5f700d5b2c46f.streamlock.net/vertv/vertv/playlist.m3u8
+#EXTINF:-1 id="c5a8f64affa735aa85a126cf64b23b05" tvg-id="ViajarTV.ar" tvg-logo="https://i.imgur.com/LxB7ZIu.png" group-title="Undefined", Viajar TV
+https://stmv5.livecastv.com/manualtman/manualtman/playlist.m3u8
+#EXTINF:-1 id="246d6300a62870208a87c09ec80c66e2" tvg-id="Vorterix.ar" tvg-logo="https://i.imgur.com/RWL10TG.png" group-title="Entertainment", Vorterix
+https://ythls.armelin.one/channel/UCvCTWHCbBC0b9UIeLeNs8ug.m3u8
+#EXTINF:-1 id="adf15c70d166d267ce8ed0a31ced18b7" tvg-id="VPItv.ve" tvg-logo="https://i.imgur.com/X5hyKU8.png" group-title="News", VPItv
+https://ott3.streann.com/loadbalancer/services/public/channels/5d23d5882cdce61dae029fd8/playlist.m3u8
+#EXTINF:-1 id="598ec320af78656bd27497f0157aed8e" tvg-id="VTVMendoza.ar" tvg-logo="https://i.ibb.co/DzcyCv3/1429-VTV-Mendoza.png" group-title="General", VTV Mendoza
+https://5f700d5b2c46f.streamlock.net/vtvmendoza/vtvmendoza/playlist.m3u8
+#EXTINF:-1 id="23c004d0ef91fdd6ccfc122a07d0acdb" tvg-id="X24.ar" tvg-logo="https://i.imgur.com/qO6ZdET.png" group-title="Undefined", X24
+http://srv1.zcast.com.ar/x24hd/x24hd/playlist.m3u8
+#EXTINF:-1 id="d7d4ed60349bb0c93c95ffa37ef70a87" tvg-id="XtremaAccion.ar" tvg-logo="https://i.imgur.com/z5NwizH.png" group-title="Movies", Xtrema Accion
+https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
+#EXTINF:-1 id="45b1acc04b23a15e094dcbd1626b8caa" tvg-id="XtremaAnimal.ar" tvg-logo="https://i.imgur.com/HQxKLlK.png" group-title="Documentary;Science", Xtrema Animal
+https://stmv6.voxtvhd.com.br/xtremaanimal/xtremaanimal/playlist.m3u8
+#EXTINF:-1 id="f23ef1bd82d78bff651352275fba6f6c" tvg-id="XtremaAnime.ar" tvg-logo="https://i.imgur.com/yor5owS.png" group-title="Animation", Xtrema Anime
+https://stmv1.cnarlatam.com/xtremaanime/xtremaanime/playlist.m3u8
+#EXTINF:-1 id="b70e5a9f18b45eb286dba85c8f1e1f82" tvg-id="XtremaCartoons.ar" tvg-logo="https://i.imgur.com/X2d8y4e.png" group-title="Animation;Kids", Xtrema Cartoons
+https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
+#EXTINF:-1 id="773d8e861ae17bcd5fe08e9f9e74bd1a" tvg-id="XtremaAsia.ar" tvg-logo="https://i.imgur.com/xX1tfJz.png" group-title="Movies", Xtrema Cine Asia
+https://stmv1.cnarlatam.com/cineasia/cineasia/playlist.m3u8
+#EXTINF:-1 id="d9abcaeb4860a4946a653d937e868899" tvg-id="XtremaCineClasico.ar" tvg-logo="https://i.imgur.com/j91M4Yf.png" group-title="Classic;Movies", Xtrema Cine Clasico
+https://stmv6.voxtvhd.com.br/cineclasico/cineclasico/playlist.m3u8
+#EXTINF:-1 id="017106bd8650ae60d089df452c4d83de" tvg-id="XtremaComedy.ar" tvg-logo="https://i.imgur.com/aNUufoq.png" group-title="Comedy;Movies", Xtrema Cine Comedy
+https://stmv1.cnarlatam.com/cinecomedia/cinecomedia/playlist.m3u8
+#EXTINF:-1 id="081057aec1522c33d22eee01f010c5ff" tvg-id="XtremaDrama.ar" tvg-logo="https://i.imgur.com/lkQBPmN.png" group-title="Movies", Xtrema Cine Drama
+https://stmv1.cnarlatam.com/cinedrama/cinedrama/playlist.m3u8
+#EXTINF:-1 id="77845b06b12d7cc70b62bd4271bf405d" tvg-id="XtremaEuropa.ar" tvg-logo="https://i.imgur.com/o4EMF7I.png" group-title="Movies", Xtrema Cine Europa
+https://stmv1.cnarlatam.com/cineuropa/cineuropa/playlist.m3u8
+#EXTINF:-1 id="4621d2522879f519e25450f4ef909526" tvg-id="XtremaFamily.ar" tvg-logo="https://i.imgur.com/PohVKAP.png" group-title="Family;Movies", Xtrema Cine Family
+https://stmv1.cnarlatam.com/cinefamiliy/cinefamiliy/playlist.m3u8
+#EXTINF:-1 id="ca4ff6d38e94d61c8475caa7bd08ee23" tvg-id="XtremaHindi.ar" tvg-logo="https://i.imgur.com/9QIasCj.png" group-title="Movies", Xtrema Cine Hindi
+https://stmv1.cnarlatam.com/cinehindi/cinehindi/playlist.m3u8
+#EXTINF:-1 id="91c54c3dac1c400e54cea05021de8fcf" tvg-id="XtremaLatina.ar" tvg-logo="https://i.imgur.com/swgrOiH.png" group-title="Movies", Xtrema Cine Latino
+https://stmv1.cnarlatam.com/cinelatino/cinelatino/playlist.m3u8
+#EXTINF:-1 id="5072c68dac91be98cc0a20e25937a154" tvg-id="XtremaSuspenso.ar" tvg-logo="https://i.imgur.com/7Vwno5k.png" group-title="Movies", Xtrema Cine Suspenso
+https://stmv1.cnarlatam.com/cinesuspenso/cinesuspenso/playlist.m3u8
+#EXTINF:-1 id="ad20df6d5efb75710831df86a6969c61" tvg-id="XtremaRetroCartoons.ar" tvg-logo="https://i.imgur.com/60ylWbQ.png" group-title="Animation", Xtrema Retro Cartoons
+https://stmv1.cnarlatam.com/retroinfantil/retroinfantil/playlist.m3u8
+#EXTINF:-1 id="5883d7fc0162f6829397276ce68f06be" tvg-id="XtremaRetroSeries.ar" tvg-logo="https://i.imgur.com/ejBa7n3.png" group-title="Classic", Xtrema Retro Series
+https://stmv1.cnarlatam.com/xtremaretroseries/xtremaretroseries/playlist.m3u8
+#EXTINF:-1 id="798f49dd8d03b8ff6a52f66cfbe33177" tvg-id="XtremaSeries.ar" tvg-logo="https://i.imgur.com/J7ZZIQN.png" group-title="Movies", Xtrema Series
+https://stmv1.cnarlatam.com/xtremaseries/xtremaseries/playlist.m3u8
+#EXTINF:-1 id="aa50782351e164433a3fabe0a48e834d" tvg-id="XtremaTerror.ar" tvg-logo="https://i.imgur.com/FcaTUym.png" group-title="Movies", Xtrema Terror
+https://stmv6.voxtvhd.com.br/cineterror/cineterror/playlist.m3u8
+#EXTINF:-1 id="2f07abb87d2ac815e1cd818ec9101312" tvg-id="ZondaTV.ar" tvg-logo="https://i2.paste.pics/0892ef7fbb6b42523737174dba3bc445.png" group-title="Undefined", Zonda TV
+https://cnnsanjuan.com:9999/zonda/zonda/playlist.m3u8
+#EXTINF:-1 id="f39649d1029d06053eb702499b1fa4b3" tvg-id="Armenia2.am" tvg-logo="https://i.imgur.com/AXmXw9X.png" group-title="General", Հ2
+http://ott-cdn.ucom.am/s2/index.m3u8

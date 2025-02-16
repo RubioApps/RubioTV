@@ -36,42 +36,58 @@ use RubioTV\Framework\Language\Text;
 
 class modelLogin extends Model
 {
-
-
     public function display()
-    {
-
+    {                
         if(is_array($_POST) && isset($_POST['password']))
-        {                 
-            $password = $_POST['password'];
-
-            if(Factory::checkToken() && md5($password) === $this->config->password )
-            {             
-                $_SESSION['sid'] = md5(session_id() . $this->config->password); 
+        {                       
+            $pwd    = $_POST['password'];   
+            
+            if( Factory::checkToken() &&  md5($pwd) === $this->config->password )
+            {                    
+                //Log the user                
+                $_SESSION['utoken'] = md5(session_id() . $this->config->password); 
                 header('Content-Type: application/json; charset=utf-8');    
                 echo json_encode(['error' => false , 'message' => Text::_('LOGIN_SUCCESS') ]);
-                exit(0);      
+                exit(0); 
             }
-            header('Content-Type: application/json; charset=utf-8');    
-            echo json_encode(['error' => true , 'message' => Text::_('LOGIN_ERROR') ]);
-            exit(0);                               
-        }        
-        parent::display();
+            header('Content-Type: application/json; charset=utf-8');
+            echo json_encode(['error' => true , 'message' => Text::_('LOGIN_ERROR')]);
+            exit(0);
+        } 
+
+        if(Factory::isLogged())
+        {
+            $config = Factory::getConfig();
+            header('Location:' . $config->live_site);
+            exit(0);          
+        }    
     }
 
-    public function token()
-    {  
-        header('Content-Type: application/json; charset=utf-8');    
-        echo Factory::getToken(true);
-        exit(0);                                      
-    }    
+    public function out()
+    {
+        $this->page->setFile('logout.php');                  
+    }
     
     public function off()
     {
-        unset($_SESSION['sid']);
+        unset($_SESSION['utoken']);
+        setcookie('__Host_prefs', '', [
+            'path'       => parse_url($this->config->live_site, PHP_URL_PATH),
+            'secure'     => true,
+            'httponly'   => true,
+            'samesite'   => 'None',
+            'expires'    => time() - 86400,
+        ]); 
+        setcookie('__Host_sid', '', [
+            'path'       => parse_url($this->config->live_site, PHP_URL_PATH),
+            'secure'     => true,
+            'httponly'   => true,
+            'samesite'   => 'None',
+            'expires'    => time() - 86400,
+        ]);                 
         session_destroy();
         header('Location:' . Factory::Link()); 
-        die();
+        exit(0);
     }      
     
 }

@@ -1,0 +1,71 @@
+#EXTM3U
+#EXTINF:-1 id="eb0c7de6b6dd6a6149d2374cfaaf06d6" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1braunschweig.png" group-title="Stations", NDR 1 NDS Braunschweig
+https://icecast.ndr.de/ndr/ndr1niedersachsen/braunschweig/mp3/128/stream.mp3
+#EXTINF:-1 id="4703e527fa6d76cf8cd96a2e27616fa5" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1lueneburg.png" group-title="Stations", NDR 1 NDS Luneburg
+https://icecast.ndr.de/ndr/ndr1niedersachsen/lueneburg/mp3/128/stream.mp3
+#EXTINF:-1 id="52ee3269926044dbaa99fefe4afd65b0" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1oldenburg.png" group-title="Stations", NDR 1 NDS Oldenburg
+https://icecast.ndr.de/ndr/ndr1niedersachsen/oldenburg/mp3/128/stream.mp3
+#EXTINF:-1 id="1f23fe66b12aa044f3bdaa226224ef53" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1osnabrueck.png" group-title="Stations", NDR 1 NDS Osnabruck
+https://icecast.ndr.de/ndr/ndr1niedersachsen/osnabrueck/mp3/128/stream.mp3
+#EXTINF:-1 id="4d8fc82129d7ce86a5a280f7677d7942" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1niedersachsenhannover.png" group-title="Stations", NDR 1 Niedersachsen
+https://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3
+#EXTINF:-1 id="1b5a47249c7547f000ba14373cf01a8a" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1greifswald.png" group-title="Stations", NDR 1 R MV Greifswald
+https://icecast.ndr.de/ndr/ndr1radiomv/greifswald/mp3/128/stream.mp3
+#EXTINF:-1 id="f983afb9af8a2f5dde4f67b163aebf75" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1neubrandenburg.png" group-title="Stations", NDR 1 R MV Neubrandenburg
+https://icecast.ndr.de/ndr/ndr1radiomv/neubrandenburg/mp3/128/stream.mp3
+#EXTINF:-1 id="474fda7c7a81dccc67b24b845d09daf7" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1rostock.png" group-title="Stations", NDR 1 R MV Rostock
+https://icecast.ndr.de/ndr/ndr1radiomv/rostock/mp3/128/stream.mp3
+#EXTINF:-1 id="5408a237480a391d68e19fb82bf24eb4" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1greifswald.png" group-title="Stations", NDR 1 Radio MV
+https://icecast.ndr.de/ndr/ndr1radiomv/schwerin/mp3/128/stream.mp3
+#EXTINF:-1 id="cbc5204bc2f9bfe8b71beba99ec8f690" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1flensburg.png" group-title="Stations", NDR 1 Welle N Flensburg
+https://icecast.ndr.de/ndr/ndr1wellenord/flensburg/mp3/128/stream.mp3
+#EXTINF:-1 id="02fb6e583f2636214714656fa252843a" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1wellenordkiel.png" group-title="Stations", NDR 1 Welle N Heide
+https://icecast.ndr.de/ndr/ndr1wellenord/heide/mp3/128/stream.mp3
+#EXTINF:-1 id="4069af76d0ac9ae4ce2e6474bf04e3e9" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1wellenordkiel.png" group-title="Stations", NDR 1 Welle N Lubeck
+https://icecast.ndr.de/ndr/ndr1wellenord/luebeck/mp3/128/stream.mp3
+#EXTINF:-1 id="dd5cea8549f4c46f0436332436165c60" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1wellenordkiel.png" group-title="Stations", NDR 1 Welle N Norderstedt
+https://icecast.ndr.de/ndr/ndr1wellenord/norderstedt/mp3/128/stream.mp3
+#EXTINF:-1 id="fc44259b1bed216ee6814a716d1f2c27" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1wellenordkiel.png" group-title="Stations", NDR 1 Welle Nord Kiel
+https://icecast.ndr.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3
+#EXTINF:-1 id="9027cd3543454e49dc2fe32fa3867938" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr2.png" group-title="Stations", NDR 2
+https://icecast.ndr.de/ndr/ndr2/niedersachsen/mp3/128/stream.mp3
+#EXTINF:-1 id="340c984f328ac084b3b0193fee070bc5" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr2hamburg.png" group-title="Stations", NDR 2 Hamburg
+https://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3
+#EXTINF:-1 id="990ad4cf89b6ea54800d1ac3bb92c17c" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr903.png" group-title="Stations", NDR 903
+https://icecast.ndr.de/ndr/ndr903/hamburg/mp3/128/stream.mp3
+#EXTINF:-1 id="5690a671df1bc82f30dc1eb13caa03f6" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/630/ndrblue.png" group-title="Stations", NDR Blue
+https://icecast.ndr.de/ndr/ndrblue/live/mp3/128/stream.mp3
+#EXTINF:-1 id="6368ce0429c227e879071ade18e0b5fc" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndr1greifswald.png" group-title="Stations", NDR Info MV
+https://icecast.ndr.de/ndr/ndrinfo/niedersachsen/mp3/128/stream.mp3
+#EXTINF:-1 id="7c387a008c7a6f40079d351642e00dd7" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/630/ndrinfoschleswigholstein.png" group-title="Stations", NDR Info Schleswig-Holstein
+https://icecast.ndr.de/ndr/ndrinfo/schleswigholstein/mp3/128/stream.mp3
+#EXTINF:-1 id="ca95e367364af6fb132ba89a5544846f" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndrinfospezial.png" group-title="Stations", NDR Info Spezial
+https://icecast.ndr.de/ndr/ndrinfospezial/live/mp3/128/stream.mp3
+#EXTINF:-1 id="99b8a8e9667ad0e482eef9a6e35d96c7" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndrkultur.png" group-title="Stations", NDR Kultur
+https://icecast.ndr.de/ndr/ndrkultur/live/mp3/128/stream.mp3
+#EXTINF:-1 id="258376a6e5851dcfc89a2a19c9a55723" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndrkulturbelcanto.png" group-title="Stations", NDR Kultur Belcanto
+https://icecast.ndr.de/ndr/loop/2/mp3/128/stream.mp3
+#EXTINF:-1 id="6b103c25215fc911e4a573782a9deed5" radio="true" group-title="Allemagne" tvg-id="icecast.ndr.de" tvg-logo="https://station-images.prod.radio-api.net/300/ndrschlager.png" group-title="Stations", NDR Schlager
+https://icecast.ndr.de/ndr/ndrschlager/live/mp3/128/stream.mp3
+#EXTINF:-1 id="a4e298340b72e8d9cbe00823b32aa67e" radio="true" group-title="Allemagne" tvg-id="addrad.io" tvg-logo="https://station-images.prod.radio-api.net/300/dieneue1077rock.png" group-title="Stations", Die Neue 107.7
+https://addrad.io/4454xd7
+#EXTINF:-1 id="4674f19786a609e59dddf4b7f99960ec" radio="true" group-title="Allemagne" tvg-id="st01.sslstream.dlf.de" tvg-logo="https://station-images.prod.radio-api.net/300/deutschlandfunk.png" group-title="Stations", Deutschlandfunk
+https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=radio-de
+#EXTINF:-1 id="bc9026850c53a75a0e6e3a84b8f66426" radio="true" group-title="Allemagne" tvg-id="st02.sslstream.dlf.de" tvg-logo="https://station-images.prod.radio-api.net/300/dlfkultur.png" group-title="Stations", Deutschlandfunk Kultur
+https://st02.sslstream.dlf.de/dlf/02/mid/aac/stream.aac?aggregator=radio-de
+#EXTINF:-1 id="04f9162e33dc78d4732237e113681484" radio="true" group-title="Allemagne" tvg-id="st03.sslstream.dlf.de" tvg-logo="https://station-images.prod.radio-api.net/300/dlfnova.png" group-title="Stations", Deutschlandfunk Nova
+https://st03.sslstream.dlf.de/dlf/03/high/aac/stream.aac?aggregator=radio-de
+#EXTINF:-1 id="c55e034b802de34dbeb066c3271a5d60" radio="true" group-title="Allemagne" tvg-id="d131.rndfnk.com" tvg-logo="https://station-images.prod.radio-api.net/300/swr3.png" group-title="Stations", SWR3
+https://liveradio.swr.de/rddez3a/swr3/
+#EXTINF:-1 id="7a43d21145e275189e6a262842961857" radio="true" group-title="Allemagne" tvg-id="streams.90s90s.de" tvg-logo="https://station-images.prod.radio-api.net/300/90s90shiphop.png" group-title="Stations", 90s90s Hiphop
+https://streams.90s90s.de/hiphop/mp3-192/radiode/
+#EXTINF:-1 id="6c9a817535b63551936fab5cef371fbd" radio="true" group-title="Allemagne" tvg-id="streams.metropolfm.de" tvg-logo="https://station-images.prod.radio-api.net/300/metropolfm.png" group-title="Stations", METROPOL FM Berlin
+https://streams.metropolfm.de/MetropolFM/stream.aac
+#EXTINF:-1 id="db25d9c9fd9bdd2698e37bbfd44ea7b5" radio="true" group-title="Allemagne" tvg-id="liveradio.swr.de" tvg-logo="https://station-images.prod.radio-api.net/300/swr4bw.png" group-title="Stations", SWR4 Baden-Württemberg
+https://liveradio.swr.de/rddez3a/swr4bw/
+#EXTINF:-1 id="da551b33de60410faa13c8e89cc9132b" radio="true" group-title="Allemagne" tvg-id="stream.silvacast.com" tvg-logo="https://station-images.prod.radio-api.net/300/radiopaloma.png" group-title="Stations", Radio Paloma - 100% Deutscher Schlager
+https://stream.silvacast.com/RPLive/mp3-128/radio_de/
+#EXTINF:-1 id="1af6ed5924d3a2809612ed3ee4c57d3f" radio="true" group-title="Allemagne" tvg-id="dispatcher.rndfnk.com" tvg-logo="https://station-images.prod.radio-api.net/300/hr3.png" group-title="Stations", hr3
+https://dispatcher.rndfnk.com/hr/hr3/live/mp3/high?aggregator=radio-de
+#EXTINF:-1 id="e0b2c64ae0328672f1f68965c41fce3b" radio="true" group-title="Allemagne" tvg-id="wdr-wdr3-live.icecast.wdr.de" tvg-logo="https://station-images.prod.radio-api.net/300/wdr3.png" group-title="Stations", WDR 3
+https://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/aac/low?aggregator=radio-de

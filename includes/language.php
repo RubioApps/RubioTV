@@ -33,16 +33,16 @@ defined('_TVEXEC') or die;
 
 class Language
 {
-    protected static $languages = array();
+    protected static $languages = [];
     protected $default = 'en-GB';
-    protected $orphans = array();
+    protected $orphans = [];
     protected $metadata = null;
     protected $locale = null;
     protected $lang = null;
-    protected $paths = array();
-    protected $errorfiles = array();
-    protected $strings = array();
-    protected $used = array();
+    protected $paths = [];
+    protected $errorfiles = [];
+    protected $strings = [];
+    protected $used = [];
     protected $counter = 0;
     protected $transliterator = null;
     protected $pluralSuffixesCallback = null;
@@ -54,7 +54,7 @@ class Language
 
     public function __construct( $lang = null)
     {
-        $this->strings = array();
+        $this->strings = [];
         
         if(!$lang){
             $lang = $this->detectLanguage();
@@ -135,7 +135,7 @@ class Language
      */
     public function parseLanguageFiles($dir = null)
     {
-        $languages = array();
+        $languages = [];
 
         // Search main language directory for subdirectories
         foreach (glob($dir . '/*', GLOB_NOSORT | GLOB_ONLYDIR) as $directory) {
@@ -194,7 +194,7 @@ class Language
             return [];
         }
 
-        $metadata = array();
+        $metadata = [];
 
         foreach ($xml->metadata->children() as $child) {
             $metadata[$child->getName()] = (string) $child;
@@ -217,7 +217,7 @@ class Language
     {
 
         if (empty($this->languages)) {
-            $languages[$key] = array();
+            $languages[$key] = [];
             $knownLangs = $this->getKnownLanguages(TV_BASE);
 
             foreach ($knownLangs as $metadata) {
@@ -230,6 +230,13 @@ class Language
         return $languages[$key];
     }
 
+    /**
+     * Get the current array of loaded strings
+     */
+    public function getStrings()
+    {
+        return $this->strings;
+    }    
         
     /**
      * Translate function, mimics the php gettext (alias _) function.
@@ -333,7 +340,7 @@ class Language
     {
         // Check if file exists.
         if (!is_file($fileName)) {
-            return array();
+            return [];
         }
 
         $disabledFunctions = explode(',', ini_get('disable_functions'));
@@ -346,7 +353,7 @@ class Language
             $strings = @parse_ini_file($fileName);
         }
 
-        return \is_array($strings) ? $strings : array();
+        return \is_array($strings) ? $strings : [];
     }
     
     /**
@@ -476,7 +483,7 @@ class Language
         if ($this->ignoredSearchWordsCallback !== null) {
             return \call_user_func($this->ignoredSearchWordsCallback);
         } else {
-            return array();
+            return [];
         }
     }
 
@@ -672,7 +679,7 @@ class Language
 
         $path = $this->getLanguagePath($basePath, $lang);
 
-        $filenames = array();
+        $filenames = [];
         $filenames[] = "$path/rubiotv.ini";
         $filenames[] = "$path/$lang.ini";        
 

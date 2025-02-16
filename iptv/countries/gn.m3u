@@ -1,0 +1,73 @@
+#EXTM3U
+#EXTINF:-1 id="e3e3893d9cbfcd9e4e393687fb033297" tvg-id="ABNAfrica.us" tvg-logo="https://yt3.googleusercontent.com/BhFbqwxiQN89UGI2cpoffye2UuKtblDDUwJHce0fzjpdrMkb0CtKf_42ZVTiLX2Ulwbjey4YZQ=s512-c-k-c0x00ffffff-no-rj" group-title="Religious", ABN Africa
+https://mediaserver.abnvideos.com/streams/abnafrica.m3u8
+#EXTINF:-1 id="0bffe62dff4e4802bc5b5701c4448730" tvg-id="Africa24.fr" tvg-logo="https://i.imgur.com/YWIJdai.png" group-title="News", Africa 24
+https://edge12.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+#EXTINF:-1 id="c2a29a44388cf136ea1d82ee1cab56bd" tvg-id="Africa24English.fr" tvg-logo="https://i.imgur.com/YWIJdai.png" group-title="News", Africa 24 English
+https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+#EXTINF:-1 id="bd3b709230869642be522dcfd55fdb30" tvg-id="AfricanewsEnglish.fr" tvg-logo="https://i.imgur.com/5UxU4zc.png" group-title="News", Africanews
+https://rakuten-africanews-1-pt.samsung.wurl.tv/manifest/playlist.m3u8
+#EXTINF:-1 id="c4a468b26922d7301ce59ebbad26a868" tvg-id="AfricanewsFrench.fr" tvg-logo="https://i.imgur.com/5UxU4zc.png" group-title="News", AfricaNews Français
+https://rakuten-africanews-2-be.samsung.wurl.tv/manifest/playlist.m3u8
+#EXTINF:-1 id="bc094c3769e46b14bcd604c9acf04f0c" tvg-id="AmaniTV.sn" tvg-logo="https://i.imgur.com/0cY4K7G.png" group-title="Culture", Amani TV
+https://goccn.cloud/hls/amanitv/index.m3u8
+#EXTINF:-1 id="0ddcf2f562a94a88db79119f1ff2194c" tvg-id="AngelTVAfrica.in" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Religious", Angel TV Africa
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelafrica_all/playlist.m3u8
+#EXTINF:-1 id="ec31466e4e9b9d191abf67da38e221e1" tvg-id="ATV.gn" tvg-logo="https://i.imgur.com/9K6lyPW.jpg" group-title="General", ATV
+https://guineetvdirect.online:3320/live/atvguineelive.m3u8
+#EXTINF:-1 id="d4fd8b0f3d2b308cacabd4cc69248d4e" tvg-id="BblackAfrica.fr" tvg-logo="https://i.imgur.com/s1kLdBG.png" group-title="Music", Bblack! Africa
+http://livevideo.vedge.infomaniak.com/livecast/ik:bblackafrica/manifest.m3u8
+#EXTINF:-1 id="4a08cfe19a64a141a3c0323012623801" tvg-id="BloombergTVEMEALiveEvent.uk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business", Bloomberg TV EMEA Live Event
+https://bloomberg.com/media-manifest/streams/eu-event.m3u8
+#EXTINF:-1 id="71e637df60678ac97efa830abb4c5de6" tvg-id="Canal2International.cm" tvg-logo="https://i.imgur.com/BzA2z7m.png" group-title="Undefined", Canal 2 International
+https://rpn3.bozztv.com/ssh101/ssh101/canal2live/playlist.m3u8
+#EXTINF:-1 id="807dfc237f4c2a1f27139a33df75689c" tvg-id="CaviTV.gn" tvg-logo="https://i.imgur.com/kwXzUwd.png" group-title="General", Cavi TV
+https://helga.iptv2022.com/Cavi_TV/index.m3u8
+#EXTINF:-1 id="2d9c1e8ff155706b77cd8ba66783116e" tvg-id="CISTV.gn" tvg-logo="https://i.imgur.com/7KdUOqY.png" group-title="Undefined", CIS TV
+http://185.59.221.131:8081/live/cistv/playlist.m3u8
+#EXTINF:-1 id="b97c1e5a63c0b6f7daa8b3adde369a3c" tvg-id="CNBCAfrica.za" tvg-logo="https://i.imgur.com/BnNYzWI.png" group-title="Business", CNBC Africa
+https://ythls.armelin.one/channel/UCsba91UGiQLFOb5DN3Z_AdQ.m3u8
+#EXTINF:-1 id="6db31d392d1fc0aa565b0c12102b8a87" tvg-id="DjomaTV.gn" tvg-logo="https://i.imgur.com/VDENl4H.png" group-title="General", Djoma TV
+https://ythls.armelin.one/channel/UC2vtjGPB2VndmlME61XaRUw.m3u8
+#EXTINF:-1 id="78f747db3c5f21ab2c5c4ca84b796682" tvg-id="EspaceTV.gn" tvg-logo="https://i.imgur.com/R5tbzFI.png" group-title="News", Espace TV
+https://edge11.vedge.infomaniak.com/livecast/ik:espacetv/manifest.m3u8
+#EXTINF:-1 id="513534260de55fe7ec2a3201d7407a02" tvg-id="EvasionTV.gn" tvg-logo="https://i.imgur.com/TTWl2Iy.png" group-title="General", Evasion TV
+https://kali1.everestcast.com:3235/live/visionweblive.m3u8
+#EXTINF:-1 id="3c67bbf91ab40800e17172cc3f48579d" tvg-id="EWTNAfricaAsia.us" tvg-logo="https://i.imgur.com/F8ZM25a.png" group-title="Religious", EWTN Africa Asia
+https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
+#EXTINF:-1 id="30f97ec987795c0d8b108cc25ae2a91e" tvg-id="FassoTVKankan.gn" tvg-logo="https://i.imgur.com/xrV3Qrr.png" group-title="General", Fasso TV Kankan
+https://cageu.bozztv.com/ssh101/ssh101/fassotv1/playlist.m3u8
+#EXTINF:-1 id="4c4e3b7f7c0054c14c65fcf15bd1ded2" tvg-id="GODTVAfrica.za" tvg-logo="https://i.imgur.com/hW4g2oe.png" group-title="Religious", GOD TV Africa
+https://webstreaming.viewmedia.tv/web_006/Stream/playlist.m3u8
+#EXTINF:-1 id="904a651c2525e2d5592aecd91865659f" tvg-id="GuineeTV1.gn" tvg-logo="https://i.imgur.com/X1AUjHr.png" group-title="Entertainment", Guinée TV1
+https://helga.iptv2022.com/GTV/index.m3u8
+#EXTINF:-1 id="eba267ea23d38a6a779e2e65f1c4feee" tvg-id="KabackTV.gn" tvg-logo="https://i.imgur.com/Q6emZEw.png" group-title="General", Kaback TV
+https://guineetvdirect.online:3842/live/kabacktvlive.m3u8
+#EXTINF:-1 id="919de6c84b1db40d20dbe1bc277c2ab2" tvg-id="KalacTV.gn" tvg-logo="https://i.imgur.com/FgKJiHZ.png" group-title="General", Kalac TV
+https://edge.vedge.infomaniak.com/livecast/ik:kalactv/manifest.m3u8
+#EXTINF:-1 id="1bc8824c0a544e86e92100af2171ff50" tvg-id="QwestTV.fr" tvg-logo="https://i.imgur.com/DjgNNHK.png" group-title="Music", QwestTV
+https://amg00447-qwesttv-qwestjazz-cineverse-ve12d.amagi.tv/playlist/amg00447-qwesttv-qwestjazz-cineverse/playlist.m3u8
+#EXTINF:-1 id="df329875ac62b1efb9e3a85fd24731d0" tvg-id="RefletTV.ci" tvg-logo="https://i.imgur.com/EauXR22.png" group-title="Undefined", REFLET TV
+https://edge-a3.evrideo.tv/8f37c9f0-fe22-44f4-b64a-76ad11730daf_1000026630_HLS/manifest.m3u8
+#EXTINF:-1 id="9ee8f79c093fa4aab1d54ce348194877" tvg-id="RomanzaPlusAfrica.ke" tvg-logo="https://i.imgur.com/HYg75w2.png" group-title="Undefined", Romanza+ Africa
+https://origin3.afxp.telemedia.co.za/PremiumFree/romanza/playlist.m3u8
+#EXTINF:-1 id="8964a1da465e9e926cf2fae7d58acb2f" tvg-id="RTG1.gn" tvg-logo="https://i.imgur.com/E1sMcXz.png" group-title="General", RTG 1
+https://stream.castr.com/6358a30fa50e3ae11b6d0424/live_e05d20809c3611edadb72177341481c3/index.m3u8
+#EXTINF:-1 id="f51ee58f9bbb30a6cb27d40b24e55f5e" tvg-id="RTG2.gn" tvg-logo="https://i.imgur.com/E1sMcXz.png" group-title="General", RTG 2
+https://stream.castr.com/6358a30fa50e3ae11b6d0424/live_cbde16509c3611ed91f289dac03ffaaf/index.m3u8
+#EXTINF:-1 id="f18b97f0730f5a0077f67ddc21f488f6" tvg-id="RTPAfrica.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/RTP_%C3%81frica_2016_%28Reduced_Version%29.svg/512px-RTP_%C3%81frica_2016_%28Reduced_Version%29.svg.png" group-title="General", RTP África
+https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
+#EXTINF:-1 id="b7076faf4d16c7aeb23eee21894ded8b" tvg-id="SabTV.gn" tvg-logo="https://i.imgur.com/llpjrWU.jpeg" group-title="Entertainment", Sab TV
+https://guineetvdirect.online:3964/live/sabtvlive.m3u8
+#EXTINF:-1 id="7d2ec7ab5db42cc9d38ddf2b930b9118" tvg-id="TBNAfrica.za" tvg-logo="https://i.imgur.com/6VjLFmR.png" group-title="Undefined", TBN Africa
+https://tbn-jw.cdn.vustreams.com/live/tbn-africa/live.isml/master.m3u8
+#EXTINF:-1 id="a5da4b31d54eedef7cd22cbd5de943f2" tvg-id="Tele7.es" tvg-logo="https://i.imgur.com/JcuV9ZE.png" group-title="Undefined", Tele 7
+https://ingest2-video.streaming-pro.com/tele7_ABR/stream/playlist.m3u8
+#EXTINF:-1 id="28a10c43a856df8f0a2a8d6a43700349" tvg-id="TVBRICSAfrica.za" tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/188/666abcee75.jpeg" group-title="General", TV BRICS Africa
+https://cdn.freevisiontv.co.za/sttv/smil:brics.stream.smil/playlist.m3u8
+#EXTINF:-1 id="b2a8ae2bbd19ce00cfeaa11c1dff959e" tvg-id="TVIAfrica.pt" tvg-logo="https://i.ibb.co/vBbSHB4/Tvi-africa.png" group-title="General", TVI África
+https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8
+#EXTINF:-1 id="adf40aa4e032962a25b3ada7f802d92b" tvg-id="WestAfricaTV.gn" tvg-logo="https://i.imgur.com/f77MWJ8.png" group-title="General", West Africa TV
+https://ythls.armelin.one/channel/UCxXEr1iy6EJssFRI9uYmiuw.m3u8
+#EXTINF:-1 id="737f519107c8ead93689a0d669dcc758" tvg-id="ZarokTV.iq" tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="Animation;Education;Family;Kids;Music", Zarok TV Sorani
+https://zindisorani.zaroktv.com.tr/hls/stream.m3u8

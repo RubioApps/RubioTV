@@ -34,8 +34,8 @@ use \RubioTV\Framework\Language\Text;
 ?>
 <!-- Breadcrumb -->
 <div class="tv-breadcrumb">
-    <nav class="rounded border bg-light m-3" aria-label="breadcrumb">
-        <ol class="breadcrumb p-2 m-0">
+    <nav class="rounded border ms-0 me-0 mb-3" aria-label="breadcrumb">
+        <ol class="breadcrumb p-1 m-0">
             <li class="breadcrumb-item">
                 <a href="<?= $config->live_site;?>"><?= Text::_('HOME');?></a>
             </li>    
@@ -75,7 +75,7 @@ use \RubioTV\Framework\Language\Text;
     <div class="tv-channels-grid row row-cols-3 row-cols-sm-4 row-cols-md-6 g-2 g-lg-3 mt-1"> 
         <?php foreach ($page->data as $item):?>   
         <div class="col">                
-            <div class="card border text-center bg-light">                                     
+            <div class="card border text-center">  
                 <div class="card-header p-1 d-flex">  
                     <div class="col-8">
                         <h5 class="card-title text-truncate mt-1"><?= $item->label;?></h5>
@@ -90,7 +90,7 @@ use \RubioTV\Framework\Language\Text;
                 </div>                                    
                 <div class="card-body p-0"> 
                     <a href="<?= $item->link;?>">                
-                        <img src="<?= $item->image;?>" class="card-img-top" alt="<?= htmlspecialchars($item->name);?>">                                                   
+                        <img src="<?= $item->image;?>" class="tv-icon card-img-top" alt="<?= htmlspecialchars($item->name);?>">                                                   
                     </a>                      
                 </div>
             </div>             
@@ -176,92 +176,6 @@ use \RubioTV\Framework\Language\Text;
 <!-- JS -->
 <script type="text/javascript">   
 jQuery(document).ready(function(){   
-
-    $('.accordion input[type=submit]').on('click',function(e){
-        e.preventDefault();         
-        var option = $('#fld-target option[value]:selected');
-        if( option.text() == '')
-        {
-            raise('<?= Text::_('IMPORT_SELECT_TARGET');?>',true);
-            return false;
-        }
-
-        var select  = $('#fld-target');        
-        var target  = $('<input type="hidden" name="target">').val(select.val());
-        var token   = $('input#token');
-        var form    = $(this).parents('form').eq(0);        
-        form.append(token);        
-        form.append(target);        
-        form.trigger('submit');
-        return true;
-    });
-
-    $('#btn-custom-new').on('click',function(e){
-        e.preventDefault();     
-        $('#new-modal').modal('show');
-        $(this).attr('disabled','disabled');     
-    });  
-    
-    $('#new-form-close').on('click',function(e){
-        e.preventDefault(); 
-        $('#new-modal').modal('hide');
-        $('#btn-custom-new').removeAttr('disabled','disabled');
-    });
-
-    $('#new-form-submit').on('click',function(e){
-        e.preventDefault(); 
-        var listname = $('#new-listname').val();
-        if(listname.length < 2 || listname.length > 12){
-            raise('<?= Text::_('NEW_LIST_INVALID');?>',true);
-            $('#new-listname').focus();
-            return false;
-            }
-        
-        var token   = $('input#token');
-        var form    = $('form#new-form');        
-        form.append(token);              
-        form.trigger('submit'); 
-        return true;                                   
-    });
-
-    $('.btn-rem-list').on('click',function(e){
-        e.preventDefault(); 
-
-        var card    = $(this).parents('.card').eq(0);
-        var id      = $(this).attr('data-id');
-        var token   = $('input#token').attr('name');
-        var sid     = $('input#token').val();
-
-        data = { 'id' : id , [token] : sid};
-        var posting = $.post('<?= $factory->Link('custom.erase');?>',data);
-        posting.done(function(result){
-            if(result.error){
-                raise('<?= Text::_('ERROR_ERASE_LIST');?>',true);
-            } else {
-                raise('<?= Text::_('SUCCESS_ERASE_LIST');?>', false);                
-                var option  = $('#fld-target option[value=' + id + ']');  
-                card.remove();                
-                option.remove();
-
-            }
-
-            $.get('<?= $factory->Link('custom.token');?>').done(function(result){
-                token.attr('name',result.token);
-                token.val(result.sid);
-            });                
-        });
-    });
-
-    function raise( text , error )
-    {
-        var wrapper = $('#tv-toast');
-        var toast   = wrapper.find('.toast:first').clone();
-        toast.find('.toast-body').html(text);
-        toast.addClass(error ? 'bg-danger' : 'bg-success');
-        toast.appendTo('body');
-        const tbs = bootstrap.Toast.getOrCreateInstance(toast.get(0));
-        tbs.show();        
-    }
-
+    $.rtv.custom.bind();
 });                 
 </script> 

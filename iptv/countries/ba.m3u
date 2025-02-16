@@ -1,0 +1,69 @@
+#EXTM3U
+#EXTINF:-1 id="1a613f8b755810941afff41a8ccab14c" tvg-id="24HorasInternacional.es" tvg-logo="https://i.imgur.com/IUVRm5L.png" group-title="News", 24 Horas Internacional
+https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8
+#EXTINF:-1 id="24c2cf1cf398704ce4a6831bff082bb0" tvg-id="AlJazeeraBalkans.ba" tvg-logo="https://i.imgur.com/vMzCr8O.png" group-title="News", Al Jazeera Balkans
+https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
+#EXTINF:-1 id="b9eb1dd7b7fb4a54676c340de301e862" tvg-id="B1TV.ba" tvg-logo="https://i.imgur.com/60t5epe.png" group-title="Undefined", B1 TV
+http://wowza.bihnet.net:88/hls/b1-live.m3u8
+#EXTINF:-1 id="90c16f90b8c10ba66f56457b2a111057" tvg-id="BBCNewsEurope.uk" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="News", BBC World News
+http://ott-cdn.ucom.am/s24/index.m3u8
+#EXTINF:-1 id="8a2fd1eb9e3ac0e9365aa6c93ad45d2a" tvg-id="BHRT.ba" tvg-logo="https://i.imgur.com/01bZ5rw.png" group-title="Undefined", BHRT
+https://bhrtstream.bhtelecom.ba/bhrtportal.m3u8
+#EXTINF:-1 id="bdfdd5bef6ffb9d282e8068e103e58e0" tvg-id="BloombergAdria.rs" tvg-logo="https://i.imgur.com/A5ui53C.png" group-title="Business", Bloomberg Adria
+https://d3ojytvj4doga3.cloudfront.net/app-23764-1566/ngrp:Jq3SvH9h_all/playlist.m3u8
+#EXTINF:-1 id="4a08cfe19a64a141a3c0323012623801" tvg-id="BloombergTVEMEALiveEvent.uk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business", Bloomberg TV EMEA Live Event
+https://bloomberg.com/media-manifest/streams/eu-event.m3u8
+#EXTINF:-1 id="a6fe07536a802e9b1396497a390d4fb0" tvg-id="BloombergTVEurope.uk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business", Bloomberg TV Europe
+https://bloomberg.com/media-manifest/streams/eu.m3u8
+#EXTINF:-1 id="c5567f4dab552d6118a0325defd4bb6c" tvg-id="BNTV.ba" tvg-logo="https://i.imgur.com/DUBvfWb.png" group-title="Undefined", BN TV
+https://rtvbn.tv:8080/live/index.m3u8
+#EXTINF:-1 id="d0e412c82d8f55a980c3a287acfeecab" tvg-id="EWTNEurope.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png" group-title="Religious", EWTN Europe
+https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/live/playlist.m3u8
+#EXTINF:-1 id="123c722f04de9cb49ae6c46295cc0394" tvg-id="ExtremeSportsChannel.nl" tvg-logo="https://i.imgur.com/m7IC01U.png" group-title="Sports", Extreme Sports
+https://edge02.odtv.az/o4/extremesport/playlist.m3u8
+#EXTINF:-1 id="d02d44d35e55e460241d4676d3aa4d06" tvg-id="FashionTVEurope.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Lifestyle", Fashion TV
+https://fashiontv-fashiontv-5-nl.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 id="8bf7265333ddbe7e42ca0e0240dcdb74" tvg-id="IzvornaTV.ba" tvg-logo="https://i.imgur.com/lThyC3i.png" group-title="Music", Izvorna TV
+https://ythls.armelin.one/channel/UCCg4AIJUdOL0A_90Mcj1ilA.m3u8
+#EXTINF:-1 id="1e24a736334a800884fa56df3870f5e2" tvg-id="Kanal6.ba" tvg-logo="https://i.imgur.com/GGhvR0l.png" group-title="General", Kanal 6
+https://restreamer1.tnt.ba/hls/kanal6.m3u8
+#EXTINF:-1 id="5e75858cba38914600588912de7916a0" tvg-id="webtvstream.bhtelecom.ba" tvg-logo="https://famillerubio.com/tv/templates/default/assets/images/notfound.png" group-title="Undefined", Malta
+https://webtvstream.bhtelecom.ba/malta.m3u8
+#EXTINF:-1 id="494798fcf57bdf067f4588a7386921b6" tvg-id="MariaPlusVisionMedjugorje.ba" tvg-logo="https://i.imgur.com/xUOspBx.png" group-title="Undefined", María+Visión Medjugorje
+https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Italiasette/playlist.m3u8
+#EXTINF:-1 id="f1a745440b6ad93ab023dbb4c2027f44" tvg-id="MinimaxCEE.cz" tvg-logo="https://i.imgur.com/WWOlm1x.png" group-title="Kids", Minimax
+http://88.212.15.27/live/test_minimax/playlist.m3u8
+#EXTINF:-1 id="8c1dd5cee12e5a094f7bfeb505dd7ed1" tvg-id="RTRSplus.ba" tvg-logo="https://i.imgur.com/k06WvYl.png" group-title="Undefined", RTRS Plus
+https://pluslive.rtrs.tv/plus/plus/playlist.m3u8
+#EXTINF:-1 id="29bfdacf2649197a7cbe0c1b2587221e" tvg-id="RTRSTV.ba" tvg-logo="https://i.imgur.com/2Sgs5gM.png" group-title="Undefined", RTRS TV
+https://uzivo.rtrs.tv/tv/live/index.m3u8
+#EXTINF:-1 id="156ddb68f3b8f034c52b9b35223d5c81" tvg-id="RTVGlasDrine.ba" tvg-logo="https://i.imgur.com/9NgxOdb.png" group-title="General;Music", RTV Glas Drine
+http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8
+#EXTINF:-1 id="0ca2da3df6c87cd762aec7c08dbd2985" tvg-id="RTVHB.ba" tvg-logo="https://i.imgur.com/6FNL8Iv.png" group-title="General", RTV Herceg-Bosne
+https://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8
+#EXTINF:-1 id="2e58050f8cbc7c225a8854098fd19351" tvg-id="RTVZenica.ba" tvg-logo="https://i.imgur.com/TKUaflB.png" group-title="Undefined", RTV Zenica
+https://stream.rtvze.ba/live/123/123.m3u8
+#EXTINF:-1 id="51dae2ba433f8683483cf5d13ce99261" tvg-id="TVSehara.si" tvg-logo="https://i.imgur.com/189FW4H.png" group-title="Music", Sehara TV
+http://ip2.xxlservices.com:8081/seharaonline/live/playlist.m3u8
+#EXTINF:-1 id="2fa1c17908568a12a2f24a4211b23613" tvg-id="SevdahTV.ba" tvg-logo="https://i.imgur.com/gmpkHWT.png" group-title="Music", Sevdah TV
+https://restreamer2.tnt.ba/hls/stream.m3u8
+#EXTINF:-1 id="bc8960963f9a44f126fe159fb48c6edc" tvg-id="SuperTV.ba" tvg-logo="https://i.imgur.com/XYWgd3E.png" group-title="General", Super TV Media
+https://mirtv.club/live/mirtv/index.m3u8
+#EXTINF:-1 id="ead6363684d1955b20e5c8b9307f2c52" tvg-id="Televizija5.ba" tvg-logo="https://i.imgur.com/znpvJys.png" group-title="Undefined", Televizija 5
+https://balkanmedia.dynu.net/hls/tv5web.m3u8
+#EXTINF:-1 id="12435cf27e6aa6e8a0d7b4d3f5a66b0b" tvg-id="TelevizijaM.ba" tvg-logo="https://i.imgur.com/jT95ZEI.png" group-title="General", Televizija M
+https://live.tv-m.net/hls/stream.m3u8
+#EXTINF:-1 id="c983be52f47fb508bd27d7621eb744a1" tvg-id="TGRTEurope.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png" group-title="General", TGRT Europe
+https://canli.tgrteu.com/tgrteu.m3u8
+#EXTINF:-1 id="70112dcd88acb24f2e00bc608022b055" tvg-id="TNTKidsTV.ba" tvg-logo="https://i.imgur.com/irTDbpn.png" group-title="Kids", TNT Kids
+https://restreamer1.tnt.ba/hls/tntkids.m3u8
+#EXTINF:-1 id="eafbe5eb5c1c58bba3625d23b48f9484" tvg-id="TV5MondeEurope.fr" tvg-logo="https://i.imgur.com/rPAbMSu.png" group-title="General", TV5Monde Europe
+https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8
+#EXTINF:-1 id="e2d77e1c5a8ed0192e51abdd8a1810db" tvg-id="TVSlonExtra.ba" tvg-logo="https://i.imgur.com/AohYgH1.png" group-title="Undefined", TV Slon Extra
+http://31.47.0.130:8082
+#EXTINF:-1 id="c4a7057ba91265859c3174c9bc769fe4" tvg-id="TVEInternacionalEuropeAsia.es" tvg-logo="https://i.imgur.com/ow1HArj.png" group-title="Undefined", TVE Internacional Europe-Asia
+https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8
+#EXTINF:-1 id="cfd4d96f6121ec7b582085fc0ebb8352" tvg-id="NTVMir.ru" tvg-logo="https://i.imgur.com/pUcV46F.png" group-title="Undefined", НТВ Мир
+http://stream02.vnet.am/HTB/mono.m3u8
+#EXTINF:-1 id="7607307f6832b6ed917037086d76d095" tvg-id="RTRPlanetaEurope.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" group-title="General", РТР Планета Евро
+https://player.smotrim.ru/iframe/stream/live_id/4941

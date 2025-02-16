@@ -40,9 +40,9 @@ defined('_TVEXEC') or die;
 <ul class="tv-links-nav list-unstyled mb-0 mt-2 pb-3 pb-lg-2 pe-lg-2">
     <?php foreach($page->data as $k):?>
     <li class="tv-links mt-1">
-        <a class="btn btn-light border d-grid" href="<?= $k->link;?>">
+        <a class="btn d-grid" href="<?= $k->link;?>">
             <div class="text-truncate">
-                <img class="me-2" width="32" src="<?= $k->image;?>" alt="<?= htmlspecialchars($k->name);?>" />
+                <img class="me-2" width="32" src="<?= $k->image;?>" data-remote="<?= $k->remote;?>" alt="<?= htmlspecialchars($k->name);?>" />
                 <span><?= htmlspecialchars($k->name);?></span>
             </div>
         </a>

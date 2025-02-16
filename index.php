@@ -29,31 +29,15 @@
 */
 
 define('_TVEXEC', 1);
-
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-//error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED );
-
-ob_start();
-
-header("Access-Control-Allow-Origin: *");
-header('Access-Control-Allow-Credentials: true');
-header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
-header("Cache-Control: post-check=0, pre-check=0", false);
-header("Pragma: no-cache");
-
-// Saves the start time and memory usage.
-$startTime = microtime(1);
-$startMem  = memory_get_usage();
-session_start();
-
 define('TV_BASE', dirname(__FILE__));
-require_once TV_BASE . '/includes/defines.php';
+require_once TV_BASE . DIRECTORY_SEPARATOR . 'includes' . DIRECTORY_SEPARATOR . 'defines.php';
 
 // Load Factory
-require_once TV_INCLUDES . '/factory.php';
+require_once TV_INCLUDES . DIRECTORY_SEPARATOR . 'factory.php';
 $factory    = new RubioTV\Framework\Factory();
-$task       = $factory->getTask();
+
+// Initialize
+$factory->initialize();
 
 // Get configuration and locale
 $config     = $factory->getConfig();
@@ -64,20 +48,14 @@ $language   = $factory->getLanguage();
 // Get the router
 $router     = $factory->getRouter();
 
-// Check login
-if($factory->getTask() !== 'login')
-{
-    if(!$factory->isLogged())
-    {
-        header('Location:' . $factory->Link('login')); 
-        die();        
-    }
-} 
-
 // Get the page
 $page = $factory->getPage();
+
+// Bridge to the JS Framework
+$factory->jsBridge();
 
 // Dispatch
 require_once $router->dispatch();
 
-ob_end_flush();
+// Finalize
+$factory->finalize();
