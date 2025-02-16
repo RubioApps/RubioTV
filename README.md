@@ -143,6 +143,11 @@ Add the line
 ```
 We recommend to execute the cronjob every 15 minutes for local purposes. You can make it mre frequently depending on the available ressources in your server.
 
+## Snapshots
+![radio](https://github.com/user-attachments/assets/b5b151d1-4012-45bc-b04a-f9c9c7e54486)
+![favorites](https://github.com/user-attachments/assets/20dcbb2a-046e-4157-abc4-769a1677a895)
+![epg](https://github.com/user-attachments/assets/c93ae473-9207-40f4-83c3-355272073064)
+
 ## Legal
 
 No video files are stored in this repository. The repository simply contains user-submitted links to publicly available video stream URLs, which to the best of our knowledge have been intentionally made publicly by the copyright holders. If any links in these playlists infringe on your rights as a copyright holder, they may be removed by sending a [pull request](https://github.com/RubioApps/RubioTV/pulls) or opening an [issue](https://github.com//RubioApps/RubioTV/issues/new?assignees=freearhey&labels=removal+request&template=--removal-request.yml&title=Remove%3A+). However, note that we have **no control** over the destination of the link, and just removing the link from the playlist will not remove its contents from the web. Note that linking does not directly infringe copyright because no copy is made on the site providing the link, and thus this is **not** a valid reason to send a DMCA notice to GitHub. To remove this content from the web, you should contact the web host that's actually hosting the content (**not** GitHub, nor the maintainers of this repository).
