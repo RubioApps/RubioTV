@@ -1,0 +1,35 @@
+
+#Remove headers
+Header always unset ETag
+Header always unset Public-Key-Pins
+Header always unset Access-Control-Allow-Credentials
+Header always unset Access-Control-Expose-Headers
+Header always unset Access-Control-Allow-Methods
+Header always unset Access-Control-Max-Age 
+Header always unset Referrer-Policy
+Header always unset X-Content-Type-Options
+Header always unset X-Frame-Options
+Header always unset X-Xss-Protection
+Header always unset X-Robots-Tag
+
+#Remove cookies
+Header unset Cookie
+Header unset Set-Cookie
+
+#Add Cache control
+Header set Age "0"
+Header set Cache-Control "max-age=600"
+Header set Vary "Accept-Encoding"
+Header set Via "2.1 rubiotv"
+
+#Set Expiry
+ExpiresActive on
+ExpiresDefault "access plus 1 month"
+    
+#Add MIME
+AddType audio/x-mpegurl .m3u
+
+#Send HTTP/200
+RewriteEngine On                  
+RewriteCond %{REQUEST_METHOD} OPTIONS 
+RewriteRule ^(.*)$ $1 [R=200,L]       

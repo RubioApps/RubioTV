@@ -3,7 +3,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.0                                                           |
+ | Version 1.5.1                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -38,8 +38,6 @@ use RubioTV\Framework\IPTV;
 use RubioTV\Framework\SEF;
 use RubioTV\Framework\M3U;
 
-define('CRON_BATCH_LIMIT', 10);
-
 class EPG
 {
     protected $url;
@@ -55,7 +53,7 @@ class EPG
         $this->lockfile = TV_EPG . DIRECTORY_SEPARATOR . '.lock';
         $this->params = (array) $config->epg;
         $this->url    = $url;
-        $this->queued = []; 
+        $this->queued = [];
     }
 
     public function __destruct() {}
@@ -568,21 +566,33 @@ class EPG
             $config     = Factory::getConfig();
             $guides     = IPTV::getGuides();
 
+            //For each playlist
             while (($f = readdir($dir)) !== false) {
                 if ($f != '.' && $f != '..') {
+
+                    //Set the file
                     $filename   = TV_IPTV . DIRECTORY_SEPARATOR . 'custom' . DIRECTORY_SEPARATOR . $f;
                     $info = pathinfo($filename);
+
+                    //Process only the playlists M3U
                     if ($info['extension'] === 'm3u') {
                         $url    = $config->live_site . '/iptv/custom/' . $info['basename'];
                         $m3u    = new M3U('custom', $info['filename'], $url);
+
+                        //Load the data from the playlist
                         if ($list   = $m3u->load()) {
                             $this->_debug("Custom list " . $info['basename'] . " has " . count($list) . " items");
 
+                            //Each channel in the playlist
                             foreach ($list as $item) {
+
+                                //Each guide
                                 foreach ($guides as $g) {
+
                                     //Check if the current channel exists among existing guide from iptv-org
                                     if ($g->channel === $item->tvg_id) {
-                                        // Do only if there is the guide is not saved and not expired
+
+                                        // Process only those guides which are not saved and not expired
                                         if (
                                             $item->id
                                             && !file_exists(TV_EPG_SAVED . DIRECTORY_SEPARATOR . $item->id . '.xml')
@@ -607,7 +617,7 @@ class EPG
         }
         closedir($dir);
 
-        //Complete with the queued requests
+        //Fulfill the list of EPG to process
         $dir = opendir(TV_EPG_QUEUE);
         while (($f = readdir($dir)) !== false) {
             if ($f != '.' && $f != '..') {
@@ -619,7 +629,7 @@ class EPG
         //Process the queue            
         if (count($this->queued)) {
             //Limit the batch            
-            $this->queued = array_slice($this->queued, 0, CRON_BATCH_LIMIT);
+            $this->queued = array_slice($this->queued, 0, $config->epg['limit']);
             $this->_debug(count($this->queued) . " channels to process");
             foreach ($this->queued as $id) {
                 $key = $this->getCronId();
@@ -792,10 +802,11 @@ class EPG
         $cron_id = $this->_Decrypt($key);
 
         // Check the key
-        if (isset($_SESSION['cronjob']) && $cron_id !== $_SESSION['cronjob'])
+        if (isset($_SESSION['cronjob']) && $cron_id !== $_SESSION['cronjob']) {
             $this->_debug("Unlock EPG failed!");
-        $this->islocked = true;
-        return false;
+            $this->islocked = true;
+            return false;
+        }
 
         // When unlocked, ensure the cron_id and the file are both destroyed
         if (file_exists($this->lockfile)) unlink($this->lockfile);

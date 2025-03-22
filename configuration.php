@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.0                                                           |
+ | Version 1.5.1                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -65,6 +65,7 @@ class TVConfig {
                 'dir'           => '/path/to/your/site/epg',
                 'exec'          => 'npm run grab --prefix=%s -- --channels=%s --output=%s --days=%s',
                 'lock'          => 300, /* seconds */
+                'limit'         => 5,  /* channels to process in a raw */
                 'expiry'        => 15,  /* days */
                 'offset'        => 0,  /* hours */
                 'secret_key'    => 'change-me-with-a-long-random-key', /* change this */

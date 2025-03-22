@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.0                                                           |
+ | Version 1.5.1                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -94,6 +94,59 @@ class modelChannels extends Model
             echo $this->_sync();
             exit(0);   
         }          
+    }
+
+    public function export()
+    {
+        ob_clean();   
+             
+        if($this->params->folder == 'custom'  && $this->params->format == 'raw')
+        {                   
+            $filename = TV_IPTV . DIRECTORY_SEPARATOR . $this->params->folder . DIRECTORY_SEPARATOR . $this->params->source . '.m3u';            
+            $quoted = $this->params->source . '.m3u';
+            $filesize   = filesize($filename);            
+
+            $offset = 0;
+            $length = $filesize;
+            
+            if ( isset($_SERVER['HTTP_RANGE']) ) {
+                // if the HTTP_RANGE header is set we're dealing with partial content            
+                $chunked = true;
+            
+                // find the requested range
+                // this might be too simplistic, apparently the client can request
+                // multiple ranges, which can become pretty complex, so ignore it for now
+                preg_match('/bytes=(\d+)-(\d+)?/', $_SERVER['HTTP_RANGE'], $matches);
+            
+                $offset = intval($matches[1]);
+                $length = intval($matches[2]) - $offset;
+            } else {
+                $chunked  = false;
+            }
+            
+            $file = fopen($filename, 'r');
+            
+            // seek to the requested offset, this is 0 if it's not a partial content request
+            fseek($file, $offset);            
+            $data = fread($file, $length);            
+            fclose($file);
+            
+            if ( $chunked  ) {
+                // output the right headers for partial content            
+                header('HTTP/1.1 206 Partial Content');            
+                header('Content-Range: bytes ' . $offset . '-' . ($offset + $length) . '/' . $filesize);
+            }
+            
+            // output the regular HTTP headers
+            header('Content-Type: audio/x-mpegurl');
+            header('Content-Length: ' . $filesize);
+            header('Content-Disposition: attachment; filename="' . $quoted . '"');
+            header('Accept-Ranges: bytes');
+            
+            // don't forget to send the data too
+            print($data);       
+        }     
+        exit(0);               
     }
 
     protected function _data()
