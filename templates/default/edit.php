@@ -108,10 +108,7 @@ jQuery(document).ready(function()
             var posting = $.post(url , data);
 
             posting.done(function(result){
-                $.get('<?= $factory->Link('custom.token');?>').done(function(result){
-                    token.attr('name',result.token);
-                    token.val(result.sid);
-                });
+                $.rtv.token();
             });
         }        
     });
