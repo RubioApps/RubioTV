@@ -3,7 +3,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.1                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -683,7 +683,7 @@ class EPG
         // Ignore if the channel is not yet queued
         if (!file_exists(TV_EPG_QUEUE . DIRECTORY_SEPARATOR . $id . '.xml')) {
             $this->_debug("The channel $id.xml is not queued yet");
-            return $this->Cron();
+            return false;
         }
 
         // If already processed, remove the enqueued file
@@ -704,7 +704,7 @@ class EPG
         $canUnlock  = $this->readLock() < (time() - (int) $this->params['lock']);
         $this->_debug($canUnlock ? "Cron unlocked" : "Cron locked. Do not process $id.xml");
 
-        // If the cron can process
+        // If the cron can process and the EPG is not expired
         if ($canUnlock && !file_exists(TV_EPG_EXPIRED . DIRECTORY_SEPARATOR . $id . ".xml")) {
 
             $this->_debug("Process $id.xml");

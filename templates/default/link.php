@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.1                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -48,7 +48,5 @@ use \RubioTV\Framework\Language\Text;
         <div class="col-auto">
             <button type="button" id="btn-export" class="btn btn-primary bi bi-download" aria-label="<?= Text::_('EXPORT');?>"></button>
         </div>                   
-        <?php endif;?>     
     </div>
 </section>
-

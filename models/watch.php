@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.1                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -120,7 +120,7 @@ class modelWatch extends Model
         parent::display();            
     }
 
-    public function cron()
+    public function cron($id = null)
     {
         $result = [
             'success'   => false,
@@ -128,17 +128,22 @@ class modelWatch extends Model
             'content'   => Text::_('CRON_ERROR')
         ];
 
-        if($this->params->format === 'json' && isset($_POST['key']))
+        if(!$id && $this->params->id)
+            $id = $this->params->id;
+            
+        $this->id = $id;
+
+        if($this->id && $this->params->format === 'json' && isset($_POST['key']))
         {                             
             $this->epg    = new EPG();                                                    
-            if(true || $this->epg->Unlock( $_POST['key'] ))
+            if($this->epg->Unlock( $_POST['key'] ))
             {    
-                if($this->epg->Process($this->page->id)){
+                if($this->epg->Process($this->id)){
                     $result['success'] = true;
                     $result['title'] = Text::_('SUCCESS');
                     $result['content'] = Text::_('CRON_SUCCESS');                     
                 } 
-                //$this->epg->Lock();
+                $this->epg->Lock();
             }                                       
         }
         header('Content-Type: application/json; charset=utf-8');    
