@@ -3,7 +3,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.1                                                           |
+ | Version 1.3.0                                                           |
  |                                                                         |
  | Copyright (C) The Roundcube Dev Team                                    |
  |                                                                         |
@@ -124,13 +124,12 @@ use RubioTV\Framework\Language\Text;
                 <p class="fs-3"><?= $page->data->playing->title; ?></p>
             <?php endif; ?>
             <!-- VideoJS -->
-            <div id="video-container" 
-                    class="ratio ratio-16x9 bg-dark"                    
-                    data-name="<?= $page->data->name; ?>"
-                    data-title="<?= $page->data->playing->title ?? 'No info'; ?>"           
-                    data-subtitle="<?= $page->data->playing->subtitle ?? 'No info'; ?>"                    
-                    data-logo="<?= $page->data->logo;?>"           
-                >
+            <div id="video-container"
+                class="ratio ratio-16x9 bg-dark"
+                data-name="<?= $page->data->name; ?>"
+                data-title="<?= $page->data->playing->title ?? 'No info'; ?>"
+                data-subtitle="<?= $page->data->playing->subtitle ?? 'No info'; ?>"
+                data-logo="<?= $page->data->logo; ?>">
                 <video id="my-video" controls="" aspectRatio="16:9" class="embed-responsive-item video-js" data-setup="{}">
                     <source src="<?= $page->data->url; ?>" type="<?= $page->data->mime; ?>" />
                 </video>
@@ -193,9 +192,9 @@ use RubioTV\Framework\Language\Text;
                 $("#channels-list").html(raw);
             }
         });
- 
+
         const player = videojs('my-video');
-        player.on('play', function(){
+        player.on('play', function() {
             if ('mediaSession' in navigator) {
                 navigator.mediaSession.metadata = new MediaMetadata({
                     title: $('#video-container').attr('data-name'),
@@ -205,7 +204,7 @@ use RubioTV\Framework\Language\Text;
                         src: $('#video-container').attr('data-logo'),
                         sizes: "150x150",
                         type: "image/png",
-                        }]
+                    }]
                 });
             }
         });
@@ -258,31 +257,29 @@ use RubioTV\Framework\Language\Text;
                 'key': '<?= $page->data->epg_key ?? ''; ?>',
                 'id': '<?= $page->data->id; ?>'
             };
-            var posting = $.post('<?= $factory->Link('watch.cron', $page->folder, $page->source . ':' . $page->source_alias, $page->data->id . ':' . $page->data->name, 'format=json'); ?>', data);
-            posting.done(function(result) {
-
-                // Replace modal dialog content
-                wrapper.addClass(result.success ? 'bg-success text-white' : 'bg-danger text-white');
-                wrapper.find('.modal-header:first').text(result.title);
-                wrapper.find('.modal-body:first').text(result.content);
-
-                if (result.success) {
-                    setTimeout(function() {
-                        location.reload();
-                    }, 2000);
-                } else {
-                    $('#btn-epg').removeAttr('disabled');
-                    // Restore modal content
+            var posting = $.post(
+                '<?= $factory->Link('watch.cron', $page->folder, $page->source . ':' . $page->source_alias, $page->data->id . ':' . $page->data->name, 'format=json'); ?>',
+                data,
+                (result) => {
+                    // Replace modal dialog content
+                    wrapper.addClass(result.success ? 'bg-success text-white' : 'bg-danger text-white');
                     wrapper.find('.modal-header:first').text(result.title);
                     wrapper.find('.modal-body:first').text(result.content);
 
+                    if (result.success) {
+                        $('.tv-guide').load('<?= $factory->Link('watch', $page->folder, $page->source . ':' . $page->source_alias, $page->data->id . ':' . $page->data->name, 'format=raw'); ?>');
+                    }
+                    $('#btn-epg').removeAttr('disabled');                        
+                    wrapper.find('.modal-header:first').text(result.title);
+                    wrapper.find('.modal-body:first').text(result.content);
                     setTimeout(function() {
-                        const modal = bootstrap.Modal.getInstance('#wait');
-                        modal.hide();
-                    }, 2000);
+                            const modal = bootstrap.Modal.getInstance('#wait');
+                            modal.hide();
+                        }, 1000);                    
+                    return true;
                 }
-            });
-
+            );
+            return true;
         });
 
         $('#btn-share').on('click', function(e) {
