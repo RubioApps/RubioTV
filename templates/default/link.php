@@ -47,6 +47,7 @@ use \RubioTV\Framework\Language\Text;
         <?php if($task == 'channels'):?>
         <div class="col-auto">
             <button type="button" id="btn-export" class="btn btn-primary bi bi-download" aria-label="<?= Text::_('EXPORT');?>"></button>
-        </div>                   
+        </div>     
+        <?php endif;?>
     </div>
 </section>
