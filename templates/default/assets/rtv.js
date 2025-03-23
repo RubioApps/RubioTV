@@ -24,7 +24,7 @@ jQuery.extend({
             this.livesite = url;
             this.assets = assets;
 
-            $.ajaxSetup({ timeout: 10000 });
+            $.ajaxSetup({ timeout: 30000 });
 
             //Store labels
             if (!localStorage.getItem('rtv-labels')) {
@@ -87,9 +87,51 @@ jQuery.extend({
                 $.rtv.toast($.rtv.labels['copy_link'], false);
             });
 
+            //Export link
+            $('#btn-export').on('click', function (e) {
+                e.preventDefault();
+                let folder = $.rtv.qs('folder');
+                let source = $.rtv.qs('source');
+                let alias = '';
+                if(source.indexOf(':') !== -1 ){
+                    let parts = source.split(':',2);
+                    source = parts[0];
+                    alias = parts[1];
+                } else {
+                    alias = source;
+                }                
+
+                fetch($.rtv.livesite + '/?task=channels.export&folder=' + folder + '&source=' + source + '&format=raw')
+                    .then(resp => resp.blob())
+                    .then(blob => {
+                        const url = window.URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.style.display = 'none';
+                        a.href = url;
+                        a.download = alias + '.m3u';
+                        document.body.appendChild(a);
+                        a.click();
+                        window.URL.revokeObjectURL(url);
+                    })
+                    .catch(() => {
+                        $.rtv.toast($.rtv.labels['error'], true);
+                    });
+            });
+
+            //Launch lazy load
             this.lazyimage();
         },
-
+        qs: function (key, value = null) {
+            key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
+            var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
+            if (value === null) {
+                return match && decodeURIComponent(match[1].replace(/\+/g, " "));
+            } else {
+                let params = new URLSearchParams(location.href);
+                params.set('layout', value);
+                return decodeURIComponent(params.toString());
+            }
+        },
         lazyimage: () => {
             $('img[data-remote]:visible').each(function () {
                 const img = $(this);
