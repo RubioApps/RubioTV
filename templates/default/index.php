@@ -41,10 +41,9 @@ defined('_TVEXEC') or die;
         <meta name="description" content="<?= $page->getMeta('description');?>" />
         <meta name="keywords" content="<?= $page->getMeta('keywords');?>" />  
         <link rel="icon" type="image/png" sizes="16x16" href="<?= $factory->getAssets() ;?>/favicons/favicon-16x16.png" />
-	    <link rel="icon" type="image/png" sizes="32x32" href="<?= $factory->getAssets() ;?>/favicons/favicon-32x32.png" />
-	    <link rel="icon" type="image/png" sizes="48x48" href="<?= $factory->getAssets() ;?>/favicons/favicon-48x48.png" />     
+	<link rel="icon" type="image/png" sizes="32x32" href="<?= $factory->getAssets() ;?>/favicons/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="48x48" href="<?= $factory->getAssets() ;?>/favicons/favicon-48x48.png" />     
         <link rel="icon" type="image/png" sizes="64x64" href="<?= $factory->getAssets() ;?>/favicons/favicon-64x64.png" />     
-        <link rel="manifest" href="/tv/manifest.json"> 
         <meta name="robots" content="noindex,nofollow">
         <meta name="referrer" content="strict-origin-when-cross-origin">                                     
         <!-- Basic Jquery -->
