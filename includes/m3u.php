@@ -46,17 +46,29 @@ class M3U{
 
     public function __construct($folder , $source , $url = null)
     {        
+        $config = Factory::getConfig();
+
         $this->folder = $folder;
         $this->source = $source;
         $this->filename = TV_IPTV . DIRECTORY_SEPARATOR . $this->folder . DIRECTORY_SEPARATOR . $this->source . '.m3u';
         $this->downloaded = false;     
+
+        if($this->folder == 'dtv'){
+            if(!file_exists(TV_IPTV . DIRECTORY_SEPARATOR . 'dtv'))
+                mkdir(TV_IPTV . DIRECTORY_SEPARATOR . 'dtv');
+
+            if(!file_exists(TV_IPTV . DIRECTORY_SEPARATOR . 'dtv' . DIRECTORY_SEPARATOR .  $config->dtv['filename'] . '.m3u'))
+            {                    
+                $url = $config->dtv['host'] . $config->dtv['channels'];
+            }
+        }
 
         if(!empty($url))
             $this->url = $url;         
     }
 
     public function load()
-    {                 
+    {                
         if(!file_exists($this->filename))
         {
             if (!empty($this->url))
