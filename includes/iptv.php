@@ -89,6 +89,9 @@ class IPTV{
      */
     public static function getCountries()
     {
+        if(!file_exists(TV_IPTV . DIRECTORY_SEPARATOR . 'countries'))
+            mkdir (TV_IPTV . DIRECTORY_SEPARATOR . 'countries');
+
         static::$url =  static::$api . '/countries.json';
         $content=file_get_contents(static::$url);
         return json_decode($content);                
@@ -101,6 +104,9 @@ class IPTV{
      */
     public static function getCategories()
     {
+        if(!file_exists(TV_IPTV . DIRECTORY_SEPARATOR . 'categories'))
+            mkdir (TV_IPTV . DIRECTORY_SEPARATOR . 'categories');
+
         static::$url =  static::$api . '/categories.json';
         $content=file_get_contents(static::$url);
         return json_decode($content);                
@@ -113,6 +119,9 @@ class IPTV{
      */    
     public static function getLanguages()
     {
+        if(!file_exists(TV_IPTV . DIRECTORY_SEPARATOR . 'languages'))
+            mkdir (TV_IPTV . DIRECTORY_SEPARATOR . 'languages');
+
         static::$url =  static::$api . '/languages.json';
         $content=file_get_contents(static::$url);
         return json_decode($content);  
