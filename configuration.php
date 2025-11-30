@@ -46,6 +46,7 @@ class TVConfig {
 	public $list_limit = 36;
         public $theme = 'default';
         public $dtv = [
+                'enabled'       => true,
                 'type'          => 'tvheadend',                
                 'host'          => 'https://yoursite.com/coreelec',
                 'channels'      => '/playlist/channels',
@@ -53,6 +54,8 @@ class TVConfig {
                 'xmltv'         => '/xmltv/channels',
                 'cache'         => '/imagecache',
                 'filename'      => 'coreelec'
+                'mime'          => 'video/webm',
+                'encode'        => true, //If the TV Box cannot encode in libx264, use the server to do it!
                 ];
         public $links = [
                 'MySite1'      => 'https://yoursite1.com/',
