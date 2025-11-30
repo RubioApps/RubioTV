@@ -54,7 +54,7 @@ jQuery.extend({
                         top.document.location.href = $.rtv.livesite;
                     }
                 });
-            }, 300 * 1000);
+            }, 60 * 1000);
 
             //Chang theme
             $($.tmpl.theme).on('click', function (e) {
@@ -207,8 +207,26 @@ jQuery.extend({
 
         snapshot: (container) => {
             const url = container.attr('data-url');
-            if (!url) return false;
+            if (!url) return false;                  
+            $.get($.rtv.livesite + '/?task=home.thumbnail&url=' + encodeURI(url), (data) => {
+                container.attr('data-url', null);
+                const img = container.find('img').first();
+                if (img){
+                    if(data.success) {
+                    fetch($.rtv.livesite+'/cache/snapshots/'+data.url)
+                        .then((response) => response.blob())
+                        .then((blob) => {
+                            const imageUrl = URL.createObjectURL(blob);
+                            img.on('load', () => URL.revokeObjectURL(imageUrl));
+                            img.attr('src', imageUrl);
+                        });                                        
+                    } else {
+                        img.attr('src', 'data:'+data.mime+';'+data.url);
+                    }
+                }
+            });
 
+            /*
             const imgW = 432;
             const imgH = 243;
             const video = $('<video></video>');
@@ -266,12 +284,12 @@ jQuery.extend({
                 }, 'image/jpeg');
                 return;
             });
-
             video.on('error', () => {
                 video.off('canplay');
                 video.remove();
                 return;
-            });
+            }); 
+            */           
         },
         custom: {
             bind: function () {

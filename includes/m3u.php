@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.1                                                           |
+ | Version 1.6.1                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -126,13 +126,15 @@ class M3U{
     }        
    
     public function remove($ids)
-    {
+    {      
+        $this->load();
+
         if(empty($this->data) || !is_array($this->data))
-            return false;
+            return false;      
 
         if(!is_array($ids))
             $ids = array($ids);
-                     
+                         
         foreach($ids as $id)
         {
             unset($this->data[$id]);   
@@ -458,11 +460,14 @@ class M3U{
             // Mime
             switch($this->folder){
                 case 'dtv':
-                    $item->mime = 'video/mpeg4';
+                    $item->mime = $config->dtv['mime'];
+                    break;
                 case 'stations':
                     $item->mime = 'audio/mpeg';
+                    break;
                 default:       
                     $item->mime = $this->_getMIME($item->url);           
+                    break;
             }
 
             // Store item

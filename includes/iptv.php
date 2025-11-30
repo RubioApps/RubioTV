@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.1                                                           |
+ | Version 1.6.1                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -71,15 +71,15 @@ class IPTV{
     public static function getChannels()
     {
         static::$url = static::$api . '/channels.json';
-        $content=file_get_contents(static::$url);
-        return json_decode($content);                
+        $content = self::url_get_content();   
+        return json_decode($content);               
     }        
 
     public static function getStreams()
     {
         static::$url = static::$api . '/streams.json';
-        $content=file_get_contents(static::$url);
-        return json_decode($content);     
+        $content = self::url_get_content();      
+        return json_decode($content);   
     }
         
     /**
@@ -93,8 +93,8 @@ class IPTV{
             mkdir (TV_IPTV . DIRECTORY_SEPARATOR . 'countries');
 
         static::$url =  static::$api . '/countries.json';
-        $content=file_get_contents(static::$url);
-        return json_decode($content);                
+        $content = self::url_get_content();        
+        return json_decode($content);  
     }
 
     /**
@@ -108,7 +108,7 @@ class IPTV{
             mkdir (TV_IPTV . DIRECTORY_SEPARATOR . 'categories');
 
         static::$url =  static::$api . '/categories.json';
-        $content=file_get_contents(static::$url);
+        $content = self::url_get_content();           
         return json_decode($content);                
     }    
 
@@ -123,8 +123,8 @@ class IPTV{
             mkdir (TV_IPTV . DIRECTORY_SEPARATOR . 'languages');
 
         static::$url =  static::$api . '/languages.json';
-        $content=file_get_contents(static::$url);
-        return json_decode($content);  
+        $content = self::url_get_content();     
+        return json_decode($content);    
     }  
 
     /**
@@ -135,8 +135,8 @@ class IPTV{
     public static function getGuides()
     {
         static::$url =  static::$api . '/guides.json';
-        $content=file_get_contents(static::$url);
-        return json_decode($content);            
+        $content = self::url_get_content();    
+        return json_decode($content);             
     }
 
     /**
@@ -147,9 +147,30 @@ class IPTV{
     public static function getISO()
     {
         static::$url =  TV_STATIC . DIRECTORY_SEPARATOR . 'iso-639.json';
-        $content=file_get_contents(static::$url);
+        $content = self::url_get_content();   
         return json_decode($content);                
     }    
-        
+
+    /**
+     * Get a remote content
+     * 
+     * @param $uri Remote URL
+     */
+    private static function url_get_content()
+    {
+        if(!static::$url) die();
+        $curl = curl_init();
+        curl_setopt($curl, CURLOPT_URL, static::$url);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        $content = curl_exec($curl);
+        if (!curl_errno($curl)) {
+            $error = null;
+        } else {
+            $error = curl_error($curl);
+        }  
+        unset($curl);
+        if($error) die($error);
+        return $content;         
+    }        
 }
 

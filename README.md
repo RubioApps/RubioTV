@@ -36,7 +36,7 @@ yoursite.com
     │   README.md
     |   ...
     └───cache
-    └───guides
+    └───epg
     └───includes
     └───iptv
     └───local
@@ -125,7 +125,7 @@ sudo nano /etc/sudoers
 ```
 Add the line (replace the /var/www/mysite.com/ by the exising path at your server)
 ```
-www-data ALL=NOPASSWD: /var/www/mysite.com/public/guides/.unlock
+www-data ALL=NOPASSWD: /var/www/mysite.com/public/epg/.unlock
 ```
 As soon as the sudoers file is save, Apache2 / PHP will be able to execute the unique file named .unlock.
 This file is used as an anti-flood mechanism to avoid to over-charge the server with the NodeJS requests to obtain the guides.

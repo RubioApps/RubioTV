@@ -3,7 +3,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.1                                                           |
+ | Version 1.6.1                                                           |
  |                                                                         |
  | Copyright (C) The Roundcube Dev Team                                    |
  |                                                                         |
@@ -117,6 +117,7 @@ use RubioTV\Framework\Language\Text;
                 </div>
             <?php endif; ?>
         </div>
+
         <div class="tv-content">
             <!-- Info -->
             <h1><?= $page->data->name; ?></h1>
@@ -130,11 +131,11 @@ use RubioTV\Framework\Language\Text;
                 data-title="<?= $page->data->playing->title ?? 'No info'; ?>"
                 data-subtitle="<?= $page->data->playing->subtitle ?? 'No info'; ?>"
                 data-logo="<?= $page->data->logo; ?>">
-                <video id="my-video" controls="" aspectRatio="16:9" class="embed-responsive-item video-js" data-setup="{}">
-                    <source src="<?= $page->data->url; ?>" type="<?= $page->data->mime; ?>" />
-                </video>
+                <video-js id="live-player" class="embed-responsive-item video-js" controls preload="auto" aspectRatio="16:9">
+                    <!-- source will be injected by JS -->
+                </video-js>
+                <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
             </div>
-            <script type="text/javascript" src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
             <!-- Description -->
             <?php if ($page->data->playing): ?>
                 <p class="fs-4 mt-4 mb-2"><?= $page->data->playing->subtitle; ?></p>
@@ -193,7 +194,24 @@ use RubioTV\Framework\Language\Text;
             }
         });
 
-        const player = videojs('my-video');
+        const player = videojs('live-player', {
+            html5: {
+                hls: {
+                    withCredentials: false,
+                    overrideNative: true
+                }
+            },
+            liveui: true,
+            fluid: true
+        });
+
+        player.ready(() => {
+            player.src({
+                src: '<?= $page->data->url; ?>',
+                type: '<?= $page->data->mime; ?>'
+            });
+        });
+
         player.on('play', function() {
             if ('mediaSession' in navigator) {
                 navigator.mediaSession.metadata = new MediaMetadata({
@@ -207,11 +225,19 @@ use RubioTV\Framework\Language\Text;
                     }]
                 });
             }
-        });
+        });                          
 
         $('#btn-fullscreen').on('click', function(e) {
             player.requestFullscreen();
         });
+
+        // For DTV, send a heartbeat every 30s.
+        if (<?= isset($page->data->heartbeat) ? 'true':'false'; ?>) {
+            setInterval(() => {
+                const url = '<?=  $page->data->heartbeat ?? null; ?>';
+                $.getJSON(url , function (data) {});
+            }, 30 * 1000);
+        };           
 
         //Add to the playlist
         $('#btn-add-fav').on('click', function(e) {
@@ -225,7 +251,7 @@ use RubioTV\Framework\Language\Text;
             });
         });
 
-        //Remove from the playlist
+        //Remove from the playlist        
         $('#btn-rem-fav').on('click', function(e) {
             e.preventDefault();
             $.ajax({
@@ -269,13 +295,13 @@ use RubioTV\Framework\Language\Text;
                     if (result.success) {
                         $('.tv-guide').load('<?= $factory->Link('watch', $page->folder, $page->source . ':' . $page->source_alias, $page->data->id . ':' . $page->data->name, 'format=raw'); ?>');
                     }
-                    $('#btn-epg').removeAttr('disabled');                        
+                    $('#btn-epg').removeAttr('disabled');
                     wrapper.find('.modal-header:first').text(result.title);
                     wrapper.find('.modal-body:first').text(result.content);
                     setTimeout(function() {
-                            const modal = bootstrap.Modal.getInstance('#wait');
-                            modal.hide();
-                        }, 1000);                    
+                        const modal = bootstrap.Modal.getInstance('#wait');
+                        modal.hide();
+                    }, 1000);
                     return true;
                 }
             );

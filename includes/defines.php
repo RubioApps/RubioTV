@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.1                                                           |
+ | Version 1.6.1                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -45,10 +45,11 @@ define('TV_EPG', TV_BASE . DIRECTORY_SEPARATOR . 'epg');
 define('TV_EPG_QUEUE', TV_EPG . DIRECTORY_SEPARATOR . 'queue');
 define('TV_EPG_SAVED', TV_EPG . DIRECTORY_SEPARATOR . 'saved');
 define('TV_EPG_EXPIRED', TV_EPG . DIRECTORY_SEPARATOR . 'expired');
-define('TV_EPG_SNAPSHOTS', TV_EPG . DIRECTORY_SEPARATOR . 'snapshots');
 define('TV_CACHE', TV_BASE . DIRECTORY_SEPARATOR . 'cache');
 define('TV_CACHE_CHANNELS', TV_CACHE . DIRECTORY_SEPARATOR . 'channels');
 define('TV_CACHE_STATIONS', TV_CACHE . DIRECTORY_SEPARATOR . 'stations');
+define('TV_CACHE_SNAPSHOTS', TV_CACHE . DIRECTORY_SEPARATOR . 'snapshots');
+define('TV_CACHE_HLS', TV_CACHE . DIRECTORY_SEPARATOR . 'hls');
 define('TV_RADIO', TV_CACHE . DIRECTORY_SEPARATOR . 'radio');
 define('TV_SEF', TV_BASE . DIRECTORY_SEPARATOR . 'sef');
 

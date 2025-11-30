@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.1                                                           |
+ | Version 1.6.1                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -41,7 +41,7 @@ class modelLogin extends Model
         if(is_array($_POST) && isset($_POST['password']))
         {                       
             $pwd    = $_POST['password'];   
-            
+
             if( Factory::checkToken() &&  md5($pwd) === $this->config->password )
             {                    
                 //Log the user                

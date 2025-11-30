@@ -2,7 +2,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.1                                                           |
+ | Version 1.6.1                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -56,8 +56,8 @@ class modelCategories extends Model
 
     public function data()
     {    
-        $this->data   = IPTV::getCategories();                                 
-
+        $this->data   = IPTV::getCategories();   
+ 
         foreach($this->data as $item)
             $item->group = Text::_('GROUPS')[strtoupper($item->name)] ?? ucfirst($item->name);
 

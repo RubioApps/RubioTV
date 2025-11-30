@@ -3,7 +3,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.1                                                           |
+ | Version 1.6.1                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -48,6 +48,10 @@ if ($folder = opendir(TV_INCLUDES)) {
     closedir($folder);
 }
 
+if(file_exists(TV_ROOT . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php')){
+    require_once TV_ROOT . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
+}
+
 class Factory
 {
     protected static $startTime;
@@ -68,11 +72,11 @@ class Factory
         static::$startTime  = microtime(1);
         static::$config     = new TVConfig();
 
-        // Set error log
+        // Set error log        
         ini_set('display_errors', '0');
         ini_set('display_startup_errors', '0');
         ini_set("error_log",  static::$config->log_path . DIRECTORY_SEPARATOR . 'php.log');
-        error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED  );
+        error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED  );        
 
         //Build paths
         if(!file_exists(TV_IPTV)) mkdir(TV_IPTV);
@@ -80,12 +84,13 @@ class Factory
         if(!file_exists(TV_CACHE)) mkdir(TV_CACHE);
         if(!file_exists(TV_CACHE_CHANNELS)) mkdir(TV_CACHE_CHANNELS);
         if(!file_exists(TV_CACHE_STATIONS)) mkdir(TV_CACHE_STATIONS);
+        if(!file_exists(TV_CACHE_SNAPSHOTS)) mkdir(TV_CACHE_SNAPSHOTS); 
 
         if(!file_exists(TV_EPG)) mkdir(TV_EPG);
         if(!file_exists(TV_EPG_QUEUE)) mkdir(TV_EPG_QUEUE);
         if(!file_exists(TV_EPG_SAVED)) mkdir(TV_EPG_SAVED);
         if(!file_exists(TV_EPG_EXPIRED)) mkdir(TV_EPG_EXPIRED);
-        if(!file_exists(TV_EPG_SNAPSHOTS)) mkdir(TV_EPG_SNAPSHOTS);        
+               
  
         // Restore the preferences from the cookies
         self::_restorePrefs();
@@ -468,7 +473,7 @@ class Factory
                 $ret .= func_get_arg($i);
             }
         }
-
+                
         // Return SEF or plain
         return SEF::_($ret);
     }
@@ -491,6 +496,25 @@ class Factory
         return openssl_decrypt(base64_decode($string), $method, $key, 0, $iv);
     }
 
+    public static function RemoveDir($dir)
+    {
+        if (!file_exists($dir)) {
+            return true;
+        }
+        if (!is_dir($dir)) {
+            return unlink($dir);
+        }
+        foreach (scandir($dir) as $item) {
+            if ($item == '.' || $item == '..') {
+                continue;
+            }
+            if (!self::RemoveDir($dir . DIRECTORY_SEPARATOR . $item)) {
+                return false;
+            }
+        }
+        return rmdir($dir);
+    }    
+
     /**
      * Serve the labels for Javascript framework
      */
@@ -504,6 +528,22 @@ class Factory
                 break;
             case 'keepalive':
                 $source = ['success' => self::isLogged(), 'message' => 'logged in'];
+                //Check the hartbeat of any watch: destroy any PID older than 30s.
+                $files = glob(TV_CACHE_HLS . DIRECTORY_SEPARATOR . '*/lastview');
+                foreach($files as $file)
+                {
+                    $lastview = (int) @file_get_contents($file);
+                    if(time() - $lastview > 30){
+                        $parts = pathinfo($file);
+                        $dir = $parts['dirname'];
+                        if(file_exists($dir . DIRECTORY_SEPARATOR . 'pid'))
+                        {
+                            $pid = @file_get_contents($dir . DIRECTORY_SEPARATOR . 'pid');
+                            exec("kill $pid 2>/dev/null");
+                        } 
+                        self::RemoveDir($dir);
+                    }
+                }
                 break;
             case 'theme':
                 $mode = Request::getVar('mode', 'dark', 'GET');

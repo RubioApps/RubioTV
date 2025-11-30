@@ -3,7 +3,7 @@
 /**
  +-------------------------------------------------------------------------+
  | RubioTV  - A domestic IPTV Web app browser                              |
- | Version 1.5.1                                                           |
+ | Version 1.6.1                                                           |
  |                                                                         |
  | This program is free software: you can redistribute it and/or modify    |
  | it under the terms of the GNU General Public License as published by    |
@@ -46,24 +46,24 @@ use \RubioTV\Framework\Language\Text;
         <?= $factory->getToken(); ?>
         <input type="hidden" id="url" name="url" value="<?= $factory->Link('login');?>" />
         <div class="row justify-content-center p-3 flex-nowrap mt-5">
-            <div class="col-auto border rounded">
-                <div class="row p-1">
-                    <div class="col mt-2 text-center">
-                        <label for="pwd" class="form-label">
-                            <?= Text::_('PASSWORD'); ?>
-                        </label>
-                        <input type="password" id="pwd" name="password" class="form-control" value=""
-                            autocomplete="false" />
-                    </div>
+            <div class="col-auto border rounded p-3">
+                <div class="input-group mb-3">
+                    <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                    <input class="form-control" type="password" id="pwd" name="password" placeholder="<?= Text::_('PASSWORD'); ?>" value="">
+                    <span class="input-group-text">
+                        <i class="bi bi-eye" id="eye" style="cursor: pointer"></i>
+                    </span>
                 </div>
                 <div class="row p-1">
                     <div class="col text-center mb-2">
-                        <button id="btn-submit" type="button" class="btn btn-primary"><?= Text::_('SUBMIT'); ?></button>
+                        <button id="btn-submit" type="button" class="btn btn-primary">
+                            <?= Text::_('SUBMIT'); ?>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
-    </form>
+    </form>    
 </main>
 <!-- JS -->
 <script type="text/javascript">
@@ -71,5 +71,14 @@ use \RubioTV\Framework\Language\Text;
         $.rtv.livesite = '<?= $config->live_site;?>';
         $.rtv.logged = <?= $factory->isLogged() ? 'true' : 'false'; ?>;
         $.rtv.login('#btn-submit');
+
+        const togglePassword = $('#eye');
+        const password = $('#pwd');
+        togglePassword.on('click', function () {   
+            const type = password.attr('type') === 'password' ? 'text' : 'password';
+            password.attr('type', type);
+            this.classList.toggle('bi-eye');
+            this.classList.toggle('bi-eye-slash');
+        });
     });
 </script>
